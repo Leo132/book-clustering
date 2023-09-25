@@ -1,0 +1,46 @@
+window.QGSettings = {
+   "origin": "https://www.eyesmart.com.tw/",
+   "personalizationEnabled": true,
+   "vapidPublicKey": "BLhHDPPch9CDtd3SMFkpr0zv0EGsCLMH1o3AAsU5_4pr9Prbos6ZuTcdd84VpXZVclzvdjOVq_ZE8mYtvVFxthY",
+   "inWebEnabled": true,
+   "qgendpoint": "https://.aiqua.io/notify.html",
+   "appId": "551b050de52a02cddb22",
+   "debug": false,
+   "push": {
+      "delay": 0,
+      "requestSelf": false,
+      "fakePrompt": false,
+      "secondsBetweenPrompts": 3600,
+      "restrictOrigin": true,
+      "useNotifyEndpoint": false,
+      "allowedPushDomains": [
+         "https://www.eyesmart.com.tw/",
+         "https://www.formosa-optical.com.tw/"
+      ],
+      "onSubscribedPopup": {
+         "enabled": false,
+         "showOverlay": true,
+         "htmlBody": ""
+      }
+   }
+};
+if(window.qg && window.qg.queue) {
+    window.qg.queue.unshift(('init', QGSettings));
+}
+!function(q,g,r,a,p,h,js){
+    if(!q.qg){
+        js=q.qg=function() {
+            js.callmethod ? js.callmethod.call(js, arguments) : js.queue.push(arguments);
+            js.queue = [];
+        }
+    }
+    if(q.qg.initialized){return;}
+    window.qg.queue.unshift(['init',window.QGSettings])
+    p=g.createElement(r);
+    p.async=!0;
+    p.src=a;
+    h=g.getElementsByTagName(r)[0];
+    h.parentNode.insertBefore(p,h);
+    q.qg.initialized = true;
+}(window,document,'script','//cdn.qgraph.io/v3/r/aiqua.js');
+

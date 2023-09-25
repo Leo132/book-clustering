@@ -1,0 +1,1 @@
+window.LazyLoadCSS=function(n){var t=document.createElement("link"),i;t.rel="stylesheet";t.href=n;i=document.getElementsByTagName("head")[0];i.insertBefore(t,i.lastElementChild)}
