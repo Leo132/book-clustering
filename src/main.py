@@ -1,5 +1,4 @@
 '''
-2023/9/23 ~
 Main application
 '''
 
