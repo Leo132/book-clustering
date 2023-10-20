@@ -1,3 +1,5 @@
-s = "test"
+s = set()
+for n in range(10):
+    s.add(n)
 
-print(s.rfind('t'))
+print(list(s))

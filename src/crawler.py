@@ -3,7 +3,8 @@ Web crawler tools lib
 
 Target websites:
 1. https://www.104.com.tw/jobs/search/?ro=0&expansionType=area%2Cspec%2Ccom%2Cjob%2Cwf%2Cwktm&indcat=1001000000&order=16&asc=0&sr=99&rostatus=1024&page=1&mode=s&langFlag=0&langStatus=0&recommendJob=1&hotJob=1 (104 人力銀行)
-2. 
+2. https://www.truemovie.com/tairelease2022.htm (movie)
+3. https://www.eslite.com/best-sellers/online?type=2 (book)
 '''
 
 import requests
@@ -14,7 +15,7 @@ class Parser(BeautifulSoup):
         super().__init__(markup, "html.parser", **kwargs)
 
 
-def get_html_from_url(url: str, method: str):
+def get_html_from_url(url: str, method: str="get"):
     header = {
     }
     try:
@@ -27,7 +28,7 @@ def get_html_from_url(url: str, method: str):
         return None
 
     if r.status_code != 200:
-        print(f"Request failed. (status code: {r.status_code})")
+        print(f"Error: request faile. (status code: {r.status_code})")
         return None
 
     return r.text
@@ -86,7 +87,77 @@ def _job_test():
         for idx, url in enumerate(get_job_urls(job_page_url), start=1):
             # print(url)
             job_info = get_job_info(url)
-            print(f"{idx:2d}. {job_info}")
+            print(f"{idx:3d}. {job_info}")
+
+# true movie
+
+def get_movie_urls(url: str):
+    result = Parser(get_html_from_url(url, "get"))
+
+    return list(map(lambda doc: doc["href"], result.find_all('a', attrs={"style": "text-decoration: none; font-weight: 700"})))
+
+def get_movie_info(url: str):
+    from codecs import encode
+    # <p style="line-height: 150%"><font face="新細明體"><b>製片預算 / 北美票房：</b>不明</font><font face="新細明體" size="3"> 
+	# 	/ 4915萬</font></p>
+    result = Parser(get_html_from_url(url))
+    text = list(map(lambda doc: doc.string, result.find_all("font", attrs={"face": encode("新細明體", "big5")})))
+    print(text)
+    # for t in text:
+    #     print(t)
+
+def _truemovie_test():
+    movie_page_urls = [f"https://www.truemovie.com/tairelease{year}.htm" for year in range(2002, 2024)]
+
+    for movie_page_url in movie_page_urls:
+        for idx, movie_url in enumerate(get_movie_urls(movie_page_url)):
+            movie_info = get_movie_info(movie_url)
+            print(f"{idx:3d}. {movie_info}")
+
+# book
+
+def get_book_urls(url: str):
+    result = Parser(get_html_from_url(url))
+    book_urls = list(set(url for url in list(map(lambda doc: f"https://www.sanmin.com.tw{doc['href']}", result.find_all('a', attrs={"target": "_parent"})))))
+    # for idx, book_url in enumerate(book_urls, start=1):
+    #     print(f"{idx:3d}. {book_url}")
+
+    return book_urls
+    # return []
+
+def get_book_info(url: str):
+    html = get_html_from_url(url)
+    if html is None:
+        return None
+    result = Parser(html)
+    div_tag = result.find("div", attrs={"class": "ProductInfo"})
+    book_name = div_tag.contents[1].string
+    info_tag = div_tag.contents[3].find_all("li", attrs={"class": "mainText ga"})
+    book_pages = None
+    for li_tag in info_tag:
+        if "頁" in li_tag.text:
+            book_pages = int(li_tag.text.split('／')[-1][:-1])
+            break
+    info_tag = result.find("div", attrs={"class": "mw300 lh-25 m0"}).contents[1]
+    # for idx, c in enumerate(info_tag.contents):
+    #     print(idx, c)
+    book_price = int(info_tag.contents[1].text.replace(' ', '')[7:-1])
+    info = {
+        "name": book_name,
+        "pages": book_pages,
+        "price": book_price,
+    }
+
+    return info
+
+def _book_test():
+    book_page_urls = [f"https://www.sanmin.com.tw/promote/top/?id=yy&item=11209&pi={page + 1}" for page in range(25)]
+
+    for page, book_page_url in enumerate(book_page_urls, start=1):
+        print(f"{'page' + str(page):-^60}")
+        for idx, book_url in enumerate(get_book_urls(book_page_url), start=1):
+            book_info = get_book_info(book_url)
+            print(f"{idx:3d}. {book_info}")
 
 def _test():
     # info_list = get_contact_lense_info([f"./data/web/contact_lenses_page{idx + 1}.html" for idx in range(5)])
@@ -98,10 +169,13 @@ def _test():
     # for idx, info in enumerate(info_list):
     #     print(f"{idx + 1:3d}. {info}")
 
-    test_url = "https://c.8891.com.tw/Models/ford"
+    test_url = "https://www.sanmin.com.tw/product/index/010203446"
 
-    with open("./src/view.html", 'wb') as f:
-        f.write(get_html_from_url(test_url, "get").encode("utf-8"))
+    # _truemovie_test()
+    _book_test()
+
+    # with open("./src/view.html", 'wb') as f:
+    #     f.write(get_html_from_url(test_url, "get").encode("utf-8"))
 
 
 if __name__ == "__main__":
