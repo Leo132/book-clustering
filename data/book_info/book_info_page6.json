@@ -1,0 +1,142 @@
+[
+    {
+        "name": "\u907a\u7522\u8207\u8d08\u8207\u7684\u7bc0\u7a05\u7d30\u7bc0\uff1a\u8ca1\u7522\u600e\u9ebc\u8d08\uff0c\u5b69\u5b50\u62ff\u4e86\u9322\u4e0d\u843d\u8dd1\uff1b\u907a\u7522\u600e\u9ebc\u5206\uff0c\u8001\u8005\u5fc3\u5b89\u3001\u5c11\u8005\u4e0d\u722d\uff0c\u9084\u80fd\u7701\u4e0b\u842c\u842c\u7a05\u3002",
+        "price": 490,
+        "category": "\u76f4\u63a5\u7a05",
+        "pages": 352,
+        "date": "2023/03/30"
+    },
+    {
+        "name": "\u4e09\u5341\u7cbe\u9032\uff1a\u6559\u80b2\u90e8\u9812\u5b9a30\u7bc7\u6838\u5fc3\u53e4\u6587",
+        "price": 455,
+        "category": "\u8a9e\u8a00\u5b78\u7e3d\u8ad6",
+        "pages": 332,
+        "date": "2023/06/01"
+    },
+    {
+        "name": "\u83ef\u8a9e\u6587\u6559\u5b78\u5c0e\u8ad6(\u4fee\u8a02\u4e8c\u7248)",
+        "price": 460,
+        "category": "\u6f22\u8a9e",
+        "pages": 408,
+        "date": "2019/09/06"
+    },
+    {
+        "name": "\u89e3\u6790\u4eba\u529b\u8cc7\u6e90\u7ba1\u7406\uff08\u7b2c\u4e8c\u7248\uff09",
+        "price": 520,
+        "category": "\u4eba\u4e8b\u7ba1\u7406",
+        "pages": null,
+        "date": "2020/09/01"
+    },
+    {
+        "name": "Maisy's Shop (\u786c\u9801\u5834\u666f\u66f8)(\u82f1\u570b\u7248)",
+        "price": 439,
+        "category": null,
+        "pages": 16,
+        "date": "2019/09/05"
+    },
+    {
+        "name": "\u5b78\u6e2c\u6b77\u5c46\u8a66\u984c\uff1a\u81ea\u7136\u8003\u79d1\uff08\u9644\u89e3\u7b54\u672c\uff09",
+        "price": 250,
+        "category": null,
+        "pages": 281,
+        "date": "2023/04/01"
+    },
+    {
+        "name": "Bizzy Bear: Building Site (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
+        "price": 384,
+        "category": null,
+        "pages": 10,
+        "date": "2014/06/09"
+    },
+    {
+        "name": "\u57fa\u672c\u516d\u6cd5\uff082022\u5e743\u6708\uff09",
+        "price": 340,
+        "category": "\u6b77\u4ee3\u6cd5\u898f\u5f59\u7de8",
+        "pages": 2304,
+        "date": "2022/03/23"
+    },
+    {
+        "name": "\u6301\u7e8c\u8cb7\u9032\uff1a\u8cc7\u6599\u79d1\u5b78\u5bb6\u7684\u6295\u8cc7\u7d42\u6975\u89e3\u7b54\uff0c\u5b58\u9322\u53ca\u81f4\u5bcc\u7684\u5be6\u8b49\u65b9\u6cd5",
+        "price": 400,
+        "category": "\u4fe1\u8a17",
+        "pages": 272,
+        "date": "2023/05/31"
+    },
+    {
+        "name": "\u90ed\u7238\u7238\u5beb\u7d66\u5e74\u8f15\u4eba\u768430\u5247\u5099\u5fd8\u9304",
+        "price": 380,
+        "category": "\u4eba\u751f\u54f2\u5b78",
+        "pages": 176,
+        "date": "2023/08/04"
+    },
+    {
+        "name": "\u65b0\u8b6f\u56db\u66f8\u8b80\u672c(\u5e73)(\u516d\u7248)",
+        "price": 350,
+        "category": "\u7d93\u5b78",
+        "pages": 652,
+        "date": "2007/08/01"
+    },
+    {
+        "name": "\u5716\u89e3 \u6b63\u5411\u8a9e\u8a00\u7684\u529b\u91cf\uff1a\u8207\u6f5b\u610f\u8b58\u7d50\u70ba\u76df\u53cb\uff0c\u8aaa\u51fa\u9ad8\u6210\u6548\u7cbe\u5f69\u4eba\u751f",
+        "price": 280,
+        "category": "\u6210\u529f\u7684\u4eba\u751f",
+        "pages": 188,
+        "date": "2019/07/19"
+    },
+    {
+        "name": "\u571f\u5730\u6cd5",
+        "price": 800,
+        "category": "\u571f\u5730\u6cd5\u898f",
+        "pages": 603,
+        "date": "2019/07/01"
+    },
+    {
+        "name": "Bizzy Bear: Vet's Clinic (\u786c\u9801\u66f8)(\u82f1\u570b\u7248) *\u9644\u97f3\u6a94QRCode*",
+        "price": 384,
+        "category": null,
+        "pages": 10,
+        "date": "2022/08/04"
+    },
+    {
+        "name": "\u4f86\u5b78\u65e5\u672c\u8a9e\uff1a\u521d\u7d1a01",
+        "price": 350,
+        "category": "\u65e5\u8a9e",
+        "pages": 200,
+        "date": "2019/10/02"
+    },
+    {
+        "name": "\u6c11\u6cd5\u89aa\u5c6c\u65b0\u8ad6(\u4fee\u8a02\u5341\u516d\u7248)",
+        "price": 580,
+        "category": "\u89aa\u5c6c\u6cd5",
+        "pages": 528,
+        "date": "2022/09/28"
+    },
+    {
+        "name": "\u6c11\u6cd5\u7269\u6b0a",
+        "price": 680,
+        "category": "\u7269\u6b0a",
+        "pages": null,
+        "date": "2023/01/01"
+    },
+    {
+        "name": "\u6838\u5fc3\u82f1\u6587\u5b57\u5f59\u529b2001\uff5e4500\u96a8\u8eab\u8b80(\u4e8c\u7248)",
+        "price": 330,
+        "category": "\u82f1\u8a9e",
+        "pages": 608,
+        "date": "2022/09/28"
+    },
+    {
+        "name": "\u8003\u9ede\u76f4\u64ca\u61b2\u6cd5\u722d\u9ede\u89e3\u8b80",
+        "price": 700,
+        "category": "\u61b2\u6cd5",
+        "pages": 880,
+        "date": "2023/04/11"
+    },
+    {
+        "name": "\u61b2\u6cd5\u8981\u7fa9",
+        "price": 800,
+        "category": "\u4e2d\u570b\u61b2\u6cd5",
+        "pages": null,
+        "date": "2022/09/01"
+    }
+]

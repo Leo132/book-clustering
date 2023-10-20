@@ -1,0 +1,142 @@
+[
+    {
+        "name": "\u6c11\u6cd5\u6982\u8981(\u4fee\u8a02\u5341\u516d\u7248)",
+        "price": 500,
+        "category": "\u6c11\u6cd5",
+        "pages": 472,
+        "date": "2023/08/30"
+    },
+    {
+        "name": "\u884c\u653f\u5b78(\u4e94\u7248)",
+        "price": 700,
+        "category": "\u6bd4\u8f03\u653f\u5e9c",
+        "pages": 816,
+        "date": "2020/05/31"
+    },
+    {
+        "name": "\u6211\u5bb6\u80fd\u6e90\u5f9e\u54ea\u5152\u4f86\uff1f",
+        "price": 299,
+        "category": "\u5716\u756b\u6545\u4e8b",
+        "pages": 32,
+        "date": "2020/01/17"
+    },
+    {
+        "name": "\u54f2\u5b78\u6982\u8ad6(\u4e8c\u7248)",
+        "price": 350,
+        "category": "\u54f2\u5b78\u7e3d\u8ad6",
+        "pages": 288,
+        "date": "2019/03/29"
+    },
+    {
+        "name": "\u65b0\u7de8\u4e2d\u570b\u54f2\u5b78\u53f2(\u4e8c)(\u56db\u7248)",
+        "price": 465,
+        "category": "\u54f2\u5b78\u53f2",
+        "pages": 372,
+        "date": "2012/10/03"
+    },
+    {
+        "name": "\u5e95\u5c64\u908f\u8f2f\uff1a\u770b\u6e05\u9019\u500b\u4e16\u754c\u7684\u5e95\u724c",
+        "price": 400,
+        "category": "\u6210\u529f\u7684\u4eba\u751f",
+        "pages": 352,
+        "date": "2022/03/30"
+    },
+    {
+        "name": "Maisy Grows a Garden (\u7cbe\u88dd\u62c9\u62c9\u66f8)(\u82f1\u570b\u7248)",
+        "price": 824,
+        "category": null,
+        "pages": 16,
+        "date": "2013/03/07"
+    },
+    {
+        "name": "\u7522\u696d\u7d93\u6fdf\u5b78\uff1a\u7406\u8ad6\u8207\u5be6\u52d9",
+        "price": 760,
+        "category": "\u7522\u696d\uff1b\u5de5\u696d",
+        "pages": 531,
+        "date": "2022/04/01"
+    },
+    {
+        "name": "\u5982\u679c\u6b77\u53f2\u662f\u4e00\u7fa4\u55b512\uff1a\u5143\u672b\u660e\u521d\u7bc7\u3010\u840c\u8c93\u6f2b\u756b\u5b78\u6b77\u53f2\u3011",
+        "price": 490,
+        "category": "\u4e2d\u570b\u901a\u53f2",
+        "pages": 332,
+        "date": "2023/07/21"
+    },
+    {
+        "name": "\u5168\u570b\u9ad8\u4e2d\u6708\u8003\u671f\u8003\u8a66\u984c\u6316\u6316\u54c7\uff1a\u516c\u6c11\u8207\u793e\u67031",
+        "price": 245,
+        "category": null,
+        "pages": null,
+        "date": "2023/06/01"
+    },
+    {
+        "name": "\u884c\u92b7\u5b78\u539f\u7406",
+        "price": 580,
+        "category": "\u5546\u54c1\u5b78\uff1b\u5e02\u5834\u5b78\uff1b\u884c\u92b7\u7ba1\u7406",
+        "pages": 450,
+        "date": "2020/09/01"
+    },
+    {
+        "name": "Mario's Big Adventure (Step into Reading Level 3)",
+        "price": 210,
+        "category": null,
+        "pages": 24,
+        "date": "2023/04/11"
+    },
+    {
+        "name": "\u793e\u6703\u4f01\u696d\u7ba1\u7406",
+        "price": 550,
+        "category": "\u793e\u6703\u4e8b\u696d\u53ca\u5718\u9ad4",
+        "pages": 500,
+        "date": "2014/09/01"
+    },
+    {
+        "name": "\u8a69\u7d93\u8a55\u8a3b\u8b80\u672c(\u4e0a)(\u56db\u7248)",
+        "price": 430,
+        "category": "\u8a69\u7d93",
+        "pages": 392,
+        "date": "2020/12/18"
+    },
+    {
+        "name": "\u8f15\u9b06\u4e0a\u624b\uff01\u65e5\u8a9e\u4e94\u5341\u97f3\u7fd2\u5b57\u5e16\uff08\u4e8c\u7248\uff09",
+        "price": 140,
+        "category": "\u65e5\u8a9e",
+        "pages": 112,
+        "date": "2021/07/23"
+    },
+    {
+        "name": "\u5b78\u6703\u8d70\u5716SOP\uff1a\u8b93\u6280\u8853\u5206\u6790\u990a\u6211\u4e00\u8f29\u5b50",
+        "price": 450,
+        "category": "\u6295\u8cc7\u8207\u8b49\u5238",
+        "pages": 352,
+        "date": "2023/06/30"
+    },
+    {
+        "name": "\u6b61\u6a02\u7121\u6bd4\uff01\u9eb5\u5305\u5609\u5e74\u83ef",
+        "price": 350,
+        "category": "\u7279\u7a2e\u6587\u5b78",
+        "pages": 40,
+        "date": "2023/01/31"
+    },
+    {
+        "name": "Jingle Bells-with a light-up star! (\u786c\u9801\u97f3\u6548\u66f8)",
+        "price": 604,
+        "category": null,
+        "pages": 10,
+        "date": "2020/11/05"
+    },
+    {
+        "name": "Twinkle Twinkle Little Star (\u786c\u9801\u97f3\u6548\u66f8)",
+        "price": 604,
+        "category": null,
+        "pages": 12,
+        "date": "2019/09/01"
+    },
+    {
+        "name": "\u57fa\u790e\u82f1\u6587\u5b57\u5f59\u529b2000\u96a8\u8eab\u8b80(\u4e8c\u7248)",
+        "price": 280,
+        "category": "\u82f1\u8a9e",
+        "pages": 480,
+        "date": "2022/11/02"
+    }
+]

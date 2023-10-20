@@ -9,6 +9,9 @@ Target websites:
 
 import requests
 from bs4 import BeautifulSoup
+import json
+
+from typing import Callable
 
 class Parser(BeautifulSoup):
     def __init__(self, markup: str, **kwargs):
@@ -33,24 +36,26 @@ def get_html_from_url(url: str, method: str="get"):
 
     return r.text
 
+def save_info_to_json(page_urls: list[str], folder_file: str, get_urls: Callable,  get_info: Callable):
+    def save_to_json(data, path_file):
+        with open(path_file, 'w') as f:
+            json.dump(data, f)
 
-def get_motor_info(urls: list[str]):
-    info_list = []
+    for page, page_url in enumerate(page_urls, start=1):
+        info_list = []
+        print(f"{'page' + str(page):-^60}")
+        for idx, url in enumerate(get_urls(page_url), start=1):
+            print(url)                         # for debugging
+            info = get_info(url)
+            if info is None:                   # skip invalid info
+                continue
+            info_list.append(info)
+            print(f"{idx:3d}. {info}")
+        save_to_json(info_list, f"./data/{folder_file}{page}.json")
+    print("Save success")
 
-    for url in urls:
-        result = Parser(get_html_from_url(url, "get"))
-        product_urls = list(map(lambda doc: "https://www.yamaha-motor.com.tw" + doc["href"], result.find_all('a', attrs={"class": ""})))[3:-13]
-        results = [Parser(get_html_from_url(product_url, "get")) for product_url in product_urls]
-        for result in results[:1]:
-            print(result)               # `result` -> view.html (line 1258: empty...)
-        # content = list(map(lambda doc: {doc["th"]: doc["td"]}, result.find_all("tr", attrs={})))
-        # content = [list(map(lambda doc: doc, result.find_all("thead", attrs={"id": "comparehead"}))) for result in results]
-        # for c in content:
-        #     print(c)
 
-    return info_list
-
-# 104 人力銀行
+# 104 job bank
 
 def get_job_urls(url: str):
     result = Parser(get_html_from_url(url, "get"))
@@ -78,6 +83,11 @@ def get_job_info(url: str):
     }
 
     return info
+
+def save_job_to_json():
+    job_page_urls = [f"https://www.104.com.tw/jobs/search/?ro=0&expansionType=area%2Cspec%2Ccom%2Cjob%2Cwf%2Cwktm&indcat=1001000000&order=16&asc=0&sr=99&rostatus=1024&page={page + 1}&mode=s&langFlag=0&langStatus=0&recommendJob=1&hotJob=1" for page in range(150)]
+
+    save_info_to_json(job_page_urls, "job_info/job_info_page", get_job_urls, get_job_info)
 
 def _job_test():
     job_page_urls = [f"https://www.104.com.tw/jobs/search/?ro=0&expansionType=area%2Cspec%2Ccom%2Cjob%2Cwf%2Cwktm&indcat=1001000000&order=16&asc=0&sr=99&rostatus=1024&page={page + 1}&mode=s&langFlag=0&langStatus=0&recommendJob=1&hotJob=1" for page in range(150)]
@@ -114,16 +124,15 @@ def _truemovie_test():
             movie_info = get_movie_info(movie_url)
             print(f"{idx:3d}. {movie_info}")
 
-# book
+# bookstore
 
 def get_book_urls(url: str):
     result = Parser(get_html_from_url(url))
     book_urls = list(set(url for url in list(map(lambda doc: f"https://www.sanmin.com.tw{doc['href']}", result.find_all('a', attrs={"target": "_parent"})))))
-    # for idx, book_url in enumerate(book_urls, start=1):
+    # for idx, book_url in enumerate(book_urls, start=1):     # for testing
     #     print(f"{idx:3d}. {book_url}")
 
     return book_urls
-    # return []
 
 def get_book_info(url: str):
     html = get_html_from_url(url)
@@ -131,33 +140,68 @@ def get_book_info(url: str):
         return None
     result = Parser(html)
     div_tag = result.find("div", attrs={"class": "ProductInfo"})
+    if div_tag is None:
+        print(f"Error: can't find info tag ({url=})")
+        return None
+
+    # book name
     book_name = div_tag.contents[1].string
+
+    # book pages
     info_tag = div_tag.contents[3].find_all("li", attrs={"class": "mainText ga"})
     book_pages = None
     for li_tag in info_tag:
         if "頁" in li_tag.text:
             book_pages = int(li_tag.text.split('／')[-1][:-1])
             break
+    
+    # book publication date
+    book_date = None
+    for li_tag in info_tag:
+        if "出版日" in li_tag.text:
+            book_date = li_tag.text[4:]
+            break
+
+    # book category
+    book_category_list = [] if len(div_tag.contents) < 6 else div_tag.contents[5].find_all('a', attrs={"class": "text-blue bold"})
+    book_category = None if len(book_category_list) == 0 else book_category_list[-1].text
+    
+    # book price
     info_tag = result.find("div", attrs={"class": "mw300 lh-25 m0"}).contents[1]
-    # for idx, c in enumerate(info_tag.contents):
-    #     print(idx, c)
-    book_price = int(info_tag.contents[1].text.replace(' ', '')[7:-1])
+    for li_tag in info_tag:
+        if "定  價" in li_tag.text:
+            book_price = int(li_tag.text.replace(' ', '')[7:-1])
+            break
+
     info = {
         "name": book_name,
-        "pages": book_pages,
         "price": book_price,
+        "category": book_category,
+        "pages": book_pages,
+        "date": book_date,
     }
 
     return info
 
-def _book_test():
+def save_book_to_json():
     book_page_urls = [f"https://www.sanmin.com.tw/promote/top/?id=yy&item=11209&pi={page + 1}" for page in range(25)]
+    # skip those books that are out of print (e.g., page 17 - 334. <王室緋聞守則...>)
 
-    for page, book_page_url in enumerate(book_page_urls, start=1):
-        print(f"{'page' + str(page):-^60}")
-        for idx, book_url in enumerate(get_book_urls(book_page_url), start=1):
-            book_info = get_book_info(book_url)
-            print(f"{idx:3d}. {book_info}")
+    save_info_to_json(book_page_urls, "book_info_/book_info_page", get_book_urls, get_book_info)
+
+def _book_test():
+    # book_page_urls = [f"https://www.sanmin.com.tw/promote/top/?id=yy&item=11209&pi={page + 1}" for page in range(25)]
+
+    # for page, book_page_url in enumerate(book_page_urls[:1], start=1):
+    #     print(f"{'page' + str(page):-^60}")
+    #     for idx, book_url in enumerate(get_book_urls(book_page_url), start=1):
+    #         print(book_url)     # for debugging
+    #         book_info = get_book_info(book_url)
+    #         print(f"{idx:3d}. {book_info}")
+
+    print(get_book_info("https://www.sanmin.com.tw/product/index/012289833"))
+
+# testing
 
 def _test():
     # info_list = get_contact_lense_info([f"./data/web/contact_lenses_page{idx + 1}.html" for idx in range(5)])
@@ -171,8 +215,10 @@ def _test():
 
     test_url = "https://www.sanmin.com.tw/product/index/010203446"
 
+    _job_test()
     # _truemovie_test()
-    _book_test()
+    # _book_test()
+    # save_book_to_json()
 
     # with open("./src/view.html", 'wb') as f:
     #     f.write(get_html_from_url(test_url, "get").encode("utf-8"))
@@ -180,23 +226,3 @@ def _test():
 
 if __name__ == "__main__":
     _test()
-    # import urllib.request as req
-    # import json
-
-    # url = "https://www.yamaha-motor.com.tw/api/comparelist.ashx"
-    # model = "YZF-R7"
-    # res = req.Request(url, headers={
-    #     "type": "post",
-    #     "url": "../api/comparelist.ashx",
-    #     "data": f"v=1&model={model}",
-    #     # "dataType": "json",
-    #     "content-length": 16,
-    #     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
-    # })
-    # # with req.urlopen(res) as response:
-    # #     data = json.load(response)
-    # x = req.urlopen(res, timeout=10)
-    # raw_data = x.read()
-    # encoding = x.info().get_content_charset('utf8')  # JSON default
-    # # data = json.loads(raw_data.decode(encoding))
-    # print(f"'{raw_data.decode(encoding)}'")

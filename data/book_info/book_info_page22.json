@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Cat & Cat Adventures: Journey Into Unibear City (Book 3)(graphic novel)",
+        "price": 315,
+        "category": null,
+        "pages": 96,
+        "date": "2023/04/25"
+    },
+    {
+        "name": "Cookie & Broccoli 2: Play It Cool (graphic novel)",
+        "price": 315,
+        "category": null,
+        "pages": 80,
+        "date": "2021/10/12"
+    },
+    {
+        "name": "\u65b0\u8b6f\u5b8b\u8a5e\u4e09\u767e\u9996",
+        "price": 580,
+        "category": "\u5b8b",
+        "pages": 800,
+        "date": "2017/06/23"
+    },
+    {
+        "name": "\u4e00\u6b21\u770b\u7a7f\u90fd\u66f4\u00d7\u5408\u5efa\u5951\u7d04\u9677\u9631\uff1a\u826f\u5fc3\u5f8b\u5e2b\u5c08\u696d\u89e3\u78bc\u8001\u5c4b\u6539\u5efa\u7709\u89d2",
+        "price": 350,
+        "category": "\u90fd\u5e02\u8a08\u756b\uff1b\u5340\u57df\u8a08\u756b",
+        "pages": 288,
+        "date": "2017/06/21"
+    },
+    {
+        "name": "Fox Has a Problem",
+        "price": 210,
+        "category": null,
+        "pages": 32,
+        "date": "2023/08/01"
+    },
+    {
+        "name": "\u672a\u4f86\u9810\u77e5\u8853",
+        "price": 160,
+        "category": "\u6613\u5360",
+        "pages": 49,
+        "date": "2010/09/01"
+    },
+    {
+        "name": "#17 Isadora Moon Under the Sea (\u96d9\u8272\u5370\u5237\u5e73\u88dd\u672c)(\u82f1\u570b\u7248)",
+        "price": 384,
+        "category": null,
+        "pages": 128,
+        "date": "2023/06/01"
+    },
+    {
+        "name": "\u6700\u65b0\u7c21\u660e\u82f1\u6f22\u8fad\u5178(\u589e\u8a02\u4e8c\u7248)",
+        "price": 500,
+        "category": "\u82f1\u8a9e",
+        "pages": 1416,
+        "date": "2015/01/01"
+    },
+    {
+        "name": "\u6280\u8853\u578b\u9ad8\u4e2d\u6578\u5b78B\u7b2c\u4e00\u518a\u5b78\u7fd2\u8b1b\u7fa9(\u542b\u89e3\u7b54\u672c)",
+        "price": 125,
+        "category": "\u6578\u5b78\u7e3d\u8ad6",
+        "pages": 156,
+        "date": "2023/08/01"
+    },
+    {
+        "name": "#1: Hilda And The Hidden People (\u5e73\u88dd\u672c)(TV Tie-in)",
+        "price": 439,
+        "category": null,
+        "pages": 216,
+        "date": "2019/06/01"
+    },
+    {
+        "name": "Super Cheat Codes and Secret Modes!: A Branches Book (Press Start #11)(\u5e73\u88dd\u672c)",
+        "price": 245,
+        "category": null,
+        "pages": 80,
+        "date": "2022/01/04"
+    },
+    {
+        "name": "Bedtime Rhymes (\u786c\u9801\u66f8)(\u9644\u6b4c\u8b20\u97f3\u6a94QRcode)",
+        "price": 329,
+        "category": null,
+        "pages": 10,
+        "date": "2021/04/01"
+    },
+    {
+        "name": "Sing Along With Me! Head, Shoulders, Knees and Toes (\u786c\u9801\u63a8\u62c9\u66f8)(\u9644\u97f3\u6a94QRcode)",
+        "price": 384,
+        "category": null,
+        "pages": 10,
+        "date": "2020/04/02"
+    },
+    {
+        "name": "30\u5929\u8a08\u756bPLUS\uff1a\u6253\u9020\u9032\u968e\u82f1\u6587\u5b57\u5f59\u984c\u672c(\u9644\u89e3\u6790\u593e\u518a)",
+        "price": 200,
+        "category": "\u82f1\u8a9e",
+        "pages": 160,
+        "date": "2023/09/13"
+    },
+    {
+        "name": "\u6280\u8853\u578b\u9ad8\u4e2d\u6578\u5b78B\u7b2c\u4e00\u518a\u7fd2\u4f5c",
+        "price": 60,
+        "category": "\u6578\u5b78\u7e3d\u8ad6",
+        "pages": 48,
+        "date": "2019/08/01"
+    },
+    {
+        "name": "\u65b0\u8b6f\u5468\u6613\u53c3\u540c\u5951(\u4e8c\u7248)",
+        "price": 190,
+        "category": "\u54f2\u5b78\u985e",
+        "pages": 228,
+        "date": "2005/05/01"
+    },
+    {
+        "name": "Baloney and Friends: Dream Big! (Book 3)(graphic novel)",
+        "price": 280,
+        "category": null,
+        "pages": 96,
+        "date": "2023/01/03"
+    },
+    {
+        "name": "Lulu at the Zoo (\u5e73\u88dd\u7ffb\u7ffb\u66f8)",
+        "price": 439,
+        "category": null,
+        "pages": 32,
+        "date": "2018/08/09"
+    },
+    {
+        "name": "Nintendo\u00ae and Illumination present The Super Mario Bros. Movie Official Storybook",
+        "price": 595,
+        "category": null,
+        "pages": 32,
+        "date": "2023/04/11"
+    },
+    {
+        "name": "Howl of the Wind Dragon (Dragon Masters #20)(\u5e73\u88dd\u672c)",
+        "price": 210,
+        "category": null,
+        "pages": 96,
+        "date": "2021/11/02"
+    }
+]
