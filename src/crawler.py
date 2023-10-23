@@ -4,7 +4,7 @@ Web crawler tools lib
 Target websites:
 1. https://www.104.com.tw/jobs/search/?ro=0&expansionType=area%2Cspec%2Ccom%2Cjob%2Cwf%2Cwktm&indcat=1001000000&order=16&asc=0&sr=99&rostatus=1024&page=1&mode=s&langFlag=0&langStatus=0&recommendJob=1&hotJob=1 (104 人力銀行)
 2. https://www.truemovie.com/tairelease2022.htm (movie)
-3. https://www.eslite.com/best-sellers/online?type=2 (book)
+3. https://www.sanmin.com.tw/promote/top/?id=yy&item=11209&pi=1 (book)
 '''
 
 import requests
@@ -95,7 +95,7 @@ def _job_test():
     for page, job_page_url in enumerate(job_page_urls, start=1):
         print(f"{'page ' + str(page):-^80}")
         for idx, url in enumerate(get_job_urls(job_page_url), start=1):
-            # print(url)
+            print(url)                          # for debugging
             job_info = get_job_info(url)
             print(f"{idx:3d}. {job_info}")
 
