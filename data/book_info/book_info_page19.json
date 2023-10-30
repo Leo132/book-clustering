@@ -1,105 +1,7 @@
 [
     {
-        "name": "45\u62db\u8d0f\u5f97\u8077\u5834\u8eba\u5e73\u6b0a\uff1a\u5c08\u696d\u8868\u73fe\u4e0d\u5931\u624b\uff0c\u500b\u4eba\u5f62\u8c61\u4eba\u8a2d\u4f73\uff0c\u9069\u6642\u66dd\u5149\u6c42\u95dc\u6ce8",
-        "author": "\u90ed\u827e\u73ca",
-        "phouse": "\u6642\u5831\u6587\u5316",
-        "category": "\u8ca1\u7d93\u4f01\u7ba1",
-        "date": "2023/08/04",
-        "price": 380,
-        "pages": 320
-    },
-    {
-        "name": "\u57ce\u5e02\u88e1\u7684\u5c0f\u8fb2\u5834",
-        "author": "\u6771\u5c3c.\u5e0c\u52d2\u91cc(Tony Hillery)-\u8457;\u4f55\u5c09\u8ce2-\u8b6f;\u6f54\u897f.\u54c8\u7279\u862d(Jessie Hartland)-\u7e6a",
-        "phouse": "\u5c0f\u5c71\u4e18",
-        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
-        "date": "2022/12/20",
-        "price": 350,
-        "pages": 40
-    },
-    {
-        "name": "\u7f85\u99ac\u4eba\u7684\u6545\u4e8b\u7cfb\u5217Vol.1\u6230\u706b\u6253\u9020\u7684\u8f1d\u714c",
-        "author": "\u5869\u91ce\u4e03\u751f-\u8457",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2022/08/31",
-        "price": 2270,
-        "pages": 1968
-    },
-    {
-        "name": "\u5409\u7965\u7d0b\u84ee\u82b1\u6a13(\u5168\u4e09\u518a)\uff08\u7c21\u9ad4\u66f8\uff09",
-        "author": "\u85e4\u840d",
-        "phouse": "\u6d59\u6c5f\u6587\u85dd\u51fa\u7248\u793e",
-        "category": "\u7c21\u9ad4\u66f8",
-        "date": "2019/09/01",
-        "price": 654,
-        "pages": 717
-    },
-    {
-        "name": "\u7a69\u7a69\u8cfaETF\uff0c 10\u5e74\u6295\u8cc7\u914d\u7f6e\u5e03\u5c40",
-        "author": "\u59dc\u6853\u570b-\u8457;\u7533\u93ae\u4f0d-\u5be9\u8a02",
-        "phouse": "\u65b9\u8a00\u6587\u5316",
-        "category": "\u8ca1\u7d93\u4f01\u7ba1",
-        "date": "2023/09/01",
-        "price": 540,
-        "pages": 384
-    },
-    {
-        "name": "Maisy's Farm (\u786c\u9801\u5834\u666f\u66f8)(\u82f1\u570b\u7248)",
-        "author": "Lucy Cousins",
-        "phouse": "Walker Books",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2019/03/07",
-        "price": 439,
-        "pages": 16
-    },
-    {
-        "name": "Super Rabbit Boy's Team-up Trouble! (Press Start! #10)(\u5168\u5f69\u5e73\u88dd\u672c)",
-        "author": "Thomas Flintham",
-        "phouse": "Scholastic",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2021/05/04",
-        "price": 210,
-        "pages": 80
-    },
-    {
-        "name": "Super Rabbit Boy Powers Up! (Press Start! #2)(\u5168\u5f69\u5e73\u88dd\u672c)",
-        "author": "Thomas Flintham",
-        "phouse": "Scholastic",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2017/05/09",
-        "price": 245,
-        "pages": 80
-    },
-    {
-        "name": "Cookie & Broccoli 1: Ready for School! (graphic novel)",
-        "author": "Bob McMahon",
-        "phouse": "Dial Books for Young Readers",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2021/10/12",
-        "price": 315,
-        "pages": 80
-    },
-    {
-        "name": "2023\u975e\u865b\u69cb\u6210\u9577(\u73cd\u85cf\u7248)\uff08\u7c21\u9ad4\u66f8\uff09",
-        "author": "TFBOYS\u7d44\u5408",
-        "phouse": "\u5317\u4eac\u806f\u5408\u51fa\u7248\u6709\u9650\u8cac\u4efb\u516c\u53f8",
-        "category": "\u7c21\u9ad4\u66f8",
-        "date": "2022/03/01",
-        "price": 648,
-        "pages": 261
-    },
-    {
-        "name": "Cookie & Broccoli 3: Book of Secrets! (graphic novel)",
-        "author": "Bob Mcmahon",
-        "phouse": "Dial Books for Young Readers",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2022/11/15",
-        "price": 315,
-        "pages": 96
-    },
-    {
         "name": "Sing Along With Me! Twinkle Twinkle Little Star (\u786c\u9801\u63a8\u62c9\u66f8)(\u9644\u97f3\u6a94QRcode)",
+        "ISBN13": "9781788007603",
         "author": "Yu-hsuan Huang",
         "phouse": "Nosy Crow UK",
         "category": "\u5916\u6587\u66f8",
@@ -108,7 +10,58 @@
         "pages": 10
     },
     {
+        "name": "\u7f85\u99ac\u4eba\u7684\u6545\u4e8b\u7cfb\u5217Vol.1\u6230\u706b\u6253\u9020\u7684\u8f1d\u714c",
+        "ISBN13": "4711289871927",
+        "author": "\u5869\u91ce\u4e03\u751f-\u8457",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2022/08/31",
+        "price": 2270,
+        "pages": 1968
+    },
+    {
+        "name": "\u57ce\u5e02\u88e1\u7684\u5c0f\u8fb2\u5834",
+        "ISBN13": "9786263078352",
+        "author": "\u6771\u5c3c.\u5e0c\u52d2\u91cc(Tony Hillery)-\u8457;\u4f55\u5c09\u8ce2-\u8b6f;\u6f54\u897f.\u54c8\u7279\u862d(Jessie Hartland)-\u7e6a",
+        "phouse": "\u5c0f\u5c71\u4e18",
+        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
+        "date": "2022/12/20",
+        "price": 350,
+        "pages": 40
+    },
+    {
+        "name": "Cookie & Broccoli 3: Book of Secrets! (graphic novel)",
+        "ISBN13": "9780593529966",
+        "author": "Bob Mcmahon",
+        "phouse": "Dial Books for Young Readers",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2022/11/15",
+        "price": 315,
+        "pages": 96
+    },
+    {
+        "name": "2023\u975e\u865b\u69cb\u6210\u9577(\u73cd\u85cf\u7248)\uff08\u7c21\u9ad4\u66f8\uff09",
+        "ISBN13": "9787559657848",
+        "author": "TFBOYS\u7d44\u5408",
+        "phouse": "\u5317\u4eac\u806f\u5408\u51fa\u7248\u6709\u9650\u8cac\u4efb\u516c\u53f8",
+        "category": "\u7c21\u9ad4\u66f8",
+        "date": "2022/03/01",
+        "price": 648,
+        "pages": 261
+    },
+    {
+        "name": "\u5409\u7965\u7d0b\u84ee\u82b1\u6a13(\u5168\u4e09\u518a)\uff08\u7c21\u9ad4\u66f8\uff09",
+        "ISBN13": "9787533957780",
+        "author": "\u85e4\u840d",
+        "phouse": "\u6d59\u6c5f\u6587\u85dd\u51fa\u7248\u793e",
+        "category": "\u7c21\u9ad4\u66f8",
+        "date": "2019/09/01",
+        "price": 654,
+        "pages": 717
+    },
+    {
         "name": "\u8cf4\u4e16\u96c4\u5716\u89e3\u82f1\u6587\u6cd5",
+        "ISBN13": "9786267225127",
         "author": "\u8cf4\u4e16\u96c4",
         "phouse": "\u5e38\u6625\u85e4\u6709\u8072",
         "category": "\u8a9e\u8a00\u5b78\u7fd2",
@@ -117,25 +70,8 @@
         "pages": 463
     },
     {
-        "name": "\u666e\u901a\u578b\u9ad8\u4e2d\u9078\u4fee\u7269\u7406\u2160\u5b78\u7fd2\u8b1b\u7fa9(\u542b\u89e3\u7b54\u672c)",
-        "author": "\u97cb\u88d5\u9716-\u7de8\u8457",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u79d1\u5b78\u2027\u79d1\u666e",
-        "date": "2021/08/01",
-        "price": 200,
-        "pages": 288
-    },
-    {
-        "name": "\u65b7\u98df\u5584\u7d42\uff1a\u9001\u6bcd\u9060\u884c\uff0c\u5b78\u7fd2\u9762\u5c0d\u6b7b\u4ea1\u7684\u751f\u547d\u8ab2\u984c",
-        "author": "\u7562\u67f3\u9daf",
-        "phouse": "\u9ea5\u7530",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2022/03/31",
-        "price": 380,
-        "pages": 272
-    },
-    {
         "name": "\u5927\u4eba\u5b78\u7834\u5c40\u601d\u8003\uff1a\u5f9e\u95dc\u9375\u5c0f\u4e8b\u770b\u51fa\u8077\u5834\u5927\u5c40\u3010Apple Podcast \u5e74\u5ea6\u71b1\u9580\u7bc0\u76ee\u3011",
+        "ISBN13": "9786263580848",
         "author": "\u59da\u8a69\u8c6a;\u5f35\u570b\u6d0b",
         "phouse": "\u4e09\u91c7\u6587\u5316",
         "category": "\u8ca1\u7d93\u4f01\u7ba1",
@@ -144,16 +80,48 @@
         "pages": 368
     },
     {
-        "name": "Sing Along With Me! A Sailor Went to Sea (\u786c\u9801\u63a8\u62c9\u66f8)(\u9644\u97f3\u6a94QRcode)",
-        "author": "Yu-hsuan Huang",
-        "phouse": "Nosy Crow UK",
+        "name": "Cookie & Broccoli 1: Ready for School! (graphic novel)",
+        "ISBN13": "9780593529171",
+        "author": "Bob McMahon",
+        "phouse": "Dial Books for Young Readers",
         "category": "\u5916\u6587\u66f8",
-        "date": "2020/07/02",
-        "price": 384,
-        "pages": 10
+        "date": "2021/10/12",
+        "price": 315,
+        "pages": 80
+    },
+    {
+        "name": "Super Rabbit Boy's Team-up Trouble! (Press Start! #10)(\u5168\u5f69\u5e73\u88dd\u672c)",
+        "ISBN13": "9781338568998",
+        "author": "Thomas Flintham",
+        "phouse": "Scholastic",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2021/05/04",
+        "price": 210,
+        "pages": 80
+    },
+    {
+        "name": "\u7a69\u7a69\u8cfaETF\uff0c 10\u5e74\u6295\u8cc7\u914d\u7f6e\u5e03\u5c40",
+        "ISBN13": "9786267173879",
+        "author": "\u59dc\u6853\u570b-\u8457;\u7533\u93ae\u4f0d-\u5be9\u8a02",
+        "phouse": "\u65b9\u8a00\u6587\u5316",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2023/09/01",
+        "price": 540,
+        "pages": 384
+    },
+    {
+        "name": "\u666e\u901a\u578b\u9ad8\u4e2d\u9078\u4fee\u7269\u7406\u2160\u5b78\u7fd2\u8b1b\u7fa9(\u542b\u89e3\u7b54\u672c)",
+        "ISBN13": "4711289870562",
+        "author": "\u97cb\u88d5\u9716-\u7de8\u8457",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u79d1\u5b78\u2027\u79d1\u666e",
+        "date": "2021/08/01",
+        "price": 200,
+        "pages": 288
     },
     {
         "name": "The Shadow Returns: A Branches Book (The Last Firehawk #12)",
+        "ISBN13": "9781338832556",
         "author": "Katrina Charman; Judit Tondora",
         "phouse": "Scholastic",
         "category": "\u5916\u6587\u66f8",
@@ -162,21 +130,73 @@
         "pages": 96
     },
     {
-        "name": "\u8d85\u7d1a\u56de\u5831\uff1a\u80a1\u5e02\u8d0f\u5bb6\u7684\u8cfa\u9322\u6cd5\u5247",
-        "author": "\u6797\u6607",
-        "phouse": "Smart\u667a\u5bcc\u6587\u5316",
+        "name": "Sing Along With Me! A Sailor Went to Sea (\u786c\u9801\u63a8\u62c9\u66f8)(\u9644\u97f3\u6a94QRcode)",
+        "ISBN13": "9781788007672",
+        "author": "Yu-hsuan Huang",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2020/07/02",
+        "price": 384,
+        "pages": 10
+    },
+    {
+        "name": "Super Rabbit Boy Powers Up! (Press Start! #2)(\u5168\u5f69\u5e73\u88dd\u672c)",
+        "ISBN13": "9781338034738",
+        "author": "Thomas Flintham",
+        "phouse": "Scholastic",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2017/05/09",
+        "price": 245,
+        "pages": 80
+    },
+    {
+        "name": "45\u62db\u8d0f\u5f97\u8077\u5834\u8eba\u5e73\u6b0a\uff1a\u5c08\u696d\u8868\u73fe\u4e0d\u5931\u624b\uff0c\u500b\u4eba\u5f62\u8c61\u4eba\u8a2d\u4f73\uff0c\u9069\u6642\u66dd\u5149\u6c42\u95dc\u6ce8",
+        "ISBN13": "9786263740815",
+        "author": "\u90ed\u827e\u73ca",
+        "phouse": "\u6642\u5831\u6587\u5316",
         "category": "\u8ca1\u7d93\u4f01\u7ba1",
-        "date": "2023/08/31",
+        "date": "2023/08/04",
         "price": 380,
-        "pages": 344
+        "pages": 320
+    },
+    {
+        "name": "Maisy's Farm (\u786c\u9801\u5834\u666f\u66f8)(\u82f1\u570b\u7248)",
+        "ISBN13": "9781406383515",
+        "author": "Lucy Cousins",
+        "phouse": "Walker Books",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2019/03/07",
+        "price": 439,
+        "pages": 16
     },
     {
         "name": "Wacky Magic Windows: Colours (\u767e\u8449\u7a97\u66f8)",
+        "ISBN13": "9789463992046",
         "author": "Yoyo Books",
         "phouse": "YoYo Books UK",
         "category": "\u5916\u6587\u66f8",
         "date": "2020/10/01",
         "price": 439,
         "pages": 12
+    },
+    {
+        "name": "\u65b7\u98df\u5584\u7d42\uff1a\u9001\u6bcd\u9060\u884c\uff0c\u5b78\u7fd2\u9762\u5c0d\u6b7b\u4ea1\u7684\u751f\u547d\u8ab2\u984c",
+        "ISBN13": "9786263101913",
+        "author": "\u7562\u67f3\u9daf",
+        "phouse": "\u9ea5\u7530",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2022/03/31",
+        "price": 380,
+        "pages": 272
+    },
+    {
+        "name": "\u8d85\u7d1a\u56de\u5831\uff1a\u80a1\u5e02\u8d0f\u5bb6\u7684\u8cfa\u9322\u6cd5\u5247",
+        "ISBN13": "9786269743926",
+        "author": "\u6797\u6607",
+        "phouse": "Smart\u667a\u5bcc\u6587\u5316",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2023/08/31",
+        "price": 380,
+        "pages": 344
     }
 ]

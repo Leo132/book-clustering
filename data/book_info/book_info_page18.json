@@ -1,15 +1,7 @@
 [
     {
-        "name": "\u806f\u6e96\u6703\u5230\u5e95\u5728\u505a\u4ec0\u9ebc\uff1f\uff1a\u8cc7\u6df1\u4ea4\u6613\u54e1\u7b2c\u4e00\u624b\u89e3\u6790\u4e2d\u592e\u9280\u884c\u600e\u9ebc\u5370\u9322\u3001\u7ba1\u9322\u3001\u82b1\u9322\uff0c\u53c8\u5982\u4f55\u5f71\u97ff\u4f60\u6211\u7684\u53e3\u888b",
-        "author": "\u738b\u9020Joseph Wang",
-        "phouse": "\u5546\u696d\u5468\u520a",
-        "category": "\u8ca1\u7d93\u4f01\u7ba1",
-        "date": "2023/09/14",
-        "price": 360,
-        "pages": 208
-    },
-    {
         "name": "Action Rhymes (\u786c\u9801\u66f8)(\u9644\u6b4c\u8b20\u97f3\u6a94QRcode)",
+        "ISBN13": "9781529060652",
         "author": "Campbell Books",
         "phouse": "Campbell Books UK",
         "category": "\u5916\u6587\u66f8",
@@ -18,16 +10,58 @@
         "pages": 10
     },
     {
-        "name": "\u7f85\u99ac\u4eba\u7684\u6545\u4e8b\u7cfb\u5217Vol.2\u5e1d\u570b\u7684\u69ae\u5149\u8207\u6697\u5f71",
-        "author": "\u5869\u91ce\u4e03\u751f-\u8457",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2023/07/10",
-        "price": 2610,
-        "pages": 2180
+        "name": "\u6210\u8a9e\u786c\u7b46\u7fd2\u5b57\u5e16\u7b2c\u4e00\u8f2f",
+        "ISBN13": "1703081001049",
+        "author": "\u5317\u4eac\u786c\u7b46\u66f8\u6cd5\u5b78\u6703 \u57f7\u884c;\u91d1\u5b89\u6587\u6559\u6a5f\u69cb \u7b56\u5283",
+        "phouse": "\u958b\u6717\u96dc\u8a8c",
+        "category": "\u85dd\u8853\u8a2d\u8a08",
+        "date": "2015/08/01",
+        "price": 55,
+        "pages": null
+    },
+    {
+        "name": "\u806f\u6e96\u6703\u5230\u5e95\u5728\u505a\u4ec0\u9ebc\uff1f\uff1a\u8cc7\u6df1\u4ea4\u6613\u54e1\u7b2c\u4e00\u624b\u89e3\u6790\u4e2d\u592e\u9280\u884c\u600e\u9ebc\u5370\u9322\u3001\u7ba1\u9322\u3001\u82b1\u9322\uff0c\u53c8\u5982\u4f55\u5f71\u97ff\u4f60\u6211\u7684\u53e3\u888b",
+        "ISBN13": "9786267366127",
+        "author": "\u738b\u9020Joseph Wang",
+        "phouse": "\u5546\u696d\u5468\u520a",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2023/09/14",
+        "price": 360,
+        "pages": 208
+    },
+    {
+        "name": "\u79ae\u5100\u4e4b\u529b\uff1a\u793e\u6703\u4eba\u985e\u5b78\u7684\u65b0\u8996\u89d2\uff08\u7c21\u9ad4\u66f8\uff09",
+        "ISBN13": "9787547520888",
+        "author": "(\u6cd5)\u9b4f\u660e\u5fb7",
+        "phouse": "\u4e2d\u897f\u66f8\u5c40",
+        "category": "\u7c21\u9ad4\u66f8",
+        "date": "2023/05/01",
+        "price": 552,
+        "pages": 248
+    },
+    {
+        "name": "\u4e2d\u570b\u7e31\u6a6b\uff1a\u6f22\u5b78\u5de8\u64d8\u53f2\u666f\u9077\u7684\u6b77\u53f2\u8207\u6587\u5316\u63a2\u7d22",
+        "ISBN13": "9786263741034",
+        "author": "\u53f2\u666f\u9077",
+        "phouse": "\u6642\u5831\u6587\u5316",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2023/09/05",
+        "price": 650,
+        "pages": 528
+    },
+    {
+        "name": "Bizzy Bear's Big Book of Words (\u786c\u9801\u66f8)",
+        "ISBN13": "9781839941825",
+        "author": "Benji Davies",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2021/04/01",
+        "price": 714,
+        "pages": 24
     },
     {
         "name": "\u6c92\u540d\u7247\uff0c\u4f60\u5c31\u662f\u62db\u724c\uff1a\u6c42\u8077\u3001\u63db\u5de5\u4f5c\u3001\u8f49\u884c\u3001\u63a5\u6848\u3001\u5275\u696d\u524d\uff0c\u4e00\u5b9a\u8981\u61c2\u7684\u500b\u4eba\u54c1\u724c\u7d93\u71df\u5b78",
+        "ISBN13": "9786263494015",
         "author": "\u845b\u6377\u601d(\u9673\u662d\u6587)",
         "phouse": "\u91c7\u5be6\u6587\u5316",
         "category": "\u8ca1\u7d93\u4f01\u7ba1",
@@ -37,6 +71,7 @@
     },
     {
         "name": "Bizzy Bear My First Memory Game, Things That Go (with 36 Sliders)",
+        "ISBN13": "9781839944987",
         "author": "Benji Davies",
         "phouse": "Nosy Crow UK",
         "category": "\u5916\u6587\u66f8",
@@ -45,43 +80,38 @@
         "pages": 12
     },
     {
-        "name": "\u79ae\u5100\u4e4b\u529b\uff1a\u793e\u6703\u4eba\u985e\u5b78\u7684\u65b0\u8996\u89d2\uff08\u7c21\u9ad4\u66f8\uff09",
-        "author": "(\u6cd5)\u9b4f\u660e\u5fb7",
-        "phouse": "\u4e2d\u897f\u66f8\u5c40",
-        "category": "\u7c21\u9ad4\u66f8",
-        "date": "2023/05/01",
-        "price": 552,
-        "pages": 248
+        "name": "Little Faces: Be Careful, Dragon! (\u82f1\u570b\u7248)",
+        "ISBN13": "9780711262478",
+        "author": "Carly Madden; Hanako Clulow",
+        "phouse": "Words & Pictures UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2021/05/18",
+        "price": 439,
+        "pages": 14
     },
     {
-        "name": "\u8acb\u554f\u5c11\u5e74",
-        "author": "\u8a79\u4f73\u946b",
-        "phouse": "\u806f\u7d93",
-        "category": "\u6587\u5b78\u4f5c\u54c1",
-        "date": "2023/08/17",
-        "price": 360,
-        "pages": 280
-    },
-    {
-        "name": "\u4f60\u6c92\u6709\u5b78\u5230\u7684\u8cc7\u7522\u914d\u7f6e\uff1a\u5df4\u83f2\u7279\u9ed8\u9ed8\u5728\u505a\u7684\u4e8b",
-        "author": "\u95d5\u53c8\u4e0a",
-        "phouse": "\u6642\u5831\u6587\u5316",
+        "name": "\u8499\u683c\u4e4b\u9053\uff1a\u95dc\u65bc\u6295\u8cc7\u3001\u95b1\u8b80\u3001\u5de5\u4f5c\u8207\u5e78\u798f\u7684\u666e\u901a\u5e38\u8b58",
+        "ISBN13": "9786263553576",
+        "author": "\u8499\u683c",
+        "phouse": "\u5929\u4e0b\u6587\u5316",
         "category": "\u8ca1\u7d93\u4f01\u7ba1",
-        "date": "2023/07/04",
-        "price": 580,
-        "pages": 480
+        "date": "2023/08/31",
+        "price": 600,
+        "pages": 432
     },
     {
-        "name": "\u6211\u5c31\u662f\u672c\u5c0a\uff1a\u5927\u5713\u6eff\u65b7\u60d1\u4e4b\u9053",
-        "author": "\u84ee\u82b1\u751f\u5927\u58eb;\u9802\u679c\u6b3d\u54f2\u4ec1\u6ce2\u5207;\u7956\u53e4\u70cf\u91d1\u4ec1\u6ce2\u5207 \u7b49",
-        "phouse": "\u773e\u751f\u6587\u5316",
-        "category": "\u5b97\u6559\u547d\u7406",
-        "date": "2023/09/01",
-        "price": 440,
-        "pages": 360
+        "name": "\u6211\u7528\uff2b\u7dda\u8cfa\u4e00\u5104\u3010\u5716\u89e3\u3011\uff1a60\u5929\u770b\u61c2\u8cb7\u8ce3\u578b\u614b\uff0c\u4e00\u51fa\u624b\u52dd\u7387100%\uff01",
+        "ISBN13": "9786267148730",
+        "author": "\u8ca1\u805a\u9f8d\u982d",
+        "phouse": "\u5927\u6a02\u6587\u5316",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2023/09/20",
+        "price": 280,
+        "pages": 192
     },
     {
         "name": "Super Rabbit Racers! (Press Start! #3)(\u5168\u5f69\u5e73\u88dd\u672c)",
+        "ISBN13": "9781338034776",
         "author": "Thomas Flintham",
         "phouse": "Scholastic",
         "category": "\u5916\u6587\u66f8",
@@ -91,6 +121,7 @@
     },
     {
         "name": "\u682a\u9b3c\u6d41\u5f37\u52e2K\u7dda\u7372\u5229\u7955\u6280\uff1aK\u7dda\u5e95\u5e95\u9ad8\uff0c\u672a\u4f86\u80a1\u50f9\u5f37\uff1bK\u7dda\u5e95\u5e95\u4f4e\uff0c\u5225\u9032\u5834\uff1b\u6388\u696d\u8d85\u904e\u5169\u5343\u4e94\u767e\u4eba\u7684\u6700\u7c21\u55ae\u5165\u9580\uff0c\u4e94\u8981\u9ede\u6293\u5230\u9032\u5834\u8a0a\u865f\u3002",
+        "ISBN13": "9786267328293",
         "author": "The \u682a\u9b3c(\u5c0f\u5cf6\u6649\u4e5f)",
         "phouse": "\u5927\u662f\u6587\u5316",
         "category": "\u8ca1\u7d93\u4f01\u7ba1",
@@ -99,34 +130,18 @@
         "pages": 384
     },
     {
-        "name": "\u8499\u683c\u4e4b\u9053\uff1a\u95dc\u65bc\u6295\u8cc7\u3001\u95b1\u8b80\u3001\u5de5\u4f5c\u8207\u5e78\u798f\u7684\u666e\u901a\u5e38\u8b58",
-        "author": "\u8499\u683c",
-        "phouse": "\u5929\u4e0b\u6587\u5316",
-        "category": "\u8ca1\u7d93\u4f01\u7ba1",
-        "date": "2023/08/31",
-        "price": 600,
-        "pages": 432
-    },
-    {
-        "name": "\u6210\u8a9e\u786c\u7b46\u7fd2\u5b57\u5e16\u7b2c\u4e00\u8f2f",
-        "author": "\u5317\u4eac\u786c\u7b46\u66f8\u6cd5\u5b78\u6703 \u57f7\u884c;\u91d1\u5b89\u6587\u6559\u6a5f\u69cb \u7b56\u5283",
-        "phouse": "\u958b\u6717\u96dc\u8a8c",
-        "category": "\u85dd\u8853\u8a2d\u8a08",
-        "date": "2015/08/01",
-        "price": 55,
-        "pages": null
-    },
-    {
-        "name": "\u6211\u7528\uff2b\u7dda\u8cfa\u4e00\u5104\u3010\u5716\u89e3\u3011\uff1a60\u5929\u770b\u61c2\u8cb7\u8ce3\u578b\u614b\uff0c\u4e00\u51fa\u624b\u52dd\u7387100%\uff01",
-        "author": "\u8ca1\u805a\u9f8d\u982d",
-        "phouse": "\u5927\u6a02\u6587\u5316",
-        "category": "\u8ca1\u7d93\u4f01\u7ba1",
-        "date": "2023/09/20",
-        "price": 280,
-        "pages": 192
+        "name": "\u7f85\u99ac\u4eba\u7684\u6545\u4e8b\u7cfb\u5217Vol.2\u5e1d\u570b\u7684\u69ae\u5149\u8207\u6697\u5f71",
+        "ISBN13": "4711289871934",
+        "author": "\u5869\u91ce\u4e03\u751f-\u8457",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2023/07/10",
+        "price": 2610,
+        "pages": 2180
     },
     {
         "name": "\u6211\u53ea\u559c\u6b61\u4f60\u7684\u4eba\u8a2d2\uff08\u7c21\u9ad4\u66f8\uff09",
+        "ISBN13": "9787557030414",
         "author": "\u7a1a\u695a",
         "phouse": "\u5ee3\u6771\u65c5\u904a\u51fa\u7248\u793e",
         "category": "\u7c21\u9ad4\u66f8",
@@ -135,25 +150,38 @@
         "pages": 270
     },
     {
-        "name": "Bizzy Bear's Big Book of Words (\u786c\u9801\u66f8)",
-        "author": "Benji Davies",
-        "phouse": "Nosy Crow UK",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2021/04/01",
-        "price": 714,
-        "pages": 24
+        "name": "\u8acb\u554f\u5c11\u5e74",
+        "ISBN13": "9789570869842",
+        "author": "\u8a79\u4f73\u946b",
+        "phouse": "\u806f\u7d93",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2023/08/17",
+        "price": 360,
+        "pages": 280
     },
     {
-        "name": "\u4e2d\u570b\u7e31\u6a6b\uff1a\u6f22\u5b78\u5de8\u64d8\u53f2\u666f\u9077\u7684\u6b77\u53f2\u8207\u6587\u5316\u63a2\u7d22",
-        "author": "\u53f2\u666f\u9077",
+        "name": "\u4f60\u6c92\u6709\u5b78\u5230\u7684\u8cc7\u7522\u914d\u7f6e\uff1a\u5df4\u83f2\u7279\u9ed8\u9ed8\u5728\u505a\u7684\u4e8b",
+        "ISBN13": "9786263538870",
+        "author": "\u95d5\u53c8\u4e0a",
         "phouse": "\u6642\u5831\u6587\u5316",
-        "category": "\u6587\u5b78\u4f5c\u54c1",
-        "date": "2023/09/05",
-        "price": 650,
-        "pages": 528
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2023/07/04",
+        "price": 580,
+        "pages": 480
+    },
+    {
+        "name": "Call of the Sound Dragon: A Branches Book (Dragon Masters #16)(\u5e73\u88dd\u672c)",
+        "ISBN13": "9781338540284",
+        "author": "Tracey West",
+        "phouse": "Scholastic",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2020/06/02",
+        "price": 210,
+        "pages": 96
     },
     {
         "name": "\u547c\u5438\uff0c\u70ba\u4e86\u7642\u7652\uff1a\u5168\u65b0\u7684\u547c\u5438\u79d1\u5b78\u8207\u91ab\u5b78\uff0c\u900f\u904e\u6e05\u9192\u7684\u547c\u5438\uff0c\u5fb9\u5e95\u8f49\u5316\u8eab\u5fc3",
+        "ISBN13": "9786267299029",
         "author": "\u694a\u5b9a\u4e00;\u99ac\u5955\u5b89(Jan Martel)(\u5354\u529b);\u9673\u5922\u6021(\u5354\u529b)",
         "phouse": "\u5929\u4e0b\u751f\u6d3b",
         "category": "\u91ab\u7642\u4fdd\u5065",
@@ -162,21 +190,13 @@
         "pages": 480
     },
     {
-        "name": "Little Faces: Be Careful, Dragon! (\u82f1\u570b\u7248)",
-        "author": "Carly Madden; Hanako Clulow",
-        "phouse": "Words & Pictures UK",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2021/05/18",
-        "price": 439,
-        "pages": 14
-    },
-    {
-        "name": "Call of the Sound Dragon: A Branches Book (Dragon Masters #16)(\u5e73\u88dd\u672c)",
-        "author": "Tracey West",
-        "phouse": "Scholastic",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2020/06/02",
-        "price": 210,
-        "pages": 96
+        "name": "\u6211\u5c31\u662f\u672c\u5c0a\uff1a\u5927\u5713\u6eff\u65b7\u60d1\u4e4b\u9053",
+        "ISBN13": "9786269710263",
+        "author": "\u84ee\u82b1\u751f\u5927\u58eb;\u9802\u679c\u6b3d\u54f2\u4ec1\u6ce2\u5207;\u7956\u53e4\u70cf\u91d1\u4ec1\u6ce2\u5207 \u7b49",
+        "phouse": "\u773e\u751f\u6587\u5316",
+        "category": "\u5b97\u6559\u547d\u7406",
+        "date": "2023/09/01",
+        "price": 440,
+        "pages": 360
     }
 ]

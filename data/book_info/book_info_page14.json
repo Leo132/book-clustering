@@ -1,78 +1,7 @@
 [
     {
-        "name": "Maisy at Home: A First Words Book (\u786c\u9801\u66f8)(\u7f8e\u570b\u7248)",
-        "author": "Lucy Cousins; Lucy Cousins (ILT)",
-        "phouse": "Candlewick Pr",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2019/04/09",
-        "price": 315,
-        "pages": 22
-    },
-    {
-        "name": "Maisy's Day Out: A First Words Book(\u786c\u9801\u66f8)(\u7f8e\u570b\u7248)",
-        "author": "Lucy Cousins; Lucy Cousins (ILT)",
-        "phouse": "Candlewick Pr",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2019/04/09",
-        "price": 350,
-        "pages": 22
-    },
-    {
-        "name": "\u7968\u64da\u6cd5(\u4fee\u8a02\u4e94\u7248)",
-        "author": "\u912d\u7389\u6ce2",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2019/12/27",
-        "price": 290,
-        "pages": 240
-    },
-    {
-        "name": "\u4e0d\u751f\u75c5\u7684\u85cf\u50b3\u7149\u5fc3\u8853\uff1a\u8b77\u4f60\u8eab\u5fc3\u5747\u5b89\u7684\u5167\u5728\u91ab\u5b78",
-        "author": "\u6d1b\u6851\u52a0\u53c3",
-        "phouse": "\u6642\u5831\u6587\u5316",
-        "category": "\u91ab\u7642\u4fdd\u5065",
-        "date": "2022/11/08",
-        "price": 380,
-        "pages": 336
-    },
-    {
-        "name": "\u8acb\u6295\u5927\u91ce\u72fc\u4e00\u7968\uff01",
-        "author": "\u5927\u885b\u30fb\u5361\u5229(Davide Cali)-\u8457;\u5c09\u9072\u79c0-\u8b6f;\u746a\u5609\u8389\u30fb\u514b\u62c9\u5f17\u96f7(Magali Clavelet)-\u7e6a",
-        "phouse": "\u5c0f\u5c71\u4e18",
-        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
-        "date": "2022/08/31",
-        "price": 350,
-        "pages": 40
-    },
-    {
-        "name": "\u4e0d\u4fbf\u5229\u7684\u4fbf\u5229\u5e97",
-        "author": "\u91d1\u6d69\u7136",
-        "phouse": "\u5bc2\u5bde",
-        "category": "\u6587\u5b78\u4f5c\u54c1",
-        "date": "2022/09/01",
-        "price": 400,
-        "pages": 304
-    },
-    {
-        "name": "\u7d05\u592a\u967d\u662f\u600e\u6a23\u5347\u8d77\u7684\uff1a\u5ef6\u5b89\u6574\u98a8\u904b\u52d5\u7684\u4f86\u9f8d\u53bb\u8108",
-        "author": "\u9ad8\u83ef \u8457",
-        "phouse": "\u9999\u6e2f\u4e2d\u6587\u5927\u5b78\u51fa\u7248\u793e",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2000/02/01",
-        "price": 850,
-        "pages": 728
-    },
-    {
-        "name": "\u65b0\u8b6f\u838a\u5b50\u8b80\u672c(\u4e8c\u7248)",
-        "author": "\u9ec3\u9326\u92d0-\u6ce8\u8b6f",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2007/06/01",
-        "price": 370,
-        "pages": 552
-    },
-    {
         "name": "\u54c8\u4f5b\u5927\u5b78\u7684\u601d\u8faf\u6e9d\u901a\u8853\uff1a\u4e16\u754c\u8faf\u8ad6\u51a0\u8ecd\u6559\u4f60\u6d3b\u7528\u8faf\u8ad6\u6280\u5de7\uff0c\u5feb\u901f\u7522\u51fa\u89c0\u9ede\u3001\u52a0\u5f37\u8aaa\u670d\u529b\u3001\u5316\u89e3\u885d\u7a81\u3001\u5275\u9020\u5229\u76ca\u6700\u5927\u5316",
+        "ISBN13": "9786263493728",
         "author": "\u5f90\u8f14\u8ce2",
         "phouse": "\u91c7\u5be6\u6587\u5316",
         "category": "\u793e\u6703\u4eba\u6587",
@@ -81,34 +10,8 @@
         "pages": 400
     },
     {
-        "name": "Maisy at Work: A First Words Books (\u786c\u9801\u66f8)(\u7f8e\u570b\u7248)",
-        "author": "Lucy Cousins",
-        "phouse": "Candlewick Pr",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2022/09/07",
-        "price": 350,
-        "pages": 20
-    },
-    {
-        "name": "Wacky Magic Windows: Big & Small (\u767e\u8449\u7a97\u66f8)",
-        "author": "Yoyo Books",
-        "phouse": "YoYo Books UK",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2020/10/01",
-        "price": 439,
-        "pages": 12
-    },
-    {
-        "name": "Lulu's Loo (\u7cbe\u88dd\u64cd\u4f5c\u66f8)",
-        "author": "Camilla Reid; Ailie Busby",
-        "phouse": "Bloomsbury UK",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2010/06/07",
-        "price": 439,
-        "pages": 16
-    },
-    {
         "name": "Bizzy Bear: Racing Driver (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
+        "ISBN13": "9781788002448",
         "author": "Benji Davies",
         "phouse": "Nosy Crow UK",
         "category": "\u5916\u6587\u66f8",
@@ -117,25 +20,8 @@
         "pages": 10
     },
     {
-        "name": "\u66f4\u68d2\u7684\u9aa8\u982d\uff08\u7368\u5bb6\u52a0\u8d08\u9650\u91cf\u7248\u66f4\u68d2\u7684\u4fbf\u689d\u7d19\uff09",
-        "author": "\u79d1\u745e.R. \u5854\u535a-\u8457;\u4f55\u5c09\u8ce2-\u8b6f;\u79d1\u745e.R. \u5854\u535a-\u7e6a",
-        "phouse": "\u5c0f\u5c71\u4e18",
-        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
-        "date": "2023/06/05",
-        "price": 350,
-        "pages": 48
-    },
-    {
-        "name": "The Carnival of the Animals (\u786c\u9801\u97f3\u6548\u66f8)",
-        "author": "Fiona Watt",
-        "phouse": "Usborne Pub Ltd",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2020/05/01",
-        "price": 714,
-        "pages": 10
-    },
-    {
         "name": "\u3010\u5716\u89e3\u3011\u7d66\u6295\u8cc7\u65b0\u624b\u7684\u7b2c\u4e00\u672c\u80a1\u7968\u7406\u8ca1\u66f8",
+        "ISBN13": "9789570870121",
         "author": "\u8b1d\u528d\u5e73;\u6797\u5091\u5bb8",
         "phouse": "\u806f\u7d93",
         "category": "\u8ca1\u7d93\u4f01\u7ba1",
@@ -144,25 +30,8 @@
         "pages": 280
     },
     {
-        "name": "\u5730\u7403\u900f\u8996\u66f8",
-        "author": "Nosy Crow-\u6587;\u6f22\u5a1c\u2027\u827e\u8389\u7d72-\u5716;\u937e\u6167\u5143-\u8b6f",
-        "phouse": "\u5c0f\u5c71\u4e18",
-        "category": "\u79d1\u5b78\u2027\u79d1\u666e",
-        "date": "2023/06/28",
-        "price": 399,
-        "pages": 18
-    },
-    {
-        "name": "\u4e2d\u570b\u7684\u57f7\u5ff5\uff1a\u65e5\u672c\u8cc7\u6df1\u5a92\u9ad4\u4eba\u91ce\u5cf6\u525b\u89e3\u8b80\u7fd2\u8fd1\u5e73\u5f37\u6b0a\u9ad4\u5236\u4e0b\u7684\u53f0\u7063\u53ca\u9999\u6e2f",
-        "author": "\u91ce\u5cf6\u525b",
-        "phouse": "\u4eca\u5468\u520a",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2023/09/07",
-        "price": 420,
-        "pages": 352
-    },
-    {
         "name": "\u6280\u8853\u578b\u9ad8\u4e2d\u5b78\u79d1\u5236\u9738\u570b\u6587\u7b2c\u4e09\u518a",
+        "ISBN13": "9786263076105",
         "author": "\u4f55\u6dd1\u8c9e;\u9673\u514b\u5afb-\u7de8\u8457",
         "phouse": "\u6771\u5927",
         "category": "\u6587\u5b78\u4f5c\u54c1",
@@ -171,12 +40,163 @@
         "pages": 228
     },
     {
+        "name": "\u7d05\u592a\u967d\u662f\u600e\u6a23\u5347\u8d77\u7684\uff1a\u5ef6\u5b89\u6574\u98a8\u904b\u52d5\u7684\u4f86\u9f8d\u53bb\u8108",
+        "ISBN13": "9789622019201",
+        "author": "\u9ad8\u83ef \u8457",
+        "phouse": "\u9999\u6e2f\u4e2d\u6587\u5927\u5b78\u51fa\u7248\u793e",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2000/02/01",
+        "price": 850,
+        "pages": 728
+    },
+    {
+        "name": "Lulu's Loo (\u7cbe\u88dd\u64cd\u4f5c\u66f8)",
+        "ISBN13": "9781408802656",
+        "author": "Camilla Reid; Ailie Busby",
+        "phouse": "Bloomsbury UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2010/06/07",
+        "price": 439,
+        "pages": 16
+    },
+    {
+        "name": "\u4e0d\u4fbf\u5229\u7684\u4fbf\u5229\u5e97",
+        "ISBN13": "9786269593842",
+        "author": "\u91d1\u6d69\u7136",
+        "phouse": "\u5bc2\u5bde",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2022/09/01",
+        "price": 400,
+        "pages": 304
+    },
+    {
+        "name": "Maisy at Home: A First Words Book (\u786c\u9801\u66f8)(\u7f8e\u570b\u7248)",
+        "ISBN13": "9781536203851",
+        "author": "Lucy Cousins; Lucy Cousins (ILT)",
+        "phouse": "Candlewick Pr",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2019/04/09",
+        "price": 315,
+        "pages": 22
+    },
+    {
+        "name": "\u4e0d\u751f\u75c5\u7684\u85cf\u50b3\u7149\u5fc3\u8853\uff1a\u8b77\u4f60\u8eab\u5fc3\u5747\u5b89\u7684\u5167\u5728\u91ab\u5b78",
+        "ISBN13": "9786263530669",
+        "author": "\u6d1b\u6851\u52a0\u53c3",
+        "phouse": "\u6642\u5831\u6587\u5316",
+        "category": "\u91ab\u7642\u4fdd\u5065",
+        "date": "2022/11/08",
+        "price": 380,
+        "pages": 336
+    },
+    {
+        "name": "\u7968\u64da\u6cd5(\u4fee\u8a02\u4e94\u7248)",
+        "ISBN13": "9789571466835",
+        "author": "\u912d\u7389\u6ce2",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2019/12/27",
+        "price": 290,
+        "pages": 240
+    },
+    {
+        "name": "Wacky Magic Windows: Big & Small (\u767e\u8449\u7a97\u66f8)",
+        "ISBN13": "9789463992039",
+        "author": "Yoyo Books",
+        "phouse": "YoYo Books UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2020/10/01",
+        "price": 439,
+        "pages": 12
+    },
+    {
+        "name": "\u66f4\u68d2\u7684\u9aa8\u982d\uff08\u7368\u5bb6\u52a0\u8d08\u9650\u91cf\u7248\u66f4\u68d2\u7684\u4fbf\u689d\u7d19\uff09",
+        "ISBN13": "9786263079755",
+        "author": "\u79d1\u745e.R. \u5854\u535a-\u8457;\u4f55\u5c09\u8ce2-\u8b6f;\u79d1\u745e.R. \u5854\u535a-\u7e6a",
+        "phouse": "\u5c0f\u5c71\u4e18",
+        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
+        "date": "2023/06/05",
+        "price": 350,
+        "pages": 48
+    },
+    {
         "name": "\u5168\u65b0\uff01\u65b0\u5236\u591a\u76caTOEIC\u984c\u5eab\u89e3\u6790\uff1a\u72e0\u6e96 6 \u56de\u807d\u529b\uff0b\u95b1\u8b80\u6a21\u64ec\u8a66\u984c\uff0c\u5b8c\u5168\u53cd\u6620\u6700\u65b0\u547d\u984c\u8da8\u52e2\u3001\u5168\u65b9\u4f4d\u5efa\u7acb\u65b0\u5236\u591a\u76ca\u5be6\u6230\u80fd\u529b\uff01\uff08\u9644\u96d9\u66f8\u88dd\uff0b2 MP3\u5149\u789f\uff0b\u97f3\u6a94\u4e0b\u8f09QR\u78bc\uff09\uff08\u5171\u4e8c\u518a\uff09",
+        "ISBN13": "9789864542499",
         "author": "Hackers Academia",
         "phouse": "\u570b\u969b\u5b78\u6751",
         "category": "\u8a9e\u8a00\u5b78\u7fd2",
         "date": "2022/12/01",
         "price": 799,
         "pages": 604
+    },
+    {
+        "name": "\u8acb\u6295\u5927\u91ce\u72fc\u4e00\u7968\uff01",
+        "ISBN13": "9786263077096",
+        "author": "\u5927\u885b\u30fb\u5361\u5229(Davide Cali)-\u8457;\u5c09\u9072\u79c0-\u8b6f;\u746a\u5609\u8389\u30fb\u514b\u62c9\u5f17\u96f7(Magali Clavelet)-\u7e6a",
+        "phouse": "\u5c0f\u5c71\u4e18",
+        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
+        "date": "2022/08/31",
+        "price": 350,
+        "pages": 40
+    },
+    {
+        "name": "Maisy's Day Out: A First Words Book(\u786c\u9801\u66f8)(\u7f8e\u570b\u7248)",
+        "ISBN13": "9781536203868",
+        "author": "Lucy Cousins; Lucy Cousins (ILT)",
+        "phouse": "Candlewick Pr",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2019/04/09",
+        "price": 350,
+        "pages": 22
+    },
+    {
+        "name": "\u65b0\u8b6f\u838a\u5b50\u8b80\u672c(\u4e8c\u7248)",
+        "ISBN13": "9789571407333",
+        "author": "\u9ec3\u9326\u92d0-\u6ce8\u8b6f",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2007/06/01",
+        "price": 370,
+        "pages": 552
+    },
+    {
+        "name": "\u4e2d\u570b\u7684\u57f7\u5ff5\uff1a\u65e5\u672c\u8cc7\u6df1\u5a92\u9ad4\u4eba\u91ce\u5cf6\u525b\u89e3\u8b80\u7fd2\u8fd1\u5e73\u5f37\u6b0a\u9ad4\u5236\u4e0b\u7684\u53f0\u7063\u53ca\u9999\u6e2f",
+        "ISBN13": "9786267266304",
+        "author": "\u91ce\u5cf6\u525b",
+        "phouse": "\u4eca\u5468\u520a",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2023/09/07",
+        "price": 420,
+        "pages": 352
+    },
+    {
+        "name": "\u5730\u7403\u900f\u8996\u66f8",
+        "ISBN13": "9786263078048",
+        "author": "Nosy Crow-\u6587;\u6f22\u5a1c\u2027\u827e\u8389\u7d72-\u5716;\u937e\u6167\u5143-\u8b6f",
+        "phouse": "\u5c0f\u5c71\u4e18",
+        "category": "\u79d1\u5b78\u2027\u79d1\u666e",
+        "date": "2023/06/28",
+        "price": 399,
+        "pages": 18
+    },
+    {
+        "name": "Maisy at Work: A First Words Books (\u786c\u9801\u66f8)(\u7f8e\u570b\u7248)",
+        "ISBN13": "9781536224429",
+        "author": "Lucy Cousins",
+        "phouse": "Candlewick Pr",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2022/09/07",
+        "price": 350,
+        "pages": 20
+    },
+    {
+        "name": "The Carnival of the Animals (\u786c\u9801\u97f3\u6548\u66f8)",
+        "ISBN13": "9781474968041",
+        "author": "Fiona Watt",
+        "phouse": "Usborne Pub Ltd",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2020/05/01",
+        "price": 714,
+        "pages": 10
     }
 ]

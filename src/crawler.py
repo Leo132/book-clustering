@@ -11,6 +11,8 @@ import json
 
 from typing import Callable
 
+from utils import load_json, save_info_to_json, get_all_attrs
+
 class Parser(BeautifulSoup):
     def __init__(self, markup: str, **kwargs):
         super().__init__(markup, "html.parser", **kwargs)
@@ -35,24 +37,6 @@ def get_html_from_url(url: str, method: str="get"):
         return None
 
     return r.text
-
-def save_info_to_json(page_urls: list[str], folder_file: str, get_urls: Callable,  get_info: Callable):
-    def save_to_json(data, path_file):
-        with open(path_file, 'w') as f:
-            json.dump(data, f)
-
-    for page, page_url in enumerate(page_urls, start=1):
-        info_list = []
-        print(f"{'page' + str(page):-^60}")
-        for idx, url in enumerate(get_urls(page_url), start=1):
-            print(url)                         # for debugging
-            info = get_info(url)
-            if info is None:                   # skip invalid info
-                continue
-            info_list.append(info)
-            print(f"{idx:3d}. {info}")
-        save_to_json(info_list, f"./data/{folder_file}{page}.json")
-    print("Save success")
 
 
 ''' ---------------- unused functions
@@ -140,6 +124,7 @@ def get_book_urls(url: str):
 Book info format
     {
         "name"      : name                  : str,
+        "ISBN13"    : ISBN13                : str (default: None),
         "author"    : author                : str (defalut: None),
         "phouse"    : publishing house      : str (defalut: None),
         "date"      : publication date      : str (defalut: None),
@@ -163,6 +148,13 @@ def get_book_info(url: str):
 
     # info tag list for book pages, publication date, author and publishing house
     info_tag = div_tag.contents[3].find_all("li", attrs={"class": "mainText ga"})
+
+    # book ISBN13
+    book_isbn13 = None
+    for li_tag in info_tag:
+        if "ISBN13" in li_tag.text:
+            book_isbn13 = li_tag.text[7:]
+            break
 
     # book pages
     book_pages = None
@@ -204,6 +196,7 @@ def get_book_info(url: str):
 
     return {
         "name": book_name,
+        "ISBN13": book_isbn13,
         "author": book_author,
         "phouse": book_phouse,
         "category": book_category,
@@ -212,9 +205,50 @@ def get_book_info(url: str):
         "pages": book_pages,
     }
 
+'''
+Author info format
+    {
+        "name"          : name                  : str
+        "totalbooks"    : number of books       : int
+        "avgprice"      : average book price    : float
+    }
+'''
 def get_author_info(url: str):
-    pass
+    html = get_html_from_url(url)
+    result = Parser(html)
 
+    # author name
+    author_name = result.find("button", attrs={"class": "resultCondit"}).text[3:]
+
+    # number of books
+    books_num = result.find("span", attrs={"class": "text-danger"}).text
+
+    # average book price
+    # for idx, c in enumerate([c.text.replace(' ', '') for c in result.find_all("div", attrs={"class": "condition mb5"})[4].contents[1].contents[1].contents if c.name == "div"]):
+    #     print(idx, c.split('\n'))
+    prep = lambda t: t.replace(' ', '').replace('\r', '').replace('\n', '').replace('（', ' ').replace('）', '').replace('以上', '').replace('以下', '')
+    price_num_pair_text = [prep(c.text) for c in result.find_all("div", attrs={"class": "condition mb5"})[4].contents[1].contents[1].contents if c.name == "div"]
+    # print(price_num_pair_text)
+    price_list = [int(text.split(' ')[0].split('$')[-1]) for text in price_num_pair_text]
+    num_list = [int(text.split(' ')[-1]) for text in price_num_pair_text]
+    # print(price_list)
+    # print(num_list)
+    average_price = round(sum([price*num for price, num in zip(price_list, num_list)])/sum(num_list), 2)
+
+    return {
+        "name": author_name,
+        "totalbooks": books_num,
+        "avgprice": average_price,
+    }
+
+'''
+Publishing house info format (same as author info)
+    {
+        "name"          : name                  : str
+        "totalbooks"    : number of books       : int
+        "avgprice"      : average book price    : float
+    }
+'''
 def get_phouse_info(url: str):
     pass
 
@@ -226,29 +260,36 @@ def save_book_to_json():
 
 def _book_test():
     # book_page_urls = [f"https://www.sanmin.com.tw/promote/top/?id=yy&item=11209&pi={page + 1}" for page in range(25)]
+    data = load_json("./data/book_info.json")
+    author_page_urls = [f"https://www.sanmin.com.tw/search/index/?au={author}" for author in get_all_attrs(data, ["author"])[0]]
 
     # for page, book_page_url in enumerate(book_page_urls[:1], start=1):
     #     print(f"{'page' + str(page):-^60}")
     #     for idx, book_url in enumerate(get_book_urls(book_page_url), start=1):
     #         print(book_url)     # for debugging
-    #         book_info = get_book_info(book_url)
+    #         # book_info = get_book_info(book_url)
     #         print(f"{idx:3d}. {book_info}")
 
-    # print(get_book_info("https://www.sanmin.com.tw/product/index/010713721"))
-    print(get_author_info("https://www.sanmin.com.tw/search/index/?au=%e9%99%b3%e8%81%b0%e5%af%8c"))
+    for idx, author_page_url in enumerate(author_page_urls[:10], start=1):
+        print(author_page_url)     # for debugging
+        author_info = get_author_info(author_page_url)
+        print(f"{idx:3d}. {author_info}")
+
+    # print(get_book_info("https://www.sanmin.com.tw/product/index/011483843"))
+    # print(get_author_info("https://www.sanmin.com.tw/search/index/?au=%E4%B8%89%E6%B0%91%E8%8B%B1%E8%AA%9E%E7%B7%A8%E8%BC%AF%E5%B0%8F%E7%B5%84"))
 
 # testing
 
 def _test():
-    test_url = "https://www.sanmin.com.tw/search/index/?au=%e9%99%b3%e8%81%b0%e5%af%8c"
+    test_url = "https://www.sanmin.com.tw/search/index/?au=%E4%B8%89%E6%B0%91%E8%8B%B1%E8%AA%9E%E7%B7%A8%E8%BC%AF%E5%B0%8F%E7%B5%84"
 
     # _job_test()
     # _truemovie_test()
-    # _book_test()
+    _book_test()
     # save_book_to_json()
 
-    with open("./src/view.html", 'wb') as f:
-        f.write(get_html_from_url(test_url, "get").encode("utf-8"))
+    # with open("./src/view.html", 'wb') as f:
+    #     f.write(get_html_from_url(test_url, "get").encode("utf-8"))
 
 if __name__ == "__main__":
     _test()

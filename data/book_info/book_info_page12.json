@@ -1,15 +1,7 @@
 [
     {
-        "name": "\u6c11\u6cd5\u50b5\u7de8\u7e3d\u8ad6\uff08\u4e0a\u518a\uff09109\u5e744\u6708\u4fee\u8a02\u7248",
-        "author": "\u5b6b\u68ee\u7131",
-        "phouse": "\u5b6b\u68ee\u7131",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2020/04/01",
-        "price": 400,
-        "pages": 471
-    },
-    {
         "name": "\u6676\u7247\u5cf6\u4e0a\u7684\u5149\u8292\uff1a\u53f0\u7a4d\u96fb\u3001\u534a\u5c0e\u9ad4\u8207\u6676\u7247\u6230\uff0c\u6211\u768430\u5e74\u63a1\u8a2a\u7b46\u8a18",
+        "ISBN13": "9786269569441",
         "author": "\u6797\u5b8f\u6587",
         "phouse": "\u65e9\u5b89\u8ca1\u7d93\u6587\u5316",
         "category": "\u8ca1\u7d93\u4f01\u7ba1",
@@ -18,43 +10,18 @@
         "pages": 448
     },
     {
-        "name": "Bizzy Bear: Knights' Castle (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
-        "author": "Benji Davies",
-        "phouse": "Nosy Crow UK",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2014/04/03",
-        "price": 384,
-        "pages": 10
-    },
-    {
-        "name": "\u6d1b\u514b\u83f2\u52d2\u5beb\u7d66\u5152\u5b50\u768438\u5c01\u4fe1\uff08\u5168\u65b0\u5b8c\u6574\u8b6f\u672c\uff09\u3010\u66a2\u92b7\u7d00\u5ff5\u7248\u3011",
-        "author": "\u7d04\u7ff0\u2027\u6d1b\u514b\u83f2\u52d2",
-        "phouse": "\u5e03\u514b\u6587\u5316",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2023/08/15",
-        "price": 380,
+        "name": "\u81fa\u5317\u6a5f\u5ee0\u8207\u53f0\u7063\u9435\u9053",
+        "ISBN13": "9789865329037",
+        "author": "\u53e4\u5ead\u7dad;\u7530\u8018\u6607;\u9673\u5bb6\u8c6a;\u7ae5\u632f\u7586;\u9ec3\u667a\u5049",
+        "phouse": "\u570b\u5bb6\u9435\u9053\u535a\u7269\u9928\u7c4c\u5099\u8655",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2023/09/01",
+        "price": 480,
         "pages": 296
     },
     {
-        "name": "\u65b0\u8b6f\u9b3c\u8c37\u5b50(\u589e\u8a02\u4e8c\u7248)",
-        "author": "\u738b\u5fb7\u83ef;\u8d99\u9d6c\u5718 \u6ce8\u8b6f",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2016/03/23",
-        "price": 240,
-        "pages": 192
-    },
-    {
-        "name": "\u7d05\u8272\u8ced\u76e4\uff1a\u4ee4\u4e2d\u5171\u9ad8\u5c64\u5bb3\u6015\uff0c\u76f4\u64ca\u73fe\u4ee3\u4e2d\u570b\u91d1\u6b0a\u4ea4\u6613\u80cc\u5f8c\u7684\u8150\u6557\u5167\u5e55",
-        "author": "\u6c88\u68df",
-        "phouse": "\u4eca\u5468\u520a",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2023/01/17",
-        "price": 420,
-        "pages": 352
-    },
-    {
         "name": "Bizzy Bear: Space Rocket (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
+        "ISBN13": "9780857632982",
         "author": "Benji Davies",
         "phouse": "Nosy Crow UK",
         "category": "\u5916\u6587\u66f8",
@@ -63,25 +30,28 @@
         "pages": 10
     },
     {
-        "name": "Bizzy Bear: Happy Holiday (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
-        "author": "Benji Davies",
-        "phouse": "Nosy Crow UK",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2014/06/09",
-        "price": 384,
-        "pages": 10
+        "name": "\u8a9e\u8a00\u5b78\u6982\u8ad6(\u56db\u7248)",
+        "ISBN13": "9789571473826",
+        "author": "\u8b1d\u570b\u5e73-\u8457",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u8a9e\u8a00\u5b78\u7fd2",
+        "date": "2022/06/01",
+        "price": 510,
+        "pages": 464
     },
     {
-        "name": "\u666e\u901a\u578b\u9ad8\u4e2d\u5b78\u79d1\u5236\u9738\u570b\u6587\u7b2c\u4e09\u518a",
-        "author": "\u6797\u627f\u9060;\u6797\u664f\u5982;\u6d2a\u370b\u8339;\u5f35\u6893\u8431;\u5289\u82b3\u745c;\u6b50\u5bb6\u69ae;\u8521\u7a4e\u6167;\u5b54\u4ee4\u7af9-\u7de8\u8457",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u6587\u5b78\u4f5c\u54c1",
-        "date": "2023/08/01",
-        "price": 350,
-        "pages": 280
+        "name": "\u6c11\u6cd5\u50b5\u7de8\u7e3d\u8ad6\uff08\u4e0a\u518a\uff09109\u5e744\u6708\u4fee\u8a02\u7248",
+        "ISBN13": "9787770286094",
+        "author": "\u5b6b\u68ee\u7131",
+        "phouse": "\u5b6b\u68ee\u7131",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2020/04/01",
+        "price": 400,
+        "pages": 471
     },
     {
         "name": "\u65e5\u672c\u53f2\u2015\u2015\u77dc\u6301\u7684\u8b8a\u8272\u9f8d",
+        "ISBN13": "9789571476605",
         "author": "\u5ed6\u654f\u6dd1-\u8457",
         "phouse": "\u4e09\u6c11\u66f8\u5c40",
         "category": "\u793e\u6703\u4eba\u6587",
@@ -90,25 +60,68 @@
         "pages": 360
     },
     {
-        "name": "\u6975\u7c21\u4fee\u7149",
-        "author": "\u6797\u76f8\u5982",
-        "phouse": "\u6b66\u9675\u51fa\u7248\u793e",
-        "category": "\u5b97\u6559\u547d\u7406",
-        "date": "2023/06/01",
-        "price": 450,
-        "pages": 336
+        "name": "\u666e\u901a\u578b\u9ad8\u4e2d\u5b78\u79d1\u5236\u9738\u570b\u6587\u7b2c\u4e09\u518a",
+        "ISBN13": "9786263079861",
+        "author": "\u6797\u627f\u9060;\u6797\u664f\u5982;\u6d2a\u370b\u8339;\u5f35\u6893\u8431;\u5289\u82b3\u745c;\u6b50\u5bb6\u69ae;\u8521\u7a4e\u6167;\u5b54\u4ee4\u7af9-\u7de8\u8457",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2023/08/01",
+        "price": 350,
+        "pages": 280
     },
     {
-        "name": "\u5b64\u7368\u7684\u52c7\u8005\uff1a\u4e9e\u65af\u7cbe\u795e\u79d1\u91ab\u5e2b\u6240\u5beb\u7684\u300c\u4e9e\u65af\u5168\u89e3\u6790\u300d",
-        "author": "\u99ac\u5927\u5143",
-        "phouse": "\u5bf6\u74f6\u6587\u5316",
-        "category": "\u91ab\u7642\u4fdd\u5065",
-        "date": "2023/09/06",
-        "price": 400,
-        "pages": 336
+        "name": "\u65b0\u8b6f\u9b3c\u8c37\u5b50(\u589e\u8a02\u4e8c\u7248)",
+        "ISBN13": "9789571461311",
+        "author": "\u738b\u5fb7\u83ef;\u8d99\u9d6c\u5718 \u6ce8\u8b6f",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2016/03/23",
+        "price": 240,
+        "pages": 192
+    },
+    {
+        "name": "Peekaboo Moon-with 10 sliders and a mirror! (\u786c\u9801\u66f8)",
+        "ISBN13": "9781839943362",
+        "author": "Camilla Reid; Ingela P Arrhenius",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2021/09/02",
+        "price": 439,
+        "pages": 10
+    },
+    {
+        "name": "\u6d1b\u514b\u83f2\u52d2\u5beb\u7d66\u5152\u5b50\u768438\u5c01\u4fe1\uff08\u5168\u65b0\u5b8c\u6574\u8b6f\u672c\uff09\u3010\u66a2\u92b7\u7d00\u5ff5\u7248\u3011",
+        "ISBN13": "9786267337219",
+        "author": "\u7d04\u7ff0\u2027\u6d1b\u514b\u83f2\u52d2",
+        "phouse": "\u5e03\u514b\u6587\u5316",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2023/08/15",
+        "price": 380,
+        "pages": 296
+    },
+    {
+        "name": "\u7d05\u8272\u8ced\u76e4\uff1a\u4ee4\u4e2d\u5171\u9ad8\u5c64\u5bb3\u6015\uff0c\u76f4\u64ca\u73fe\u4ee3\u4e2d\u570b\u91d1\u6b0a\u4ea4\u6613\u80cc\u5f8c\u7684\u8150\u6557\u5167\u5e55",
+        "ISBN13": "9786267014967",
+        "author": "\u6c88\u68df",
+        "phouse": "\u4eca\u5468\u520a",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2023/01/17",
+        "price": 420,
+        "pages": 352
+    },
+    {
+        "name": "Bizzy Bear: Happy Holiday (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
+        "ISBN13": "9780857633569",
+        "author": "Benji Davies",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2014/06/09",
+        "price": 384,
+        "pages": 10
     },
     {
         "name": "Game Over, Super Rabbit Boy! (Press Start! #1)(\u5168\u5f69\u5e73\u88dd\u672c)",
+        "ISBN13": "9781338034714",
         "author": "Thomas Flintham",
         "phouse": "Scholastic",
         "category": "\u5916\u6587\u66f8",
@@ -118,6 +131,7 @@
     },
     {
         "name": "The Animal Orchestra Plays Mozart (\u786c\u9801\u97f3\u6548\u66f8)",
+        "ISBN13": "9781474982153",
         "author": "Sam Taplin; Ag Jatkowska",
         "phouse": "Usborne Pub Ltd",
         "category": "\u5916\u6587\u66f8",
@@ -127,6 +141,7 @@
     },
     {
         "name": "\u4f48\u5c40\uff08\u7c21\u9ad4\u66f8\uff09",
+        "ISBN13": "9787506089401",
         "author": "\u4f55\u68ee",
         "phouse": "\u4eba\u6c11\u6771\u65b9\u51fa\u7248\u793e(\u6771\u65b9\u793e)",
         "category": "\u7c21\u9ad4\u66f8",
@@ -135,34 +150,18 @@
         "pages": 240
     },
     {
-        "name": "\u8a9e\u8a00\u5b78\u6982\u8ad6(\u56db\u7248)",
-        "author": "\u8b1d\u570b\u5e73-\u8457",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u8a9e\u8a00\u5b78\u7fd2",
-        "date": "2022/06/01",
-        "price": 510,
-        "pages": 464
-    },
-    {
-        "name": "\u81fa\u5317\u6a5f\u5ee0\u8207\u53f0\u7063\u9435\u9053",
-        "author": "\u53e4\u5ead\u7dad;\u7530\u8018\u6607;\u9673\u5bb6\u8c6a;\u7ae5\u632f\u7586;\u9ec3\u667a\u5049",
-        "phouse": "\u570b\u5bb6\u9435\u9053\u535a\u7269\u9928\u7c4c\u5099\u8655",
-        "category": "\u8ca1\u7d93\u4f01\u7ba1",
-        "date": "2023/09/01",
-        "price": 480,
-        "pages": 296
-    },
-    {
-        "name": "Wind-Up Bus (\u73a9\u5177\u66f8)*\u9644\u73a9\u5177\u8eca*",
-        "author": "Fiona Watt; Stefano Tognetti",
-        "phouse": "Usborne Pub Ltd",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2013/11/01",
-        "price": 1099,
-        "pages": 14
+        "name": "\u5b64\u7368\u7684\u52c7\u8005\uff1a\u4e9e\u65af\u7cbe\u795e\u79d1\u91ab\u5e2b\u6240\u5beb\u7684\u300c\u4e9e\u65af\u5168\u89e3\u6790\u300d",
+        "ISBN13": "9789864063772",
+        "author": "\u99ac\u5927\u5143",
+        "phouse": "\u5bf6\u74f6\u6587\u5316",
+        "category": "\u91ab\u7642\u4fdd\u5065",
+        "date": "2023/09/06",
+        "price": 400,
+        "pages": 336
     },
     {
         "name": "\u53ea\u8b8020\uff05\u7684\u9ad8\u5206\u61c9\u8003\u8853\uff1a\u522a\u966480%\uff0c\u5c08\u6ce820%\u5fc5\u8003\u5167\u5bb9\uff0c\u6211\u7528\u9019\u5957\u8a08\u756b\u5354\u52a95,000\u4eba\u9304\u53d6\u570b\u8003\u3001\u8b49\u7167\u3001\u7814\u7a76\u6240\u548c\u5404\u9805\u5347\u5b78\u8003\u8a66\u3002",
+        "ISBN13": "9786267251607",
         "author": "\u838a\u921e\u6db5(Carol\u5b78\u59ca)",
         "phouse": "\u5927\u662f\u6587\u5316",
         "category": "\u793e\u6703\u4eba\u6587",
@@ -171,12 +170,33 @@
         "pages": 240
     },
     {
-        "name": "Peekaboo Moon-with 10 sliders and a mirror! (\u786c\u9801\u66f8)",
-        "author": "Camilla Reid; Ingela P Arrhenius",
+        "name": "Wind-Up Bus (\u73a9\u5177\u66f8)*\u9644\u73a9\u5177\u8eca*",
+        "ISBN13": "9781409565291",
+        "author": "Fiona Watt; Stefano Tognetti",
+        "phouse": "Usborne Pub Ltd",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2013/11/01",
+        "price": 1099,
+        "pages": 14
+    },
+    {
+        "name": "Bizzy Bear: Knights' Castle (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
+        "ISBN13": "9780857632630",
+        "author": "Benji Davies",
         "phouse": "Nosy Crow UK",
         "category": "\u5916\u6587\u66f8",
-        "date": "2021/09/02",
-        "price": 439,
+        "date": "2014/04/03",
+        "price": 384,
         "pages": 10
+    },
+    {
+        "name": "\u6975\u7c21\u4fee\u7149",
+        "ISBN13": "9789573514787",
+        "author": "\u6797\u76f8\u5982",
+        "phouse": "\u6b66\u9675\u51fa\u7248\u793e",
+        "category": "\u5b97\u6559\u547d\u7406",
+        "date": "2023/06/01",
+        "price": 450,
+        "pages": 336
     }
 ]

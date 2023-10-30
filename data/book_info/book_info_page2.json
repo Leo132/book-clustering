@@ -1,15 +1,17 @@
 [
     {
-        "name": "\u6210\u8a9e\u5178(\u589e\u8a02\u56db\u7248)",
-        "author": "\u4e09\u6c11\u66f8\u5c40\u6210\u8a9e\u5178\u7de8\u7e82\u59d4\u54e1\u6703",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
-        "date": "2021/10/22",
-        "price": 580,
-        "pages": 1144
+        "name": "\u73fe\u4ee3\u516c\u53f8\u6cd5",
+        "ISBN13": "9786260104504",
+        "author": "\u5289\u9023\u715c",
+        "phouse": "\u65b0\u5b78\u6797",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2022/09/01",
+        "price": 810,
+        "pages": 720
     },
     {
         "name": "\u6708\u8003\u738b\uff1a\u570b\u65871",
+        "ISBN13": "9789862179840",
         "author": "\u5168\u570b\u540d\u5e2b-\u7de8",
         "phouse": "\u9f8d\u9a30\u6587\u5316",
         "category": "\u6559\u79d1\u8003\u7528",
@@ -18,124 +20,8 @@
         "pages": 120
     },
     {
-        "name": "\u65b0\u8b6f\u5b6b\u5b50\u8b80\u672c(\u4e8c\u7248)",
-        "author": "\u5433\u4ec1\u5091-\u6ce8\u8b6f",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2007/01/01",
-        "price": 230,
-        "pages": 208
-    },
-    {
-        "name": "\u83f2\u5f0f\u601d\u8003\uff1a\u5f9e22K\u5230\u9802\u5c16\uff0c\u4e00\u500b\u4ea4\u6613\u54e1\u9006\u8f49\u4eba\u751f\u7684\u95dc\u9375\u601d\u7dad",
-        "author": "\u83f2\u6bd4\u65af",
-        "phouse": "\u5546\u5468\u6587\u5316",
-        "category": "\u8ca1\u7d93\u4f01\u7ba1",
-        "date": "2023/08/10",
-        "price": 500,
-        "pages": 352
-    },
-    {
-        "name": "\u4e3b\u984c\u767e\u532f\u9ad8\u4e2d\u82f1\u6587\u7bc7\u7ae0\u7d50\u69cb\u8207\u95b1\u8b80\u6e2c\u9a57",
-        "author": "\u5b6b\u81f3\u5a1f",
-        "phouse": "\u665f\u666f\u6578\u4f4d\u6587\u5316",
-        "category": "\u6559\u79d1\u8003\u7528",
-        "date": "2023/05/01",
-        "price": 285,
-        "pages": 148
-    },
-    {
-        "name": "\u9818\u822a\u9ad8\u4e2d\u82f1\u65873\uff08AB\u4e8c\u518a\uff09",
-        "author": "\u5321\u5fb7\u52f3;\u99ac\u5de7\u73ca",
-        "phouse": "\u9f8d\u9a30\u6587\u5316",
-        "category": "\u6559\u79d1\u8003\u7528",
-        "date": "2023/06/01",
-        "price": 400,
-        "pages": null
-    },
-    {
-        "name": "Bizzy Bear: Chinese New Year (\u786c\u9801\u66f8)(\u82f1\u570b\u7248) *\u9644\u97f3\u6a94QRCode*",
-        "author": "Benji Davies",
-        "phouse": "Nosy Crow UK",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2022/12/01",
-        "price": 384,
-        "pages": 10
-    },
-    {
-        "name": "\u65b0\u7de8\u4e2d\u570b\u54f2\u5b78\u53f2(\u4e00)(\u56db\u7248)",
-        "author": "\u52de\u601d\u5149",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2010/03/01",
-        "price": 500,
-        "pages": 408
-    },
-    {
-        "name": "\u8b8a\u901a\uff1a\u53d7\u7528\u4e00\u751f\u7684\u5b78\u554f\uff08\u7c21\u9ad4\u66f8\uff09",
-        "author": "\u5bbf\u6587\u6df5",
-        "phouse": "\u4e2d\u570b\u83ef\u50d1\u51fa\u7248\u793e",
-        "category": "\u7c21\u9ad4\u66f8",
-        "date": "2022/01/01",
-        "price": 408,
-        "pages": 343
-    },
-    {
-        "name": "\u5168\u65b0\uff01\u65b0\u5236\u591a\u76caTOEIC \u55ae\u5b57\u5927\u5168\uff1a\u5099\u8003\u591a\u76ca\u552f\u4e00\u63a8\u85a6\u6b0a\u5a01\u55ae\u5b57\u66f8\uff01\u4e0d\u8ad6\u984c\u578b\u5982\u4f55\u8b8a\u5316\uff0c\u5167\u5bb9\u6301\u7e8c\u66f4\u65b0\uff0c\u5e38\u8003\u5b57\u5f59\u8868\u9054\u5b8c\u5168\u638c\u63e1\uff0c\u6e96\u78ba\u5ea6\u6700\u9ad8\uff01\uff08\u9644\u97f3\u6a94\u4e0b\u8f09QR\u78bc\uff09",
-        "author": "David Cho",
-        "phouse": "\u570b\u969b\u5b78\u6751",
-        "category": "\u8a9e\u8a00\u5b78\u7fd2",
-        "date": "2022/08/04",
-        "price": 499,
-        "pages": 624
-    },
-    {
-        "name": "\u50b5\u6cd5\u5404\u8ad6",
-        "author": "\u674e\u6dd1\u660e",
-        "phouse": "\u5143\u7167",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2023/02/13",
-        "price": 680,
-        "pages": 600
-    },
-    {
-        "name": "\u6436\u6551\u570b\u6587\u5927\u4f5c\u6230\uff08108\u8ab2\u7db1\u9069\u7528\uff09",
-        "author": "\u5f90\u5f18\u7e09-\u7de8",
-        "phouse": "\u9f8d\u9a30\u6587\u5316",
-        "category": "\u6559\u79d1\u8003\u7528",
-        "date": "2023/03/01",
-        "price": 475,
-        "pages": 400
-    },
-    {
-        "name": "Dawn of the Light Dragon: A Branches Book (Dragon Masters #24)",
-        "author": "Tracey West; Matt Loveridge",
-        "phouse": "Scholastic US",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2023/08/01",
-        "price": 210,
-        "pages": 96
-    },
-    {
-        "name": "\u65b0\u95dc\u9375\u5716\u89e3\u5730\u7403\u79d1\u5b78\u5b78\u6e2c\u7e3d\u8907\u7fd2\u8b1b\u7fa9",
-        "author": "\u65bd\u4f41\u5982",
-        "phouse": "\u9f8d\u9a30\u6587\u5316",
-        "category": "\u6559\u79d1\u8003\u7528",
-        "date": "2023/03/01",
-        "price": 425,
-        "pages": null
-    },
-    {
-        "name": "\u6708\u8003\u738b\uff1a\u82f1\u65873",
-        "author": "\u5ed6\u67cf\u5dde;\u8607\u6587\u8ce2",
-        "phouse": "\u9f8d\u9a30\u6587\u5316",
-        "category": "\u6559\u79d1\u8003\u7528",
-        "date": "2023/06/01",
-        "price": 225,
-        "pages": null
-    },
-    {
         "name": "\u793e\u6703\u5fc3\u7406\u5b78",
+        "ISBN13": "9789866018848",
         "author": "\u9673\u768e\u7709;\u738b\u53e2\u6842;\u5b6b\u84a8\u5982",
         "phouse": "\u96d9\u8449\u66f8\u5eca",
         "category": "\u793e\u6703\u4eba\u6587",
@@ -144,16 +30,8 @@
         "pages": 530
     },
     {
-        "name": "\u6cd5\u5b78\u7dd2\u8ad6(\u4fee\u8a02\u4e8c\u5341\u4e94\u7248)",
-        "author": "\u912d\u7389\u6ce2-\u8457;\u9ec3\u5b97\u6a02;\u694a\u5b8f\u6689-\u4fee\u8a02",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2023/07/05",
-        "price": 320,
-        "pages": 200
-    },
-    {
         "name": "\u884c\u653f\u5b78",
+        "ISBN13": "9789571459974",
         "author": "\u6797\u6dd1\u99a8",
         "phouse": "\u4e09\u6c11\u66f8\u5c40",
         "category": "\u793e\u6703\u4eba\u6587",
@@ -162,7 +40,148 @@
         "pages": 572
     },
     {
+        "name": "\u83f2\u5f0f\u601d\u8003\uff1a\u5f9e22K\u5230\u9802\u5c16\uff0c\u4e00\u500b\u4ea4\u6613\u54e1\u9006\u8f49\u4eba\u751f\u7684\u95dc\u9375\u601d\u7dad",
+        "ISBN13": "9786263187962",
+        "author": "\u83f2\u6bd4\u65af",
+        "phouse": "\u5546\u5468\u6587\u5316",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2023/08/10",
+        "price": 500,
+        "pages": 352
+    },
+    {
+        "name": "Dawn of the Light Dragon: A Branches Book (Dragon Masters #24)",
+        "ISBN13": "9781338776973",
+        "author": "Tracey West; Matt Loveridge",
+        "phouse": "Scholastic US",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2023/08/01",
+        "price": 210,
+        "pages": 96
+    },
+    {
+        "name": "\u5168\u65b0\uff01\u65b0\u5236\u591a\u76caTOEIC \u55ae\u5b57\u5927\u5168\uff1a\u5099\u8003\u591a\u76ca\u552f\u4e00\u63a8\u85a6\u6b0a\u5a01\u55ae\u5b57\u66f8\uff01\u4e0d\u8ad6\u984c\u578b\u5982\u4f55\u8b8a\u5316\uff0c\u5167\u5bb9\u6301\u7e8c\u66f4\u65b0\uff0c\u5e38\u8003\u5b57\u5f59\u8868\u9054\u5b8c\u5168\u638c\u63e1\uff0c\u6e96\u78ba\u5ea6\u6700\u9ad8\uff01\uff08\u9644\u97f3\u6a94\u4e0b\u8f09QR\u78bc\uff09",
+        "ISBN13": "9789864542284",
+        "author": "David Cho",
+        "phouse": "\u570b\u969b\u5b78\u6751",
+        "category": "\u8a9e\u8a00\u5b78\u7fd2",
+        "date": "2022/08/04",
+        "price": 499,
+        "pages": 624
+    },
+    {
+        "name": "Bizzy Bear: Chinese New Year (\u786c\u9801\u66f8)(\u82f1\u570b\u7248) *\u9644\u97f3\u6a94QRCode*",
+        "ISBN13": "9781839942594",
+        "author": "Benji Davies",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2022/12/01",
+        "price": 384,
+        "pages": 10
+    },
+    {
+        "name": "\u6210\u8a9e\u5178(\u589e\u8a02\u56db\u7248)",
+        "ISBN13": "9789571472720",
+        "author": "\u4e09\u6c11\u66f8\u5c40\u6210\u8a9e\u5178\u7de8\u7e82\u59d4\u54e1\u6703",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
+        "date": "2021/10/22",
+        "price": 580,
+        "pages": 1144
+    },
+    {
+        "name": "\u65b0\u8b6f\u5b6b\u5b50\u8b80\u672c(\u4e8c\u7248)",
+        "ISBN13": "9789571421780",
+        "author": "\u5433\u4ec1\u5091-\u6ce8\u8b6f",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2007/01/01",
+        "price": 230,
+        "pages": 208
+    },
+    {
+        "name": "\u4e3b\u984c\u767e\u532f\u9ad8\u4e2d\u82f1\u6587\u7bc7\u7ae0\u7d50\u69cb\u8207\u95b1\u8b80\u6e2c\u9a57",
+        "ISBN13": "9789572001004",
+        "author": "\u5b6b\u81f3\u5a1f",
+        "phouse": "\u665f\u666f\u6578\u4f4d\u6587\u5316",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/05/01",
+        "price": 285,
+        "pages": 148
+    },
+    {
+        "name": "\u8b8a\u901a\uff1a\u53d7\u7528\u4e00\u751f\u7684\u5b78\u554f\uff08\u7c21\u9ad4\u66f8\uff09",
+        "ISBN13": "9787511334060",
+        "author": "\u5bbf\u6587\u6df5",
+        "phouse": "\u4e2d\u570b\u83ef\u50d1\u51fa\u7248\u793e",
+        "category": "\u7c21\u9ad4\u66f8",
+        "date": "2022/01/01",
+        "price": 408,
+        "pages": 343
+    },
+    {
+        "name": "\u6cd5\u5b78\u7dd2\u8ad6(\u4fee\u8a02\u4e8c\u5341\u4e94\u7248)",
+        "ISBN13": "9789571476452",
+        "author": "\u912d\u7389\u6ce2-\u8457;\u9ec3\u5b97\u6a02;\u694a\u5b8f\u6689-\u4fee\u8a02",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2023/07/05",
+        "price": 320,
+        "pages": 200
+    },
+    {
+        "name": "\u6708\u8003\u738b\uff1a\u82f1\u65873",
+        "ISBN13": "9789865190590",
+        "author": "\u5ed6\u67cf\u5dde;\u8607\u6587\u8ce2",
+        "phouse": "\u9f8d\u9a30\u6587\u5316",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/06/01",
+        "price": 225,
+        "pages": null
+    },
+    {
+        "name": "\u65b0\u95dc\u9375\u5716\u89e3\u5730\u7403\u79d1\u5b78\u5b78\u6e2c\u7e3d\u8907\u7fd2\u8b1b\u7fa9",
+        "ISBN13": "9789865190842",
+        "author": "\u65bd\u4f41\u5982",
+        "phouse": "\u9f8d\u9a30\u6587\u5316",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/03/01",
+        "price": 425,
+        "pages": null
+    },
+    {
+        "name": "\u50b5\u6cd5\u5404\u8ad6",
+        "ISBN13": "9789575119423",
+        "author": "\u674e\u6dd1\u660e",
+        "phouse": "\u5143\u7167",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2023/02/13",
+        "price": 680,
+        "pages": 600
+    },
+    {
+        "name": "\u65b0\u7de8\u4e2d\u570b\u54f2\u5b78\u53f2(\u4e00)(\u56db\u7248)",
+        "ISBN13": "9789571453200",
+        "author": "\u52de\u601d\u5149",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2010/03/01",
+        "price": 500,
+        "pages": 408
+    },
+    {
+        "name": "\u6436\u6551\u570b\u6587\u5927\u4f5c\u6230\uff08108\u8ab2\u7db1\u9069\u7528\uff09",
+        "ISBN13": "9789862179222",
+        "author": "\u5f90\u5f18\u7e09-\u7de8",
+        "phouse": "\u9f8d\u9a30\u6587\u5316",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/03/01",
+        "price": 475,
+        "pages": 400
+    },
+    {
         "name": "\u9818\u822a\u9ad8\u4e2d\u82f1\u65871\uff08AB\u4e8c\u518a\uff09",
+        "ISBN13": "9789862179642",
         "author": "\u5321\u5fb7\u52f3;\u5f35\u96c5\u5a77-\u8457",
         "phouse": "\u9f8d\u9a30\u6587\u5316",
         "category": "\u6559\u79d1\u8003\u7528",
@@ -171,12 +190,13 @@
         "pages": null
     },
     {
-        "name": "\u73fe\u4ee3\u516c\u53f8\u6cd5",
-        "author": "\u5289\u9023\u715c",
-        "phouse": "\u65b0\u5b78\u6797",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2022/09/01",
-        "price": 810,
-        "pages": 720
+        "name": "\u9818\u822a\u9ad8\u4e2d\u82f1\u65873\uff08AB\u4e8c\u518a\uff09",
+        "ISBN13": "9789865190637",
+        "author": "\u5321\u5fb7\u52f3;\u99ac\u5de7\u73ca",
+        "phouse": "\u9f8d\u9a30\u6587\u5316",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/06/01",
+        "price": 400,
+        "pages": null
     }
 ]

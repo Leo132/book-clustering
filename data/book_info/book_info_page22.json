@@ -1,69 +1,7 @@
 [
     {
-        "name": "\u65b0\u8b6f\u5468\u6613\u53c3\u540c\u5951(\u4e8c\u7248)",
-        "author": "\u5289\u570b\u6a11-\u6ce8\u8b6f;\u9ec3\u6c9b\u69ae-\u6821\u95b1",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u5b97\u6559\u547d\u7406",
-        "date": "2005/05/01",
-        "price": 190,
-        "pages": 228
-    },
-    {
-        "name": "Sing Along With Me! Head, Shoulders, Knees and Toes (\u786c\u9801\u63a8\u62c9\u66f8)(\u9644\u97f3\u6a94QRcode)",
-        "author": "Yu-hsuan Huang",
-        "phouse": "Nosy Crow UK",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2020/04/02",
-        "price": 384,
-        "pages": 10
-    },
-    {
-        "name": "\u672a\u4f86\u9810\u77e5\u8853",
-        "author": "\u738b\u5fb7\u69d0",
-        "phouse": "\u738b\u5fb7\u69d0",
-        "category": "\u5b97\u6559\u547d\u7406",
-        "date": "2010/09/01",
-        "price": 160,
-        "pages": 49
-    },
-    {
-        "name": "Baloney and Friends: Dream Big! (Book 3)(graphic novel)",
-        "author": "Greg Pizzoli",
-        "phouse": "LITTLE BROWN BOOKS FOR YOUNG R",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2023/01/03",
-        "price": 280,
-        "pages": 96
-    },
-    {
-        "name": "Cookie & Broccoli 2: Play It Cool (graphic novel)",
-        "author": "Bob McMahon",
-        "phouse": "Dial Books for Young Readers",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2021/10/12",
-        "price": 315,
-        "pages": 80
-    },
-    {
-        "name": "Bedtime Rhymes (\u786c\u9801\u66f8)(\u9644\u6b4c\u8b20\u97f3\u6a94QRcode)",
-        "author": "Campbell Books; Joel; Ashley Selby",
-        "phouse": "Campbell Books UK",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2021/04/01",
-        "price": 329,
-        "pages": 10
-    },
-    {
-        "name": "\u6280\u8853\u578b\u9ad8\u4e2d\u6578\u5b78B\u7b2c\u4e00\u518a\u7fd2\u4f5c",
-        "author": "\u65b9\u5fd7\u5143;\u674e\u5fd7\u6587;\u8449\u884d\u4f5c;\u81e7\u4fca\u7dad",
-        "phouse": "\u6771\u5927",
-        "category": "\u79d1\u5b78\u2027\u79d1\u666e",
-        "date": "2019/08/01",
-        "price": 60,
-        "pages": 48
-    },
-    {
         "name": "\u4e00\u6b21\u770b\u7a7f\u90fd\u66f4\u00d7\u5408\u5efa\u5951\u7d04\u9677\u9631\uff1a\u826f\u5fc3\u5f8b\u5e2b\u5c08\u696d\u89e3\u78bc\u8001\u5c4b\u6539\u5efa\u7709\u89d2",
+        "ISBN13": "9789571370408",
         "author": "\u8521\u5fd7\u63da",
         "phouse": "\u6642\u5831\u6587\u5316",
         "category": "\u79d1\u5b78\u2027\u79d1\u666e",
@@ -72,61 +10,38 @@
         "pages": 288
     },
     {
-        "name": "\u6700\u65b0\u7c21\u660e\u82f1\u6f22\u8fad\u5178(\u589e\u8a02\u4e8c\u7248)",
-        "author": "\u9678\u4ee5\u6b63",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u8a9e\u8a00\u5b78\u7fd2",
-        "date": "2015/01/01",
-        "price": 500,
-        "pages": 1416
-    },
-    {
-        "name": "Lulu at the Zoo (\u5e73\u88dd\u7ffb\u7ffb\u66f8)",
-        "author": "Camilla Reid; Ailie Busby",
-        "phouse": "Bloomsbury Childrens UK",
+        "name": "Howl of the Wind Dragon (Dragon Masters #20)(\u5e73\u88dd\u672c)",
+        "ISBN13": "9781338635515",
+        "author": "Tracey West;Tracey West",
+        "phouse": "Scholastic",
         "category": "\u5916\u6587\u66f8",
-        "date": "2018/08/09",
-        "price": 439,
-        "pages": 32
-    },
-    {
-        "name": "\u65b0\u8b6f\u5b8b\u8a5e\u4e09\u767e\u9996",
-        "author": "\u5289\u6176\u96f2 \u6ce8\u8b6f",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u6587\u5b78\u4f5c\u54c1",
-        "date": "2017/06/23",
-        "price": 580,
-        "pages": 800
-    },
-    {
-        "name": "#1: Hilda And The Hidden People (\u5e73\u88dd\u672c)(TV Tie-in)",
-        "author": "Luke Pearson; Stephanie Davies; Seaerra Miller",
-        "phouse": "Flying Eye Books UK",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2019/06/01",
-        "price": 439,
-        "pages": 216
-    },
-    {
-        "name": "Cat & Cat Adventures: Journey Into Unibear City (Book 3)(graphic novel)",
-        "author": "Susie Yi",
-        "phouse": "Harpercollins",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2023/04/25",
-        "price": 315,
+        "date": "2021/11/02",
+        "price": 210,
         "pages": 96
     },
     {
-        "name": "\u6280\u8853\u578b\u9ad8\u4e2d\u6578\u5b78B\u7b2c\u4e00\u518a\u5b78\u7fd2\u8b1b\u7fa9(\u542b\u89e3\u7b54\u672c)",
-        "author": "\u6797\u653f\u8b19-\u7de8\u8457",
-        "phouse": "\u6771\u5927",
-        "category": "\u79d1\u5b78\u2027\u79d1\u666e",
-        "date": "2023/08/01",
-        "price": 125,
-        "pages": 156
+        "name": "Bedtime Rhymes (\u786c\u9801\u66f8)(\u9644\u6b4c\u8b20\u97f3\u6a94QRcode)",
+        "ISBN13": "9781529059939",
+        "author": "Campbell Books; Joel; Ashley Selby",
+        "phouse": "Campbell Books UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2021/04/01",
+        "price": 329,
+        "pages": 10
+    },
+    {
+        "name": "\u5e0c\u81d8\u7f85\u99ac\u795e\u8a71\u6f2b\u756b22\uff1a\u6d77\u514b\u529b\u58eb\u7684\u5341\u4e8c\u9053\u4efb\u52d9",
+        "ISBN13": "9786263581289",
+        "author": "\u6734\u59cb\u9023",
+        "phouse": "\u4e09\u91c7\u6587\u5316",
+        "category": "\u5b97\u6559\u547d\u7406",
+        "date": "2023/08/31",
+        "price": 390,
+        "pages": 196
     },
     {
         "name": "Nintendo\u00ae and Illumination present The Super Mario Bros. Movie Official Storybook",
+        "ISBN13": "9780593646007",
         "author": "Random House",
         "phouse": "Random House Childrens Books",
         "category": "\u5916\u6587\u66f8",
@@ -136,6 +51,7 @@
     },
     {
         "name": "Fox Has a Problem",
+        "ISBN13": "9780063277922",
         "author": "Corey R. Tabor",
         "phouse": "Balzer & Bray",
         "category": "\u5916\u6587\u66f8",
@@ -144,25 +60,38 @@
         "pages": 32
     },
     {
-        "name": "\u5e0c\u81d8\u7f85\u99ac\u795e\u8a71\u6f2b\u756b22\uff1a\u6d77\u514b\u529b\u58eb\u7684\u5341\u4e8c\u9053\u4efb\u52d9",
-        "author": "\u6734\u59cb\u9023",
-        "phouse": "\u4e09\u91c7\u6587\u5316",
-        "category": "\u5b97\u6559\u547d\u7406",
-        "date": "2023/08/31",
-        "price": 390,
-        "pages": 196
+        "name": "#1: Hilda And The Hidden People (\u5e73\u88dd\u672c)(TV Tie-in)",
+        "ISBN13": "9781912497089",
+        "author": "Luke Pearson; Stephanie Davies; Seaerra Miller",
+        "phouse": "Flying Eye Books UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2019/06/01",
+        "price": 439,
+        "pages": 216
     },
     {
-        "name": "Super Cheat Codes and Secret Modes!: A Branches Book (Press Start #11)(\u5e73\u88dd\u672c)",
-        "author": "Thomas Flintham",
-        "phouse": "Scholastic",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2022/01/04",
-        "price": 245,
-        "pages": 80
+        "name": "\u65b0\u8b6f\u5468\u6613\u53c3\u540c\u5951(\u4e8c\u7248)",
+        "ISBN13": "9789571430539",
+        "author": "\u5289\u570b\u6a11-\u6ce8\u8b6f;\u9ec3\u6c9b\u69ae-\u6821\u95b1",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u5b97\u6559\u547d\u7406",
+        "date": "2005/05/01",
+        "price": 190,
+        "pages": 228
+    },
+    {
+        "name": "\u6280\u8853\u578b\u9ad8\u4e2d\u6578\u5b78B\u7b2c\u4e00\u518a\u5b78\u7fd2\u8b1b\u7fa9(\u542b\u89e3\u7b54\u672c)",
+        "ISBN13": "4711289873488",
+        "author": "\u6797\u653f\u8b19-\u7de8\u8457",
+        "phouse": "\u6771\u5927",
+        "category": "\u79d1\u5b78\u2027\u79d1\u666e",
+        "date": "2023/08/01",
+        "price": 125,
+        "pages": 156
     },
     {
         "name": "#17 Isadora Moon Under the Sea (\u96d9\u8272\u5370\u5237\u5e73\u88dd\u672c)(\u82f1\u570b\u7248)",
+        "ISBN13": "9780192788788",
         "author": "Harriet Muncaster",
         "phouse": "Oxford Children's Books UK",
         "category": "\u5916\u6587\u66f8",
@@ -171,12 +100,103 @@
         "pages": 128
     },
     {
-        "name": "Howl of the Wind Dragon (Dragon Masters #20)(\u5e73\u88dd\u672c)",
-        "author": "Tracey West;Tracey West",
+        "name": "\u65b0\u8b6f\u5b8b\u8a5e\u4e09\u767e\u9996",
+        "ISBN13": "9789571462929",
+        "author": "\u5289\u6176\u96f2 \u6ce8\u8b6f",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2017/06/23",
+        "price": 580,
+        "pages": 800
+    },
+    {
+        "name": "Sing Along With Me! Head, Shoulders, Knees and Toes (\u786c\u9801\u63a8\u62c9\u66f8)(\u9644\u97f3\u6a94QRcode)",
+        "ISBN13": "9781788007450",
+        "author": "Yu-hsuan Huang",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2020/04/02",
+        "price": 384,
+        "pages": 10
+    },
+    {
+        "name": "Cat & Cat Adventures: Journey Into Unibear City (Book 3)(graphic novel)",
+        "ISBN13": "9780063083868",
+        "author": "Susie Yi",
+        "phouse": "Harpercollins",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2023/04/25",
+        "price": 315,
+        "pages": 96
+    },
+    {
+        "name": "\u6700\u65b0\u7c21\u660e\u82f1\u6f22\u8fad\u5178(\u589e\u8a02\u4e8c\u7248)",
+        "ISBN13": "9789571459752",
+        "author": "\u9678\u4ee5\u6b63",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u8a9e\u8a00\u5b78\u7fd2",
+        "date": "2015/01/01",
+        "price": 500,
+        "pages": 1416
+    },
+    {
+        "name": "Baloney and Friends: Dream Big! (Book 3)(graphic novel)",
+        "ISBN13": "9780316389778",
+        "author": "Greg Pizzoli",
+        "phouse": "LITTLE BROWN BOOKS FOR YOUNG R",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2023/01/03",
+        "price": 280,
+        "pages": 96
+    },
+    {
+        "name": "\u6280\u8853\u578b\u9ad8\u4e2d\u6578\u5b78B\u7b2c\u4e00\u518a\u7fd2\u4f5c",
+        "ISBN13": "4712780662038",
+        "author": "\u65b9\u5fd7\u5143;\u674e\u5fd7\u6587;\u8449\u884d\u4f5c;\u81e7\u4fca\u7dad",
+        "phouse": "\u6771\u5927",
+        "category": "\u79d1\u5b78\u2027\u79d1\u666e",
+        "date": "2019/08/01",
+        "price": 60,
+        "pages": 48
+    },
+    {
+        "name": "Cookie & Broccoli 2: Play It Cool (graphic novel)",
+        "ISBN13": "9780593529188",
+        "author": "Bob McMahon",
+        "phouse": "Dial Books for Young Readers",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2021/10/12",
+        "price": 315,
+        "pages": 80
+    },
+    {
+        "name": "Super Cheat Codes and Secret Modes!: A Branches Book (Press Start #11)(\u5e73\u88dd\u672c)",
+        "ISBN13": "9781338569025",
+        "author": "Thomas Flintham",
         "phouse": "Scholastic",
         "category": "\u5916\u6587\u66f8",
-        "date": "2021/11/02",
-        "price": 210,
-        "pages": 96
+        "date": "2022/01/04",
+        "price": 245,
+        "pages": 80
+    },
+    {
+        "name": "Lulu at the Zoo (\u5e73\u88dd\u7ffb\u7ffb\u66f8)",
+        "ISBN13": "9781408828175",
+        "author": "Camilla Reid; Ailie Busby",
+        "phouse": "Bloomsbury Childrens UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2018/08/09",
+        "price": 439,
+        "pages": 32
+    },
+    {
+        "name": "\u672a\u4f86\u9810\u77e5\u8853",
+        "ISBN13": "9788881131075",
+        "author": "\u738b\u5fb7\u69d0",
+        "phouse": "\u738b\u5fb7\u69d0",
+        "category": "\u5b97\u6559\u547d\u7406",
+        "date": "2010/09/01",
+        "price": 160,
+        "pages": 49
     }
 ]

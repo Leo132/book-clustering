@@ -1,87 +1,7 @@
 [
     {
-        "name": "\u6b61\u6a02\u7121\u6bd4\uff01\u9eb5\u5305\u5609\u5e74\u83ef",
-        "author": "\u91ce\u5fd7\u660e\u52a0(\u306e\u3057 \u3055\u3084\u304b)-\u8457;\u7c73\u96c5-\u8b6f;\u91ce\u5fd7\u660e\u52a0(\u306e\u3057 \u3055\u3084\u304b)-\u7e6a",
-        "phouse": "\u5c0f\u5c71\u4e18",
-        "category": "\u6587\u5b78\u4f5c\u54c1",
-        "date": "2023/01/31",
-        "price": 350,
-        "pages": 40
-    },
-    {
-        "name": "Jingle Bells-with a light-up star! (\u786c\u9801\u97f3\u6548\u66f8)",
-        "author": "Nicola Slater; Nicola Slater",
-        "phouse": "Nosy Crow UK",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2020/11/05",
-        "price": 604,
-        "pages": 10
-    },
-    {
-        "name": "\u7522\u696d\u7d93\u6fdf\u5b78\uff1a\u7406\u8ad6\u8207\u5be6\u52d9",
-        "author": "\u9673\u6b63\u5009;\u6797\u60e0\u73b2;\u9673\u5fe0\u69ae;\u838a\u6625\u767c",
-        "phouse": "\u96d9\u8449\u66f8\u5eca",
-        "category": "\u8ca1\u7d93\u4f01\u7ba1",
-        "date": "2022/04/01",
-        "price": 760,
-        "pages": 531
-    },
-    {
-        "name": "\u8a69\u7d93\u8a55\u8a3b\u8b80\u672c(\u4e0a)(\u56db\u7248)",
-        "author": "\u88f4\u666e\u8ce2-\u7de8\u8457",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u6587\u5b78\u4f5c\u54c1",
-        "date": "2020/12/18",
-        "price": 430,
-        "pages": 392
-    },
-    {
-        "name": "\u6211\u5bb6\u80fd\u6e90\u5f9e\u54ea\u5152\u4f86\uff1f",
-        "author": "\u514b\u91cc\u65af\u2027\u5df4\u7279\u83ef\u65af(Chris Butterworth);\u9732\u897f\u96c5\u2027\u5609\u5409\u5967\u63d0(Lucia Gaggiotti)\u5716 \u9ec3\u807f\u541b",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
-        "date": "2020/01/17",
-        "price": 299,
-        "pages": 32
-    },
-    {
-        "name": "\u884c\u653f\u5b78(\u4e94\u7248)",
-        "author": "\u5f35\u6f64\u66f8",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2020/05/31",
-        "price": 700,
-        "pages": 816
-    },
-    {
-        "name": "\u884c\u92b7\u5b78\u539f\u7406",
-        "author": "\u66fe\u5149\u83ef;\u9952\u6021\u96f2",
-        "phouse": "\u524d\u7a0b\u6587\u5316\u3008\u524d\u7a0b\u4f01\u7ba1\u3009",
-        "category": "\u8ca1\u7d93\u4f01\u7ba1",
-        "date": "2020/09/01",
-        "price": 580,
-        "pages": 450
-    },
-    {
-        "name": "\u54f2\u5b78\u6982\u8ad6(\u4e8c\u7248)",
-        "author": "\u5180\u528d\u5236 \u8457",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2019/03/29",
-        "price": 350,
-        "pages": 288
-    },
-    {
-        "name": "\u65b0\u7de8\u4e2d\u570b\u54f2\u5b78\u53f2(\u4e8c)(\u56db\u7248)",
-        "author": "\u52de\u601d\u5149",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2012/10/03",
-        "price": 465,
-        "pages": 372
-    },
-    {
         "name": "Maisy Grows a Garden (\u7cbe\u88dd\u62c9\u62c9\u66f8)(\u82f1\u570b\u7248)",
+        "ISBN13": "9781406340860",
         "author": "Lucy Cousins",
         "phouse": "Walker Books",
         "category": "\u5916\u6587\u66f8",
@@ -90,52 +10,8 @@
         "pages": 16
     },
     {
-        "name": "Mario's Big Adventure (Step into Reading Level 3)",
-        "author": "Mary Man-Kong",
-        "phouse": "Random House Childrens Books",
-        "category": "\u5916\u6587\u66f8",
-        "date": "2023/04/11",
-        "price": 210,
-        "pages": 24
-    },
-    {
-        "name": "\u5982\u679c\u6b77\u53f2\u662f\u4e00\u7fa4\u55b512\uff1a\u5143\u672b\u660e\u521d\u7bc7\u3010\u840c\u8c93\u6f2b\u756b\u5b78\u6b77\u53f2\u3011",
-        "author": "\u80a5\u5fd7",
-        "phouse": "\u91ce\u4eba\u6587\u5316",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2023/07/21",
-        "price": 490,
-        "pages": 332
-    },
-    {
-        "name": "\u5b78\u6703\u8d70\u5716SOP\uff1a\u8b93\u6280\u8853\u5206\u6790\u990a\u6211\u4e00\u8f29\u5b50",
-        "author": "\u6797\u7a4e",
-        "phouse": "\u91d1\u5c09",
-        "category": "\u8ca1\u7d93\u4f01\u7ba1",
-        "date": "2023/06/30",
-        "price": 450,
-        "pages": 352
-    },
-    {
-        "name": "\u793e\u6703\u4f01\u696d\u7ba1\u7406",
-        "author": "\u9ec3\u5fb7\u821c",
-        "phouse": "\u6307\u5357\u66f8\u5c40",
-        "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2014/09/01",
-        "price": 550,
-        "pages": 500
-    },
-    {
-        "name": "\u8f15\u9b06\u4e0a\u624b\uff01\u65e5\u8a9e\u4e94\u5341\u97f3\u7fd2\u5b57\u5e16\uff08\u4e8c\u7248\uff09",
-        "author": "\u4e09\u6c11\u65e5\u8a9e\u7de8\u8f2f\u5c0f\u7d44",
-        "phouse": "\u4e09\u6c11\u66f8\u5c40",
-        "category": "\u8a9e\u8a00\u5b78\u7fd2",
-        "date": "2021/07/23",
-        "price": 140,
-        "pages": 112
-    },
-    {
         "name": "\u5168\u570b\u9ad8\u4e2d\u6708\u8003\u671f\u8003\u8a66\u984c\u6316\u6316\u54c7\uff1a\u516c\u6c11\u8207\u793e\u67031",
+        "ISBN13": "9786263120402",
         "author": "\u694a\u93ae;\u9673\u7693",
         "phouse": "\u7ff0\u6797",
         "category": "\u6559\u79d1\u8003\u7528",
@@ -144,7 +20,48 @@
         "pages": null
     },
     {
+        "name": "\u5e95\u5c64\u908f\u8f2f\uff1a\u770b\u6e05\u9019\u500b\u4e16\u754c\u7684\u5e95\u724c",
+        "ISBN13": "9786263350717",
+        "author": "\u5289\u6f64",
+        "phouse": "\u6642\u5831\u6587\u5316",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2022/03/30",
+        "price": 400,
+        "pages": 352
+    },
+    {
+        "name": "\u65b0\u7de8\u4e2d\u570b\u54f2\u5b78\u53f2(\u4e8c)(\u56db\u7248)",
+        "ISBN13": "9789571456614",
+        "author": "\u52de\u601d\u5149",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2012/10/03",
+        "price": 465,
+        "pages": 372
+    },
+    {
+        "name": "\u6211\u5bb6\u80fd\u6e90\u5f9e\u54ea\u5152\u4f86\uff1f",
+        "ISBN13": "9789571466781",
+        "author": "\u514b\u91cc\u65af\u2027\u5df4\u7279\u83ef\u65af(Chris Butterworth);\u9732\u897f\u96c5\u2027\u5609\u5409\u5967\u63d0(Lucia Gaggiotti)\u5716 \u9ec3\u807f\u541b",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
+        "date": "2020/01/17",
+        "price": 299,
+        "pages": 32
+    },
+    {
+        "name": "\u5982\u679c\u6b77\u53f2\u662f\u4e00\u7fa4\u55b512\uff1a\u5143\u672b\u660e\u521d\u7bc7\u3010\u840c\u8c93\u6f2b\u756b\u5b78\u6b77\u53f2\u3011",
+        "ISBN13": "9789863848899",
+        "author": "\u80a5\u5fd7",
+        "phouse": "\u91ce\u4eba\u6587\u5316",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2023/07/21",
+        "price": 490,
+        "pages": 332
+    },
+    {
         "name": "Twinkle Twinkle Little Star (\u786c\u9801\u97f3\u6548\u66f8)",
+        "ISBN13": "9781788003407",
         "author": "Nicola Slater",
         "phouse": "Nosy Crow UK",
         "category": "\u5916\u6587\u66f8",
@@ -153,7 +70,38 @@
         "pages": 12
     },
     {
+        "name": "\u54f2\u5b78\u6982\u8ad6(\u4e8c\u7248)",
+        "ISBN13": "9789571465852",
+        "author": "\u5180\u528d\u5236 \u8457",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2019/03/29",
+        "price": 350,
+        "pages": 288
+    },
+    {
+        "name": "Mario's Big Adventure (Step into Reading Level 3)",
+        "ISBN13": "9780593646014",
+        "author": "Mary Man-Kong",
+        "phouse": "Random House Childrens Books",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2023/04/11",
+        "price": 210,
+        "pages": 24
+    },
+    {
+        "name": "\u6b61\u6a02\u7121\u6bd4\uff01\u9eb5\u5305\u5609\u5e74\u83ef",
+        "ISBN13": "9786263078406",
+        "author": "\u91ce\u5fd7\u660e\u52a0(\u306e\u3057 \u3055\u3084\u304b)-\u8457;\u7c73\u96c5-\u8b6f;\u91ce\u5fd7\u660e\u52a0(\u306e\u3057 \u3055\u3084\u304b)-\u7e6a",
+        "phouse": "\u5c0f\u5c71\u4e18",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2023/01/31",
+        "price": 350,
+        "pages": 40
+    },
+    {
         "name": "\u6c11\u6cd5\u6982\u8981(\u4fee\u8a02\u5341\u516d\u7248)",
+        "ISBN13": "9789571933528",
         "author": "\u912d\u7389\u6ce2-\u8457;\u9ec3\u5b97\u6a02;\u694a\u5b8f\u6689-\u4fee\u8a02",
         "phouse": "\u6771\u5927",
         "category": "\u793e\u6703\u4eba\u6587",
@@ -162,7 +110,38 @@
         "pages": 472
     },
     {
+        "name": "\u8f15\u9b06\u4e0a\u624b\uff01\u65e5\u8a9e\u4e94\u5341\u97f3\u7fd2\u5b57\u5e16\uff08\u4e8c\u7248\uff09",
+        "ISBN13": "9789571472324",
+        "author": "\u4e09\u6c11\u65e5\u8a9e\u7de8\u8f2f\u5c0f\u7d44",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u8a9e\u8a00\u5b78\u7fd2",
+        "date": "2021/07/23",
+        "price": 140,
+        "pages": 112
+    },
+    {
+        "name": "\u793e\u6703\u4f01\u696d\u7ba1\u7406",
+        "ISBN13": "9789866085451",
+        "author": "\u9ec3\u5fb7\u821c",
+        "phouse": "\u6307\u5357\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2014/09/01",
+        "price": 550,
+        "pages": 500
+    },
+    {
+        "name": "\u8a69\u7d93\u8a55\u8a3b\u8b80\u672c(\u4e0a)(\u56db\u7248)",
+        "ISBN13": "9789571469607",
+        "author": "\u88f4\u666e\u8ce2-\u7de8\u8457",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2020/12/18",
+        "price": 430,
+        "pages": 392
+    },
+    {
         "name": "\u57fa\u790e\u82f1\u6587\u5b57\u5f59\u529b2000\u96a8\u8eab\u8b80(\u4e8c\u7248)",
+        "ISBN13": "9789571475226",
         "author": "\u4e09\u6c11\u82f1\u8a9e\u7de8\u8f2f\u5c0f\u7d44-\u5f59\u6574",
         "phouse": "\u4e09\u6c11\u66f8\u5c40",
         "category": "\u8a9e\u8a00\u5b78\u7fd2",
@@ -171,12 +150,53 @@
         "pages": 480
     },
     {
-        "name": "\u5e95\u5c64\u908f\u8f2f\uff1a\u770b\u6e05\u9019\u500b\u4e16\u754c\u7684\u5e95\u724c",
-        "author": "\u5289\u6f64",
-        "phouse": "\u6642\u5831\u6587\u5316",
+        "name": "\u884c\u653f\u5b78(\u4e94\u7248)",
+        "ISBN13": "9789571467030",
+        "author": "\u5f35\u6f64\u66f8",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
         "category": "\u793e\u6703\u4eba\u6587",
-        "date": "2022/03/30",
-        "price": 400,
+        "date": "2020/05/31",
+        "price": 700,
+        "pages": 816
+    },
+    {
+        "name": "\u7522\u696d\u7d93\u6fdf\u5b78\uff1a\u7406\u8ad6\u8207\u5be6\u52d9",
+        "ISBN13": "9789865492328",
+        "author": "\u9673\u6b63\u5009;\u6797\u60e0\u73b2;\u9673\u5fe0\u69ae;\u838a\u6625\u767c",
+        "phouse": "\u96d9\u8449\u66f8\u5eca",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2022/04/01",
+        "price": 760,
+        "pages": 531
+    },
+    {
+        "name": "\u884c\u92b7\u5b78\u539f\u7406",
+        "ISBN13": "9789869947510",
+        "author": "\u66fe\u5149\u83ef;\u9952\u6021\u96f2",
+        "phouse": "\u524d\u7a0b\u6587\u5316\u3008\u524d\u7a0b\u4f01\u7ba1\u3009",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2020/09/01",
+        "price": 580,
+        "pages": 450
+    },
+    {
+        "name": "Jingle Bells-with a light-up star! (\u786c\u9801\u97f3\u6548\u66f8)",
+        "ISBN13": "9781788007665",
+        "author": "Nicola Slater; Nicola Slater",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2020/11/05",
+        "price": 604,
+        "pages": 10
+    },
+    {
+        "name": "\u5b78\u6703\u8d70\u5716SOP\uff1a\u8b93\u6280\u8853\u5206\u6790\u990a\u6211\u4e00\u8f29\u5b50",
+        "ISBN13": "9786269744015",
+        "author": "\u6797\u7a4e",
+        "phouse": "\u91d1\u5c09",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2023/06/30",
+        "price": 450,
         "pages": 352
     }
 ]
