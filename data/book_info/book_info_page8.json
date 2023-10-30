@@ -1,142 +1,182 @@
 [
     {
-        "name": "Bizzy Bear: DIY Day (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
-        "price": 384,
-        "category": null,
-        "pages": 10,
-        "date": "2016/05/05"
-    },
-    {
-        "name": "\u5b78\u6e2c\u6b77\u5c46\u8a66\u984c\uff1a\u793e\u6703\u8003\u79d1\uff08\u9644\u89e3\u7b54\u672c\uff09",
-        "price": 230,
-        "category": null,
-        "pages": 245,
-        "date": "2023/04/01"
-    },
-    {
-        "name": "\u5168\u570b\u9ad8\u4e2d\u6708\u8003\u671f\u8003\u8a66\u984c\u6316\u6316\u54c7\uff1a\u570b\u65871",
-        "price": 245,
-        "category": null,
-        "pages": 103,
-        "date": "2023/06/01"
-    },
-    {
-        "name": "Bizzy Bear: Snow Fun (\u786c\u9801\u66f8)(\u82f1\u570b\u7248) *\u9644\u97f3\u6a94QRCode*",
-        "price": 384,
-        "category": null,
-        "pages": 10,
-        "date": "2021/11/04"
-    },
-    {
-        "name": "\u521d\u7d1a\u7d71\u8a08\u5b78\uff1a\u89e3\u958b\u751f\u6d3b\u4e2d\u7684\u6578\u5b57\u5bc6\u78bc(\u4fee\u8a02\u4e8c\u7248)",
-        "price": 570,
-        "category": "\u7d71\u8a08\u5b78\u7e3d\u8ad6",
-        "pages": 500,
-        "date": "2020/06/05"
-    },
-    {
-        "name": "Bizzy Bear: Fun Park (\u786c\u9801\u66f8)(\u82f1\u570b\u7248) *\u9644\u97f3\u6a94QRCode*",
-        "price": 384,
-        "category": null,
-        "pages": 10,
-        "date": "2022/01/01"
-    },
-    {
-        "name": "Meekoo And The Big Red Potty (\u786c\u9801\u97f3\u6548\u66f8)",
-        "price": 604,
-        "category": null,
-        "pages": 10,
-        "date": "2019/04/04"
-    },
-    {
-        "name": "\u6708\u8003\u738b\uff1a\u516c\u6c11\u8207\u793e\u67031\u4e59\u7248",
-        "price": 225,
-        "category": null,
-        "pages": null,
-        "date": "2023/06/01"
-    },
-    {
-        "name": "\u897f\u904a\u8a18(\u4e0a/\u4e0b)(\u4e09\u7248)",
-        "price": 360,
-        "category": "\u795e\u9b54\u5fd7\u602a\u985e",
-        "pages": 1204,
-        "date": "2007/09/01"
-    },
-    {
-        "name": "\u5168\u570b\u9ad8\u4e2d\u6708\u8003\u671f\u8003\u8a66\u984c\u6316\u6316\u54c7\uff1a\u6b77\u53f21",
-        "price": 255,
-        "category": null,
-        "pages": 104,
-        "date": "2023/06/01"
-    },
-    {
         "name": "\u597d\u5403\u7684\u670d\u88dd\u5e97\uff1a\u751c\u871c\u6b61\u6a02\u821e\u6703",
+        "author": "\u91ce\u5fd7\u660e\u52a0(\u306e\u3057\u3055\u3084\u304b)-\u6587\u5716;\u7c73\u96c5-\u8b6f",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
+        "date": "2018/07/10",
         "price": 299,
-        "category": "\u5716\u756b\u6545\u4e8b",
-        "pages": 40,
-        "date": "2018/07/10"
-    },
-    {
-        "name": "\u50b5\u6cd5\u7e3d\u8ad6\u65b0\u89e3\uff1a\u9ad4\u7cfb\u5316\u89e3\u8aaa\uff08\u4e0a\uff09",
-        "price": 650,
-        "category": "\u50b5\u53ca\u50b5\u6b0a",
-        "pages": 650,
-        "date": "2020/02/01"
-    },
-    {
-        "name": "Bizzy Bear: Fire Rescue (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
-        "price": 384,
-        "category": null,
-        "pages": 10,
-        "date": "2013/01/01"
-    },
-    {
-        "name": "KUSO\u82f1\u6587\u6cd5",
-        "price": 400,
-        "category": null,
-        "pages": 352,
-        "date": "2023/07/01"
-    },
-    {
-        "name": "Nintendo\u00ae and Illumination present The Super Mario Bros. Movie Official Activity Book",
-        "price": 280,
-        "category": null,
-        "pages": 48,
-        "date": "2023/04/11"
-    },
-    {
-        "name": "Baby's Very First Nature Sounds Playbook (\u786c\u9801\u89f8\u6478\u97f3\u6548\u66f8)",
-        "price": 899,
-        "category": null,
-        "pages": 10,
-        "date": "2017/06/01"
-    },
-    {
-        "name": "\u4eac\u90fd\u4e00\u5e74(\u56db\u7248)",
-        "price": 430,
-        "category": "\u6563\u6587",
-        "pages": 288,
-        "date": "2023/08/30"
-    },
-    {
-        "name": "\u597d\u5403\u7684\u670d\u88dd\u5e97",
-        "price": 329,
-        "category": "\u5716\u756b\u6545\u4e8b",
-        "pages": 40,
-        "date": "2017/12/12"
+        "pages": 40
     },
     {
         "name": "Bizzy Bear: Spooky House (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
+        "author": "Benji Davies",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2016/09/01",
         "price": 384,
-        "category": null,
-        "pages": 10,
-        "date": "2016/09/01"
+        "pages": 10
+    },
+    {
+        "name": "Bizzy Bear: Fun Park (\u786c\u9801\u66f8)(\u82f1\u570b\u7248) *\u9644\u97f3\u6a94QRCode*",
+        "author": "Benji Davies",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2022/01/01",
+        "price": 384,
+        "pages": 10
+    },
+    {
+        "name": "Meekoo And The Big Red Potty (\u786c\u9801\u97f3\u6548\u66f8)",
+        "author": "Camilla Reid; Nicola Slater",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2019/04/04",
+        "price": 604,
+        "pages": 10
+    },
+    {
+        "name": "Bizzy Bear: Snow Fun (\u786c\u9801\u66f8)(\u82f1\u570b\u7248) *\u9644\u97f3\u6a94QRCode*",
+        "author": "Benji Davies",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2021/11/04",
+        "price": 384,
+        "pages": 10
     },
     {
         "name": "\u61b2\u6cd5\u89e3\u984c\u66f8",
+        "author": "\u6b50\u5f8b\u5e2b",
+        "phouse": "\u9ad8\u9ede\u6587\u5316",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2023/06/15",
         "price": 680,
-        "category": "\u4e2d\u570b\u61b2\u6cd5",
-        "pages": 640,
-        "date": "2023/06/15"
+        "pages": 640
+    },
+    {
+        "name": "KUSO\u82f1\u6587\u6cd5",
+        "author": "\u8521\u9d3b\u660e-\u7b49",
+        "phouse": "\u9f8d\u9a30\u6587\u5316",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/07/01",
+        "price": 400,
+        "pages": 352
+    },
+    {
+        "name": "\u5168\u570b\u9ad8\u4e2d\u6708\u8003\u671f\u8003\u8a66\u984c\u6316\u6316\u54c7\uff1a\u570b\u65871",
+        "author": "\u6797\u8046\u6148-\u7de8",
+        "phouse": "\u7ff0\u6797",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/06/01",
+        "price": 245,
+        "pages": 103
+    },
+    {
+        "name": "\u521d\u7d1a\u7d71\u8a08\u5b78\uff1a\u89e3\u958b\u751f\u6d3b\u4e2d\u7684\u6578\u5b57\u5bc6\u78bc(\u4fee\u8a02\u4e8c\u7248)",
+        "author": "\u5442\u5ca1\u73b6;\u694a\u4f51\u5091",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2020/06/05",
+        "price": 570,
+        "pages": 500
+    },
+    {
+        "name": "Baby's Very First Nature Sounds Playbook (\u786c\u9801\u89f8\u6478\u97f3\u6548\u66f8)",
+        "author": "Fiona Watt; Stella Baggott",
+        "phouse": "Usborne Pub Ltd",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2017/06/01",
+        "price": 899,
+        "pages": 10
+    },
+    {
+        "name": "\u897f\u904a\u8a18(\u4e0a/\u4e0b)(\u4e09\u7248)",
+        "author": "\u5433\u627f\u6069-\u64b0;\u7e46\u5929\u83ef-\u6821\u6ce8",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u53e4\u5178\u540d\u8457",
+        "date": "2007/09/01",
+        "price": 360,
+        "pages": 1204
+    },
+    {
+        "name": "\u4eac\u90fd\u4e00\u5e74(\u56db\u7248)",
+        "author": "\u6797\u6587\u6708-\u8457",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2023/08/30",
+        "price": 430,
+        "pages": 288
+    },
+    {
+        "name": "Nintendo\u00ae and Illumination present The Super Mario Bros. Movie Official Activity Book",
+        "author": "Random House",
+        "phouse": "Random House Childrens Books",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2023/04/11",
+        "price": 280,
+        "pages": 48
+    },
+    {
+        "name": "\u50b5\u6cd5\u7e3d\u8ad6\u65b0\u89e3\uff1a\u9ad4\u7cfb\u5316\u89e3\u8aaa\uff08\u4e0a\uff09",
+        "author": "\u6797\u8aa0\u4e8c",
+        "phouse": "\u745e\u8208\u5716\u66f8",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2020/02/01",
+        "price": 650,
+        "pages": 650
+    },
+    {
+        "name": "\u597d\u5403\u7684\u670d\u88dd\u5e97",
+        "author": "\u91ce\u5fd7\u660e\u52a0(\u306e\u3057\u3055\u3084\u304b)-\u6587\u5716;\u8607\u61ff\u798e-\u8b6f",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
+        "date": "2017/12/12",
+        "price": 329,
+        "pages": 40
+    },
+    {
+        "name": "Bizzy Bear: DIY Day (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
+        "author": "Benji Davies",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2016/05/05",
+        "price": 384,
+        "pages": 10
+    },
+    {
+        "name": "\u6708\u8003\u738b\uff1a\u516c\u6c11\u8207\u793e\u67031\u4e59\u7248",
+        "author": "\u9ad8\u6167\u5982;\u7f85\u61f7\u502b;\u6797\u5927\u96c4",
+        "phouse": "\u9f8d\u9a30\u6587\u5316",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/06/01",
+        "price": 225,
+        "pages": null
+    },
+    {
+        "name": "\u5168\u570b\u9ad8\u4e2d\u6708\u8003\u671f\u8003\u8a66\u984c\u6316\u6316\u54c7\uff1a\u6b77\u53f21",
+        "author": "\u9673\u79c0\u73cd",
+        "phouse": "\u7ff0\u6797",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/06/01",
+        "price": 255,
+        "pages": 104
+    },
+    {
+        "name": "\u5b78\u6e2c\u6b77\u5c46\u8a66\u984c\uff1a\u793e\u6703\u8003\u79d1\uff08\u9644\u89e3\u7b54\u672c\uff09",
+        "author": "\u5404\u6821\u540d\u5e2b-\u806f\u5408\u89e3\u984c\u7de8\u5be9",
+        "phouse": "\u7ff0\u6797",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/04/01",
+        "price": 230,
+        "pages": 245
+    },
+    {
+        "name": "Bizzy Bear: Fire Rescue (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
+        "author": "Benji Davies",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2013/01/01",
+        "price": 384,
+        "pages": 10
     }
 ]

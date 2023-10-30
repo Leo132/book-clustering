@@ -1,142 +1,182 @@
 [
     {
+        "name": "\u6c11\u4e8b\u8a34\u8a1f\u6cd5",
+        "author": "\u5442\u592a\u90ce",
+        "phouse": "\u5143\u7167",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2022/03/01",
+        "price": 950,
+        "pages": 936
+    },
+    {
         "name": "\u591c\u95cc\u4eac\u83ef(\u51682\u518a)\uff08\u7c21\u9ad4\u66f8\uff09",
+        "author": "\u58a8\u5bf6\u975e\u5bf6",
+        "phouse": "\u82b1\u5c71\u6587\u85dd\u51fa\u7248\u793e",
+        "category": "\u7c21\u9ad4\u66f8",
+        "date": "2023/07/01",
         "price": 534,
-        "category": "\u65b0\u9ad4\u9577\u7bc7\u3001\u4e2d\u7bc7\u5c0f\u8aaa",
-        "pages": 566,
-        "date": "2023/07/01"
-    },
-    {
-        "name": "\u65b0\u95dc\u9375\u5716\u89e3\u7269\u7406\u5b78\u6e2c\u7e3d\u8907\u7fd2\u8b1b\u7fa9",
-        "price": 400,
-        "category": null,
-        "pages": null,
-        "date": "2023/03/01"
-    },
-    {
-        "name": "\u89e3\u8b80\u6613\u7d93\u7684\u5967\u7955\u5377\u4e00\uff1a\u6613\u7d93\u771f\u7684\u5f88\u5bb9\u6613",
-        "price": 550,
-        "category": "\u6613\u7d93",
-        "pages": 168,
-        "date": "2014/10/30"
-    },
-    {
-        "name": "\u6703\u8a08\u5b78\u65b0\u8ad6\uff08\u4e0a\uff09",
-        "price": 680,
-        "category": "\u6703\u8a08\u5b78",
-        "pages": 636,
-        "date": "2023/05/22"
-    },
-    {
-        "name": "\u8fd1\u4e94\u5e74\u82f1\u6587\u5b78\u6e2c\uff0f\u6307\u8003\u8a66\u984c\u8a73\u89e3\uff0d\u8a66\u984c\u672c\uff0b\u8a73\u89e3\u672c\uff08112\u5e74\u7248\uff09",
-        "price": 380,
-        "category": "\u4e2d\u5b78\u6559\u5b78\u6cd5",
-        "pages": 504,
-        "date": "2023/03/10"
-    },
-    {
-        "name": "\u5929\u5a66\u7f85\u5967\u904b\u6703",
-        "price": 329,
-        "category": "\u5716\u756b\u6545\u4e8b",
-        "pages": 32,
-        "date": "2019/07/26"
-    },
-    {
-        "name": "\u6253\u9020\u5275\u65b0\u8def\u5f91\uff1a\u6539\u8b8a\u4e16\u754c\u7684\u53f0\u7063\u79d1\u6280\u7522\u696d",
-        "price": 420,
-        "category": "\u6a5f\u68b0\u696d\uff1b\u96fb\u6a5f\u8cc7\u8a0a\u696d",
-        "pages": 428,
-        "date": "2021/01/21"
-    },
-    {
-        "name": "\u5410\u53f8\u5fcd\u8005",
-        "price": 329,
-        "category": "\u5716\u756b\u6545\u4e8b",
-        "pages": 40,
-        "date": "2019/08/23"
+        "pages": 566
     },
     {
         "name": "\u6559\u80b2\u5fc3\u7406\u5b78(\u4fee\u8a02\u56db\u7248)",
+        "author": "\u6eab\u4e16\u980c",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2018/01/31",
         "price": 480,
-        "category": "\u6559\u80b2\u5fc3\u7406\u5b78\uff1b\u6559\u5b78\uff1b\u8ab2\u7a0b",
-        "pages": 456,
-        "date": "2018/01/31"
+        "pages": 456
     },
     {
         "name": "\u4f60\u4e5f\u53ef\u4ee5\u5b58100\u5f35\u91d1\u878d\u80a1\uff1a\u990a\u51fa\u9000\u4f11\u91d1\u96de\u6bcd \u6253\u9020\u9818\u606f\u597d\u65e5\u5b50",
+        "author": "\u9673\u91cd\u9298",
+        "phouse": "\u91d1\u5c09",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2023/08/28",
         "price": 400,
-        "category": "\u6295\u8cc7\u8207\u8b49\u5238",
-        "pages": 320,
-        "date": "2023/08/28"
+        "pages": 320
     },
     {
-        "name": "\u61b2\u6cd5\u5b78\u91cb\u8ad6\uff08\u589e\u8a02\u5341\u7248\uff09",
-        "price": 1000,
-        "category": "\u4e2d\u570b\u61b2\u6cd5",
-        "pages": 880,
-        "date": "2022/04/06"
-    },
-    {
-        "name": "\u884c\u653f\u6cd5\u8b1b\u7fa9",
-        "price": 630,
-        "category": "\u884c\u653f\u6cd5",
-        "pages": null,
-        "date": "2022/09/01"
-    },
-    {
-        "name": "\u5168\u570b\u9ad8\u4e2d\u6708\u8003\u671f\u8003\u8a66\u984c\u6316\u6316\u54c7\uff1a\u7269\u7406\uff08\u5168\uff09",
-        "price": 285,
-        "category": null,
-        "pages": null,
-        "date": "2023/06/01"
-    },
-    {
-        "name": "\u6c11\u4e8b\u8a34\u8a1f\u6cd5",
-        "price": 950,
-        "category": "\u6c11\u4e8b\u8a34\u8a1f\u6cd5",
-        "pages": 936,
-        "date": "2022/03/01"
-    },
-    {
-        "name": "\u7d93\u6fdf\u5b78\u6982\u8ad6",
-        "price": 530,
-        "category": "\u7d93\u6fdf\u5b78\u7e3d\u8ad6",
-        "pages": 384,
-        "date": "2020/04/01"
-    },
-    {
-        "name": "\u65b0\u8b6f\u5510\u50b3\u5947\u9078(\u4e8c\u7248)",
-        "price": 300,
-        "category": "\u7b46\u8a18\u5c0f\u8aaa\uff1a\u96dc\u4e8b",
-        "pages": 560,
-        "date": "2008/02/01"
+        "name": "\u6703\u8a08\u5b78\u65b0\u8ad6\uff08\u4e0a\uff09",
+        "author": "\u674e\u5b97\u9ece;\u6797\u8559\u771f",
+        "phouse": "\u8a3c\u696d",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2023/05/22",
+        "price": 680,
+        "pages": 636
     },
     {
         "name": "Bizzy Bear: Pizza Time (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
+        "author": "Benji Davies",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2021/02/04",
         "price": 384,
-        "category": null,
-        "pages": 10,
-        "date": "2021/02/04"
+        "pages": 10
+    },
+    {
+        "name": "\u5929\u5a66\u7f85\u5967\u904b\u6703",
+        "author": "\u91ce\u5fd7\u660e\u52a0(\u306e\u3057\u3055\u3084\u304b)-\u6587\u5716;\u7c73\u96c5-\u8b6f",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
+        "date": "2019/07/26",
+        "price": 329,
+        "pages": 32
+    },
+    {
+        "name": "\u6253\u9020\u5275\u65b0\u8def\u5f91\uff1a\u6539\u8b8a\u4e16\u754c\u7684\u53f0\u7063\u79d1\u6280\u7522\u696d",
+        "author": "\u6d2a\u4e16\u7ae0",
+        "phouse": "\u806f\u7d93",
+        "category": "\u79d1\u5b78\u2027\u79d1\u666e",
+        "date": "2021/01/21",
+        "price": 420,
+        "pages": 428
+    },
+    {
+        "name": "\u65b0\u95dc\u9375\u5716\u89e3\u7269\u7406\u5b78\u6e2c\u7e3d\u8907\u7fd2\u8b1b\u7fa9",
+        "author": "\u5f90\u5065\u502b;\u8a31\u51a0\u5091;\u5f35\u9d3b\u5091;\u5433\u932b\u73a0",
+        "phouse": "\u9f8d\u9a30\u6587\u5316",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/03/01",
+        "price": 400,
+        "pages": null
+    },
+    {
+        "name": "\u65b0\u8b6f\u5510\u50b3\u5947\u9078(\u4e8c\u7248)",
+        "author": "\u675f\u5ff1;\u5f35\u5b8f\u751f-\u6ce8\u8b6f;\u4faf\u8ffa\u6167-\u6821\u95b1",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2008/02/01",
+        "price": 300,
+        "pages": 560
+    },
+    {
+        "name": "\u8fd1\u4e94\u5e74\u82f1\u6587\u5b78\u6e2c\uff0f\u6307\u8003\u8a66\u984c\u8a73\u89e3\uff0d\u8a66\u984c\u672c\uff0b\u8a73\u89e3\u672c\uff08112\u5e74\u7248\uff09",
+        "author": "\u8cf4\u4e16\u96c4",
+        "phouse": "\u5e38\u6625\u85e4\u6709\u8072",
+        "category": "\u8a9e\u8a00\u5b78\u7fd2",
+        "date": "2023/03/10",
+        "price": 380,
+        "pages": 504
+    },
+    {
+        "name": "\u5410\u53f8\u5fcd\u8005",
+        "author": "\u82c5\u7530\u6f84\u5b50-\u6587;\u6728\u679c\u5b50(\u30e2\u30ab\u5b50)\u5716",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u4e09\u6c11\u51fa\u7248\u54c1",
+        "date": "2019/08/23",
+        "price": 329,
+        "pages": 40
+    },
+    {
+        "name": "\u61b2\u6cd5\u5b78\u91cb\u8ad6\uff08\u589e\u8a02\u5341\u7248\uff09",
+        "author": "\u9673\u65b0\u6c11",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2022/04/06",
+        "price": 1000,
+        "pages": 880
+    },
+    {
+        "name": "\u5168\u570b\u9ad8\u4e2d\u6708\u8003\u671f\u8003\u8a66\u984c\u6316\u6316\u54c7\uff1a\u7269\u7406\uff08\u5168\uff09",
+        "author": "\u90ed\u52c1",
+        "phouse": "\u7ff0\u6797",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/06/01",
+        "price": 285,
+        "pages": null
     },
     {
         "name": "\u9023\u623f\u4ef2\u90fd\u8aaa\u8b9a\uff01\u8a31\u4ee3\u66f8\u6559\u4f60\u5f9e\u8cb7\u8ce3\u5230\u7e7c\u627f\u7684\u623f\u5730\u7522\u5927\u5c0f\u4e8b\uff1a80%\u7684\u4eba\u90fd\u4e0d\u77e5\u9053\u7684\uff0c\u4e0d\u5403\u8667\u3001\u4e0d\u53d7\u9a19\u7684\u623f\u5730\u7522\u7709\u7709\u89d2\u89d2\uff082023\u5e74\u6700\u65b0\u6cd5\u898f\u589e\u8a02\u7248\uff09",
+        "author": "\u8a31\u54f2\u745d",
+        "phouse": "\u8ca1\u7d93\u50b3\u8a0a",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2023/08/31",
         "price": 399,
-        "category": "\u571f\u5730\u7d93\u6fdf",
-        "pages": 272,
-        "date": "2023/08/31"
+        "pages": 272
+    },
+    {
+        "name": "\u7d93\u6fdf\u5b78\u6982\u8ad6",
+        "author": "\u90ed\u570b\u8208;\u674e\u653f\u5fb7;\u9673\u52c7\u8afa",
+        "phouse": "\u96d9\u8449\u66f8\u5eca",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2020/04/01",
+        "price": 530,
+        "pages": 384
     },
     {
         "name": "\u7834\u64ca\u5047\u65b0\u805e\uff1a\u89e3\u6790\u6578\u4f4d\u6642\u4ee3\u7684\u5a92\u9ad4\u8207\u8cc7\u8a0a\u64cd\u63a7(\u4fee\u8a02\u4e8c\u7248)",
+        "author": "\u8607\u8605;\u9673\u767e\u9f61;\u738b\u6dd1\u7f8e;\u912d\u5b87\u541b;\u5289\u8559\u82d3-\u8457",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2022/05/25",
         "price": 340,
-        "category": "\u65b0\u805e\u5b78\u7e3d\u8ad6",
-        "pages": 224,
-        "date": "2022/05/25"
+        "pages": 224
     },
     {
         "name": "CIA Review \u7b2c\u4e00\u79d1\u5167\u90e8\u7a3d\u6838\u672c\u8cea\uff082019\u7248\uff09",
+        "author": "GLEIM; IRVIN N.",
+        "phouse": "\u5167\u90e8\u7a3d\u6838\u5354\u6703",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2019/07/01",
         "price": 1500,
-        "category": "\u8ca1\u52d9\u7ba1\u7406\uff1b\u7d93\u71df\u8ca1\u52d9",
-        "pages": 190,
-        "date": "2019/07/01"
+        "pages": 190
+    },
+    {
+        "name": "\u89e3\u8b80\u6613\u7d93\u7684\u5967\u7955\u5377\u4e00\uff1a\u6613\u7d93\u771f\u7684\u5f88\u5bb9\u6613",
+        "author": "\u66fe\u4ed5\u5f37-\u8457;\u9673\u7948\u5ef7-\u7de8\u8457",
+        "phouse": "\u66fe\u4ed5\u5f37\u6587\u5316",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2014/10/30",
+        "price": 550,
+        "pages": 168
+    },
+    {
+        "name": "\u884c\u653f\u6cd5\u8b1b\u7fa9",
+        "author": "\u6797\u660e\u93d8",
+        "phouse": "\u65b0\u5b78\u6797",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2022/09/01",
+        "price": 630,
+        "pages": null
     }
 ]

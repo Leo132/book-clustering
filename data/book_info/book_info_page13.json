@@ -1,142 +1,182 @@
 [
     {
-        "name": "\u65b0\u8b6f\u5999\u6cd5\u84ee\u83ef\u7d93(\u4e8c\u7248)",
-        "price": 430,
-        "category": "\u6cd5\u83ef\u90e8",
-        "pages": 600,
-        "date": "2007/02/01"
-    },
-    {
-        "name": "Meekoo and the Muddy Farm (\u786c\u9801\u97f3\u6548\u66f8)",
-        "price": 549,
-        "category": null,
-        "pages": 10,
-        "date": "2022/02/03"
-    },
-    {
-        "name": "\u6838\u5fc3\u82f1\u6587\u5b57\u5f59\u529b2001\uff5e4500 (\u9644100\u56de\u7fd2\u984c\u672c\u9644\u518a)(\u4e09\u7248)",
-        "price": 390,
-        "category": "\u82f1\u8a9e",
-        "pages": 608,
-        "date": "2023/03/29"
-    },
-    {
-        "name": "\u65b0\u8b6f\u8001\u5b50\u8b80\u672c(\u4fee\u8a02\u4e09\u7248)",
-        "price": 210,
-        "category": "\u9053\u5bb6",
-        "pages": 208,
-        "date": "2014/11/19"
+        "name": "Bizzy Bear My First Memory Game: Animals (with 36 Sliders)",
+        "author": "Benji Davies",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2022/03/01",
+        "price": 714,
+        "pages": 12
     },
     {
         "name": "\u4eca\u6587\u89c0\u6b62\uff1a\u8a66\u5f9e\u6545\u7d19\u770b\u4eca\u671d",
+        "author": "\u5f35\u4f5c\u9326",
+        "phouse": "\u5929\u4e0b\u6587\u5316",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2022/12/30",
         "price": 500,
-        "category": "\u5404\u570b\u793e\u6703\u53f2",
-        "pages": 376,
-        "date": "2022/12/30"
-    },
-    {
-        "name": "\u65b0\u8b6f\u5e1b\u66f8\u8001\u5b50",
-        "price": 660,
-        "category": "\u9053\u5bb6",
-        "pages": 552,
-        "date": "2018/01/02"
-    },
-    {
-        "name": "Maisy's Animals: A First Words Book (\u786c\u9801\u66f8)(\u7f8e\u570b\u7248)",
-        "price": 350,
-        "category": null,
-        "pages": 20,
-        "date": "2020/04/14"
-    },
-    {
-        "name": "Don't Tickle the Bear! (\u786c\u9801\u89f8\u6478\u97f3\u6548\u66f8)",
-        "price": 714,
-        "category": null,
-        "pages": 10,
-        "date": "2021/07/08"
-    },
-    {
-        "name": "\u5abd\u5abd\u7684\u8aaa\u8a71\u7df4\u7fd2\uff1a\u767e\u842c\u6309\u8b9a\u80af\u5b9a\uff01\u8aaa\u5c0d\u4e00\u53e5\u8a71\uff0c\u795d\u798f\u5b69\u5b50\u4e00\u751f\uff08\u9644\u8d08\u89aa\u5b50\u6e1b\u58d3\u6e9d\u901a\u7df4\u7fd2\u624b\u518a\uff09",
-        "price": 370,
-        "category": "\u5bb6\u5ead\u6559\u80b2",
-        "pages": 224,
-        "date": "2023/05/01"
-    },
-    {
-        "name": "Maisy Explores: A First Words Book (\u786c\u9801\u66f8)(\u7f8e\u570b\u7248)",
-        "price": 315,
-        "category": null,
-        "pages": 20,
-        "date": "2020/04/21"
-    },
-    {
-        "name": "Maisy's Nursery (\u786c\u9801\u5834\u666f\u66f8)(\u82f1\u570b\u7248)",
-        "price": 439,
-        "category": null,
-        "pages": 16,
-        "date": "2019/06/06"
-    },
-    {
-        "name": "Bizzy Bear: Happy Holiday (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
-        "price": 384,
-        "category": null,
-        "pages": 10,
-        "date": "2014/06/09"
-    },
-    {
-        "name": "Bizzy Bear: Breakdown Truck (\u786c\u9801\u66f8)(\u82f1\u570b\u7248) *\u9644\u97f3\u6a94QRCode*",
-        "price": 384,
-        "category": null,
-        "pages": 10,
-        "date": "2021/09/02"
-    },
-    {
-        "name": "\u5b78\u6e2c\u82f1\u6587\u5b57\u5f59\u529b6000PLUS\u96a8\u8eab\u8b80",
-        "price": 350,
-        "category": "\u4e2d\u5b78\u6559\u5b78\u6cd5",
-        "pages": 688,
-        "date": "2023/08/30"
-    },
-    {
-        "name": "\u65b0\u8b6f\u5510\u8a69\u4e09\u767e\u9996(\u516d\u7248)",
-        "price": 350,
-        "category": "\u5510\u8a69\u7e3d\u96c6",
-        "pages": 660,
-        "date": "2012/10/01"
-    },
-    {
-        "name": "Key Sentence Structures 100\uff1a\u95dc\u9375\u53e5\u578b100(\u4e09\u7248)",
-        "price": 230,
-        "category": "\u82f1\u8a9e",
-        "pages": 180,
-        "date": "2023/08/30"
-    },
-    {
-        "name": "\u9032\u968e\u82f1\u6587\u5b57\u5f59\u529b4501\uff5e6000PLUS\u96a8\u8eab\u8b80",
-        "price": 270,
-        "category": "\u82f1\u8a9e",
-        "pages": 432,
-        "date": "2023/09/06"
+        "pages": 376
     },
     {
         "name": "Don't Tickle the Crocodile! (\u786c\u9801\u89f8\u6478\u97f3\u6548\u66f8)",
+        "author": "Sam Taplin; Ana Martin Larranaga",
+        "phouse": "Usborne Pub Ltd",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2021/04/29",
         "price": 714,
-        "category": null,
-        "pages": 10,
-        "date": "2021/04/29"
+        "pages": 10
     },
     {
-        "name": "Bizzy Bear My First Memory Game: Animals (with 36 Sliders)",
-        "price": 714,
-        "category": null,
-        "pages": 12,
-        "date": "2022/03/01"
+        "name": "\u6838\u5fc3\u82f1\u6587\u5b57\u5f59\u529b2001\uff5e4500 (\u9644100\u56de\u7fd2\u984c\u672c\u9644\u518a)(\u4e09\u7248)",
+        "author": "\u4e01\u96cd\u5afb;\u90a2\u96ef\u6842;\u76e7\u601d\u5609;\u61c9\u60e0\u8559",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u8a9e\u8a00\u5b78\u7fd2",
+        "date": "2023/03/29",
+        "price": 390,
+        "pages": 608
+    },
+    {
+        "name": "\u65b0\u8b6f\u5999\u6cd5\u84ee\u83ef\u7d93(\u4e8c\u7248)",
+        "author": "\u5f35\u677e\u8f1d-\u6ce8\u8b6f;\u4e01\u654f-\u6821\u95b1",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u5b97\u6559\u547d\u7406",
+        "date": "2007/02/01",
+        "price": 430,
+        "pages": 600
+    },
+    {
+        "name": "Maisy's Animals: A First Words Book (\u786c\u9801\u66f8)(\u7f8e\u570b\u7248)",
+        "author": "Lucy Cousins",
+        "phouse": "Candlewick Studio",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2020/04/14",
+        "price": 350,
+        "pages": 20
+    },
+    {
+        "name": "\u5225\u628a\u4f60\u7684\u9322\u7559\u5230\u6b7b\uff1a\u61c2\u5f97\u82b1\u9322\uff0c\u662f\u6700\u597d\u7684\u6295\u8cc7\u2015\u7406\u60f3\u4eba\u751f\u76849\u5927\u8ca1\u52d9\u601d\u7dad",
+        "author": "\u6bd4\u723e\u2027\u67cf\u91d1\u65af",
+        "phouse": "\u9060\u6d41",
+        "category": "\u8ca1\u7d93\u4f01\u7ba1",
+        "date": "2023/08/30",
+        "price": 399,
+        "pages": 352
     },
     {
         "name": "\u65b0\u8b6f\u91d1\u525b\u7d93(\u4e8c\u7248)",
+        "author": "\u5f90\u8208\u7121-\u6ce8\u8b6f;\u4faf\u8ffa\u6167-\u6821\u95b1",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u5b97\u6559\u547d\u7406",
+        "date": "2006/01/01",
         "price": 270,
-        "category": "\u5b97\u6559\u985e",
-        "pages": 224,
-        "date": "2006/01/01"
+        "pages": 224
+    },
+    {
+        "name": "Maisy's Nursery (\u786c\u9801\u5834\u666f\u66f8)(\u82f1\u570b\u7248)",
+        "author": "Lucy Cousins",
+        "phouse": "Walker Books",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2019/06/06",
+        "price": 439,
+        "pages": 16
+    },
+    {
+        "name": "\u9032\u968e\u82f1\u6587\u5b57\u5f59\u529b4501\uff5e6000PLUS\u96a8\u8eab\u8b80",
+        "author": "\u4e09\u6c11\u82f1\u8a9e\u7de8\u8f2f\u5c0f\u7d44",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u8a9e\u8a00\u5b78\u7fd2",
+        "date": "2023/09/06",
+        "price": 270,
+        "pages": 432
+    },
+    {
+        "name": "Key Sentence Structures 100\uff1a\u95dc\u9375\u53e5\u578b100(\u4e09\u7248)",
+        "author": "\u90ed\u6167\u654f-\u7de8\u8457",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u8a9e\u8a00\u5b78\u7fd2",
+        "date": "2023/08/30",
+        "price": 230,
+        "pages": 180
+    },
+    {
+        "name": "\u65b0\u8b6f\u5e1b\u66f8\u8001\u5b50",
+        "author": "\u8d99\u92d2-\u6ce8\u8b6f",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2018/01/02",
+        "price": 660,
+        "pages": 552
+    },
+    {
+        "name": "\u65b0\u8b6f\u5510\u8a69\u4e09\u767e\u9996(\u516d\u7248)",
+        "author": "\u90b1\u71ee\u53cb-\u6ce8\u8b6f",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2012/10/01",
+        "price": 350,
+        "pages": 660
+    },
+    {
+        "name": "Meekoo and the Muddy Farm (\u786c\u9801\u97f3\u6548\u66f8)",
+        "author": "Camilla Reid; Nicola Slater",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2022/02/03",
+        "price": 549,
+        "pages": 10
+    },
+    {
+        "name": "Don't Tickle the Bear! (\u786c\u9801\u89f8\u6478\u97f3\u6548\u66f8)",
+        "author": "Sam Taplin; Ana Martin Larranaga",
+        "phouse": "Usborne Pub Ltd",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2021/07/08",
+        "price": 714,
+        "pages": 10
+    },
+    {
+        "name": "\u5abd\u5abd\u7684\u8aaa\u8a71\u7df4\u7fd2\uff1a\u767e\u842c\u6309\u8b9a\u80af\u5b9a\uff01\u8aaa\u5c0d\u4e00\u53e5\u8a71\uff0c\u795d\u798f\u5b69\u5b50\u4e00\u751f\uff08\u9644\u8d08\u89aa\u5b50\u6e1b\u58d3\u6e9d\u901a\u7df4\u7fd2\u624b\u518a\uff09",
+        "author": "\u5c39\u667a\u6620",
+        "phouse": "\u5713\u795e",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2023/05/01",
+        "price": 370,
+        "pages": 224
+    },
+    {
+        "name": "\u5b78\u6e2c\u82f1\u6587\u5b57\u5f59\u529b6000PLUS\u96a8\u8eab\u8b80",
+        "author": "\u4e09\u6c11\u82f1\u8a9e\u7de8\u8f2f\u5c0f\u7d44 \u5f59\u6574",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u8a9e\u8a00\u5b78\u7fd2",
+        "date": "2023/08/30",
+        "price": 350,
+        "pages": 688
+    },
+    {
+        "name": "\u65b0\u8b6f\u8001\u5b50\u8b80\u672c(\u4fee\u8a02\u4e09\u7248)",
+        "author": "\u4f59\u57f9\u6797-\u6ce8\u8b6f",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2014/11/19",
+        "price": 210,
+        "pages": 208
+    },
+    {
+        "name": "Bizzy Bear: Breakdown Truck (\u786c\u9801\u66f8)(\u82f1\u570b\u7248) *\u9644\u97f3\u6a94QRCode*",
+        "author": "Benji Davies",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2021/09/02",
+        "price": 384,
+        "pages": 10
+    },
+    {
+        "name": "Maisy Explores: A First Words Book (\u786c\u9801\u66f8)(\u7f8e\u570b\u7248)",
+        "author": "Lucy Cousins",
+        "phouse": "Candlewick Studio",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2020/04/21",
+        "price": 315,
+        "pages": 20
     }
 ]

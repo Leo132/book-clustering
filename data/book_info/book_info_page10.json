@@ -1,142 +1,182 @@
 [
     {
-        "name": "\u6bcf\u5929\u61c2\u4e00\u9ede\u4eba\u60c5\u4e16\u6545(\u66a2\u92b7\u4fee\u8a02\u7248)\uff08\u7c21\u9ad4\u66f8\uff09",
-        "price": 299,
-        "category": null,
-        "pages": 247,
-        "date": "2022/01/01"
-    },
-    {
-        "name": "\u5927\u773e\u50b3\u64ad\u7406\u8ad6\u8207\u5be6\u8b49(\u56db\u7248)",
-        "price": 520,
-        "category": "\u793e\u6703\u7d04\u5236",
-        "pages": 520,
-        "date": "2020/01/10"
-    },
-    {
-        "name": "Maisy's Town: A First Words Books (\u786c\u9801\u66f8)(\u7f8e\u570b\u7248)",
+        "name": "\u8cde\u5fc3\u6a02\u4e8b",
+        "author": "\u4ea6\u8212",
+        "phouse": "\u5929\u5730\u5716\u66f8",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2023/06/30",
         "price": 350,
-        "category": null,
-        "pages": 20,
-        "date": "2022/09/07"
-    },
-    {
-        "name": "A Hero Like No Other (Nintendo and Illumination Present the Super Mario Bros. Movie)",
-        "price": 210,
-        "category": null,
-        "pages": 24,
-        "date": "2023/06/27"
-    },
-    {
-        "name": "\u912d\u5b50\u592a\u6975\u62f3\u81ea\u4fee\u65b0\u6cd5",
-        "price": 350,
-        "category": null,
-        "pages": 81,
-        "date": "2007/04/01"
-    },
-    {
-        "name": "Bizzy Bear: Deepsea Diver (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
-        "price": 384,
-        "category": null,
-        "pages": 10,
-        "date": "2015/01/09"
-    },
-    {
-        "name": "\u5c0d\u8a71\u5f0f\u8b1b\u7fa9\u9ad8\u4e2d\u6578\u5b78\u7b2c1\u518a",
-        "price": 395,
-        "category": null,
-        "pages": 169,
-        "date": "2023/03/01"
-    },
-    {
-        "name": "\u6708\u8003\u738b\uff1a\u7269\u7406\uff08\u5168\uff09",
-        "price": 188,
-        "category": null,
-        "pages": 134,
-        "date": "2023/06/01"
+        "pages": 292
     },
     {
         "name": "Meet Mario! (Step into Reading Level 3)",
+        "author": "Malcolm Shealy",
+        "phouse": "Random House Childrens Books",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2021/05/25",
         "price": 210,
-        "category": null,
-        "pages": 32,
-        "date": "2021/05/25"
-    },
-    {
-        "name": "Bizzy Bear: Dinosaur Safari (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
-        "price": 384,
-        "category": null,
-        "pages": 10,
-        "date": "2015/01/09"
-    },
-    {
-        "name": "\u4f60\u60f3\u6d3b\u51fa\u600e\u6a23\u7684\u4eba\u751f\uff1f\uff1a\u54c1\u683c\u5f62\u5851\u7d93\u5178\uff0c\u5f71\u97ff\u65e5\u672c\u6df1\u9060\u7684\u4e00\u672c\u66f8",
-        "price": 290,
-        "category": "\u4eba\u751f\u54f2\u5b78",
-        "pages": 272,
-        "date": "2018/11/01"
-    },
-    {
-        "name": "#6: Noodleheads Do the Impossible (\u5e73\u88dd\u672c)(graphic novel)",
-        "price": 245,
-        "category": null,
-        "pages": 48,
-        "date": "2023/01/03"
-    },
-    {
-        "name": "\u666e\u901a\u578b\u9ad8\u4e2d\u5b78\u79d1\u5236\u9738\u570b\u6587\u7b2c\u4e00\u518a",
-        "price": 340,
-        "category": "\u4e2d\u570b\u6587\u5b78\u7e3d\u96c6",
-        "pages": 306,
-        "date": "2022/08/01"
+        "pages": 32
     },
     {
         "name": "\u5b78\u6e2c\u9031\u8a08\u756b\uff1a\u5730\u7403\u79d1\u5b78",
+        "author": "\u9b4f\u82af;\u5f35\u5bb6\u9f4a;\u912d\u53ef\u8431;\u856d\u699b\u5ac8;\u5289\u9e97\u7d14;\u4f55\u7389\u5a77;\u9ec3\u5fb7\u6e90-\u7de8\u8457",
+        "phouse": "\u7ff0\u6797",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/04/01",
         "price": 280,
-        "category": null,
-        "pages": 135,
-        "date": "2023/04/01"
+        "pages": 135
     },
     {
         "name": "\u65b0\u8b6f\u5c71\u6d77\u7d93(\u4e8c\u7248)",
+        "author": "\u694a\u932b\u5f6d-\u6ce8\u8b6f",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2009/09/01",
         "price": 230,
-        "category": "\u7b46\u8a18\u5c0f\u8aaa\uff1a\u7570\u805e",
-        "pages": 296,
-        "date": "2009/09/01"
+        "pages": 296
     },
     {
-        "name": "\u65b0\u8b6f\u516d\u7956\u58c7\u7d93(\u4e8c\u7248)",
-        "price": 280,
-        "category": "\u5b97\u6559\u985e",
-        "pages": 400,
-        "date": "2006/05/01"
+        "name": "Bizzy Bear: Deepsea Diver (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
+        "author": "Benji Davies",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2015/01/09",
+        "price": 384,
+        "pages": 10
     },
     {
-        "name": "\u81f4\u52dd\u95dc\u9375\uff1a\u570b\u6587\u7d71\u6e2c\u8907\u7fd228\u9031(\u9644\u984c\u672c\u3001\u96a8\u8eab\u8b80)(\u4fee\u8a02\u516b\u7248)",
-        "price": 399,
-        "category": "\u4e2d\u570b\u6587\u5b78\u7e3d\u96c6",
-        "pages": 644,
-        "date": "2022/04/20"
+        "name": "A Hero Like No Other (Nintendo and Illumination Present the Super Mario Bros. Movie)",
+        "author": "Random House",
+        "phouse": "Random House Childrens Books",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2023/06/27",
+        "price": 210,
+        "pages": 24
     },
     {
-        "name": "\u8cde\u5fc3\u6a02\u4e8b",
-        "price": 350,
-        "category": "\u9577\u7bc7\uff08\u73fe\u4ee3\u65b0\u9ad4\uff09",
-        "pages": 292,
-        "date": "2023/06/30"
+        "name": "\u6eff\u7d1a\u5206\u6b77\u53f2\u5b78\u6e2c\u7e3d\u8907\u7fd2\u8b1b\u7fa9",
+        "author": "\u9ad8\u7ae4",
+        "phouse": "\u9f8d\u9a30\u6587\u5316",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/03/01",
+        "price": 438,
+        "pages": null
     },
     {
         "name": "30\u5929\u8a08\u756b\uff1a\u6253\u9020\u6838\u5fc3\u82f1\u6587\u5b57\u5f59\u984c\u672c(\u9644\u89e3\u6790\u593e\u518a)",
+        "author": "\u4e01\u96cd\u5afb;\u90a2\u96ef\u6842;\u76e7\u601d\u5609;\u61c9\u60e0\u8559-\u7de8\u8457",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u8a9e\u8a00\u5b78\u7fd2",
+        "date": "2023/06/07",
         "price": 200,
-        "category": "\u82f1\u8a9e",
-        "pages": 160,
-        "date": "2023/06/07"
+        "pages": 160
     },
     {
-        "name": "\u6211\u7684\u596e\u9b25\uff08\u4e0a\u3001\u4e0b\u5377\u5408\u8a02\u5b8c\u6574\u672c\uff09\uff08\u7c21\u9ad4\u7248\uff09\uff08\u7cbe\u88dd\uff09",
-        "price": 980,
-        "category": "\u6563\u6587\uff1b\u96a8\u7b46\uff1b\u65e5\u8a18\uff1b\u51fd\u7258\uff1b\u7d00\u884c\uff1b\u96dc\u8457",
-        "pages": 566,
-        "date": "2018/08/04"
+        "name": "\u4f60\u60f3\u6d3b\u51fa\u600e\u6a23\u7684\u4eba\u751f\uff1f\uff1a\u54c1\u683c\u5f62\u5851\u7d93\u5178\uff0c\u5f71\u97ff\u65e5\u672c\u6df1\u9060\u7684\u4e00\u672c\u66f8",
+        "author": "\u5409\u91ce\u6e90\u4e09\u90ce-\u4f5c;\u8107\u7530\u548c-\u7e6a",
+        "phouse": "\u5148\u89ba",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2018/11/01",
+        "price": 290,
+        "pages": 272
+    },
+    {
+        "name": "#6: Noodleheads Do the Impossible (\u5e73\u88dd\u672c)(graphic novel)",
+        "author": "Tedd Arnold; Martha Hamilton; Mitch Weiss",
+        "phouse": "Holiday House Inc",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2023/01/03",
+        "price": 245,
+        "pages": 48
+    },
+    {
+        "name": "Bizzy Bear: Dinosaur Safari (\u786c\u9801\u66f8)(\u82f1\u570b\u7248)*\u9644\u97f3\u6a94QRCode*",
+        "author": "Benji Davies",
+        "phouse": "Nosy Crow UK",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2015/01/09",
+        "price": 384,
+        "pages": 10
+    },
+    {
+        "name": "\u65b0\u8b6f\u516d\u7956\u58c7\u7d93(\u4e8c\u7248)",
+        "author": "\u674e\u4e2d\u83ef\u6ce8\u8b6f;\u4e01\u654f\u6821\u95b1",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u5b97\u6559\u547d\u7406",
+        "date": "2006/05/01",
+        "price": 280,
+        "pages": 400
+    },
+    {
+        "name": "\u5c0d\u8a71\u5f0f\u8b1b\u7fa9\u9ad8\u4e2d\u6578\u5b78\u7b2c1\u518a",
+        "author": "\u8449\u6649\u5b8f",
+        "phouse": "\u665f\u666f\u6578\u4f4d\u6587\u5316",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/03/01",
+        "price": 395,
+        "pages": 169
+    },
+    {
+        "name": "\u81f4\u52dd\u95dc\u9375\uff1a\u570b\u6587\u7d71\u6e2c\u8907\u7fd228\u9031(\u9644\u984c\u672c\u3001\u96a8\u8eab\u8b80)(\u4fee\u8a02\u516b\u7248)",
+        "author": "\u5433\u7fbf-\u7de8\u8457",
+        "phouse": "\u6771\u5927",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2022/04/20",
+        "price": 399,
+        "pages": 644
+    },
+    {
+        "name": "\u6708\u8003\u738b\uff1a\u7269\u7406\uff08\u5168\uff09",
+        "author": "\u6797\u69ae\u5f6c;\u9673\u4e1e\u7fca-\u8457",
+        "phouse": "\u9f8d\u9a30\u6587\u5316",
+        "category": "\u6559\u79d1\u8003\u7528",
+        "date": "2023/06/01",
+        "price": 188,
+        "pages": 134
+    },
+    {
+        "name": "Maisy's Town: A First Words Books (\u786c\u9801\u66f8)(\u7f8e\u570b\u7248)",
+        "author": "Lucy Cousins",
+        "phouse": "Candlewick Pr",
+        "category": "\u5916\u6587\u66f8",
+        "date": "2022/09/07",
+        "price": 350,
+        "pages": 20
+    },
+    {
+        "name": "\u912d\u5b50\u592a\u6975\u62f3\u81ea\u4fee\u65b0\u6cd5",
+        "author": "\u912d\u66fc\u9752",
+        "phouse": "\u6642\u4e2d\u5b78\u793e",
+        "category": "\u4f11\u9592\u751f\u6d3b",
+        "date": "2007/04/01",
+        "price": 350,
+        "pages": 81
+    },
+    {
+        "name": "\u6bcf\u5929\u61c2\u4e00\u9ede\u4eba\u60c5\u4e16\u6545(\u66a2\u92b7\u4fee\u8a02\u7248)\uff08\u7c21\u9ad4\u66f8\uff09",
+        "author": "\u7ae0\u5ca9",
+        "phouse": "\u5929\u6d25\u79d1\u5b78\u6280\u8853\u51fa\u7248\u793e",
+        "category": "\u7c21\u9ad4\u66f8",
+        "date": "2022/01/01",
+        "price": 299,
+        "pages": 247
+    },
+    {
+        "name": "\u5927\u773e\u50b3\u64ad\u7406\u8ad6\u8207\u5be6\u8b49(\u56db\u7248)",
+        "author": "\u7fc1\u79c0\u742a",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u793e\u6703\u4eba\u6587",
+        "date": "2020/01/10",
+        "price": 520,
+        "pages": 520
+    },
+    {
+        "name": "\u666e\u901a\u578b\u9ad8\u4e2d\u5b78\u79d1\u5236\u9738\u570b\u6587\u7b2c\u4e00\u518a",
+        "author": "\u674e\u79c9\u5112;\u674e\u5b50\u654f;\u9673\u514b\u660e;\u9673\u6021\u4f36;\u5b54\u4ee4\u7af9;\u9673\u73a0\u4f55;\u9ec3\u5029\u923a;\u912d\u8cc7\u975c-\u7de8\u8457",
+        "phouse": "\u4e09\u6c11\u66f8\u5c40",
+        "category": "\u6587\u5b78\u4f5c\u54c1",
+        "date": "2022/08/01",
+        "price": 340,
+        "pages": 306
     }
 ]
