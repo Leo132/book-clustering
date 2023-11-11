@@ -13,6 +13,11 @@
 ```
 pip install -r ./requirements.txt
 ```
+另外還需下載斷詞模型，這需要一點時間
+```
+python ./model/download_model.py
+```
+預期輸出結果為 `search_str=['法律概論'], word_list=['法律', '概論']`
 
 ## 執行分群
 ```
