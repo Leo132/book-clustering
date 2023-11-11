@@ -30,14 +30,14 @@ python ./src/clustering_algo.py
 ## 預期結果
 
 ### 只考慮兩個資訊
-![result](data/img/result (price_pages).png)
-![result](data/img/result (price_date).png)
-![result](data/img/result (pages_date).png)
+![result](data/img/result%20(price_pages).png)
+![result](data/img/result%20(price_date).png)
+![result](data/img/result%20(pages_date).png)
 
 ### 考慮所有資訊
-![result](data/img/result (price_pages_date, view1).png)
-![result](data/img/result (price_pages_date, view2).png)
-![result](data/img/result (price_pages_date, view3).png)
+![result](data/img/result%20(price_pages_date,%20view1).png)
+![result](data/img/result%20(price_pages_date,%20view2).png)
+![result](data/img/result%20(price_pages_date,%20view3).png)
 
 > **NOTE**
 > 每次的分群結果可能不同
