@@ -23,9 +23,21 @@ python ./model/download_model.py
 ```
 python ./src/clustering_algo.py
 ```
+若想修改分析資訊的話，可以自己改 `_test()` 裡的 `col`
+> **NOTE**
+> `col` 至少要有兩個，最多當然就是三個
 
 ## 預期結果
-![out](data/img/out.png)
+
+### 只考慮兩個資訊
+![result](data/img/result (price_pages).png)
+![result](data/img/result (price_date).png)
+![result](data/img/result (pages_date).png)
+
+### 考慮所有資訊
+![result](data/img/result (price_pages_date, view1).png)
+![result](data/img/result (price_pages_date, view2).png)
+![result](data/img/result (price_pages_date, view3).png)
 
 > **NOTE**
 > 每次的分群結果可能不同
