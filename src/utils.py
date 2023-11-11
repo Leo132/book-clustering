@@ -1,4 +1,5 @@
 import json
+from datetime import date
 
 from typing import Callable
 
@@ -52,6 +53,8 @@ def get_all_attrs(data: list[dict], attrs: list[str], is_split: bool = True):
 def extract_features(data:  dict, col: list[str]):
     def is_valid(info: dict, col: list[str]):
         for c in col:
+            if c == "date" and info[c] is not None:
+                continue
             if not isinstance(info[c], int) and not isinstance(info[c], float):
                 return False
         
@@ -63,6 +66,8 @@ def extract_features(data:  dict, col: list[str]):
         if not is_valid(d, col):
             continue
         for k, v in d.items():
+            if k == "date":
+                v = (date.today() - date(*list(map(int, v.split('/'))))).days
             data_[k].append(v)
     
     features = [list(d) for d in zip(*[data_[c] for c in col])]
@@ -79,16 +84,16 @@ def _test():
     #     print(idx, d)
     
     # save_to_json(data, "./data/book_info.json")
-    authors, phouses, isbns = get_all_attrs(data, ["author", "phouse", "ISBN13"])
-    print(len(authors), len(phouses), len(isbns))
+    # authors, phouses, isbns = get_all_attrs(data, ["author", "phouse", "ISBN13"])
+    # print(len(authors), len(phouses), len(isbns))
     
-    # data, features = extract_features(data, ["price", "pages"])
+    data, features = extract_features(data, ["price", "pages", "date"])
 
     # for k, v in data.items():
     #     print(k, v)
-    # for f in features[:5]:
-    #     print(f)
-    # print(len(features))
+    for f in features[:5]:
+        print(f)
+    print(len(features))
 
 if __name__ == "__main__":
     _test()

@@ -36,22 +36,28 @@ def make_pipeline(k: int, init: str, n_init: int, max_iter: int):
         ]
     )
 
-def visualize(data: pd.DataFrame, cluster: list[int]):
-    x, y = data.iloc[:, 0], data.iloc[:, 1]
-    xlabel, ylabel = data.columns
-    scatter = plt.scatter(x, y, c=cluster)
-    plt.xlabel(xlabel)
-    plt.ylabel(ylabel)
+def visualize(data: pd.DataFrame, cluster: list[int], is_2d: bool=True):
+    dim = 2 if is_2d else 3
+    points = [data.iloc[:, i] for i in range(dim)]
+    labels = data.columns
+
+    fig = plt.figure()
+    ax = fig.add_subplot(projection=None if is_2d else '3d')
+    scatter = ax.scatter(*points, c=cluster)
+    set_labels = [
+        ax.set_xlabel,
+        ax.set_ylabel,
+        None if is_2d else ax.set_zlabel,
+    ]
+    for set_label, label in zip(set_labels, labels):
+        set_label(label)
     plt.legend(*scatter.legend_elements(), title="Classes")
     
     plt.show()
 
 
 def _test():
-    from sklearn.datasets import make_blobs
-
     from utils import load_json, unionize_jsons, extract_features
-
 
     # load data
     print("data loading...")
@@ -61,9 +67,10 @@ def _test():
     #     cluster_std=2.75,
     #     random_state=42
     # )
-    # data = load_json("./data/book_info/book_info_page1.json")
-    data = unionize_jsons([f"./data/book_info/book_info_page{page + 1}.json" for page in range(25)], "name")
-    data, features = extract_features(data, ["price", "pages"])
+    col = ["price", "pages", "date"]
+    data = load_json("./data/book_info.json")
+    # data = unionize_jsons([f"./data/book_info/book_info_page{page + 1}.json" for page in range(25)], "name")
+    data, features = extract_features(data, col)
 
     # clustering
     kmeans_kwargs = {
@@ -96,10 +103,10 @@ def _test():
 
         df = pd.DataFrame(
             pipe["preprocessor"].transform(features),
-            columns=["price", "pages"]
+            columns=col
         )
 
-        visualize(df, pipe["clusterer"]["kmeans"].labels_)
+        visualize(df, pipe["clusterer"]["kmeans"].labels_, len(col) == 2)
 
 
 
