@@ -11,7 +11,13 @@ import json
 
 from typing import Callable
 
-from utils import load_json, save_info_to_json, get_all_attrs
+from utils import (
+    load_json,
+    save_info_to_json,
+    get_all_attrs,
+    save_author_info_to_jason,
+    split_data,
+)
 
 class Parser(BeautifulSoup):
     def __init__(self, markup: str, **kwargs):
@@ -249,14 +255,55 @@ Publishing house info format (same as author info)
         "avgprice"      : average book price    : float
     }
 '''
+# -- 黃政揚貢獻
 def get_phouse_info(url: str):
-    pass
+    html = get_html_from_url(url)
+    result = Parser(html)
+
+    # phouse name
+    phouse_name = result.find("button", attrs={"class": "resultCondit"}).text[7:]
+
+    # number of books
+    books_num = result.find("span", attrs={"class": "text-danger"}).text
+
+    # average book price
+    # for idx, c in enumerate([c.text.replace(' ', '') for c in result.find_all("div", attrs={"class": "condition mb5"})[4].contents[1].contents[1].contents if c.name == "div"]):
+    #     print(idx, c.split('\n'))
+    prep = lambda t: t.replace(' ', '').replace('\r', '').replace('\n', '').replace('（', ' ').replace('）', '').replace('以上', '').replace('以下', '')
+    price_num_pair_text = [prep(c.text) for c in result.find_all("div", attrs={"class": "condition mb5"})[4].contents[1].contents[1].contents if c.name == "div"]
+    # print(price_num_pair_text)
+    price_list = [int(text.split(' ')[0].split('$')[-1]) for text in price_num_pair_text]
+    num_list = [int(text.split(' ')[-1]) for text in price_num_pair_text]
+    # print(price_list)
+    # print(num_list)
+    average_price = round(sum([price*num for price, num in zip(price_list, num_list)])/sum(num_list), 2)
+
+    return {
+        "name": phouse_name,
+        "totalbooks": books_num,
+        "avgprice": average_price,
+    }
+# 黃政揚貢獻 --
 
 def save_book_to_json():
     book_page_urls = [f"https://www.sanmin.com.tw/promote/top/?id=yy&item=11209&pi={page + 1}" for page in range(25)]
     # skip those books that are out of print (e.g., page 17 - 334. <王室緋聞守則...>)
 
     save_info_to_json(book_page_urls, "book_info/book_info_page", get_book_urls, get_book_info)
+
+# -- 黃政揚貢獻
+def save_author_to_json():
+    data = load_json("./data/book_info.json")
+    author_page_urls = [f"https://www.sanmin.com.tw/search/index/?au={author}" for author in split_data(get_all_attrs(data, ["author"])[0])]
+
+    save_author_info_to_jason(author_page_urls, "author_info/author_info_page", get_author_info)
+
+def save_phouse_to_json():
+    data = load_json("./data/book_info.json")
+    phouse_page_urls = [f"https://www.sanmin.com.tw/search/index/?pu={phouse}" for phouse in split_data(get_all_attrs(data, ["phouse"])[0])]
+
+    save_author_info_to_jason(phouse_page_urls, "phouse_info/phouse_info_page", get_phouse_info)
+# 黃政揚貢獻 --
 
 def _book_test():
     # book_page_urls = [f"https://www.sanmin.com.tw/promote/top/?id=yy&item=11209&pi={page + 1}" for page in range(25)]
@@ -287,6 +334,8 @@ def _test():
     # _truemovie_test()
     _book_test()
     # save_book_to_json()
+    # save_author_to_json()
+    save_phouse_to_json()
 
     # with open("./src/view.html", 'wb') as f:
     #     f.write(get_html_from_url(test_url, "get").encode("utf-8"))

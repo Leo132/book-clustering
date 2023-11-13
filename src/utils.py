@@ -23,6 +23,41 @@ def save_info_to_json(page_urls: list[str], folder_file: str, get_urls: Callable
         save_to_json(info_list, f"./data/{folder_file}{page}.json")
     print("Save success")
 
+# -- 黃政揚貢獻
+def save_author_info_to_jason(data: list[str], folder_file: str,  get_info: Callable):
+    info_list = []
+    page = 1
+    for idx, url in enumerate(data, start=1):
+        print(url)                         # for debugging
+        info = get_info(url)
+        if info is None:                   # skip invalid info
+            continue
+        info_list.append(info)
+        print(f"{idx:3d}. {info}")
+        if idx%25 == 0:
+            save_to_json(info_list, f"./data/{folder_file}{page}.json")
+            page += 1
+            info_list = []
+    print("Save success")
+
+# split the author_data
+def split_data(data: list):
+    change_data = [item for element in data for item in element.split(';')]
+    seen_elements = set()
+    result_array = []
+    for element in change_data:
+        # 使用 split 方法分割元素，然後選擇第一部分
+        parts = element.split('-')
+        truncated_element = parts[0]
+
+        # 如果截斷後的元素不在集合中，則將其添加到結果陣列和集合中
+        if truncated_element not in seen_elements:
+            result_array.append(truncated_element)
+            seen_elements.add(truncated_element)
+    
+    return result_array
+# 黃政揚貢獻 --
+
 def load_json(path_file: str):
     with open(path_file) as f:
         data = json.load(f)
@@ -50,6 +85,7 @@ def get_all_attrs(data: list[dict], attrs: list[str], is_split: bool = True):
     return [list(set(d[attr] for d in data)) for attr in attrs] if is_split else {attr: list(set(d[attr] for d in data)) for attr in attrs}
 
 # for clustering
+
 def extract_features(data:  dict, col: list[str]):
     def is_valid(info: dict, col: list[str]):
         for c in col:
@@ -76,24 +112,28 @@ def extract_features(data:  dict, col: list[str]):
 
 
 def _test():
-    # path_files = [f"./data/book_info/book_info_page{page + 1}.json" for page in range(25)]
-    data = load_json("./data/book_info.json")
+    import os
+
+    path = "./data/phouse_info"
+    # entries = os.scandir(path)
+    # path_files = [f"{path}/{file.name}" for file in entries]
+    data = load_json("./data/author_info.json")
     # data = unionize_jsons(path_files, "name")
 
-    # for idx, d in enumerate(data, start=1):
-    #     print(idx, d)
+    for idx, d in enumerate(data, start=1):
+        print(idx, d)
     
-    # save_to_json(data, "./data/book_info.json")
+    # save_to_json(data, f"{path}.json")
     # authors, phouses, isbns = get_all_attrs(data, ["author", "phouse", "ISBN13"])
     # print(len(authors), len(phouses), len(isbns))
     
-    data, features = extract_features(data, ["price", "pages", "date"])
+    # data, features = extract_features(data, ["price", "pages", "date"])
 
     # for k, v in data.items():
     #     print(k, v)
-    for f in features[:5]:
-        print(f)
-    print(len(features))
+    # for f in features[:5]:
+    #     print(f)
+    # print(len(features))
 
 if __name__ == "__main__":
     _test()

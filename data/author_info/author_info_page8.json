@@ -1,0 +1,127 @@
+[
+    {
+        "name": "\u6734\u6c38\u7389",
+        "totalbooks": "3",
+        "avgprice": 399.0
+    },
+    {
+        "name": "\u908a\u9060\u5e73",
+        "totalbooks": "3",
+        "avgprice": 465.67
+    },
+    {
+        "name": "\u6e29\u8c50\u6587",
+        "totalbooks": "11",
+        "avgprice": 562.73
+    },
+    {
+        "name": "\u5ed6\u5927\u7a4e",
+        "totalbooks": "26",
+        "avgprice": 622.15
+    },
+    {
+        "name": "\u6797\u660e\u93d8",
+        "totalbooks": "31",
+        "avgprice": 579.68
+    },
+    {
+        "name": "\u4e01\u96cd\u5afb",
+        "totalbooks": "25",
+        "avgprice": 399.0
+    },
+    {
+        "name": "\u90a2\u96ef\u6842",
+        "totalbooks": "21",
+        "avgprice": 427.57
+    },
+    {
+        "name": "\u76e7\u601d\u5609",
+        "totalbooks": "44",
+        "avgprice": 480.89
+    },
+    {
+        "name": "\u61c9\u60e0\u8559",
+        "totalbooks": "30",
+        "avgprice": 445.67
+    },
+    {
+        "name": "Camilla Reid",
+        "totalbooks": "71",
+        "avgprice": 545.61
+    },
+    {
+        "name": "\u6d2a\u842c\u751f",
+        "totalbooks": "36",
+        "avgprice": 393.47
+    },
+    {
+        "name": "\u82f1\u5bb6\u9298",
+        "totalbooks": "4",
+        "avgprice": 399.0
+    },
+    {
+        "name": "\u8607\u610f\u96ef",
+        "totalbooks": "2",
+        "avgprice": 499.0
+    },
+    {
+        "name": "\u8607\u60e0\u7389",
+        "totalbooks": "7",
+        "avgprice": 370.43
+    },
+    {
+        "name": "\u694a\u74ca\u8339",
+        "totalbooks": "1",
+        "avgprice": 199.0
+    },
+    {
+        "name": "\u5289\u67cf\u5b8f",
+        "totalbooks": "13",
+        "avgprice": 537.62
+    },
+    {
+        "name": "Anna Milbourne",
+        "totalbooks": "107",
+        "avgprice": 552.33
+    },
+    {
+        "name": "Simona Dimitri",
+        "totalbooks": "17",
+        "avgprice": 599.06
+    },
+    {
+        "name": "\u674e\u79c9\u5112",
+        "totalbooks": "5",
+        "avgprice": 439.0
+    },
+    {
+        "name": "\u674e\u5b50\u654f",
+        "totalbooks": "7",
+        "avgprice": 484.86
+    },
+    {
+        "name": "\u9673\u514b\u660e",
+        "totalbooks": "7",
+        "avgprice": 370.43
+    },
+    {
+        "name": "\u9673\u6021\u4f36",
+        "totalbooks": "21",
+        "avgprice": 370.43
+    },
+    {
+        "name": "\u5b54\u4ee4\u7af9",
+        "totalbooks": "8",
+        "avgprice": 399.0
+    },
+    {
+        "name": "\u9673\u73a0\u4f55",
+        "totalbooks": "4",
+        "avgprice": 399.0
+    },
+    {
+        "name": "\u9ec3\u5029\u923a",
+        "totalbooks": "4",
+        "avgprice": 399.0
+    }
+]

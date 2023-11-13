@@ -1,0 +1,127 @@
+[
+    {
+        "name": "\u4fdd\u6210\u6587\u5316",
+        "totalbooks": "1215",
+        "avgprice": 578.4
+    },
+    {
+        "name": "\u9060\u666f",
+        "totalbooks": "908",
+        "avgprice": 402.99
+    },
+    {
+        "name": "\u6642\u5831\u6587\u5316",
+        "totalbooks": "8567",
+        "avgprice": 414.72
+    },
+    {
+        "name": "\u6cf0\u5b87",
+        "totalbooks": "153",
+        "avgprice": 348.02
+    },
+    {
+        "name": "Ladybird UK",
+        "totalbooks": "1555",
+        "avgprice": 406.5
+    },
+    {
+        "name": "\u694a\u5efa\u83ef",
+        "totalbooks": "16",
+        "avgprice": 649.06
+    },
+    {
+        "name": "\u81fa\u5927\u51fa\u7248\u4e2d\u5fc3",
+        "totalbooks": "1311",
+        "avgprice": 579.44
+    },
+    {
+        "name": "\u958b\u6717\u96dc\u8a8c",
+        "totalbooks": "112",
+        "avgprice": 375.83
+    },
+    {
+        "name": "\u725b\u6d25\u5927\u5b78\u51fa\u7248\u793e",
+        "totalbooks": "785",
+        "avgprice": 543.0
+    },
+    {
+        "name": "\u91d1\u5c09",
+        "totalbooks": "49",
+        "avgprice": 419.41
+    },
+    {
+        "name": "Scholastic In...",
+        "totalbooks": "2667",
+        "avgprice": 514.13
+    },
+    {
+        "name": "\u5bf6\u74f6\u6587\u5316",
+        "totalbooks": "789",
+        "avgprice": 400.78
+    },
+    {
+        "name": "\u5929\u4e0b\u751f\u6d3b",
+        "totalbooks": "155",
+        "avgprice": 491.92
+    },
+    {
+        "name": "Twirl",
+        "totalbooks": "221",
+        "avgprice": 650.81
+    },
+    {
+        "name": "Harpercollins",
+        "totalbooks": "68607",
+        "avgprice": 654.23
+    },
+    {
+        "name": "Usborne Pub L...",
+        "totalbooks": "3987",
+        "avgprice": 500.62
+    },
+    {
+        "name": "YoYo Books UK",
+        "totalbooks": "735",
+        "avgprice": 532.91
+    },
+    {
+        "name": "Random House ...",
+        "totalbooks": "7851",
+        "avgprice": 462.76
+    },
+    {
+        "name": "\u8ca1\u7d93\u50b3\u8a0a",
+        "totalbooks": "368",
+        "avgprice": 384.87
+    },
+    {
+        "name": "Flying Eye Bo...",
+        "totalbooks": "151",
+        "avgprice": 727.64
+    },
+    {
+        "name": "\u5927\u9091\u6587\u5316",
+        "totalbooks": "223",
+        "avgprice": 422.38
+    },
+    {
+        "name": "\u4e2d\u570b\u4e2d\u91ab\u85e5\u51fa\u7248\u793e",
+        "totalbooks": "8779",
+        "avgprice": 421.44
+    },
+    {
+        "name": "\u9999\u6e2f\u4e2d\u6587\u5927\u5b78\u51fa\u7248\u793e",
+        "totalbooks": "1635",
+        "avgprice": 655.07
+    },
+    {
+        "name": "\u53ca\u7b2c",
+        "totalbooks": "263",
+        "avgprice": 487.99
+    },
+    {
+        "name": "Oxford Childr...",
+        "totalbooks": "235",
+        "avgprice": 594.06
+    }
+]

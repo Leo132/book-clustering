@@ -1,0 +1,127 @@
+[
+    {
+        "name": "Smartlab",
+        "totalbooks": "63",
+        "avgprice": 783.86
+    },
+    {
+        "name": "\u4e2d\u4fe1\u51fa\u7248\u793e",
+        "totalbooks": "14157",
+        "avgprice": 435.52
+    },
+    {
+        "name": "\u66fe\u4ed5\u5f37\u6587\u5316",
+        "totalbooks": "24",
+        "avgprice": 615.67
+    },
+    {
+        "name": "\u6771\u65b9\u51fa\u7248\u4e2d\u5fc3",
+        "totalbooks": "2051",
+        "avgprice": 411.14
+    },
+    {
+        "name": "Scholastic US",
+        "totalbooks": "153",
+        "avgprice": 608.46
+    },
+    {
+        "name": "Candlewick St...",
+        "totalbooks": "63",
+        "avgprice": 707.14
+    },
+    {
+        "name": "\u570b\u969b\u5b78\u6751",
+        "totalbooks": "388",
+        "avgprice": 486.15
+    },
+    {
+        "name": "\u5c1a\u6602\u6587\u5316",
+        "totalbooks": "233",
+        "avgprice": 375.82
+    },
+    {
+        "name": "\u5bc2\u5bde",
+        "totalbooks": "106",
+        "avgprice": 461.27
+    },
+    {
+        "name": "\u524d\u7a0b\u6587\u5316\u3008\u524d\u7a0b\u4f01\u7ba1\u3009",
+        "totalbooks": "151",
+        "avgprice": 642.72
+    },
+    {
+        "name": "Little Brown ...",
+        "totalbooks": "454",
+        "avgprice": 627.29
+    },
+    {
+        "name": "\u96d9\u8449\u66f8\u5eca",
+        "totalbooks": "441",
+        "avgprice": 628.98
+    },
+    {
+        "name": "\u5370\u523b",
+        "totalbooks": "1214",
+        "avgprice": 423.9
+    },
+    {
+        "name": "\u767d\u8c61\u6587\u5316",
+        "totalbooks": "1033",
+        "avgprice": 456.55
+    },
+    {
+        "name": "\u53f0\u7063\u89d2\u5ddd",
+        "totalbooks": "10660",
+        "avgprice": 292.92
+    },
+    {
+        "name": "\u4e2d\u570b\u83ef\u50d1\u51fa\u7248\u793e",
+        "totalbooks": "7940",
+        "avgprice": 303.83
+    },
+    {
+        "name": "\u5e38\u6625\u85e4\u6709\u8072",
+        "totalbooks": "372",
+        "avgprice": 424.3
+    },
+    {
+        "name": "\u65b9\u667a",
+        "totalbooks": "1699",
+        "avgprice": 343.68
+    },
+    {
+        "name": "\u5546\u5468\u6587\u5316",
+        "totalbooks": "5536",
+        "avgprice": 431.43
+    },
+    {
+        "name": "Hodder Childr...",
+        "totalbooks": "1439",
+        "avgprice": 560.27
+    },
+    {
+        "name": "Little Tiger ...",
+        "totalbooks": "2366",
+        "avgprice": 542.07
+    },
+    {
+        "name": "\u91c7\u5be6\u6587\u5316",
+        "totalbooks": "948",
+        "avgprice": 450.09
+    },
+    {
+        "name": "\u6b66\u9675\u51fa\u7248\u793e",
+        "totalbooks": "1451",
+        "avgprice": 382.35
+    },
+    {
+        "name": "\u65b9\u821f\u6587\u5316",
+        "totalbooks": "248",
+        "avgprice": 480.5
+    },
+    {
+        "name": "\u5927\u662f\u6587\u5316",
+        "totalbooks": "853",
+        "avgprice": 436.76
+    }
+]

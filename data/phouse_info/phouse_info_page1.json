@@ -1,0 +1,127 @@
+[
+    {
+        "name": "\u4e09\u91c7\u6587\u5316",
+        "totalbooks": "3755",
+        "avgprice": 430.03
+    },
+    {
+        "name": "\u5e78\u798f\u6587\u5316",
+        "totalbooks": "366",
+        "avgprice": 517.63
+    },
+    {
+        "name": "\u738b\u5fb7\u69d0",
+        "totalbooks": "8",
+        "avgprice": 374.0
+    },
+    {
+        "name": "\u6953\u66f8\u574a\u6587\u5316",
+        "totalbooks": "1525",
+        "avgprice": 432.06
+    },
+    {
+        "name": "LITTLE BROWN ...",
+        "totalbooks": "291",
+        "avgprice": 695.56
+    },
+    {
+        "name": "Oxford Univ P...",
+        "totalbooks": "1780",
+        "avgprice": 517.51
+    },
+    {
+        "name": "Scholastic",
+        "totalbooks": "20073",
+        "avgprice": 485.7
+    },
+    {
+        "name": "\u65b0\u81ea\u7136\u4e3b\u7fa9",
+        "totalbooks": "665",
+        "avgprice": 397.82
+    },
+    {
+        "name": "\u8a3c\u696d",
+        "totalbooks": "34",
+        "avgprice": 764.09
+    },
+    {
+        "name": "\u9ad8\u9ede\u6587\u5316",
+        "totalbooks": "1898",
+        "avgprice": 633.68
+    },
+    {
+        "name": "\u9060\u6d41",
+        "totalbooks": "4839",
+        "avgprice": 446.04
+    },
+    {
+        "name": "\u5bc2\u5929\u6587\u5316",
+        "totalbooks": "2103",
+        "avgprice": 491.66
+    },
+    {
+        "name": "\u5927\u8fa3",
+        "totalbooks": "209",
+        "avgprice": 543.63
+    },
+    {
+        "name": "\u9f8d\u9a30\u6587\u5316",
+        "totalbooks": "528",
+        "avgprice": 394.83
+    },
+    {
+        "name": "\u65b9\u8a00\u6587\u5316",
+        "totalbooks": "304",
+        "avgprice": 449.01
+    },
+    {
+        "name": "\u5546\u52d9\u5370\u66f8\u9928 \u5927\u9678",
+        "totalbooks": "15095",
+        "avgprice": 455.2
+    },
+    {
+        "name": "\u4e2d\u570b\u53cb\u8abc\u51fa\u7248\u516c\u53f8",
+        "totalbooks": "2988",
+        "avgprice": 374.86
+    },
+    {
+        "name": "\u58a8\u523b",
+        "totalbooks": "1052",
+        "avgprice": 414.8
+    },
+    {
+        "name": "\u6c5f\u8607\u9cf3\u51f0\u6587\u85dd\u51fa\u7248\u793e",
+        "totalbooks": "8310",
+        "avgprice": 382.27
+    },
+    {
+        "name": "\u665f\u666f\u6578\u4f4d\u6587\u5316",
+        "totalbooks": "237",
+        "avgprice": 377.06
+    },
+    {
+        "name": "\u6e56\u5357\u79d1\u5b78\u6280\u8853\u51fa\u7248\u793e",
+        "totalbooks": "3936",
+        "avgprice": 375.04
+    },
+    {
+        "name": "\u6d59\u6c5f\u6587\u85dd\u51fa\u7248\u793e",
+        "totalbooks": "3566",
+        "avgprice": 336.78
+    },
+    {
+        "name": "\u4e94\u5357\u5716\u66f8\u51fa\u7248",
+        "totalbooks": "8788",
+        "avgprice": 544.82
+    },
+    {
+        "name": "\u84cb\u4e9e\u6587\u5316",
+        "totalbooks": "1244",
+        "avgprice": 428.05
+    },
+    {
+        "name": "\u9752\u5cf6\u51fa\u7248\u793e",
+        "totalbooks": "9272",
+        "avgprice": 329.02
+    }
+]

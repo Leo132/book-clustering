@@ -1,0 +1,127 @@
+[
+    {
+        "name": "\u9673\u91cd\u9298",
+        "totalbooks": "29",
+        "avgprice": 440.38
+    },
+    {
+        "name": "Random House",
+        "totalbooks": "822",
+        "avgprice": 424.83
+    },
+    {
+        "name": "\u5433\u81f3\u683c",
+        "totalbooks": "2",
+        "avgprice": 399.0
+    },
+    {
+        "name": "\u5f35\u6f64\u66f8",
+        "totalbooks": "9",
+        "avgprice": 621.22
+    },
+    {
+        "name": "\u97d3\u5146\u7426",
+        "totalbooks": "101",
+        "avgprice": 537.7
+    },
+    {
+        "name": "\u738b\u5b50\u4eca",
+        "totalbooks": "91",
+        "avgprice": 559.58
+    },
+    {
+        "name": "\u7f85\u6bd4\u2027\u4f2f\u6069\u65af",
+        "totalbooks": "3",
+        "avgprice": 532.33
+    },
+    {
+        "name": "\u9673\u8070\u5bcc",
+        "totalbooks": "33",
+        "avgprice": 586.91
+    },
+    {
+        "name": "\u6797\u6587\u6708",
+        "totalbooks": "80",
+        "avgprice": 381.52
+    },
+    {
+        "name": "\u674e\u4e2d\u83ef",
+        "totalbooks": "71",
+        "avgprice": 359.58
+    },
+    {
+        "name": "\u4e01\u654f",
+        "totalbooks": "26",
+        "avgprice": 429.81
+    },
+    {
+        "name": "\u6797\u7a4e",
+        "totalbooks": "58",
+        "avgprice": 433.59
+    },
+    {
+        "name": "Fiona Watt",
+        "totalbooks": "495",
+        "avgprice": 521.1
+    },
+    {
+        "name": "Alistar",
+        "totalbooks": "12",
+        "avgprice": 733.08
+    },
+    {
+        "name": "\u7f85\u4f2f\u7279.\u9b6f\u8cd3",
+        "totalbooks": "2",
+        "avgprice": 699.0
+    },
+    {
+        "name": "Stefano Tognetti",
+        "totalbooks": "15",
+        "avgprice": 639.2
+    },
+    {
+        "name": "Nicola Edwards",
+        "totalbooks": "84",
+        "avgprice": 584.83
+    },
+    {
+        "name": "Maria Neradova",
+        "totalbooks": "18",
+        "avgprice": 476.83
+    },
+    {
+        "name": "\u7e41\u7530\u4f50\u4e5f\u52a0",
+        "totalbooks": "4",
+        "avgprice": 499.0
+    },
+    {
+        "name": "\u7c73\u96c5",
+        "totalbooks": "46",
+        "avgprice": 451.24
+    },
+    {
+        "name": "Tedd Arnold",
+        "totalbooks": "102",
+        "avgprice": 453.95
+    },
+    {
+        "name": "Martha Hamilton",
+        "totalbooks": "33",
+        "avgprice": 514.24
+    },
+    {
+        "name": "Mitch Weiss",
+        "totalbooks": "43",
+        "avgprice": 603.98
+    },
+    {
+        "name": "\u6797\u8aa0\u4e8c",
+        "totalbooks": "36",
+        "avgprice": 532.33
+    },
+    {
+        "name": "\u694a\u8ce2\u82f1",
+        "totalbooks": "16",
+        "avgprice": 324.0
+    }
+]
