@@ -3,7 +3,7 @@ from ckiptagger import data_utils, WS
 
 # Downloads to ./data.zip (2GB) and extracts to ./data/
 print("Downloading model...")
-data_utils.download_data_url("./") # iis-ckip
+# data_utils.download_data_url("./") # iis-ckip
 data_utils.download_data_gdown("./model/") # gdrive-ckip
 
 # To use GPU:
