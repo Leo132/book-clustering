@@ -3,6 +3,25 @@ from datetime import date
 
 from typing import Callable
 
+class WSModel:
+    def __init__(self):
+        self._model = None
+
+    def load_model(self):
+        print("Importing ckiptagger...")
+        from ckiptagger import WS
+
+        print("Loading model...")
+        self._model = WS("../model/data")
+        print("Ready!")
+    
+    def inference(self, input_: str):
+        if self._model is None:
+            print("Error: model isn't loaded.")
+            return input_
+        print("Inferencing...")
+        return self._model([input_])[0]
+
 # for json
 
 def save_to_json(data: list[dict], path_file: str):
