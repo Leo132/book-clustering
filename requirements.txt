@@ -7,3 +7,4 @@ beautifulsoup4
 ckiptagger[tf,gdown]
 uvicorn
 fastapi
+python-multipart
