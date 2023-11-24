@@ -1,0 +1,9 @@
+td {
+    text-align: center;
+}
+
+#maintable td.red {
+    color: #ff6374;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="{{url_for('static', path='style/base.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', path='style/register.css')}}">
+</head>
+<body>
+<center>
+    <label class="title">{{title}} - 註冊</label>
+    <form action="?" method="post">
+        <table id="maintable">
+            <tr>
+                <td><label class="input-label">名稱</label></td>
+                <td><input class="input-text" type="text" name="name" autofocus required></td>
+                <td class="red"></td>
+            </tr>
+            <tr>
+                <td><label class="input-label">帳號</label></td>
+                <td><input class="input-text" type="text" name="username" required></td>
+                <td class="red"></td>
+            </tr>
+            <tr>
+                <td><label class="input-label">密碼</label></td>
+                <td><input class="input-text" type="password" name="password" autocomplete="off" required></td>
+            </tr>
+            <tr>
+                <td><label class="input-label">再次輸入</label></td>
+                <td><input class="input-text" type="password" name="passwordConfirm" autocomplete="off" required></td>
+                <td class="red">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="button" type="button" onclick='location.href="http://localhost:8000/login";'>取消</button>
+                    <input class="button" type="submit" value="註冊">
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+</html>

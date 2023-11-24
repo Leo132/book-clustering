@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="{{url_for('static', path='style/base.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', path='style/login.css')}}">
+</head>
+<body>
+<center>
+    <label class="title">{{title}} - 登入</label>
+    <form action="?" method="post">
+        <table id="maintable">
+            <tr>
+                <td class="red" colspan="2"></td>
+            </tr>
+            <tr>
+                <td><label class="input-label">帳號</label></td>
+                <td><input class="input-text" type="text" name="username" autofocus required></td>
+            </tr>
+            <tr>
+                <td><label class="input-label">密碼</label></td>
+                <td><input class="input-text" type="password" name="password" autocomplete="off" required></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="button" type="button" onclick='location.href="http://localhost:8000/register";' value="註冊">
+                    <input class="button" type="submit" value="登入">
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>
+</body>
+</html>
