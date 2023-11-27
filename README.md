@@ -52,4 +52,4 @@ uvicorn main:app --reload
 * 搜尋主頁: <u>http://localhost:8000/index</u>
 > **NOTE**
 > 
-> 在搜尋主頁必須要等斷詞模型載入完畢再輸入，也就是等 cmd 出現 `ready!`，且每一次的重整網頁，模型就要重新再載入一次
+> 在搜尋主頁必須要等斷詞模型載入完畢再輸入，也就是等 cmd 出現 `ready!`
