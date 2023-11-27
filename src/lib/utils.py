@@ -8,6 +8,8 @@ class WSModel:
         self._model = None
 
     def load_model(self):
+        if self._model is not None:
+            return
         print("Importing ckiptagger...")
         from ckiptagger import WS
 
