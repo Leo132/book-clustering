@@ -33,8 +33,8 @@ class CategorySelector {
                 checkbox.checked = !checkbox.checked;
                 update_state(checkbox, label.textContent);
             }.bind(this));
-            li.appendChild(label);
             li.appendChild(checkbox);
+            li.appendChild(label);
             this.selector.appendChild(li);
         });
     }
