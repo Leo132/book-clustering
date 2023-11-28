@@ -41,14 +41,13 @@ class CategorySelector {
 
 }
 
-function test() {
-    // const data = require("./test.json");
-    // console.log(data);
+async function load_data(file) {
+    return await fetch(`http://localhost:8000/data/${file}`)
+        .then((response) => { return response.json(); });
 }
 
-function main() {
-    const categories = ["科學", "社會", "人文"];                // should be given by server
+async function main() {
+    const categories = await load_data("category.json")
+        .then((data) => { return data["category"]; });
     const category_selector = new CategorySelector(categories);
-
-    // test();
 }

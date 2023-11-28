@@ -138,11 +138,13 @@ def _test():
     path = "./data/phouse_info"
     # entries = os.scandir(path)
     # path_files = [f"{path}/{file.name}" for file in entries]
-    data = load_json("./data/author_info.json")
+    data = load_json("./data/book_info.json")
     # data = unionize_jsons(path_files, "name")
 
-    for idx, d in enumerate(data, start=1):
-        print(idx, d)
+    table = list(set(get_all_attrs(data, ["category"])[0]))
+    print(table)
+    valid_json = {"category": table}
+    save_to_json(valid_json, "./data/category.json")
     
     # save_to_json(data, f"{path}.json")
     # authors, phouses, isbns = get_all_attrs(data, ["author", "phouse", "ISBN13"])

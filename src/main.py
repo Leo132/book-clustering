@@ -3,13 +3,13 @@ Web backend
 '''
 
 from fastapi import FastAPI, Request, Form, BackgroundTasks
-from fastapi.responses import HTMLResponse, RedirectResponse
+from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
 from typing import Optional, Annotated
 
-from lib.utils import WSModel
+from lib.utils import WSModel, load_json
 from lib.datatype import Page
 
 _TITLE = "我的閱讀助手"
@@ -49,6 +49,12 @@ async def load_page(request: Request, page: Page, background_tasks: BackgroundTa
     }
 
     return templates.TemplateResponse(f"{page}.html", kwargs)
+
+@app.get("/data/{file}", response_class=JSONResponse)
+async def response_data(file: str):
+    data = load_json(f"./data/{file}")
+    print(f"sending {file}...")
+    return JSONResponse(content=data)
 
 if __name__ == "__main__":
     import uvicorn
