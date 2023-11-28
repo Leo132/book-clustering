@@ -17,8 +17,8 @@ _WS_MODEL = WSModel()
 
 app = FastAPI()
 
-templates = Jinja2Templates(directory="templates")
-app.mount("/static", StaticFiles(directory="static"), name="static")
+templates = Jinja2Templates(directory="src/templates")
+app.mount("/static", StaticFiles(directory="src/static"), name="static")
 
 
 @app.get("/index", response_class=HTMLResponse)
@@ -35,17 +35,27 @@ async def main(request: Request, background_tasks: BackgroundTasks, search_str: 
         "result": result,
     }
 
-    return templates.TemplateResponse(f"index.html", kwargs)
+    return templates.TemplateResponse("index.html", kwargs)
 
 @app.get("/{page}", response_class=HTMLResponse)
 async def load_page(request: Request, page: Page, background_tasks: BackgroundTasks):
     print(f"load {page}.html...")
     if page == Page.index:
         print("background processing...")
-        background_tasks.add_task(_WS_MODEL.load_model, _WS_MODEL)
+        background_tasks.add_task(_WS_MODEL.load_model)
     kwargs = {
         "request": request,
         "title": _TITLE,
     }
 
     return templates.TemplateResponse(f"{page}.html", kwargs)
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(
+        "main:app",
+        host="localhost",
+        port=8000,
+        reload=True
+    )

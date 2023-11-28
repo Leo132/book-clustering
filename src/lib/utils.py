@@ -14,7 +14,7 @@ class WSModel:
         from ckiptagger import WS
 
         print("Loading model...")
-        self._model = WS("../model/data")
+        self._model = WS("./model/data")
         print("Ready!")
     
     def inference(self, input_: str):

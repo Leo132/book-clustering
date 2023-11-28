@@ -6,6 +6,9 @@
 ## 資料庫 ERD
 <img src="data/img/ERD.jpg"  width="50%" height="50%">
 
+## 工作目錄
+以下操作皆在 `./book_clustering` 下執行
+
 ## 下載所需函式庫
 ```
 pip install -r ./requirements.txt
@@ -17,7 +20,6 @@ python ./model/download_model.py
 預期輸出結果為 `search_str=['法律概論'], word_list=['法律', '概論']`
 
 ## 執行分群
-工作目錄為 `./book_clustering`
 ```
 python ./src/clustering_algo.py
 ```
@@ -43,9 +45,8 @@ python ./src/clustering_algo.py
 > 每次的分群結果可能不同
 
 ## 網頁執行
-工作目錄為 `./book_clustering/src`
 ```
-uvicorn main:app --reload
+python ./src/main.py
 ```
 * 登入頁面: <u>http://localhost:8000/login</u>
 * 註冊頁面: <u>http://localhost:8000/register</u>
