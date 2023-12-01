@@ -21,21 +21,29 @@ templates = Jinja2Templates(directory="src/templates")
 app.mount("/static", StaticFiles(directory="src/static"), name="static")
 
 
-@app.get("/index", response_class=HTMLResponse)
-async def main(request: Request, background_tasks: BackgroundTasks, search_str: str=None):
-    print("load index.html...")
-    print("background processing...")
-    background_tasks.add_task(_WS_MODEL.load_model)
+@app.get("/search", response_class=JSONResponse)
+async def search(search_str: str=None, categories: str=None):
+    categories = categories.split(';')
     print(f"{search_str=}")
-    result = None if search_str is None else _WS_MODEL.inference(search_str)
-    print(f"{result=}")
-    kwargs = {
-        "request": request,
-        "title": _TITLE,
+    print(f"{categories=}")
+    seg_words = None if search_str is None else _WS_MODEL.inference(search_str)
+    print(f"{seg_words=}")
+    # query
+    result = None
+
+    data = {
+        "seg_words": seg_words,
+        "categories": categories,
         "result": result,
     }
 
-    return templates.TemplateResponse("index.html", kwargs)
+    return JSONResponse(data)
+
+@app.get("/data/{file}", response_class=JSONResponse)
+async def response_data(file: str):
+    data = load_json(f"./data/{file}")
+    print(f"sending {file}...")
+    return JSONResponse(content=data)
 
 @app.get("/{page}", response_class=HTMLResponse)
 async def load_page(request: Request, page: Page, background_tasks: BackgroundTasks):
@@ -49,12 +57,6 @@ async def load_page(request: Request, page: Page, background_tasks: BackgroundTa
     }
 
     return templates.TemplateResponse(f"{page}.html", kwargs)
-
-@app.get("/data/{file}", response_class=JSONResponse)
-async def response_data(file: str):
-    data = load_json(f"./data/{file}")
-    print(f"sending {file}...")
-    return JSONResponse(content=data)
 
 if __name__ == "__main__":
     import uvicorn

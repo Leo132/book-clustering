@@ -3,29 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>{{title}}</title>
-    <link rel="stylesheet" href="{{url_for('static', path='style/base.css')}}">
-    <link rel="stylesheet" href="{{url_for('static', path='style/index.css')}}">
-    <script type="text/javascript" src="../static/control/index.js"></script>
+    <!-- <link rel="stylesheet" href="{{url_for('static', path='style/base.css')}}"> -->
+    <!-- <link rel="stylesheet" href="{{url_for('static', path='style/index.css')}}"> -->
+    <script type="module" src="../static/control/utils.js"></script>
+    <script type="module" src="../static/control/conponents.js"></script>
+    <script type="module" src="../static/control/index.js"></script>
 </head>
 <body>
 <center>
     <label class="title">{{title}} - 主頁</label><br>
-    <form action="http://localhost:8000/index" method="get">
+    <form id="search_form" method="get">
         <table>
             <tr>
                 <td>
-                    <ul style="list-style-type: none;" id="category"></ul>
+                    <details>
+                        <summary>書籍種類</summary>
+                        <ul id="category_list"></ul>
+                    </details>
                 </td>
             </tr>
             <tr>
-                <td><input class="input-text" type="text" name="search_str" autofocus required></td>
+                <td><input class="input-text" type="text" id="search_str" autofocus required></td>
                 <td><input class="button" type="submit" value="搜尋"></td>
-            </tr>
-            <tr>
-                <td>斷詞結果: {{result}}</td>
+                <!-- <td><button class="button" id="search">搜尋</button></td> -->
             </tr>
         </table>
     </form>
+    <p id="result"></p>
 </center>
 </body>
 </html>

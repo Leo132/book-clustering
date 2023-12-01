@@ -1,0 +1,34 @@
+#category {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li label {
+  display: inline-block;
+  width: 8rem;
+}
+
+summary {
+    font-size: larger;
+    cursor: pointer;
+}
+
+details summary::marker {
+  display: none;
+  font-size: 0;
+}
+
+details summary::after {
+  content: "\25BC";
+  display: inline-block;
+  font-size: small;
+  margin-left: 0.5rem;
+  transform: rotate(-90deg);
+  transition: transform 0.25s;
+  width: 0.75rem;
+}
+
+details[open] summary::after {
+  transform: rotate(0);
+}
