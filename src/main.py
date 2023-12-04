@@ -45,6 +45,12 @@ async def response_data(file: str):
     print(f"sending {file}...")
     return JSONResponse(content=data)
 
+@app.get("/data/{folder}/{file}", response_class=JSONResponse)
+async def response_data(folder: str, file: str):
+    data = load_json(f"./data/{folder}/{file}")
+    print(f"sending {file}...")
+    return JSONResponse(content=data)
+
 @app.get("/{page}", response_class=HTMLResponse)
 async def load_page(request: Request, page: Page, background_tasks: BackgroundTasks):
     print(f"load {page}.html...")

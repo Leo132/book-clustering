@@ -8,7 +8,8 @@ export async function search(search_str, categories) {
 
 export async function load_data(type, file='') {
     if(file !== '')
-        file = `/${file}`;
+        file = '/' + file;
+    console.log(file);
     return await fetch(`http://localhost:8000/${type}${file}`)
         .then((response) => { return response.json(); });
 }

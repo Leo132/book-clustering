@@ -1,12 +1,11 @@
 import {
     load_css,
-    load_data,
     search,
 } from "./utils.js"
 
 import {
     CategorySelector,
-    SearchResult,
+    ResultDisplay,
 } from "./conponents.js"
 
 
@@ -14,25 +13,15 @@ window.addEventListener("load", () => {
     main();
 });
 
-
-async function load_category_list() {
-    let categories = await load_data("data", "category.json")
-        .then((data) => { return data["category"]; });
-    let category_selector = new CategorySelector(categories);
-}
-
-function load_search_result() {
-    ;
-}
-
 // for testing
 function update_result(data) {
-    document.getElementById("result").innerText = `seg_words: ${data["seg_words"]}\ncategories: ${data["categories"].join(", ")}\nresult: ${data["result"]}`;
+    document.getElementById("test").innerText = `seg_words: ${data["seg_words"]}\ncategories: ${data["categories"].join(", ")}\nresult: ${data["result"]}`;
 }
 
 async function init() {
-    await load_category_list();
-    load_search_result();
+    let category_selector = await new CategorySelector();
+    let result_block = await new ResultDisplay();
+
     document.getElementById("search_form").onsubmit = async (e) => {
         e.preventDefault();             // important
         let search_str = document.getElementById("search_str").value;
