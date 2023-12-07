@@ -47,7 +47,7 @@ def _load_book_info(conn, book_infos: list[dict]):
         # original info (list[str]) + foreign info (list[str])
         cols = original_keys + foreign_keys
         vals = [book_info[key] for key in original_keys] + [
-            _search_cols(conn, "phouses", ["phouse_id"], [f"name = '{book_info['phouse']}'"])[0]["phouse_id"],
+            _search_cols(conn, "phouses", ["phouse_id"], [f'name = "{book_info["phouse"]}"'])[0]["phouse_id"],
             book_info["cluster"],
         ]
         print(cols)
@@ -60,7 +60,7 @@ def _load_book_info(conn, book_infos: list[dict]):
         for author_name in book_info["author"]:
             vals = [
                 book_info["ISBN13"],
-                _search_cols(conn, "authors", ["author_id"], [f"name = '{author_name}'"])[0]["author_id"],
+                _search_cols(conn, "authors", ["author_id"], [f'name = "{author_name}"'])[0]["author_id"],
             ]
             _insert_row(conn, "writing", cols, vals)
         print(f"{idx:3d}. inserted")
