@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS clusters (
   book_num        INT unsigned NOT NULL,
   average_price   DECIMAL(10,2) unsigned NOT NULL,
   average_pages   DECIMAL(10,2) unsigned NOT NULL,
-  average_time    DATE NOT NULL,
+  average_time    DECIMAL(10,2) unsigned NOT NULL,
   PRIMARY KEY (cluster_id)
 );
 

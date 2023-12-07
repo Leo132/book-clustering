@@ -36,8 +36,6 @@ def _load_data(conn, data: list[dict]):
     for table, infos in data.items():
         for info in infos:
             _insert_row(conn, table, list(info.keys()), list(info.values()))
-    # for testing
-    _query(conn, "INSERT INTO `clusters`(`book_num`, `average_price`, `average_pages`, `average_time`) VALUES (10, 250, 300, 123)")
 
 # only for books
 def _load_book_info(conn, book_infos: list[dict]):
@@ -123,7 +121,7 @@ def _init(*, reset_db: bool=False, load_data: bool=False):
         from utils import load_json
         data = {f"{d}s": load_json(f"./data/{d}_info.json") for d in ["author", "phouse", "cluster"]}
         _load_data(conn, data)
-        # _load_book_info(conn, load_json("./data/book_info.json"))
+        _load_book_info(conn, load_json("./data/book_info.json"))
 
 def _test():
     _init(reset_db=True, load_data=True)

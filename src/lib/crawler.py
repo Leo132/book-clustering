@@ -313,16 +313,28 @@ def _book_test():
     # book_page_urls = [f"https://www.sanmin.com.tw/promote/top/?id=yy&item=11209&pi={page + 1}" for page in range(25)]
     books = load_json("./data/book_info.json")
     author_info = []
+    phouse_info = []
 
     authors = set(author for info in books for author in info["author"])
     author_page_urls = [f"https://www.sanmin.com.tw/search/index/?au={author}" for author in authors]
+    phouses = split_data(get_all_attrs(books, ["phouse"])[0])
+    phouse_page_urls = [f"https://www.sanmin.com.tw/search/index/?pu={phouse}" for phouse in phouses]
 
-    for idx, (author_page_url, author_name) in enumerate(zip(author_page_urls, authors), start=1):
-        info = get_author_info(author_page_url)
-        info["name"] = author_name
+    # recrawlering author info...
+    # for idx, (author_page_url, author_name) in enumerate(zip(author_page_urls, authors), start=1):
+    #     info = get_author_info(author_page_url)
+    #     info["name"] = author_name
+    #     print(f"{idx}. {info}")
+    #     author_info.append(info)
+    # save_to_json(author_info, "./data/author_info_.json")
+
+    # recrawlering phouse info...
+    for idx, (phouse_page_url, phouse_name) in enumerate(zip(phouse_page_urls, phouses), start=1):
+        info = get_phouse_info(phouse_page_url)
+        info["name"] = phouse_name
         print(f"{idx}. {info}")
-        author_info.append(info)
-    save_to_json(author_info, "./data/author_info_.json")
+        phouse_info.append(info)
+    save_to_json(phouse_info, "./data/phouse_info_.json")
     
     # author_page_urls = [f"https://www.sanmin.com.tw/search/index/?au={author}" for author in get_all_attrs(data, ["author"])[0]]
 

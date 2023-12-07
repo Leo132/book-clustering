@@ -1,0 +1,150 @@
+1. {'name': '心理', 'total_books': '221120', 'average_price': 460.98}
+2. {'name': '元照', 'total_books': '2089', 'average_price': 588.43}
+3. {'name': '龍騰文化', 'total_books': '528', 'average_price': 395.21}
+4. {'name': '三民書局', 'total_books': '7781', 'average_price': 410.97}
+5. {'name': '五南圖書出版', 'total_books': '8833', 'average_price': 545.03}
+6. {'name': '晟景數位文化', 'total_books': '238', 'average_price': 377.15}
+7. {'name': '白象文化', 'total_books': '1043', 'average_price': 456.57}
+8. {'name': '新學林', 'total_books': '923', 'average_price': 578.07}
+9. {'name': '楊建華', 'total_books': '16', 'average_price': 649.06}
+10. {'name': '鄭丁旺', 'total_books': '7', 'average_price': 513.43}
+11. {'name': '如何', 'total_books': '716', 'average_price': 397.6}
+12. {'name': '雙葉書廊', 'total_books': '444', 'average_price': 629.22}
+13. {'name': '商周文化', 'total_books': '5557', 'average_price': 431.96}
+14. {'name': 'Scholastic US', 'total_books': '153', 'average_price': 607.16}
+15. {'name': '國際學村', 'total_books': '394', 'average_price': 487.36}
+16. {'name': 'Nosy Crow UK', 'total_books': '1486', 'average_price': 547.91}
+17. {'name': '中國華僑出版社', 'total_books': '7950', 'average_price': 304.03}
+18. {'name': '小山丘', 'total_books': '110', 'average_price': 451.88}
+19. {'name': '九州出版社', 'total_books': '5713', 'average_price': 402.66}
+20. {'name': 'Walker Books', 'total_books': '4422', 'average_price': 573.46}
+21. {'name': '前程文化〈前程企管〉', 'total_books': '151', 'average_price': 642.72}
+22. {'name': '方智', 'total_books': '1701', 'average_price': 343.86}
+23. {'name': '大是文化', 'total_books': '859', 'average_price': 436.96}
+24. {'name': '時報文化', 'total_books': '8599', 'average_price': 415.24}
+25. {'name': '野人文化', 'total_books': '1148', 'average_price': 488.98}
+26. {'name': 'Random House Childrens Books', 'total_books': '7857', 'average_price': 463.27}
+27. {'name': '東大', 'total_books': '5770', 'average_price': 355.73}
+28. {'name': '指南書局', 'total_books': '157', 'average_price': 766.58}
+29. {'name': '金尉', 'total_books': '50', 'average_price': 423.0}
+30. {'name': 'Usborne Pub Ltd', 'total_books': '3989', 'average_price': 500.77}
+31. {'name': '大新', 'total_books': '1084', 'average_price': 485.97}
+32. {'name': 'Campbell Books UK', 'total_books': '410', 'average_price': 477.13}
+33. {'name': '三采文化', 'total_books': '3768', 'average_price': 430.3}
+34. {'name': '任性出版', 'total_books': '74', 'average_price': 463.88}
+35. {'name': '翰林', 'total_books': '1035', 'average_price': 351.47}
+36. {'name': '尚昂文化', 'total_books': '233', 'average_price': 375.82}
+37. {'name': '商業周刊', 'total_books': '512', 'average_price': 460.35}
+38. {'name': '高點文化', 'total_books': '1910', 'average_price': 633.67}
+39. {'name': '溫豐文', 'total_books': '2', 'average_price': 599.5}
+40. {'name': '文藝學社(沈富進)', 'total_books': '2', 'average_price': 399.0}
+41. {'name': '眾文圖書', 'total_books': '499', 'average_price': 445.53}
+42. {'name': '瑞興圖書', 'total_books': '87', 'average_price': 566.83}
+43. {'name': '內部稽核協會', 'total_books': '71', 'average_price': 548.58}
+44. {'name': '証業', 'total_books': '34', 'average_price': 764.09}
+45. {'name': '常春藤有聲', 'total_books': '372', 'average_price': 424.3}
+46. {'name': '曾仕強文化', 'total_books': '25', 'average_price': 615.0}
+47. {'name': '聯經', 'total_books': '5769', 'average_price': 433.9}
+48. {'name': '財經傳訊', 'total_books': '372', 'average_price': 387.71}
+49. {'name': '花山文藝出版社', 'total_books': '2811', 'average_price': 339.62}
+50. {'name': 'Holiday House Inc', 'total_books': '394', 'average_price': 578.26}
+51. {'name': 'Candlewick Pr', 'total_books': '3912', 'average_price': 576.98}
+52. {'name': '先覺', 'total_books': '543', 'average_price': 414.1}
+53. {'name': '時中學社', 'total_books': '10', 'average_price': 459.0}
+54. {'name': '天津科學技術出版社', 'total_books': '3436', 'average_price': 363.59}
+55. {'name': '天地圖書', 'total_books': '2352', 'average_price': 487.05}
+56. {'name': '采實文化', 'total_books': '966', 'average_price': 451.21}
+57. {'name': 'Scholastic', 'total_books': '20105', 'average_price': 486.0}
+58. {'name': '天下雜誌', 'total_books': '1423', 'average_price': 446.1}
+59. {'name': '大辣', 'total_books': '209', 'average_price': 543.63}
+60. {'name': '遠景', 'total_books': '911', 'average_price': 402.97}
+61. {'name': '早安財經文化', 'total_books': '233', 'average_price': 428.2}
+62. {'name': '國家鐵道博物館籌備處', 'total_books': '2', 'average_price': 699.5}
+63. {'name': '孫森焱', 'total_books': '2', 'average_price': 699.0}
+64. {'name': '布克文化', 'total_books': '1042', 'average_price': 412.47}
+65. {'name': '今周刊', 'total_books': '227', 'average_price': 428.08}
+66. {'name': '人民東方出版社(東方社)', 'total_books': '6539', 'average_price': 384.16}
+67. {'name': '寶瓶文化', 'total_books': '791', 'average_price': 401.03}
+68. {'name': '武陵出版社', 'total_books': '1451', 'average_price': 382.49}
+69. {'name': '天下文化', 'total_books': '3684', 'average_price': 480.91}
+70. {'name': '遠流', 'total_books': '4854', 'average_price': 446.23}
+71. {'name': '圓神', 'total_books': '1357', 'average_price': 377.05}
+72. {'name': 'Candlewick Studio', 'total_books': '64', 'average_price': 702.33}
+73. {'name': '香港中文大學出版社', 'total_books': '1636', 'average_price': 655.16}
+74. {'name': 'Bloomsbury UK', 'total_books': '7701', 'average_price': 754.86}
+75. {'name': '寂寞', 'total_books': '107', 'average_price': 462.56}
+76. {'name': 'YoYo Books UK', 'total_books': '736', 'average_price': 533.27}
+77. {'name': '貓頭鷹', 'total_books': '1230', 'average_price': 526.75}
+78. {'name': 'Ladybird UK', 'total_books': '1555', 'average_price': 407.01}
+79. {'name': 'Little Tiger Press UK', 'total_books': '2366', 'average_price': 542.16}
+80. {'name': '遊目族文化', 'total_books': '117', 'average_price': 397.37}
+81. {'name': 'Scholastic Asia', 'total_books': '764', 'average_price': 448.1}
+82. {'name': '王德槐', 'total_books': '8', 'average_price': 374.0}
+83. {'name': 'Imagine That UK', 'total_books': '473', 'average_price': 474.3}
+84. {'name': '牛津大學出版社', 'total_books': '786', 'average_price': 543.33}
+85. {'name': 'Holiday House', 'total_books': '2066', 'average_price': 571.05}
+86. {'name': '大樂文化', 'total_books': '320', 'average_price': 389.0}
+87. {'name': 'Scholastic Inc.', 'total_books': '2667', 'average_price': 514.43}
+88. {'name': '保成文化', 'total_books': '1221', 'average_price': 578.82}
+89. {'name': 'Usborne Publishing Ltd', 'total_books': '393', 'average_price': 553.23}
+90. {'name': '楓書坊文化', 'total_books': '1531', 'average_price': 432.46}
+91. {'name': '蓋亞文化', 'total_books': '1248', 'average_price': 428.59}
+92. {'name': '台灣角川', 'total_books': '10725', 'average_price': 293.39}
+93. {'name': '智勝文化', 'total_books': '408', 'average_price': 598.05}
+94. {'name': '大牌出版', 'total_books': '466', 'average_price': 545.89}
+95. {'name': 'Chronicle Books Llc', 'total_books': '7417', 'average_price': 613.66}
+96. {'name': '中西書局', 'total_books': '1251', 'average_price': 472.38}
+97. {'name': 'Words & Pictures UK', 'total_books': '741', 'average_price': 692.65}
+98. {'name': '廣東旅遊出版社', 'total_books': '2726', 'average_price': 339.08}
+99. {'name': '天下生活', 'total_books': '157', 'average_price': 490.74}
+100. {'name': '眾生文化', 'total_books': '212', 'average_price': 425.42}
+101. {'name': 'Dial Books for Young Readers', 'total_books': '323', 'average_price': 703.69}
+102. {'name': '北京聯合出版有限責任公司', 'total_books': '15121', 'average_price': 394.06}
+103. {'name': '浙江文藝出版社', 'total_books': '3663', 'average_price': 340.34}
+104. {'name': '方言文化', 'total_books': '308', 'average_price': 449.66}
+105. {'name': '麥田', 'total_books': '6019', 'average_price': 406.49}
+106. {'name': 'Smart智富文化', 'total_books': '312', 'average_price': 482.53}
+107. {'name': '墨刻', 'total_books': '1057', 'average_price': 415.48}
+108. {'name': '立緒文化', 'total_books': '546', 'average_price': 434.18}
+109. {'name': 'Workman Pub Co', 'total_books': '3003', 'average_price': 657.61}
+110. {'name': '青島出版社', 'total_books': '9288', 'average_price': 328.99}
+111. {'name': '知青頻道', 'total_books': '776', 'average_price': 378.13}
+112. {'name': '臺大出版中心', 'total_books': '1318', 'average_price': 580.16}
+113. {'name': '瑞昇文化', 'total_books': '1616', 'average_price': 428.97}
+114. {'name': '漫遊者文化', 'total_books': '830', 'average_price': 475.18}
+115. {'name': '大展', 'total_books': '2285', 'average_price': 350.51}
+116. {'name': '王溢嘉', 'total_books': '2', 'average_price': 399.0}
+117. {'name': '印刻', 'total_books': '1216', 'average_price': 424.02}
+118. {'name': 'Balzer & Bray', 'total_books': '630', 'average_price': 644.45}
+119. {'name': 'Flying Eye Books UK', 'total_books': '151', 'average_price': 727.64}
+120. {'name': "Oxford Children's Books UK", 'total_books': '235', 'average_price': 594.91}
+121. {'name': 'Harpercollins', 'total_books': '69031', 'average_price': 655.04}
+122. {'name': 'LITTLE BROWN BOOKS FOR YOUNG R', 'total_books': '305', 'average_price': 695.73}
+123. {'name': 'Bloomsbury Childrens UK', 'total_books': '752', 'average_price': 560.8}
+124. {'name': '江蘇鳳凰文藝出版社', 'total_books': '8360', 'average_price': 382.49}
+125. {'name': '柿子文化', 'total_books': '366', 'average_price': 507.81}
+126. {'name': '方舟文化', 'total_books': '252', 'average_price': 480.79}
+127. {'name': '大好書屋', 'total_books': '391', 'average_price': 417.42}
+128. {'name': '新自然主義', 'total_books': '667', 'average_price': 397.82}
+129. {'name': '樂金文化', 'total_books': '146', 'average_price': 457.9}
+130. {'name': '湖南科學技術出版社', 'total_books': '3940', 'average_price': 375.22}
+131. {'name': '寂天文化', 'total_books': '2106', 'average_price': 491.91}
+132. {'name': '東方出版中心', 'total_books': '2135', 'average_price': 416.1}
+133. {'name': '寧波出版社', 'total_books': '2266', 'average_price': 343.44}
+134. {'name': '真文化', 'total_books': '65', 'average_price': 426.71}
+135. {'name': '商務印書館(大陸)', 'total_books': '15189', 'average_price': 456.66}
+136. {'name': '幸福文化', 'total_books': '367', 'average_price': 517.85}
+137. {'name': '中國中醫藥出版社', 'total_books': '8855', 'average_price': 422.7}
+138. {'name': '廣西師範大學出版社', 'total_books': '11338', 'average_price': 428.26}
+139. {'name': '外語教學與研究出版社', 'total_books': '14431', 'average_price': 353.31}
+140. {'name': '如果', 'total_books': '420', 'average_price': 466.63}
+141. {'name': '前衛', 'total_books': '1153', 'average_price': 448.49}
+142. {'name': '一心文化', 'total_books': '25', 'average_price': 519.12}
+143. {'name': '浙江教育出版社', 'total_books': '5694', 'average_price': 310.94}
+144. {'name': '大邑文化', 'total_books': '224', 'average_price': 422.27}
+145. {'name': '中信出版社', 'total_books': '14182', 'average_price': 435.7}
+146. {'name': 'Little Brown Books for Young Readers', 'total_books': '454', 'average_price': 627.29}
+147. {'name': 'YEARLING', 'total_books': '430', 'average_price': 447.39}
+148. {'name': 'Twirl', 'total_books': '224', 'average_price': 651.91}
+149. {'name': 'Oxford Univ Press UK', 'total_books': '1780', 'average_price': 518.29}
+150. {'name': 'Hodder Childrens Book UK', 'total_books': '1440', 'average_price': 560.99}

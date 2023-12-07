@@ -51,6 +51,7 @@ def save_author_info_to_json(data: list[str], folder_file: str,  get_info: Calla
     for idx, url in enumerate(data, start=1):
         print(url)                         # for debugging
         info = get_info(url)
+        info["name"]
         if info is None:                   # skip invalid info
             continue
         info_list.append(info)
@@ -138,14 +139,18 @@ def _test():
     path = "./data/phouse_info"
     # entries = os.scandir(path)
     # path_files = [f"{path}/{file.name}" for file in entries]
-    books = load_json(f"./data/book_info.json")
+    # books = load_json(f"./data/book_info.json")
+    phouses = load_json(f"./data/phouse_info.json")
     # authors = load_json("./data/author_info.json")
     # data = load_json(f"./data/author_info.json")
     # data = unionize_jsons(path_files, "name")
 
     table = dict()
-    data = [info for info in books if info["cluster"] == 7]
-    print(get_all_attrs(data, ["price", "pages"]))
+    # data = [info for info in books if info["cluster"] == 7]
+    # print(get_all_attrs(data, ["price", "pages"]))
+    for info in phouses:
+        if info["name"] == "Random House Childrens Books":
+            print(info)
     # for i in range(8):
     #     data = [info for info in books if info["cluster"] == i + 1]
     #     price, pages = get_all_attrs(data, ["price", "pages"])
