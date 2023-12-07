@@ -76,12 +76,13 @@ def _test():
     # clustering
     kmeans_kwargs = {
         "init": "k-means++",
-        "n_init": 10,
+        "n_init": 20,
         "max_iter": 300,
         # "random_state": 42,
     }
     is_dev = False
     save_result = True
+    display = False
 
     if is_dev:
         n = 15
@@ -103,32 +104,33 @@ def _test():
         pipe = make_pipeline(k, **kmeans_kwargs)
         pipe.fit(features)
 
-        df = pd.DataFrame(
-            pipe["preprocessor"].transform(features),
-            columns=col
-        )
+        df = pd.DataFrame(pipe["preprocessor"].transform(features), columns=col)
         result = pipe["clusterer"]["kmeans"]
         labels = result.labels_
+        cluster_centers = pipe["preprocessor"].inverse_transform(result.cluster_centers_)
+        print(cluster_centers)
 
         # save clustering result
         if save_result:
             from collections import Counter
             counter = Counter(labels)
+            print(counter)
+            print(labels)
             cluster_info = [{
                 "cluster_id": label.item() + 1,
                 "book_num": num,
-                "average_price": round(avg_price, 2),
-                "average_pages": round(avg_pages, 2),
-                "average_time": round(avg_time, 2),
-            } for (label, num), (avg_price, avg_pages, avg_time) in zip(counter.items(), result.cluster_centers_)]
+                "average_price": round(cluster_centers[label][0], 2),
+                "average_pages": round(cluster_centers[label][1], 2),
+                "average_time": round(cluster_centers[label][2], 2),
+            } for label, num in counter.items()]
             for info, label in zip(book_info, labels):
                 info["cluster"] = label.item() + 1
             save_to_json(book_info, "./data/book_info.json")
             for info in cluster_info:
                 print(info)
             save_to_json(cluster_info, "./data/cluster_info.json")
-
-        visualize(df, labels, len(col) == 2)
+        if display:
+            visualize(df, labels, len(col) == 2)
 
 if __name__ == "__main__":
     _test()

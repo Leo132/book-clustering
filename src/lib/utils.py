@@ -103,7 +103,7 @@ def unionize_jsons(path_files: list[str], identifier: str):
 # for book info
 
 def get_all_attrs(data: list[dict], attrs: list[str], is_split: bool = True):
-    return [list(set(d[attr] for d in data)) for attr in attrs] if is_split else {attr: list(set(d[attr] for d in data)) for attr in attrs}
+    return [[d[attr] for d in data] for attr in attrs] if is_split else {attr: [d[attr] for d in data] for attr in attrs}
 
 # for clustering
 
@@ -144,12 +144,13 @@ def _test():
     # data = unionize_jsons(path_files, "name")
 
     table = dict()
-    for idx, info in enumerate(books, start=1):
-        if info["cluster"] not in table.keys():
-            table[info["cluster"]] = 0
-        table[info["cluster"]] += 1
-    for k, v in table.items():
-        print(k, v)
+    data = [info for info in books if info["cluster"] == 7]
+    print(get_all_attrs(data, ["price", "pages"]))
+    # for i in range(8):
+    #     data = [info for info in books if info["cluster"] == i + 1]
+    #     price, pages = get_all_attrs(data, ["price", "pages"])
+    #     avg = lambda x: round(sum(x)/len(x), 2)
+    #     print(i + 1, avg(price), avg(pages))
     #     # authors = [author.split('-')[0].strip() for author in info["author"].split(';')]
     #     # print(f"{idx:3d}. {authors}")
     #     # info["author"] = authors

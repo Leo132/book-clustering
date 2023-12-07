@@ -123,7 +123,7 @@ def _init(*, reset_db: bool=False, load_data: bool=False):
         from utils import load_json
         data = {f"{d}s": load_json(f"./data/{d}_info.json") for d in ["author", "phouse", "cluster"]}
         _load_data(conn, data)
-        _load_book_info(conn, load_json("./data/book_info.json"))
+        # _load_book_info(conn, load_json("./data/book_info.json"))
 
 def _test():
     _init(reset_db=True, load_data=True)

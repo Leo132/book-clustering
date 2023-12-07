@@ -1,58 +1,58 @@
 [
     {
-        "cluster_id": 7,
+        "cluster_id": 2,
         "book_num": 60,
-        "average_price": 0.14,
-        "average_pages": 0.07,
-        "average_time": 0.41
+        "average_price": 709.97,
+        "average_pages": 662.28,
+        "average_time": 626.97
     },
     {
-        "cluster_id": 2,
+        "cluster_id": 8,
         "book_num": 220,
-        "average_price": 0.11,
-        "average_pages": 0.05,
-        "average_time": 0.03
+        "average_price": 372.22,
+        "average_pages": 235.67,
+        "average_time": 302.44
     },
     {
         "cluster_id": 1,
         "book_num": 48,
-        "average_price": 0.66,
-        "average_pages": 0.07,
-        "average_time": 0.13
-    },
-    {
-        "cluster_id": 4,
-        "book_num": 97,
-        "average_price": 0.13,
-        "average_pages": 0.03,
-        "average_time": 0.17
-    },
-    {
-        "cluster_id": 8,
-        "book_num": 4,
-        "average_price": 0.79,
-        "average_pages": 0.47,
-        "average_time": 0.02
-    },
-    {
-        "cluster_id": 6,
-        "book_num": 30,
-        "average_price": 0.11,
-        "average_pages": 0.09,
-        "average_time": 0.71
-    },
-    {
-        "cluster_id": 3,
-        "book_num": 6,
-        "average_price": 0.23,
-        "average_pages": 0.15,
-        "average_time": 0.06
+        "average_price": 462.92,
+        "average_pages": 293.98,
+        "average_time": 3654.29
     },
     {
         "cluster_id": 5,
-        "book_num": 3,
-        "average_price": 0.22,
-        "average_pages": 0.66,
-        "average_time": 0.11
+        "book_num": 97,
+        "average_price": 422.76,
+        "average_pages": 115.24,
+        "average_time": 1541.8
+    },
+    {
+        "cluster_id": 4,
+        "book_num": 4,
+        "average_price": 675.0,
+        "average_pages": 2832.0,
+        "average_time": 1055.25
+    },
+    {
+        "cluster_id": 3,
+        "book_num": 30,
+        "average_price": 363.53,
+        "average_pages": 405.4,
+        "average_time": 6168.83
+    },
+    {
+        "cluster_id": 7,
+        "book_num": 4,
+        "average_price": 2092.0,
+        "average_pages": 1836.0,
+        "average_time": 404.0
+    },
+    {
+        "cluster_id": 6,
+        "book_num": 5,
+        "average_price": 1969.4,
+        "average_pages": 96.8,
+        "average_time": 1302.8
     }
 ]
