@@ -124,9 +124,14 @@ export class ResultDisplay {
             for(let book_info_list of result) {
                 console.log(book_info_list);
                 for(let book_info of book_info_list) {
-                    let li = document.createElement("li");
-                    li.textContent = book_info["name"];
-                    this.list_block.appendChild(li);
+                    let details = document.createElement("details");
+                    let summary = document.createElement("summary");
+                    let label = document.createElement("label");
+                    summary.textContent = book_info["name"];
+                    label.textContent = book_info["price"];
+                    details.appendChild(summary);
+                    details.appendChild(label);
+                    this.list_block.appendChild(details);
                 }
             }
 

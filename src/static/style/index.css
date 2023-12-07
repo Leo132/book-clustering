@@ -40,23 +40,11 @@ ul li label {
 }
 
 summary {
-    font-size: larger;
     cursor: pointer;
 }
 
-details summary::marker {
-    display: none;
-    font-size: 0;
-}
-
-details summary::after {
-    content: "\25BC";
-    display: inline-block;
-    font-size: small;
-    margin-left: 0.5rem;
-    transform: rotate(-90deg);
-    transition: transform 0.25s;
-    width: 0.75rem;
+summary.book_category {
+    font-size: large;
 }
 
 details[open] summary::after {

@@ -57,7 +57,7 @@ def visualize(data: pd.DataFrame, cluster: list[int], is_2d: bool=True):
 
 
 def _test():
-    from utils import load_json, unionize_jsons, extract_features
+    from utils import load_json, save_to_json, extract_features
 
     # load data
     print("data loading...")
@@ -67,10 +67,11 @@ def _test():
     #     cluster_std=2.75,
     #     random_state=42
     # )
-    col = ["price", "pages", "date"]
-    data = load_json("./data/book_info.json")
+    col = ["price", "pages", "published_date"]
+    book_info = load_json("./data/book_info.json")
     # data = unionize_jsons([f"./data/book_info/book_info_page{page + 1}.json" for page in range(25)], "name")
-    data, features = extract_features(data, col)
+    data, features = extract_features(book_info, col)
+    print(len(book_info), len(features))
 
     # clustering
     kmeans_kwargs = {
@@ -80,6 +81,7 @@ def _test():
         # "random_state": 42,
     }
     is_dev = False
+    save_result = True
 
     if is_dev:
         n = 15
@@ -105,10 +107,28 @@ def _test():
             pipe["preprocessor"].transform(features),
             columns=col
         )
+        result = pipe["clusterer"]["kmeans"]
+        labels = result.labels_
 
-        visualize(df, pipe["clusterer"]["kmeans"].labels_, len(col) == 2)
+        # save clustering result
+        if save_result:
+            from collections import Counter
+            counter = Counter(labels)
+            cluster_info = [{
+                "cluster_id": label.item() + 1,
+                "book_num": num,
+                "average_price": round(avg_price, 2),
+                "average_pages": round(avg_pages, 2),
+                "average_time": round(avg_time, 2),
+            } for (label, num), (avg_price, avg_pages, avg_time) in zip(counter.items(), result.cluster_centers_)]
+            for info, label in zip(book_info, labels):
+                info["cluster"] = label.item() + 1
+            save_to_json(book_info, "./data/book_info.json")
+            for info in cluster_info:
+                print(info)
+            save_to_json(cluster_info, "./data/cluster_info.json")
 
-
+        visualize(df, labels, len(col) == 2)
 
 if __name__ == "__main__":
     _test()

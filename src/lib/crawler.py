@@ -15,8 +15,9 @@ from utils import (
     load_json,
     save_info_to_json,
     get_all_attrs,
-    save_author_info_to_jason,
+    save_author_info_to_json,
     split_data,
+    save_to_json,
 )
 
 class Parser(BeautifulSoup):
@@ -129,14 +130,15 @@ def get_book_urls(url: str):
 '''
 Book info format
     {
-        "name"      : name                  : str,
-        "ISBN13"    : ISBN13                : str (default: None),
-        "author"    : author                : str (defalut: None),
-        "phouse"    : publishing house      : str (defalut: None),
-        "date"      : publication date      : str (defalut: None),
-        "category"  : category              : str (only one),
-        "price"     : price                 : int,
-        "pages"     : number of pages       : int (default: None),
+        "name"              : name                  : str,
+        "ISBN13"            : ISBN13                : str (default: None),
+        "author"            : author                : str (defalut: None),
+        "phouse"            : publishing house      : str (defalut: None),
+        "published_date"    : published date        : str (defalut: None),
+        "category"          : category              : str (only one),
+        "price"             : price                 : int,
+        "pages"             : number of pages       : int (default: None),
+        "cluster"           : clustering label      : int
     }
 '''
 def get_book_info(url: str):
@@ -206,17 +208,18 @@ def get_book_info(url: str):
         "author": book_author,
         "phouse": book_phouse,
         "category": book_category,
-        "date": book_date,
+        "published_date": book_date,
         "price": book_price,
         "pages": book_pages,
+        "cluster": None,
     }
 
 '''
 Author info format
     {
-        "name"          : name                  : str
-        "totalbooks"    : number of books       : int
-        "avgprice"      : average book price    : float
+        "name"              : name                  : str
+        "total_books"       : number of books       : int
+        "average_price"     : average book price    : float
     }
 '''
 def get_author_info(url: str):
@@ -243,16 +246,16 @@ def get_author_info(url: str):
 
     return {
         "name": author_name,
-        "totalbooks": books_num,
-        "avgprice": average_price,
+        "total_books": books_num,
+        "average_price": average_price,
     }
 
 '''
 Publishing house info format (same as author info)
     {
-        "name"          : name                  : str
-        "totalbooks"    : number of books       : int
-        "avgprice"      : average book price    : float
+        "name"              : name                  : str
+        "total_books"       : number of books       : int
+        "average_price"     : average book price    : float
     }
 '''
 # -- 黃政揚貢獻
@@ -280,8 +283,8 @@ def get_phouse_info(url: str):
 
     return {
         "name": phouse_name,
-        "totalbooks": books_num,
-        "avgprice": average_price,
+        "total_books": books_num,
+        "average_price": average_price,
     }
 # 黃政揚貢獻 --
 
@@ -294,21 +297,34 @@ def save_book_to_json():
 # -- 黃政揚貢獻
 def save_author_to_json():
     data = load_json("./data/book_info.json")
-    author_page_urls = [f"https://www.sanmin.com.tw/search/index/?au={author}" for author in split_data(get_all_attrs(data, ["author"])[0])]
+    authors = set(author for info in data for author in info["author"])
+    author_page_urls = [f"https://www.sanmin.com.tw/search/index/?au={author}" for author in authors]
 
-    save_author_info_to_jason(author_page_urls, "author_info/author_info_page", get_author_info)
+    save_author_info_to_json(author_page_urls, "author_info/author_info_page", get_author_info)
 
 def save_phouse_to_json():
     data = load_json("./data/book_info.json")
     phouse_page_urls = [f"https://www.sanmin.com.tw/search/index/?pu={phouse}" for phouse in split_data(get_all_attrs(data, ["phouse"])[0])]
 
-    save_author_info_to_jason(phouse_page_urls, "phouse_info/phouse_info_page", get_phouse_info)
+    save_author_info_to_json(phouse_page_urls, "phouse_info/phouse_info_page", get_phouse_info)
 # 黃政揚貢獻 --
 
 def _book_test():
     # book_page_urls = [f"https://www.sanmin.com.tw/promote/top/?id=yy&item=11209&pi={page + 1}" for page in range(25)]
-    data = load_json("./data/book_info.json")
-    author_page_urls = [f"https://www.sanmin.com.tw/search/index/?au={author}" for author in get_all_attrs(data, ["author"])[0]]
+    books = load_json("./data/book_info.json")
+    author_info = []
+
+    authors = set(author for info in books for author in info["author"])
+    author_page_urls = [f"https://www.sanmin.com.tw/search/index/?au={author}" for author in authors]
+
+    for idx, (author_page_url, author_name) in enumerate(zip(author_page_urls, authors), start=1):
+        info = get_author_info(author_page_url)
+        info["name"] = author_name
+        print(f"{idx}. {info}")
+        author_info.append(info)
+    save_to_json(author_info, "./data/author_info_.json")
+    
+    # author_page_urls = [f"https://www.sanmin.com.tw/search/index/?au={author}" for author in get_all_attrs(data, ["author"])[0]]
 
     # for page, book_page_url in enumerate(book_page_urls[:1], start=1):
     #     print(f"{'page' + str(page):-^60}")
@@ -317,10 +333,10 @@ def _book_test():
     #         # book_info = get_book_info(book_url)
     #         print(f"{idx:3d}. {book_info}")
 
-    for idx, author_page_url in enumerate(author_page_urls[:10], start=1):
-        print(author_page_url)     # for debugging
-        author_info = get_author_info(author_page_url)
-        print(f"{idx:3d}. {author_info}")
+    # for idx, author_page_url in enumerate(author_page_urls[:10], start=1):
+    #     print(author_page_url)     # for debugging
+    #     author_info = get_author_info(author_page_url)
+    #     print(f"{idx:3d}. {author_info}")
 
     # print(get_book_info("https://www.sanmin.com.tw/product/index/011483843"))
     # print(get_author_info("https://www.sanmin.com.tw/search/index/?au=%E4%B8%89%E6%B0%91%E8%8B%B1%E8%AA%9E%E7%B7%A8%E8%BC%AF%E5%B0%8F%E7%B5%84"))
@@ -335,7 +351,7 @@ def _test():
     _book_test()
     # save_book_to_json()
     # save_author_to_json()
-    save_phouse_to_json()
+    # save_phouse_to_json()
 
     # with open("./src/view.html", 'wb') as f:
     #     f.write(get_html_from_url(test_url, "get").encode("utf-8"))

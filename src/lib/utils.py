@@ -45,7 +45,7 @@ def save_info_to_json(page_urls: list[str], folder_file: str, get_urls: Callable
     print("Save success")
 
 # -- 黃政揚貢獻
-def save_author_info_to_jason(data: list[str], folder_file: str,  get_info: Callable):
+def save_author_info_to_json(data: list[str], folder_file: str,  get_info: Callable):
     info_list = []
     page = 1
     for idx, url in enumerate(data, start=1):
@@ -110,7 +110,7 @@ def get_all_attrs(data: list[dict], attrs: list[str], is_split: bool = True):
 def extract_features(data:  dict, col: list[str]):
     def is_valid(info: dict, col: list[str]):
         for c in col:
-            if c == "date" and info[c] is not None:
+            if c == "published_date" and info[c] is not None:
                 continue
             if not isinstance(info[c], int) and not isinstance(info[c], float):
                 return False
@@ -123,7 +123,7 @@ def extract_features(data:  dict, col: list[str]):
         if not is_valid(d, col):
             continue
         for k, v in d.items():
-            if k == "date":
+            if k == "published_date":
                 v = (date.today() - date(*list(map(int, v.split('/'))))).days
             data_[k].append(v)
     
@@ -138,13 +138,31 @@ def _test():
     path = "./data/phouse_info"
     # entries = os.scandir(path)
     # path_files = [f"{path}/{file.name}" for file in entries]
-    data = load_json("./data/book_info.json")
+    books = load_json(f"./data/book_info.json")
+    # authors = load_json("./data/author_info.json")
+    # data = load_json(f"./data/author_info.json")
     # data = unionize_jsons(path_files, "name")
 
-    table = list(set(get_all_attrs(data, ["category"])[0]))
-    print(table)
-    valid_json = {"category": table}
-    save_to_json(valid_json, "./data/category.json")
+    table = dict()
+    for idx, info in enumerate(books, start=1):
+        if info["cluster"] not in table.keys():
+            table[info["cluster"]] = 0
+        table[info["cluster"]] += 1
+    for k, v in table.items():
+        print(k, v)
+    #     # authors = [author.split('-')[0].strip() for author in info["author"].split(';')]
+    #     # print(f"{idx:3d}. {authors}")
+    #     # info["author"] = authors
+    #     if info["pages"] is not None:
+    #         books_.append(info)
+    #         continue
+    #     print(info)
+    # save_to_json(books_, "./data/book_info.json")
+
+    # table = list(set(get_all_attrs(data, ["category"])[0]))
+    # print(table)
+    # valid_json = {"category": table}
+    # save_to_json(valid_json, "./data/category.json")
     
     # save_to_json(data, f"{path}.json")
     # authors, phouses, isbns = get_all_attrs(data, ["author", "phouse", "ISBN13"])

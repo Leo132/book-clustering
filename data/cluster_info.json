@@ -1,0 +1,58 @@
+[
+    {
+        "cluster_id": 7,
+        "book_num": 60,
+        "average_price": 0.14,
+        "average_pages": 0.07,
+        "average_time": 0.41
+    },
+    {
+        "cluster_id": 2,
+        "book_num": 220,
+        "average_price": 0.11,
+        "average_pages": 0.05,
+        "average_time": 0.03
+    },
+    {
+        "cluster_id": 1,
+        "book_num": 48,
+        "average_price": 0.66,
+        "average_pages": 0.07,
+        "average_time": 0.13
+    },
+    {
+        "cluster_id": 4,
+        "book_num": 97,
+        "average_price": 0.13,
+        "average_pages": 0.03,
+        "average_time": 0.17
+    },
+    {
+        "cluster_id": 8,
+        "book_num": 4,
+        "average_price": 0.79,
+        "average_pages": 0.47,
+        "average_time": 0.02
+    },
+    {
+        "cluster_id": 6,
+        "book_num": 30,
+        "average_price": 0.11,
+        "average_pages": 0.09,
+        "average_time": 0.71
+    },
+    {
+        "cluster_id": 3,
+        "book_num": 6,
+        "average_price": 0.23,
+        "average_pages": 0.15,
+        "average_time": 0.06
+    },
+    {
+        "cluster_id": 5,
+        "book_num": 3,
+        "average_price": 0.22,
+        "average_pages": 0.66,
+        "average_time": 0.11
+    }
+]

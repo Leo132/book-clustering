@@ -1,9 +1,3 @@
-from fastapi import FastAPI
+x = (1, 2)
 
-app = FastAPI()
-
-
-@app.get("/")
-async def root():
-    print("test")
-    return {"message": "Hello World"}
+print(x[1])

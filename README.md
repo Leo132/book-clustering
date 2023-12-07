@@ -54,3 +54,17 @@ python ./src/main.py
 > **NOTE**
 > 
 > 在搜尋主頁必須要等斷詞模型載入完畢再輸入，也就是等 cmd 出現 `ready!`
+>
+## 資料庫設定
+新增一個 `.env` 並設定你的資料庫帳號與密碼
+```
+DB_USER = "你的帳號 (應該是 root)"
+DB_PASSWORD = "你的密碼"
+```
+再來初始化資料庫
+```
+python ./src/lib/db_f.py
+```
+> **NOTE**
+>
+> 這個只要執行一次就好!

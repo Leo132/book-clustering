@@ -1,0 +1,509 @@
+1. {'name': '漢娜‧艾莉絲', 'totalbooks': '8', 'avgprice': 649.62}
+2. {'name': '翁秀琪', 'totalbooks': '7', 'avgprice': 541.86}
+3. {'name': '徐玉舒', 'totalbooks': '12', 'avgprice': 365.67}
+4. {'name': '鄭宇君', 'totalbooks': '4', 'avgprice': 449.0}
+5. {'name': '許婷', 'totalbooks': '32', 'avgprice': 405.31}
+6. {'name': '頂果欽哲仁波切', 'totalbooks': '1', 'avgprice': 599.0}
+7. {'name': '曾仕強', 'totalbooks': '302', 'avgprice': 480.57}
+8. {'name': '盧思嘉', 'totalbooks': '44', 'avgprice': 480.89}
+9. {'name': '韓兆琦', 'totalbooks': '103', 'avgprice': 536.95}
+10. {'name': '王德槐', 'totalbooks': '8', 'avgprice': 374.0}
+11. {'name': '許士宦', 'totalbooks': '32', 'avgprice': 699.12}
+12. {'name': '徐弘縉', 'totalbooks': '60', 'avgprice': 562.47}
+13. {'name': '鄭玉波', 'totalbooks': '43', 'avgprice': 468.81}
+14. {'name': '溫世頌', 'totalbooks': '12', 'avgprice': 615.67}
+15. {'name': '吳信華', 'totalbooks': '9', 'avgprice': 665.89}
+16. {'name': '黃德舜', 'totalbooks': '5', 'avgprice': 519.0}
+17. {'name': 'Ashley Selby', 'totalbooks': '6', 'avgprice': 566.0}
+18. {'name': '劉連煜', 'totalbooks': '34', 'avgprice': 569.71}
+19. {'name': '鄭冠宇', 'totalbooks': '16', 'avgprice': 699.19}
+20. {'name': '成弦祐', 'totalbooks': '1', 'avgprice': 599.0}
+21. {'name': '麥可‧迪吉雅科莫', 'totalbooks': '1', 'avgprice': 399.0}
+22. {'name': '下川穰', 'totalbooks': '1', 'avgprice': 399.0}
+23. {'name': '皮國立', 'totalbooks': '28', 'avgprice': 606.14}
+24. {'name': '郭艾珊', 'totalbooks': '2', 'avgprice': 399.0}
+25. {'name': '黃宜方', 'totalbooks': '5', 'avgprice': 199.0}
+26. {'name': '張瑋編著', 'totalbooks': '174', 'avgprice': 418.6}
+27. {'name': '葉曼玲', 'totalbooks': '5', 'avgprice': 399.0}
+28. {'name': '鄭資靜', 'totalbooks': '4', 'avgprice': 399.0}
+29. {'name': '余培林', 'totalbooks': '12', 'avgprice': 415.67}
+30. {'name': 'Simona Dimitri', 'totalbooks': '17', 'avgprice': 599.06}
+31. {'name': '陳正倉', 'totalbooks': '11', 'avgprice': 799.0}
+32. {'name': '哈伊姆・夏皮拉', 'totalbooks': '3', 'avgprice': 599.33}
+33. {'name': '謝國平', 'totalbooks': '63', 'avgprice': 351.4}
+34. {'name': '葉晉宏', 'totalbooks': '17', 'avgprice': 422.53}
+35. {'name': 'The 株鬼(小島晉也)', 'totalbooks': '1', 'avgprice': 399.0}
+36. {'name': '鄭傑夫', 'totalbooks': '5', 'avgprice': 519.2}
+37. {'name': '黃沛榮', 'totalbooks': '15', 'avgprice': 399.07}
+38. {'name': '高華 著', 'totalbooks': '203', 'avgprice': 458.2}
+39. {'name': '陸西星', 'totalbooks': '20', 'avgprice': 499.15}
+40. {'name': '芙麗達.麥法登', 'totalbooks': '1', 'avgprice': 599.0}
+41. {'name': '黃政治主編', 'totalbooks': '1', 'avgprice': 399.0}
+42. {'name': '蒙格', 'totalbooks': '48', 'avgprice': 286.52}
+43. {'name': 'Helene Convert', 'totalbooks': '2', 'avgprice': 699.0}
+44. {'name': 'Random House', 'totalbooks': '824', 'avgprice': 425.74}
+45. {'name': '勞思光', 'totalbooks': '47', 'avgprice': 450.09}
+46. {'name': 'Xavier Deneux', 'totalbooks': '48', 'avgprice': 632.5}
+47. {'name': '劉麗純', 'totalbooks': '3', 'avgprice': 399.0}
+48. {'name': '劉潤', 'totalbooks': '146', 'avgprice': 501.89}
+49. {'name': '詹姆斯‧克利爾', 'totalbooks': '2', 'avgprice': 399.0}
+50. {'name': '陳純一 修訂', 'totalbooks': '2', 'avgprice': 800.0}
+51. {'name': 'Ana Martin Larranaga', 'totalbooks': '57', 'avgprice': 553.47}
+52. {'name': '羅伯特.魯賓', 'totalbooks': '2', 'avgprice': 699.0}
+53. {'name': '孫森焱', 'totalbooks': '4', 'avgprice': 699.0}
+54. {'name': '劉蕙苓', 'totalbooks': '8', 'avgprice': 424.0}
+55. {'name': 'Mitch Weiss', 'totalbooks': '43', 'avgprice': 603.98}
+56. {'name': '馬奕安(Jan Martel)(協力)', 'totalbooks': '1', 'avgprice': 799.0}
+57. {'name': '吳念真', 'totalbooks': '38', 'avgprice': 425.39}
+58. {'name': '山田和裕', 'totalbooks': '1', 'avgprice': 399.0}
+59. {'name': '吳至格', 'totalbooks': '2', 'avgprice': 399.0}
+60. {'name': '莊鈞涵(Carol學姊)', 'totalbooks': '1', 'avgprice': 399.0}
+61. {'name': '王造Joseph Wang', 'totalbooks': '1', 'avgprice': 399.0}
+62. {'name': '王淑美', 'totalbooks': '22', 'avgprice': 389.91}
+63. {'name': '汪中文', 'totalbooks': '15', 'avgprice': 479.0}
+64. {'name': '呂岡玶', 'totalbooks': '4', 'avgprice': 599.0}
+65. {'name': '田耘昇', 'totalbooks': '1', 'avgprice': 599.0}
+66. {'name': '丹尼爾‧亞曼', 'totalbooks': '9', 'avgprice': 554.67}
+67. {'name': '蔡志揚', 'totalbooks': '5', 'avgprice': 519.0}
+68. {'name': '雷克‧萊爾頓', 'totalbooks': '56', 'avgprice': 449.09}
+69. {'name': '曹雪芹', 'totalbooks': '991', 'avgprice': 450.07}
+70. {'name': '方志元', 'totalbooks': '10', 'avgprice': 199.0}
+71. {'name': 'Andy Prentice', 'totalbooks': '12', 'avgprice': 582.42}
+72. {'name': '張秀帆', 'totalbooks': '16', 'avgprice': 549.19}
+73. {'name': '財聚龍頭', 'totalbooks': '3', 'avgprice': 399.0}
+74. {'name': '林誠二', 'totalbooks': '36', 'avgprice': 537.89}
+75. {'name': 'Joshua George', 'totalbooks': '132', 'avgprice': 517.3}
+76. {'name': '洪㜋茹', 'totalbooks': '3', 'avgprice': 399.0}
+77. {'name': '陳棋炎', 'totalbooks': '13', 'avgprice': 599.0}
+78. {'name': '沈棟', 'totalbooks': '3', 'avgprice': 532.33}
+79. {'name': 'Anna Milbourne', 'totalbooks': '107', 'avgprice': 552.33}
+80. {'name': '陳榮宗', 'totalbooks': '23', 'avgprice': 520.78}
+81. {'name': '三民編輯部', 'totalbooks': '3', 'avgprice': 800.0}
+82. {'name': 'Seaerra Miller', 'totalbooks': '15', 'avgprice': 612.47}
+83. {'name': '歐律師', 'totalbooks': '5', 'avgprice': 719.0}
+84. {'name': '林梧衛 編著', 'totalbooks': '9', 'avgprice': 354.56}
+85. {'name': 'スリーエーネットワーク', 'totalbooks': '25', 'avgprice': 551.0}
+86. {'name': '邢雯桂', 'totalbooks': '21', 'avgprice': 427.57}
+87. {'name': 'Luke Pearson', 'totalbooks': '34', 'avgprice': 663.88}
+88. {'name': '克里斯‧巴特華斯(Chris Butterworth)', 'totalbooks': '3', 'avgprice': 399.0}
+89. {'name': '張宏生', 'totalbooks': '58', 'avgprice': 506.02}
+90. {'name': '鄭佳樺', 'totalbooks': '12', 'avgprice': 199.0}
+91. {'name': '劉宗榮', 'totalbooks': '32', 'avgprice': 668.06}
+92. {'name': '尉遲秀', 'totalbooks': '4', 'avgprice': 499.25}
+93. {'name': '李政德', 'totalbooks': '6', 'avgprice': 632.33}
+94. {'name': '施耐庵', 'totalbooks': '879', 'avgprice': 402.99}
+95. {'name': '丘宏達 著', 'totalbooks': '14', 'avgprice': 542.14}
+96. {'name': '胡碩勻', 'totalbooks': '5', 'avgprice': 439.0}
+97. {'name': '芒格書院', 'totalbooks': '1', 'avgprice': 800.0}
+98. {'name': '齊藤勇', 'totalbooks': '46', 'avgprice': 403.35}
+99. {'name': '許哲瑝', 'totalbooks': '2', 'avgprice': 399.0}
+100. {'name': '林秀雄', 'totalbooks': '32', 'avgprice': 574.03}
+101. {'name': '李祐寧', 'totalbooks': '4', 'avgprice': 599.0}
+102. {'name': '邱燮友', 'totalbooks': '62', 'avgprice': 492.58}
+103. {'name': '半截白菜', 'totalbooks': '7', 'avgprice': 484.71}
+104. {'name': '米雅', 'totalbooks': '46', 'avgprice': 451.24}
+105. {'name': '黃卉君', 'totalbooks': '1', 'avgprice': 599.0}
+106. {'name': '陳立芬', 'totalbooks': '14', 'avgprice': 470.57}
+107. {'name': '呂太郎', 'totalbooks': '11', 'avgprice': 544.55}
+108. {'name': '金聖嘆', 'totalbooks': '27', 'avgprice': 443.52}
+109. {'name': 'Ingela P Arrhenius', 'totalbooks': '142', 'avgprice': 527.31}
+110. {'name': '焦金勝', 'totalbooks': '17', 'avgprice': 257.82}
+111. {'name': '吳羿', 'totalbooks': '13', 'avgprice': 399.0}
+112. {'name': '谷厚志', 'totalbooks': '4', 'avgprice': 449.0}
+113. {'name': '尹智映', 'totalbooks': '2', 'avgprice': 399.0}
+114. {'name': '蔡雅薰', 'totalbooks': '20', 'avgprice': 419.0}
+115. {'name': '林秀蓉 等', 'totalbooks': '1', 'avgprice': 399.0}
+116. {'name': 'Nosy Crow', 'totalbooks': '288', 'avgprice': 473.36}
+117. {'name': '張孝裕', 'totalbooks': '18', 'avgprice': 532.44}
+118. {'name': '康蕙芬', 'totalbooks': '17', 'avgprice': 704.94}
+119. {'name': '程樂', 'totalbooks': '42', 'avgprice': 389.55}
+120. {'name': 'Dav Pilkey', 'totalbooks': '278', 'avgprice': 530.82}
+121. {'name': '科瑞.R. 塔博', 'totalbooks': '2', 'avgprice': 399.0}
+122. {'name': '宮本哲也', 'totalbooks': '19', 'avgprice': 230.58}
+123. {'name': '李志文', 'totalbooks': '46', 'avgprice': 299.02}
+124. {'name': '陳夢怡(協力)', 'totalbooks': '1', 'avgprice': 799.0}
+125. {'name': '余杰', 'totalbooks': '69', 'avgprice': 546.84}
+126. {'name': '洪萬生', 'totalbooks': '36', 'avgprice': 393.47}
+127. {'name': '林政謙', 'totalbooks': '16', 'avgprice': 199.0}
+128. {'name': 'Kate Merritt (COR)', 'totalbooks': '2', 'avgprice': 399.0}
+129. {'name': '(丹)丹‧扎哈維', 'totalbooks': '1578', 'avgprice': 390.83}
+130. {'name': '何玉婷', 'totalbooks': '7', 'avgprice': 399.0}
+131. {'name': '新海誠', 'totalbooks': '62', 'avgprice': 415.16}
+132. {'name': '李筱峰', 'totalbooks': '44', 'avgprice': 412.68}
+133. {'name': '齋藤直葵', 'totalbooks': '9', 'avgprice': 465.67}
+134. {'name': 'Hanako Clulow', 'totalbooks': '17', 'avgprice': 634.29}
+135. {'name': '劉芳瑜', 'totalbooks': '8', 'avgprice': 424.0}
+136. {'name': '三民書局編輯委員會', 'totalbooks': '11', 'avgprice': 417.18}
+137. {'name': 'Laurent Kling', 'totalbooks': '3', 'avgprice': 599.0}
+138. {'name': '陳百齡', 'totalbooks': '6', 'avgprice': 432.33}
+139. {'name': '(美)愛德華‧沙伊納曼', 'totalbooks': '1', 'avgprice': 399.0}
+140. {'name': '克里斯‧米勒', 'totalbooks': '1', 'avgprice': 799.0}
+141. {'name': '畢柳鶯', 'totalbooks': '5', 'avgprice': 599.4}
+142. {'name': '謝冰瑩', 'totalbooks': '60', 'avgprice': 279.02}
+143. {'name': '松本紀子', 'totalbooks': '62', 'avgprice': 331.26}
+144. {'name': '郭振恭', 'totalbooks': '24', 'avgprice': 574.0}
+145. {'name': '沈永正', 'totalbooks': '7', 'avgprice': 513.29}
+146. {'name': '金浩然', 'totalbooks': '6', 'avgprice': 565.67}
+147. {'name': '江本勝', 'totalbooks': '19', 'avgprice': 367.47}
+148. {'name': '范耘芬', 'totalbooks': '4', 'avgprice': 399.0}
+149. {'name': '林相如', 'totalbooks': '11', 'avgprice': 453.64}
+150. {'name': '許峰源', 'totalbooks': '17', 'avgprice': 469.59}
+151. {'name': '不問三九', 'totalbooks': '6', 'avgprice': 399.0}
+152. {'name': 'Mairi Mackinnon', 'totalbooks': '101', 'avgprice': 454.54}
+153. {'name': '林明波', 'totalbooks': '4', 'avgprice': 499.0}
+154. {'name': '章岩', 'totalbooks': '68', 'avgprice': 331.37}
+155. {'name': '林承遠', 'totalbooks': '3', 'avgprice': 399.0}
+156. {'name': '葉國良校閱', 'totalbooks': '41', 'avgprice': 491.73}
+157. {'name': '野志明加(のし さやか)', 'totalbooks': '10', 'avgprice': 519.2}
+158. {'name': '安娜德•梅樂希(Anete Melece)', 'totalbooks': '2', 'avgprice': 599.5}
+159. {'name': 'Yoyo Books', 'totalbooks': '434', 'avgprice': 520.23}
+160. {'name': '宿文淵', 'totalbooks': '150', 'avgprice': 295.0}
+161. {'name': '陳美妃', 'totalbooks': '10', 'avgprice': 359.0}
+162. {'name': '肥志', 'totalbooks': '33', 'avgprice': 587.09}
+163. {'name': '劉慶雲 注譯', 'totalbooks': '6', 'avgprice': 432.33}
+164. {'name': '楊涵茹', 'totalbooks': '6', 'avgprice': 232.33}
+165. {'name': '木果子(モカ子)圖', 'totalbooks': '1', 'avgprice': 399.0}
+166. {'name': 'Matt Loveridge(ILT)', 'totalbooks': '5', 'avgprice': 439.2}
+167. {'name': '池上彰', 'totalbooks': '9', 'avgprice': 465.78}
+168. {'name': '簡嘉彤', 'totalbooks': '1', 'avgprice': 599.0}
+169. {'name': '平泉裕', 'totalbooks': '1', 'avgprice': 399.0}
+170. {'name': '林慶苗', 'totalbooks': '11', 'avgprice': 471.73}
+171. {'name': '張國洋', 'totalbooks': '11', 'avgprice': 399.0}
+172. {'name': '楊維中', 'totalbooks': '22', 'avgprice': 462.68}
+173. {'name': '祖古烏金仁波切 等', 'totalbooks': '1', 'avgprice': 599.0}
+174. {'name': 'Stephanie Davies', 'totalbooks': '11', 'avgprice': 708.64}
+175. {'name': '長安靜美', 'totalbooks': '9', 'avgprice': 399.11}
+176. {'name': '黃豐閎', 'totalbooks': '1', 'avgprice': 399.0}
+177. {'name': 'Caroline Attia', 'totalbooks': '7', 'avgprice': 656.43}
+178. {'name': 'Anne', 'totalbooks': '19335', 'avgprice': 711.76}
+179. {'name': '陳勇諺', 'totalbooks': '5', 'avgprice': 639.0}
+180. {'name': '潔西.哈特蘭(Jessie Hartland)', 'totalbooks': '1', 'avgprice': 399.0}
+181. {'name': '趙皖君', 'totalbooks': '7', 'avgprice': 370.43}
+182. {'name': 'Harriet Muncaster', 'totalbooks': '101', 'avgprice': 559.63}
+183. {'name': '何淑貞', 'totalbooks': '25', 'avgprice': 487.04}
+184. {'name': 'Judit Tondora', 'totalbooks': '3', 'avgprice': 532.33}
+185. {'name': '永松茂久 著', 'totalbooks': '8', 'avgprice': 399.0}
+186. {'name': '野志明加(のしさやか)', 'totalbooks': '7', 'avgprice': 513.43}
+187. {'name': '吳仁傑', 'totalbooks': '8', 'avgprice': 474.12}
+188. {'name': '張作錦', 'totalbooks': '20', 'avgprice': 479.05}
+189. {'name': '謝劍平', 'totalbooks': '52', 'avgprice': 626.04}
+190. {'name': '朱立熙', 'totalbooks': '15', 'avgprice': 452.4}
+191. {'name': '陳紹霖', 'totalbooks': '52', 'avgprice': 437.62}
+192. {'name': '羅貫中', 'totalbooks': '1133', 'avgprice': 395.96}
+193. {'name': '各校名師', 'totalbooks': '70', 'avgprice': 276.14}
+194. {'name': 'Katya Longhi', 'totalbooks': '20', 'avgprice': 499.05}
+195. {'name': '約翰‧洛克菲勒', 'totalbooks': '10', 'avgprice': 339.0}
+196. {'name': '綦維', 'totalbooks': '4', 'avgprice': 449.0}
+197. {'name': '傅士玲Ema Fu', 'totalbooks': '1', 'avgprice': 599.0}
+198. {'name': '莊春發', 'totalbooks': '8', 'avgprice': 574.0}
+199. {'name': '墨寶非寶', 'totalbooks': '25', 'avgprice': 399.0}
+200. {'name': 'Chris Grabenstein', 'totalbooks': '179', 'avgprice': 614.87}
+201. {'name': '趙鵬團 注譯', 'totalbooks': '3', 'avgprice': 399.0}
+202. {'name': 'Maria Neradova', 'totalbooks': '18', 'avgprice': 476.83}
+203. {'name': '張潤書', 'totalbooks': '9', 'avgprice': 621.22}
+204. {'name': '汪中', 'totalbooks': '71', 'avgprice': 396.25}
+205. {'name': '鄭丁旺', 'totalbooks': '15', 'avgprice': 639.07}
+206. {'name': '林梧衛', 'totalbooks': '9', 'avgprice': 354.56}
+207. {'name': '姚詩豪', 'totalbooks': '8', 'avgprice': 399.0}
+208. {'name': '王子今', 'totalbooks': '93', 'avgprice': 562.59}
+209. {'name': '墨書白', 'totalbooks': '27', 'avgprice': 547.26}
+210. {'name': '張磊', 'totalbooks': '525', 'avgprice': 434.87}
+211. {'name': '黃榮堅', 'totalbooks': '13', 'avgprice': 614.54}
+212. {'name': '黃德源', 'totalbooks': '4', 'avgprice': 649.25}
+213. {'name': '瑪嘉莉・克拉弗雷(Magali Clavelet)', 'totalbooks': '1', 'avgprice': 399.0}
+214. {'name': '彭筠蓁', 'totalbooks': '16', 'avgprice': 324.06}
+215. {'name': '脇田和', 'totalbooks': '2', 'avgprice': 399.0}
+216. {'name': '陳克明', 'totalbooks': '7', 'avgprice': 370.43}
+217. {'name': 'Richard Luhrs', 'totalbooks': '28', 'avgprice': 556.18}
+218. {'name': '楊賢英', 'totalbooks': '16', 'avgprice': 324.0}
+219. {'name': 'Bob McMahon', 'totalbooks': '10', 'avgprice': 539.1}
+220. {'name': '菲比斯', 'totalbooks': '1', 'avgprice': 599.0}
+221. {'name': '李子敏', 'totalbooks': '7', 'avgprice': 484.86}
+222. {'name': '溫蒂.坎德爾', 'totalbooks': '1', 'avgprice': 800.0}
+223. {'name': '邱世卿', 'totalbooks': '1', 'avgprice': 599.0}
+224. {'name': '黃玉燕譯', 'totalbooks': '13', 'avgprice': 306.77}
+225. {'name': '廖大穎', 'totalbooks': '26', 'avgprice': 622.15}
+226. {'name': '劉柏宏', 'totalbooks': '13', 'avgprice': 537.62}
+227. {'name': '邊遠平', 'totalbooks': '3', 'avgprice': 465.67}
+228. {'name': '陳玠何', 'totalbooks': '4', 'avgprice': 399.0}
+229. {'name': '舒兆民', 'totalbooks': '27', 'avgprice': 465.74}
+230. {'name': 'Malcolm Shealy', 'totalbooks': '2', 'avgprice': 599.5}
+231. {'name': '山口正貴', 'totalbooks': '1', 'avgprice': 399.0}
+232. {'name': 'Owain Mckimm', 'totalbooks': '52', 'avgprice': 533.62}
+233. {'name': 'Mary Man', 'totalbooks': '111', 'avgprice': 285.49}
+234. {'name': '姜桓國', 'totalbooks': '1', 'avgprice': 599.0}
+235. {'name': '鄭文堡', 'totalbooks': '2', 'avgprice': 499.0}
+236. {'name': '曾光華', 'totalbooks': '23', 'avgprice': 625.09}
+237. {'name': 'Lucy Cousins', 'totalbooks': '325', 'avgprice': 523.37}
+238. {'name': '温豐文', 'totalbooks': '11', 'avgprice': 562.73}
+239. {'name': '凝隴', 'totalbooks': '29', 'avgprice': 412.79}
+240. {'name': '繪出英文力Wendy', 'totalbooks': '1', 'avgprice': 399.0}
+241. {'name': 'Bob Mcmahon', 'totalbooks': '10', 'avgprice': 539.1}
+242. {'name': '朴始連', 'totalbooks': '23', 'avgprice': 399.0}
+243. {'name': '丁雍嫻', 'totalbooks': '25', 'avgprice': 399.0}
+244. {'name': '馬修‧科戴爾(Matthew Cordell)', 'totalbooks': '3', 'avgprice': 532.33}
+245. {'name': '李秉儒', 'totalbooks': '5', 'avgprice': 439.0}
+246. {'name': '三民英語編輯小組', 'totalbooks': '71', 'avgprice': 339.85}
+247. {'name': '古庭維', 'totalbooks': '25', 'avgprice': 519.16}
+248. {'name': '脂硯齋', 'totalbooks': '19', 'avgprice': 694.21}
+249. {'name': '李宗黎', 'totalbooks': '20', 'avgprice': 779.15}
+250. {'name': '蕭榛嫈', 'totalbooks': '6', 'avgprice': 399.0}
+251. {'name': '蘇懿禎', 'totalbooks': '8', 'avgprice': 499.12}
+252. {'name': '張松輝注譯', 'totalbooks': '40', 'avgprice': 364.05}
+253. {'name': '鄭可萱', 'totalbooks': '6', 'avgprice': 365.67}
+254. {'name': 'Joel', 'totalbooks': '5916', 'avgprice': 734.99}
+255. {'name': '王韻芳', 'totalbooks': '12', 'avgprice': 349.0}
+256. {'name': '趙睿才', 'totalbooks': '8', 'avgprice': 574.0}
+257. {'name': '羅伯‧狄保德', 'totalbooks': '4', 'avgprice': 499.0}
+258. {'name': '劉國樑', 'totalbooks': '4', 'avgprice': 299.0}
+259. {'name': '黃志', 'totalbooks': '921', 'avgprice': 427.72}
+260. {'name': '陳丞翊', 'totalbooks': '1', 'avgprice': 199.0}
+261. {'name': '黃宗樂', 'totalbooks': '36', 'avgprice': 582.36}
+262. {'name': '三民書局成語典編纂委員會', 'totalbooks': '4', 'avgprice': 649.25}
+263. {'name': '滕志賢注譯', 'totalbooks': '7', 'avgprice': 570.71}
+264. {'name': 'Alistar', 'totalbooks': '12', 'avgprice': 733.08}
+265. {'name': '賴永海', 'totalbooks': '94', 'avgprice': 535.35}
+266. {'name': '沉筱之', 'totalbooks': '8', 'avgprice': 499.0}
+267. {'name': 'Ailie Busby', 'totalbooks': '68', 'avgprice': 496.1}
+268. {'name': '饒彬', 'totalbooks': '21', 'avgprice': 494.43}
+269. {'name': '大衛・卡利(Davide Cali)', 'totalbooks': '5', 'avgprice': 479.2}
+270. {'name': '曾湧傑', 'totalbooks': '15', 'avgprice': 279.0}
+271. {'name': '江原國', 'totalbooks': '2', 'avgprice': 499.0}
+272. {'name': '童振疆', 'totalbooks': '2', 'avgprice': 599.0}
+273. {'name': '王溢嘉', 'totalbooks': '85', 'avgprice': 321.35}
+274. {'name': '石牧民', 'totalbooks': '4', 'avgprice': 399.0}
+275. {'name': '徐玉玲', 'totalbooks': '18', 'avgprice': 421.28}
+276. {'name': '費勇', 'totalbooks': '34', 'avgprice': 357.82}
+277. {'name': 'Thomas Flintham', 'totalbooks': '76', 'avgprice': 528.16}
+278. {'name': '蘇蘅', 'totalbooks': '9', 'avgprice': 421.22}
+279. {'name': '彭士晃', 'totalbooks': '10', 'avgprice': 539.1}
+280. {'name': '蘇子喬', 'totalbooks': '5', 'avgprice': 559.0}
+281. {'name': '洪可欣', 'totalbooks': '3', 'avgprice': 399.0}
+282. {'name': '(法)E.M.齊奧朗', 'totalbooks': '6', 'avgprice': 399.0}
+283. {'name': '劉鐵錚', 'totalbooks': '14', 'avgprice': 570.5}
+284. {'name': '日本語教育教材開發委員會', 'totalbooks': '50', 'avgprice': 323.0}
+285. {'name': '陳皎眉', 'totalbooks': '10', 'avgprice': 499.0}
+286. {'name': '黃智偉', 'totalbooks': '64', 'avgprice': 524.2}
+287. {'name': 'Rhiannon Findlay', 'totalbooks': '4', 'avgprice': 499.0}
+288. {'name': '龐超', 'totalbooks': '7', 'avgprice': 513.43}
+289. {'name': '黃錦鋐', 'totalbooks': '19', 'avgprice': 451.74}
+290. {'name': 'Stefano Tognetti', 'totalbooks': '15', 'avgprice': 639.2}
+291. {'name': '朴永玉', 'totalbooks': '3', 'avgprice': 399.0}
+292. {'name': '戴國良', 'totalbooks': '113', 'avgprice': 540.6}
+293. {'name': 'Lara Bryan', 'totalbooks': '44', 'avgprice': 594.52}
+294. {'name': 'Lan Cook', 'totalbooks': '16', 'avgprice': 624.12}
+295. {'name': '丁敏校閱', 'totalbooks': '26', 'avgprice': 429.81}
+296. {'name': '佐佐木仁子', 'totalbooks': '50', 'avgprice': 319.0}
+297. {'name': 'Matt Loveridge', 'totalbooks': '7', 'avgprice': 456.29}
+298. {'name': '郭台銘', 'totalbooks': '2', 'avgprice': 399.0}
+299. {'name': '野島剛', 'totalbooks': '18', 'avgprice': 465.72}
+300. {'name': '孫中興', 'totalbooks': '20', 'avgprice': 479.1}
+301. {'name': '林淑馨', 'totalbooks': '23', 'avgprice': 607.7}
+302. {'name': '蘇意雯', 'totalbooks': '2', 'avgprice': 499.0}
+303. {'name': '施永富', 'totalbooks': '4', 'avgprice': 599.0}
+304. {'name': '裴普賢', 'totalbooks': '47', 'avgprice': 411.77}
+305. {'name': 'Tedd Arnold', 'totalbooks': '102', 'avgprice': 457.87}
+306. {'name': 'Anastasia Thomas', 'totalbooks': '3', 'avgprice': 666.0}
+307. {'name': '楊佑傑', 'totalbooks': '4', 'avgprice': 599.0}
+308. {'name': '李海碩', 'totalbooks': '9', 'avgprice': 488.0}
+309. {'name': '臧俊維', 'totalbooks': '14', 'avgprice': 256.14}
+310. {'name': '楊宏暉', 'totalbooks': '8', 'avgprice': 499.0}
+311. {'name': '苅田澄子', 'totalbooks': '19', 'avgprice': 388.47}
+312. {'name': '闕又上', 'totalbooks': '8', 'avgprice': 549.0}
+313. {'name': '吳庚', 'totalbooks': '18', 'avgprice': 588.17}
+314. {'name': '小車X存股實驗', 'totalbooks': '2', 'avgprice': 599.0}
+315. {'name': '孔令竹', 'totalbooks': '8', 'avgprice': 399.0}
+316. {'name': '何森', 'totalbooks': '7', 'avgprice': 341.86}
+317. {'name': 'Benji Davies', 'totalbooks': '162', 'avgprice': 552.19}
+318. {'name': '陳榮傳', 'totalbooks': '23', 'avgprice': 590.39}
+319. {'name': '張梓萱', 'totalbooks': '3', 'avgprice': 399.0}
+320. {'name': '陳重銘', 'totalbooks': '29', 'avgprice': 440.38}
+321. {'name': '應惠蕙', 'totalbooks': '30', 'avgprice': 445.67}
+322. {'name': 'Tracey West', 'totalbooks': '245', 'avgprice': 394.2}
+323. {'name': 'Martha Hamilton', 'totalbooks': '33', 'avgprice': 514.24}
+324. {'name': '洛桑加參', 'totalbooks': '7', 'avgprice': 513.29}
+325. {'name': '歐家榮', 'totalbooks': '4', 'avgprice': 399.0}
+326. {'name': 'Nikoli', 'totalbooks': '94', 'avgprice': 337.36}
+327. {'name': '董橋', 'totalbooks': '105', 'avgprice': 513.3}
+328. {'name': '鍾震亞', 'totalbooks': '33', 'avgprice': 405.06}
+329. {'name': 'Amy Pixton', 'totalbooks': '33', 'avgprice': 423.3}
+330. {'name': 'Stella Baggott', 'totalbooks': '102', 'avgprice': 540.24}
+331. {'name': '李中華注譯', 'totalbooks': '72', 'avgprice': 360.12}
+332. {'name': '全國名師', 'totalbooks': '9', 'avgprice': 287.89}
+333. {'name': '田口佳史', 'totalbooks': '10', 'avgprice': 439.0}
+334. {'name': '三民英語編輯小組 彙整', 'totalbooks': '71', 'avgprice': 339.85}
+335. {'name': '吳典宜', 'totalbooks': '1', 'avgprice': 599.0}
+336. {'name': '王卉文', 'totalbooks': '29', 'avgprice': 523.45}
+337. {'name': '吉田戰車', 'totalbooks': '49', 'avgprice': 362.29}
+338. {'name': 'Zhanna Ovocheva', 'totalbooks': '21', 'avgprice': 503.86}
+339. {'name': '柳惠寅', 'totalbooks': '1', 'avgprice': 399.0}
+340. {'name': '賴明德', 'totalbooks': '25', 'avgprice': 615.28}
+341. {'name': '徐輔賢', 'totalbooks': '1', 'avgprice': 599.0}
+342. {'name': '柯慶忠', 'totalbooks': '4', 'avgprice': 549.0}
+343. {'name': '墨刻編輯部', 'totalbooks': '589', 'avgprice': 388.15}
+344. {'name': '莎拉.威廉森(Sarah Williamson)', 'totalbooks': '1', 'avgprice': 399.0}
+345. {'name': '史景遷', 'totalbooks': '44', 'avgprice': 499.07}
+346. {'name': '葉衍作', 'totalbooks': '17', 'avgprice': 281.35}
+347. {'name': '馬大元', 'totalbooks': '6', 'avgprice': 499.17}
+348. {'name': '應裕康', 'totalbooks': '9', 'avgprice': 421.22}
+349. {'name': '陳淳文', 'totalbooks': '12', 'avgprice': 532.42}
+350. {'name': '權證小哥', 'totalbooks': '17', 'avgprice': 717.24}
+351. {'name': '(美)邁克爾‧赫德森', 'totalbooks': '1', 'avgprice': 599.0}
+352. {'name': '吳淡如', 'totalbooks': '210', 'avgprice': 301.86}
+353. {'name': '白瑩潔', 'totalbooks': '6', 'avgprice': 232.33}
+354. {'name': '毛宗崗', 'totalbooks': '14', 'avgprice': 656.64}
+355. {'name': '英家銘', 'totalbooks': '4', 'avgprice': 399.0}
+356. {'name': '稚楚', 'totalbooks': '11', 'avgprice': 399.0}
+357. {'name': '湯瑪斯.索威爾(Thomas Sowell)', 'totalbooks': '1', 'avgprice': 599.0}
+358. {'name': 'Katrina Charman', 'totalbooks': '51', 'avgprice': 552.1}
+359. {'name': '張錦源', 'totalbooks': '56', 'avgprice': 631.32}
+360. {'name': '陳秀珍', 'totalbooks': '28', 'avgprice': 463.36}
+361. {'name': '(西)莫妮卡‧加西亞', 'totalbooks': '2', 'avgprice': 399.0}
+362. {'name': 'Nicola Edwards', 'totalbooks': '84', 'avgprice': 584.83}
+363. {'name': '葛捷思(陳昭文)', 'totalbooks': '1', 'avgprice': 599.0}
+364. {'name': '李惠君', 'totalbooks': '9', 'avgprice': 510.33}
+365. {'name': '洪世章', 'totalbooks': '2', 'avgprice': 499.0}
+366. {'name': '海狗房東', 'totalbooks': '23', 'avgprice': 399.0}
+367. {'name': '馬克‧大城', 'totalbooks': '1', 'avgprice': 599.0}
+368. {'name': '郭國興', 'totalbooks': '11', 'avgprice': 562.64}
+369. {'name': '劉清彥', 'totalbooks': '98', 'avgprice': 456.21}
+370. {'name': '陳祈廷', 'totalbooks': '8', 'avgprice': 599.0}
+371. {'name': '游珮芸', 'totalbooks': '24', 'avgprice': 499.08}
+372. {'name': '申鎮伍', 'totalbooks': '1', 'avgprice': 599.0}
+373. {'name': '林惠玲', 'totalbooks': '24', 'avgprice': 624.0}
+374. {'name': '傅武光', 'totalbooks': '24', 'avgprice': 615.71}
+375. {'name': '諾耶蜜‧沃拉', 'totalbooks': '3', 'avgprice': 399.0}
+376. {'name': '東尼.希勒里(Tony Hillery)', 'totalbooks': '1', 'avgprice': 399.0}
+377. {'name': '陳忠榮', 'totalbooks': '2', 'avgprice': 599.0}
+378. {'name': '江謨伊', 'totalbooks': '5', 'avgprice': 199.0}
+379. {'name': '林怡君', 'totalbooks': '55', 'avgprice': 413.62}
+380. {'name': '何尉賢', 'totalbooks': '2', 'avgprice': 399.0}
+381. {'name': '張松輝', 'totalbooks': '40', 'avgprice': 364.05}
+382. {'name': '繁田佐也加', 'totalbooks': '4', 'avgprice': 499.0}
+383. {'name': '宋‧朱熹', 'totalbooks': '102', 'avgprice': 520.82}
+384. {'name': '譚劍', 'totalbooks': '51', 'avgprice': 410.8}
+385. {'name': '賴世雄', 'totalbooks': '628', 'avgprice': 382.47}
+386. {'name': '羅比‧伯恩斯', 'totalbooks': '3', 'avgprice': 532.33}
+387. {'name': '魏芯', 'totalbooks': '1', 'avgprice': 399.0}
+388. {'name': '高平尚伸', 'totalbooks': '1', 'avgprice': 399.0}
+389. {'name': 'Lucy Cousins (ILT)', 'totalbooks': '25', 'avgprice': 479.12}
+390. {'name': '亦舒', 'totalbooks': '381', 'avgprice': 367.54}
+391. {'name': '三民日語編輯小組', 'totalbooks': '18', 'avgprice': 443.5}
+392. {'name': '繆天華', 'totalbooks': '91', 'avgprice': 381.45}
+393. {'name': '李淑明', 'totalbooks': '36', 'avgprice': 632.36}
+394. {'name': '饒怡雲', 'totalbooks': '5', 'avgprice': 599.0}
+395. {'name': '冀劍制 著', 'totalbooks': '29', 'avgprice': 405.9}
+396. {'name': '楊建華', 'totalbooks': '107', 'avgprice': 472.01}
+397. {'name': '林穎', 'totalbooks': '59', 'avgprice': 436.39}
+398. {'name': 'David Cho', 'totalbooks': '52', 'avgprice': 676.4}
+399. {'name': '盛子龍', 'totalbooks': '5', 'avgprice': 679.6}
+400. {'name': '佐々木仁子', 'totalbooks': '16', 'avgprice': 386.5}
+401. {'name': '黃瑞雲', 'totalbooks': '17', 'avgprice': 446.29}
+402. {'name': 'Zachary Fillingham', 'totalbooks': '50', 'avgprice': 535.0}
+403. {'name': '陳仕忠', 'totalbooks': '2', 'avgprice': 299.0}
+404. {'name': 'Campbell Books', 'totalbooks': '300', 'avgprice': 461.09}
+405. {'name': '葉重新', 'totalbooks': '12', 'avgprice': 615.67}
+406. {'name': 'Susie Yi', 'totalbooks': '9', 'avgprice': 577.0}
+407. {'name': '吉野源三郎', 'totalbooks': '3', 'avgprice': 399.0}
+408. {'name': '陶百川', 'totalbooks': '66', 'avgprice': 496.08}
+409. {'name': '陳新民', 'totalbooks': '65', 'avgprice': 482.22}
+410. {'name': '于歆', 'totalbooks': '10', 'avgprice': 539.2}
+411. {'name': '井上一宏', 'totalbooks': '3', 'avgprice': 532.33}
+412. {'name': '陳聰富', 'totalbooks': '33', 'avgprice': 586.91}
+413. {'name': '王澤鑑', 'totalbooks': '42', 'avgprice': 642.07}
+414. {'name': '林榮彬', 'totalbooks': '1', 'avgprice': 199.0}
+415. {'name': '心靈諮商師akiko', 'totalbooks': '1', 'avgprice': 399.0}
+416. {'name': '蔡鴻明', 'totalbooks': '6', 'avgprice': 499.0}
+417. {'name': '林曉光注譯', 'totalbooks': '5', 'avgprice': 519.0}
+418. {'name': '稻盛資料館', 'totalbooks': '6', 'avgprice': 465.67}
+419. {'name': '孫至娟', 'totalbooks': '13', 'avgprice': 383.62}
+420. {'name': '楊定一', 'totalbooks': '48', 'avgprice': 519.85}
+421. {'name': '(法)魏明德', 'totalbooks': '4', 'avgprice': 449.0}
+422. {'name': '竹已', 'totalbooks': '34', 'avgprice': 463.85}
+423. {'name': '黃俊郎', 'totalbooks': '47', 'avgprice': 492.66}
+424. {'name': '蓮花生大士', 'totalbooks': '19', 'avgprice': 535.84}
+425. {'name': '三民書局辭典編輯委員會', 'totalbooks': '7', 'avgprice': 627.86}
+426. {'name': '黑墨工作室', 'totalbooks': '33', 'avgprice': 338.42}
+427. {'name': '陳引馳', 'totalbooks': '71', 'avgprice': 497.62}
+428. {'name': '張忠綱', 'totalbooks': '16', 'avgprice': 436.62}
+429. {'name': '林昇', 'totalbooks': '22', 'avgprice': 380.82}
+430. {'name': '沈富進', 'totalbooks': '2', 'avgprice': 399.0}
+431. {'name': '三枝充惪著', 'totalbooks': '1', 'avgprice': 199.0}
+432. {'name': '施昇輝', 'totalbooks': '17', 'avgprice': 410.76}
+433. {'name': '陸以正', 'totalbooks': '13', 'avgprice': 383.69}
+434. {'name': '趙鋒', 'totalbooks': '36', 'avgprice': 376.78}
+435. {'name': '林文月', 'totalbooks': '80', 'avgprice': 381.52}
+436. {'name': '多益900團隊', 'totalbooks': '5', 'avgprice': 399.0}
+437. {'name': '鄭曼青', 'totalbooks': '11', 'avgprice': 326.27}
+438. {'name': 'Carly Madden', 'totalbooks': '36', 'avgprice': 554.58}
+439. {'name': '蔡璧名', 'totalbooks': '20', 'avgprice': 659.2}
+440. {'name': '林蕙真', 'totalbooks': '39', 'avgprice': 742.97}
+441. {'name': '蘇惠玉', 'totalbooks': '7', 'avgprice': 370.43}
+442. {'name': '米雪兒•卡斯蘭', 'totalbooks': '3', 'avgprice': 800.0}
+443. {'name': '王宏之等', 'totalbooks': '1', 'avgprice': 399.0}
+444. {'name': 'Fiona Watt', 'totalbooks': '498', 'avgprice': 520.77}
+445. {'name': '詹嘉芸', 'totalbooks': '9', 'avgprice': 287.89}
+446. {'name': 'IRVIN N.', 'totalbooks': '7', 'avgprice': 800.0}
+447. {'name': '王蘭芬', 'totalbooks': '8', 'avgprice': 374.0}
+448. {'name': '藤萍', 'totalbooks': '38', 'avgprice': 378.03}
+449. {'name': '張鴻仁', 'totalbooks': '7', 'avgprice': 456.14}
+450. {'name': '比爾‧柏金斯', 'totalbooks': '2', 'avgprice': 399.0}
+451. {'name': '塩野七生', 'totalbooks': '78', 'avgprice': 524.77}
+452. {'name': '尼克.馬朱利', 'totalbooks': '1', 'avgprice': 599.0}
+453. {'name': '黃倩鈺', 'totalbooks': '4', 'avgprice': 399.0}
+454. {'name': '徐興無', 'totalbooks': '59', 'avgprice': 487.19}
+455. {'name': '楊宗瑩', 'totalbooks': '21', 'avgprice': 408.52}
+456. {'name': '詹佳鑫', 'totalbooks': '7', 'avgprice': 427.57}
+457. {'name': '張家齊', 'totalbooks': '9', 'avgprice': 487.89}
+458. {'name': 'Corey R. Tabor', 'totalbooks': '25', 'avgprice': 607.04}
+459. {'name': '鍾慧元', 'totalbooks': '12', 'avgprice': 532.67}
+460. {'name': '稻盛和夫', 'totalbooks': '213', 'avgprice': 408.43}
+461. {'name': '(英)諾娜‧弗蘭格林', 'totalbooks': '7', 'avgprice': 484.71}
+462. {'name': '陳家豪', 'totalbooks': '16', 'avgprice': 474.0}
+463. {'name': '原慶宏', 'totalbooks': '1', 'avgprice': 399.0}
+464. {'name': '林晏如', 'totalbooks': '9', 'avgprice': 443.44}
+465. {'name': '林傑宸', 'totalbooks': '6', 'avgprice': 499.0}
+466. {'name': '王啟安', 'totalbooks': '4', 'avgprice': 749.5}
+467. {'name': '郭慧敏', 'totalbooks': '47', 'avgprice': 381.98}
+468. {'name': '廖敏淑', 'totalbooks': '5', 'avgprice': 479.0}
+469. {'name': '吳承恩', 'totalbooks': '1063', 'avgprice': 391.61}
+470. {'name': 'Sam Taplin', 'totalbooks': '285', 'avgprice': 668.57}
+471. {'name': 'Steve Antony', 'totalbooks': '67', 'avgprice': 602.0}
+472. {'name': 'Ag Jatkowska', 'totalbooks': '56', 'avgprice': 538.36}
+473. {'name': '馬美信', 'totalbooks': '16', 'avgprice': 486.56}
+474. {'name': '(美)查理‧芒格', 'totalbooks': '3', 'avgprice': 599.33}
+475. {'name': '楊瓊茹', 'totalbooks': '1', 'avgprice': 199.0}
+476. {'name': '蔡穎慧', 'totalbooks': '3', 'avgprice': 399.0}
+477. {'name': 'Camilla Reid', 'totalbooks': '71', 'avgprice': 545.61}
+478. {'name': 'Hackers Academia', 'totalbooks': '21', 'avgprice': 704.0}
+479. {'name': '韋裕霖', 'totalbooks': '23', 'avgprice': 355.52}
+480. {'name': '傅佩榮', 'totalbooks': '345', 'avgprice': 416.45}
+481. {'name': '露西雅‧嘉吉奧提(Lucia Gaggiotti)圖 黃聿君', 'totalbooks': '3', 'avgprice': 399.0}
+482. {'name': '王叢桂', 'totalbooks': '4', 'avgprice': 549.0}
+483. {'name': '左松超', 'totalbooks': '12', 'avgprice': 599.08}
+484. {'name': 'Nicola Slater', 'totalbooks': '48', 'avgprice': 565.77}
+485. {'name': '鍾伯敬', 'totalbooks': '4', 'avgprice': 449.0}
+486. {'name': 'Yu', 'totalbooks': '2592', 'avgprice': 739.09}
+487. {'name': '謝偉杰', 'totalbooks': '1', 'avgprice': 599.0}
+488. {'name': '郭建勳', 'totalbooks': '13', 'avgprice': 352.85}
+489. {'name': 'TFBOYS組合', 'totalbooks': '2', 'avgprice': 699.0}
+490. {'name': '楊錫彭', 'totalbooks': '4', 'avgprice': 449.0}
+491. {'name': 'Peppa Pig', 'totalbooks': '388', 'avgprice': 452.64}
+492. {'name': '吳悅', 'totalbooks': '37', 'avgprice': 469.43}
+493. {'name': '劉淑雯', 'totalbooks': '7', 'avgprice': 484.71}
+494. {'name': 'Greg Pizzoli', 'totalbooks': '60', 'avgprice': 582.48}
+495. {'name': '束忱', 'totalbooks': '4', 'avgprice': 449.0}
+496. {'name': '孫蒨如', 'totalbooks': '3', 'avgprice': 599.0}
+497. {'name': '林聆慈', 'totalbooks': '8', 'avgprice': 349.0}
+498. {'name': '黃庭鈺', 'totalbooks': '5', 'avgprice': 479.0}
+499. {'name': '丁敏', 'totalbooks': '26', 'avgprice': 429.81}
+500. {'name': '陳克嫻', 'totalbooks': '6', 'avgprice': 399.0}
+501. {'name': '蔡孟芳', 'totalbooks': '3', 'avgprice': 399.0}
+502. {'name': '王德華', 'totalbooks': '23', 'avgprice': 442.52}
+503. {'name': '陳怡伶', 'totalbooks': '21', 'avgprice': 370.43}
+504. {'name': 'GLEIM', 'totalbooks': '24', 'avgprice': 674.67}
+505. {'name': '葛克昌', 'totalbooks': '48', 'avgprice': 670.1}
+506. {'name': '侯迺慧', 'totalbooks': '27', 'avgprice': 524.96}
+507. {'name': '林宏文', 'totalbooks': '6', 'avgprice': 532.33}
+508. {'name': '李美麗', 'totalbooks': '32', 'avgprice': 249.0}
+509. {'name': '李政家', 'totalbooks': '5', 'avgprice': 479.0}
