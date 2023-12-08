@@ -50,15 +50,20 @@ export class ResultDisplay {
         this.category_block = null;
         this.list_block = null;
 
-        this.#init_result_block();
+        this.update_result_block([]);
     }
 
-    async #load_result() {
+    async update_result_block(conditions) {
+        await this.#load_result(conditions);
+        this.#load_result_block(this.result);
+    }
+
+    async #load_result(conditions) {
         this.result = [];
         for(var i = 1; i <= this.clusters_n; i++)
-            this.result.push(await query("books", null, [`cluster_id > ${i}`]));
-        // console.log("load result");
-        // console.log(this.result);
+            this.result.push(await query("books", null, [`cluster_id > ${i}`].concat(conditions)));
+        console.log("load result");
+        console.log(this.result);
     }
 
     #create_cluster(title, idx) {
@@ -76,11 +81,6 @@ export class ResultDisplay {
         });
 
         return td;
-    }
-
-    async #init_result_block() {
-        await this.#load_result();
-        this.#load_result_block(this.result);
     }
 
     #load_cluster_block() {
@@ -107,6 +107,7 @@ export class ResultDisplay {
     }
 
     #load_result_block(result) {
+        this.#clear_result_block();
         if(this.category_mode) {                                                    // category block
             var idx = 1;
             let tr = document.createElement("tr");

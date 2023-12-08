@@ -16,7 +16,6 @@ export async function query(type_, cols, conditions) {
 export async function load_data(type_, file='') {
     if(file !== '')
         file = '/' + file;
-    console.log(file);
     return await fetch(`http://localhost:8000/${type_}${file}`)
         .then((response) => { return response.json(); });
 }

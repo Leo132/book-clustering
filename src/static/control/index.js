@@ -28,8 +28,8 @@ async function init() {
         let categories = Array.from(document.querySelectorAll("input[name=category]:checked"))
             .map((checkbox) => { return checkbox.value; });
         console.log(search_str, categories);
-        let data = await search(search_str, categories);
-        update_result(data);
+        let conditions = [`book_name like "%${search_str}%"`];
+        result_block.update_result_block(conditions);
     };
 }
 

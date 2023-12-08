@@ -24,9 +24,9 @@ app.mount("/static", StaticFiles(directory="src/static"), name="static")
 
 @app.get("/query/{type_}", response_class=JSONResponse)
 async def query(type_: Table, cols: str=None, conditions: str=None):
-    # print(f"{type_=}")
-    # print(f"{cols=}")
-    # print(f"{conditions=}")
+    print(f"{type_=}")
+    print(f"{cols=}")
+    print(f"{conditions=}")
     prep = lambda s: s if s is None else s.replace('>', '=').split(';')
     data = {
         "books": get_books,
