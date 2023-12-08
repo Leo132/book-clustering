@@ -36,20 +36,13 @@ async def query(type_: Table, cols: str=None, conditions: str=None):
 
     return data
 
-@app.get("/search", response_class=JSONResponse)
-async def search(search_str: str=None, categories: str=None):
-    categories = categories.split(';')
+@app.get("/ws", response_class=JSONResponse)
+async def search(search_str: str=None):
     print(f"{search_str=}")
-    print(f"{categories=}")
     seg_words = None if search_str is None else _WS_MODEL.inference(search_str)
-    print(f"{seg_words=}")
-    # query
-    result = None
 
     data = {
         "seg_words": seg_words,
-        "categories": categories,
-        "result": result,
     }
 
     return JSONResponse(data)

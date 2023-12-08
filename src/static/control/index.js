@@ -1,6 +1,6 @@
 import {
     load_css,
-    search,
+    word_segment,
 } from "./utils.js"
 
 import {
@@ -25,11 +25,23 @@ async function init() {
     document.getElementById("search_form").onsubmit = async (e) => {
         e.preventDefault();             // important
         let search_str = document.getElementById("search_str").value;
+        let ws = await word_segment(search_str)
+            .then((response) => response.seg_words);
         let categories = Array.from(document.querySelectorAll("input[name=category]:checked"))
-            .map((checkbox) => { return checkbox.value; });
-        console.log(search_str, categories);
-        let conditions = [`book_name like "%${search_str}%"`];
-        result_block.update_result_block(conditions);
+            .map((checkbox) => checkbox.value);
+        console.log(search_str, ws, categories);
+        var category_condition = [];
+        var keyword_condition = [`book_name like "%${search_str}%"`];
+        for(let category of categories)
+            category_condition.push(`category = "${category}"`);
+        if(category_condition.length > 0)
+            category_condition = `(${category_condition.join(" or ")})`;
+        for(let keyword of ws) {
+            if(keyword === search_str) continue;
+            keyword_condition.push(`book_name like "%${keyword}$"`);
+        }
+        keyword_condition = `(${keyword_condition.join(" or ")})`;
+        result_block.update_result_block([keyword_condition].concat(typeof category_condition === "string" ? [category_condition] : []));
     };
 }
 

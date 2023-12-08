@@ -1,9 +1,7 @@
 
 
-export async function search(search_str, categories) {
-    let categories_str = categories.join(';');
-    // console.log(categories_str)
-    return await load_data(`search?search_str=${search_str}&categories=${categories_str}`);
+export async function word_segment(search_str) {
+    return await load_data(`ws?search_str=${search_str}`);
 }
 
 export async function query(type_, cols, conditions) {
