@@ -10,7 +10,8 @@ from fastapi.templating import Jinja2Templates
 from typing import Optional, Annotated
 
 from lib.utils import WSModel, load_json
-from lib.datatype import Page
+from lib.datatype import Page, Table
+from lib.db_f import get_authors, get_attr
 
 _TITLE = "我的閱讀助手"
 _WS_MODEL = WSModel()
@@ -20,6 +21,19 @@ app = FastAPI()
 templates = Jinja2Templates(directory="src/templates")
 app.mount("/static", StaticFiles(directory="src/static"), name="static")
 
+
+@app.get("/query/{type_}", response_class=JSONResponse)
+async def query(type_: str, cols: str=None, conditions: str=None):
+    prep = lambda s: s if s is None else s.replace('>', '=').split(';')
+    args = (() if type_ == Table.authors else (type_,)) + (prep(cols), prep(conditions))
+    # print(args)
+    data = {
+        "books": get_attr,
+        "authors": get_authors,
+        "phouses": get_attr,
+    }[type_](*args)
+
+    return data
 
 @app.get("/search", response_class=JSONResponse)
 async def search(search_str: str=None, categories: str=None):

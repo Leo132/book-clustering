@@ -4,7 +4,7 @@ li.category {
     padding: 0;
 }
 
-div.result {
+div.result_block {
     text-align: center;
 }
 
@@ -37,6 +37,11 @@ td.cluster {
 ul li label {
     display: inline-block;
     width: 8rem;
+}
+
+details.result summary::marker {
+    display: none;
+    font-size: 0;
 }
 
 summary {

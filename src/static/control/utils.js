@@ -6,11 +6,18 @@ export async function search(search_str, categories) {
     return await load_data(`search?search_str=${search_str}&categories=${categories_str}`);
 }
 
-export async function load_data(type, file='') {
+export async function query(type_, cols, conditions) {
+    let args = (cols != null ? `cols=${cols.join(';')}` : '') +
+               (conditions != null ? `&conditions=${conditions.join(';')}` : '');
+    return await fetch(`http://localhost:8000/query/${type_}?${args}`)
+        .then((response) => { return response.json(); });
+}
+
+export async function load_data(type_, file='') {
     if(file !== '')
         file = '/' + file;
     console.log(file);
-    return await fetch(`http://localhost:8000/${type}${file}`)
+    return await fetch(`http://localhost:8000/${type_}${file}`)
         .then((response) => { return response.json(); });
 }
 
