@@ -1,2546 +1,2546 @@
 [
     {
-        "name": "\u6f22\u5a1c\u2027\u827e\u8389\u7d72",
+        "author_name": "\u6f22\u5a1c\u2027\u827e\u8389\u7d72",
         "total_books": "8",
         "average_price": 649.62
     },
     {
-        "name": "\u7fc1\u79c0\u742a",
+        "author_name": "\u7fc1\u79c0\u742a",
         "total_books": "7",
         "average_price": 541.86
     },
     {
-        "name": "\u5f90\u7389\u8212",
+        "author_name": "\u5f90\u7389\u8212",
         "total_books": "12",
         "average_price": 365.67
     },
     {
-        "name": "\u912d\u5b87\u541b",
+        "author_name": "\u912d\u5b87\u541b",
         "total_books": "4",
         "average_price": 449.0
     },
     {
-        "name": "\u8a31\u5a77",
+        "author_name": "\u8a31\u5a77",
         "total_books": "32",
         "average_price": 405.31
     },
     {
-        "name": "\u9802\u679c\u6b3d\u54f2\u4ec1\u6ce2\u5207",
+        "author_name": "\u9802\u679c\u6b3d\u54f2\u4ec1\u6ce2\u5207",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u66fe\u4ed5\u5f37",
+        "author_name": "\u66fe\u4ed5\u5f37",
         "total_books": "302",
         "average_price": 480.57
     },
     {
-        "name": "\u76e7\u601d\u5609",
+        "author_name": "\u76e7\u601d\u5609",
         "total_books": "44",
         "average_price": 480.89
     },
     {
-        "name": "\u97d3\u5146\u7426",
+        "author_name": "\u97d3\u5146\u7426",
         "total_books": "103",
         "average_price": 536.95
     },
     {
-        "name": "\u738b\u5fb7\u69d0",
+        "author_name": "\u738b\u5fb7\u69d0",
         "total_books": "8",
         "average_price": 374.0
     },
     {
-        "name": "\u8a31\u58eb\u5ba6",
+        "author_name": "\u8a31\u58eb\u5ba6",
         "total_books": "32",
         "average_price": 699.12
     },
     {
-        "name": "\u5f90\u5f18\u7e09",
+        "author_name": "\u5f90\u5f18\u7e09",
         "total_books": "60",
         "average_price": 562.47
     },
     {
-        "name": "\u912d\u7389\u6ce2",
+        "author_name": "\u912d\u7389\u6ce2",
         "total_books": "43",
         "average_price": 468.81
     },
     {
-        "name": "\u6eab\u4e16\u980c",
+        "author_name": "\u6eab\u4e16\u980c",
         "total_books": "12",
         "average_price": 615.67
     },
     {
-        "name": "\u5433\u4fe1\u83ef",
+        "author_name": "\u5433\u4fe1\u83ef",
         "total_books": "9",
         "average_price": 665.89
     },
     {
-        "name": "\u9ec3\u5fb7\u821c",
+        "author_name": "\u9ec3\u5fb7\u821c",
         "total_books": "5",
         "average_price": 519.0
     },
     {
-        "name": "Ashley Selby",
+        "author_name": "Ashley Selby",
         "total_books": "6",
         "average_price": 566.0
     },
     {
-        "name": "\u5289\u9023\u715c",
+        "author_name": "\u5289\u9023\u715c",
         "total_books": "34",
         "average_price": 569.71
     },
     {
-        "name": "\u912d\u51a0\u5b87",
+        "author_name": "\u912d\u51a0\u5b87",
         "total_books": "16",
         "average_price": 699.19
     },
     {
-        "name": "\u6210\u5f26\u7950",
+        "author_name": "\u6210\u5f26\u7950",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u9ea5\u53ef\u2027\u8fea\u5409\u96c5\u79d1\u83ab",
+        "author_name": "\u9ea5\u53ef\u2027\u8fea\u5409\u96c5\u79d1\u83ab",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u4e0b\u5ddd\u7a70",
+        "author_name": "\u4e0b\u5ddd\u7a70",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u76ae\u570b\u7acb",
+        "author_name": "\u76ae\u570b\u7acb",
         "total_books": "28",
         "average_price": 606.14
     },
     {
-        "name": "\u90ed\u827e\u73ca",
+        "author_name": "\u90ed\u827e\u73ca",
         "total_books": "2",
         "average_price": 399.0
     },
     {
-        "name": "\u9ec3\u5b9c\u65b9",
+        "author_name": "\u9ec3\u5b9c\u65b9",
         "total_books": "5",
         "average_price": 199.0
     },
     {
-        "name": "\u5f35\u744b\u7de8\u8457",
+        "author_name": "\u5f35\u744b\u7de8\u8457",
         "total_books": "174",
         "average_price": 418.6
     },
     {
-        "name": "\u8449\u66fc\u73b2",
+        "author_name": "\u8449\u66fc\u73b2",
         "total_books": "5",
         "average_price": 399.0
     },
     {
-        "name": "\u912d\u8cc7\u975c",
+        "author_name": "\u912d\u8cc7\u975c",
         "total_books": "4",
         "average_price": 399.0
     },
     {
-        "name": "\u4f59\u57f9\u6797",
+        "author_name": "\u4f59\u57f9\u6797",
         "total_books": "12",
         "average_price": 415.67
     },
     {
-        "name": "Simona Dimitri",
+        "author_name": "Simona Dimitri",
         "total_books": "17",
         "average_price": 599.06
     },
     {
-        "name": "\u9673\u6b63\u5009",
+        "author_name": "\u9673\u6b63\u5009",
         "total_books": "11",
         "average_price": 799.0
     },
     {
-        "name": "\u54c8\u4f0a\u59c6\u30fb\u590f\u76ae\u62c9",
+        "author_name": "\u54c8\u4f0a\u59c6\u30fb\u590f\u76ae\u62c9",
         "total_books": "3",
         "average_price": 599.33
     },
     {
-        "name": "\u8b1d\u570b\u5e73",
+        "author_name": "\u8b1d\u570b\u5e73",
         "total_books": "63",
         "average_price": 351.4
     },
     {
-        "name": "\u8449\u6649\u5b8f",
+        "author_name": "\u8449\u6649\u5b8f",
         "total_books": "17",
         "average_price": 422.53
     },
     {
-        "name": "The \u682a\u9b3c(\u5c0f\u5cf6\u6649\u4e5f)",
+        "author_name": "The \u682a\u9b3c(\u5c0f\u5cf6\u6649\u4e5f)",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u912d\u5091\u592b",
+        "author_name": "\u912d\u5091\u592b",
         "total_books": "5",
         "average_price": 519.2
     },
     {
-        "name": "\u9ec3\u6c9b\u69ae",
+        "author_name": "\u9ec3\u6c9b\u69ae",
         "total_books": "15",
         "average_price": 399.07
     },
     {
-        "name": "\u9ad8\u83ef \u8457",
+        "author_name": "\u9ad8\u83ef \u8457",
         "total_books": "203",
         "average_price": 458.2
     },
     {
-        "name": "\u9678\u897f\u661f",
+        "author_name": "\u9678\u897f\u661f",
         "total_books": "20",
         "average_price": 499.15
     },
     {
-        "name": "\u8299\u9e97\u9054.\u9ea5\u6cd5\u767b",
+        "author_name": "\u8299\u9e97\u9054.\u9ea5\u6cd5\u767b",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u9ec3\u653f\u6cbb\u4e3b\u7de8",
+        "author_name": "\u9ec3\u653f\u6cbb\u4e3b\u7de8",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u8499\u683c",
+        "author_name": "\u8499\u683c",
         "total_books": "48",
         "average_price": 286.52
     },
     {
-        "name": "Helene Convert",
+        "author_name": "Helene Convert",
         "total_books": "2",
         "average_price": 699.0
     },
     {
-        "name": "Random House",
+        "author_name": "Random House",
         "total_books": "824",
         "average_price": 425.74
     },
     {
-        "name": "\u52de\u601d\u5149",
+        "author_name": "\u52de\u601d\u5149",
         "total_books": "47",
         "average_price": 450.09
     },
     {
-        "name": "Xavier Deneux",
+        "author_name": "Xavier Deneux",
         "total_books": "48",
         "average_price": 632.5
     },
     {
-        "name": "\u5289\u9e97\u7d14",
+        "author_name": "\u5289\u9e97\u7d14",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "\u5289\u6f64",
+        "author_name": "\u5289\u6f64",
         "total_books": "146",
         "average_price": 501.89
     },
     {
-        "name": "\u8a79\u59c6\u65af\u2027\u514b\u5229\u723e",
+        "author_name": "\u8a79\u59c6\u65af\u2027\u514b\u5229\u723e",
         "total_books": "2",
         "average_price": 399.0
     },
     {
-        "name": "\u9673\u7d14\u4e00 \u4fee\u8a02",
+        "author_name": "\u9673\u7d14\u4e00 \u4fee\u8a02",
         "total_books": "2",
         "average_price": 800.0
     },
     {
-        "name": "Ana Martin Larranaga",
+        "author_name": "Ana Martin Larranaga",
         "total_books": "57",
         "average_price": 553.47
     },
     {
-        "name": "\u7f85\u4f2f\u7279.\u9b6f\u8cd3",
+        "author_name": "\u7f85\u4f2f\u7279.\u9b6f\u8cd3",
         "total_books": "2",
         "average_price": 699.0
     },
     {
-        "name": "\u5b6b\u68ee\u7131",
+        "author_name": "\u5b6b\u68ee\u7131",
         "total_books": "4",
         "average_price": 699.0
     },
     {
-        "name": "\u5289\u8559\u82d3",
+        "author_name": "\u5289\u8559\u82d3",
         "total_books": "8",
         "average_price": 424.0
     },
     {
-        "name": "Mitch Weiss",
+        "author_name": "Mitch Weiss",
         "total_books": "43",
         "average_price": 603.98
     },
     {
-        "name": "\u99ac\u5955\u5b89(Jan Martel)(\u5354\u529b)",
+        "author_name": "\u99ac\u5955\u5b89(Jan Martel)(\u5354\u529b)",
         "total_books": "1",
         "average_price": 799.0
     },
     {
-        "name": "\u5433\u5ff5\u771f",
+        "author_name": "\u5433\u5ff5\u771f",
         "total_books": "38",
         "average_price": 425.39
     },
     {
-        "name": "\u5c71\u7530\u548c\u88d5",
+        "author_name": "\u5c71\u7530\u548c\u88d5",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u5433\u81f3\u683c",
+        "author_name": "\u5433\u81f3\u683c",
         "total_books": "2",
         "average_price": 399.0
     },
     {
-        "name": "\u838a\u921e\u6db5(Carol\u5b78\u59ca)",
+        "author_name": "\u838a\u921e\u6db5(Carol\u5b78\u59ca)",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u738b\u9020Joseph Wang",
+        "author_name": "\u738b\u9020Joseph Wang",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u738b\u6dd1\u7f8e",
+        "author_name": "\u738b\u6dd1\u7f8e",
         "total_books": "22",
         "average_price": 389.91
     },
     {
-        "name": "\u6c6a\u4e2d\u6587",
+        "author_name": "\u6c6a\u4e2d\u6587",
         "total_books": "15",
         "average_price": 479.0
     },
     {
-        "name": "\u5442\u5ca1\u73b6",
+        "author_name": "\u5442\u5ca1\u73b6",
         "total_books": "4",
         "average_price": 599.0
     },
     {
-        "name": "\u7530\u8018\u6607",
+        "author_name": "\u7530\u8018\u6607",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u4e39\u5c3c\u723e\u2027\u4e9e\u66fc",
+        "author_name": "\u4e39\u5c3c\u723e\u2027\u4e9e\u66fc",
         "total_books": "9",
         "average_price": 554.67
     },
     {
-        "name": "\u8521\u5fd7\u63da",
+        "author_name": "\u8521\u5fd7\u63da",
         "total_books": "5",
         "average_price": 519.0
     },
     {
-        "name": "\u96f7\u514b\u2027\u840a\u723e\u9813",
+        "author_name": "\u96f7\u514b\u2027\u840a\u723e\u9813",
         "total_books": "56",
         "average_price": 449.09
     },
     {
-        "name": "\u66f9\u96ea\u82b9",
+        "author_name": "\u66f9\u96ea\u82b9",
         "total_books": "991",
         "average_price": 450.07
     },
     {
-        "name": "\u65b9\u5fd7\u5143",
+        "author_name": "\u65b9\u5fd7\u5143",
         "total_books": "10",
         "average_price": 199.0
     },
     {
-        "name": "Andy Prentice",
+        "author_name": "Andy Prentice",
         "total_books": "12",
         "average_price": 582.42
     },
     {
-        "name": "\u5f35\u79c0\u5e06",
+        "author_name": "\u5f35\u79c0\u5e06",
         "total_books": "16",
         "average_price": 549.19
     },
     {
-        "name": "\u8ca1\u805a\u9f8d\u982d",
+        "author_name": "\u8ca1\u805a\u9f8d\u982d",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "\u6797\u8aa0\u4e8c",
+        "author_name": "\u6797\u8aa0\u4e8c",
         "total_books": "36",
         "average_price": 537.89
     },
     {
-        "name": "Joshua George",
+        "author_name": "Joshua George",
         "total_books": "132",
         "average_price": 517.3
     },
     {
-        "name": "\u6d2a\u370b\u8339",
+        "author_name": "\u6d2a\u370b\u8339",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "\u9673\u68cb\u708e",
+        "author_name": "\u9673\u68cb\u708e",
         "total_books": "13",
         "average_price": 599.0
     },
     {
-        "name": "\u6c88\u68df",
+        "author_name": "\u6c88\u68df",
         "total_books": "3",
         "average_price": 532.33
     },
     {
-        "name": "Anna Milbourne",
+        "author_name": "Anna Milbourne",
         "total_books": "107",
         "average_price": 552.33
     },
     {
-        "name": "\u9673\u69ae\u5b97",
+        "author_name": "\u9673\u69ae\u5b97",
         "total_books": "23",
         "average_price": 520.78
     },
     {
-        "name": "\u4e09\u6c11\u7de8\u8f2f\u90e8",
+        "author_name": "\u4e09\u6c11\u7de8\u8f2f\u90e8",
         "total_books": "3",
         "average_price": 800.0
     },
     {
-        "name": "Seaerra Miller",
+        "author_name": "Seaerra Miller",
         "total_books": "15",
         "average_price": 612.47
     },
     {
-        "name": "\u6b50\u5f8b\u5e2b",
+        "author_name": "\u6b50\u5f8b\u5e2b",
         "total_books": "5",
         "average_price": 719.0
     },
     {
-        "name": "\u6797\u68a7\u885b \u7de8\u8457",
+        "author_name": "\u6797\u68a7\u885b \u7de8\u8457",
         "total_books": "9",
         "average_price": 354.56
     },
     {
-        "name": "\u30b9\u30ea\u30fc\u30a8\u30fc\u30cd\u30c3\u30c8\u30ef\u30fc\u30af",
+        "author_name": "\u30b9\u30ea\u30fc\u30a8\u30fc\u30cd\u30c3\u30c8\u30ef\u30fc\u30af",
         "total_books": "25",
         "average_price": 551.0
     },
     {
-        "name": "\u90a2\u96ef\u6842",
+        "author_name": "\u90a2\u96ef\u6842",
         "total_books": "21",
         "average_price": 427.57
     },
     {
-        "name": "Luke Pearson",
+        "author_name": "Luke Pearson",
         "total_books": "34",
         "average_price": 663.88
     },
     {
-        "name": "\u514b\u91cc\u65af\u2027\u5df4\u7279\u83ef\u65af(Chris Butterworth)",
+        "author_name": "\u514b\u91cc\u65af\u2027\u5df4\u7279\u83ef\u65af(Chris Butterworth)",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "\u5f35\u5b8f\u751f",
+        "author_name": "\u5f35\u5b8f\u751f",
         "total_books": "58",
         "average_price": 506.02
     },
     {
-        "name": "\u912d\u4f73\u6a3a",
+        "author_name": "\u912d\u4f73\u6a3a",
         "total_books": "12",
         "average_price": 199.0
     },
     {
-        "name": "\u5289\u5b97\u69ae",
+        "author_name": "\u5289\u5b97\u69ae",
         "total_books": "32",
         "average_price": 668.06
     },
     {
-        "name": "\u5c09\u9072\u79c0",
+        "author_name": "\u5c09\u9072\u79c0",
         "total_books": "4",
         "average_price": 499.25
     },
     {
-        "name": "\u674e\u653f\u5fb7",
+        "author_name": "\u674e\u653f\u5fb7",
         "total_books": "6",
         "average_price": 632.33
     },
     {
-        "name": "\u65bd\u8010\u5eb5",
+        "author_name": "\u65bd\u8010\u5eb5",
         "total_books": "879",
         "average_price": 402.99
     },
     {
-        "name": "\u4e18\u5b8f\u9054 \u8457",
+        "author_name": "\u4e18\u5b8f\u9054 \u8457",
         "total_books": "14",
         "average_price": 542.14
     },
     {
-        "name": "\u80e1\u78a9\u52fb",
+        "author_name": "\u80e1\u78a9\u52fb",
         "total_books": "5",
         "average_price": 439.0
     },
     {
-        "name": "\u8292\u683c\u66f8\u9662",
+        "author_name": "\u8292\u683c\u66f8\u9662",
         "total_books": "1",
         "average_price": 800.0
     },
     {
-        "name": "\u9f4a\u85e4\u52c7",
+        "author_name": "\u9f4a\u85e4\u52c7",
         "total_books": "46",
         "average_price": 403.35
     },
     {
-        "name": "\u8a31\u54f2\u745d",
+        "author_name": "\u8a31\u54f2\u745d",
         "total_books": "2",
         "average_price": 399.0
     },
     {
-        "name": "\u6797\u79c0\u96c4",
+        "author_name": "\u6797\u79c0\u96c4",
         "total_books": "32",
         "average_price": 574.03
     },
     {
-        "name": "\u674e\u7950\u5be7",
+        "author_name": "\u674e\u7950\u5be7",
         "total_books": "4",
         "average_price": 599.0
     },
     {
-        "name": "\u90b1\u71ee\u53cb",
+        "author_name": "\u90b1\u71ee\u53cb",
         "total_books": "62",
         "average_price": 492.58
     },
     {
-        "name": "\u534a\u622a\u767d\u83dc",
+        "author_name": "\u534a\u622a\u767d\u83dc",
         "total_books": "7",
         "average_price": 484.71
     },
     {
-        "name": "\u7c73\u96c5",
+        "author_name": "\u7c73\u96c5",
         "total_books": "46",
         "average_price": 451.24
     },
     {
-        "name": "\u9ec3\u5349\u541b",
+        "author_name": "\u9ec3\u5349\u541b",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u9673\u7acb\u82ac",
+        "author_name": "\u9673\u7acb\u82ac",
         "total_books": "14",
         "average_price": 470.57
     },
     {
-        "name": "\u5442\u592a\u90ce",
+        "author_name": "\u5442\u592a\u90ce",
         "total_books": "11",
         "average_price": 544.55
     },
     {
-        "name": "\u91d1\u8056\u5606",
+        "author_name": "\u91d1\u8056\u5606",
         "total_books": "27",
         "average_price": 443.52
     },
     {
-        "name": "Ingela P Arrhenius",
+        "author_name": "Ingela P Arrhenius",
         "total_books": "142",
         "average_price": 527.31
     },
     {
-        "name": "\u7126\u91d1\u52dd",
+        "author_name": "\u7126\u91d1\u52dd",
         "total_books": "17",
         "average_price": 257.82
     },
     {
-        "name": "\u5433\u7fbf",
+        "author_name": "\u5433\u7fbf",
         "total_books": "13",
         "average_price": 399.0
     },
     {
-        "name": "\u8c37\u539a\u5fd7",
+        "author_name": "\u8c37\u539a\u5fd7",
         "total_books": "4",
         "average_price": 449.0
     },
     {
-        "name": "\u5c39\u667a\u6620",
+        "author_name": "\u5c39\u667a\u6620",
         "total_books": "2",
         "average_price": 399.0
     },
     {
-        "name": "\u8521\u96c5\u85b0",
+        "author_name": "\u8521\u96c5\u85b0",
         "total_books": "20",
         "average_price": 419.0
     },
     {
-        "name": "\u6797\u79c0\u84c9 \u7b49",
+        "author_name": "\u6797\u79c0\u84c9 \u7b49",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "Nosy Crow",
+        "author_name": "Nosy Crow",
         "total_books": "288",
         "average_price": 473.36
     },
     {
-        "name": "\u5f35\u5b5d\u88d5",
+        "author_name": "\u5f35\u5b5d\u88d5",
         "total_books": "18",
         "average_price": 532.44
     },
     {
-        "name": "\u5eb7\u8559\u82ac",
+        "author_name": "\u5eb7\u8559\u82ac",
         "total_books": "17",
         "average_price": 704.94
     },
     {
-        "name": "\u7a0b\u6a02",
+        "author_name": "\u7a0b\u6a02",
         "total_books": "42",
         "average_price": 389.55
     },
     {
-        "name": "Dav Pilkey",
+        "author_name": "Dav Pilkey",
         "total_books": "278",
         "average_price": 530.82
     },
     {
-        "name": "\u79d1\u745e.R. \u5854\u535a",
+        "author_name": "\u79d1\u745e.R. \u5854\u535a",
         "total_books": "2",
         "average_price": 399.0
     },
     {
-        "name": "\u5bae\u672c\u54f2\u4e5f",
+        "author_name": "\u5bae\u672c\u54f2\u4e5f",
         "total_books": "19",
         "average_price": 230.58
     },
     {
-        "name": "\u674e\u5fd7\u6587",
+        "author_name": "\u674e\u5fd7\u6587",
         "total_books": "46",
         "average_price": 299.02
     },
     {
-        "name": "\u9673\u5922\u6021(\u5354\u529b)",
+        "author_name": "\u9673\u5922\u6021(\u5354\u529b)",
         "total_books": "1",
         "average_price": 799.0
     },
     {
-        "name": "\u4f59\u6770",
+        "author_name": "\u4f59\u6770",
         "total_books": "69",
         "average_price": 546.84
     },
     {
-        "name": "\u6d2a\u842c\u751f",
+        "author_name": "\u6d2a\u842c\u751f",
         "total_books": "36",
         "average_price": 393.47
     },
     {
-        "name": "\u6797\u653f\u8b19",
+        "author_name": "\u6797\u653f\u8b19",
         "total_books": "16",
         "average_price": 199.0
     },
     {
-        "name": "Kate Merritt (COR)",
+        "author_name": "Kate Merritt (COR)",
         "total_books": "2",
         "average_price": 399.0
     },
     {
-        "name": "(\u4e39)\u4e39\u2027\u624e\u54c8\u7dad",
+        "author_name": "(\u4e39)\u4e39\u2027\u624e\u54c8\u7dad",
         "total_books": "1578",
         "average_price": 390.83
     },
     {
-        "name": "\u4f55\u7389\u5a77",
+        "author_name": "\u4f55\u7389\u5a77",
         "total_books": "7",
         "average_price": 399.0
     },
     {
-        "name": "\u65b0\u6d77\u8aa0",
+        "author_name": "\u65b0\u6d77\u8aa0",
         "total_books": "62",
         "average_price": 415.16
     },
     {
-        "name": "\u674e\u7b71\u5cf0",
+        "author_name": "\u674e\u7b71\u5cf0",
         "total_books": "44",
         "average_price": 412.68
     },
     {
-        "name": "\u9f4b\u85e4\u76f4\u8475",
+        "author_name": "\u9f4b\u85e4\u76f4\u8475",
         "total_books": "9",
         "average_price": 465.67
     },
     {
-        "name": "Hanako Clulow",
+        "author_name": "Hanako Clulow",
         "total_books": "17",
         "average_price": 634.29
     },
     {
-        "name": "\u5289\u82b3\u745c",
+        "author_name": "\u5289\u82b3\u745c",
         "total_books": "8",
         "average_price": 424.0
     },
     {
-        "name": "\u4e09\u6c11\u66f8\u5c40\u7de8\u8f2f\u59d4\u54e1\u6703",
+        "author_name": "\u4e09\u6c11\u66f8\u5c40\u7de8\u8f2f\u59d4\u54e1\u6703",
         "total_books": "11",
         "average_price": 417.18
     },
     {
-        "name": "Laurent Kling",
+        "author_name": "Laurent Kling",
         "total_books": "3",
         "average_price": 599.0
     },
     {
-        "name": "\u9673\u767e\u9f61",
+        "author_name": "\u9673\u767e\u9f61",
         "total_books": "6",
         "average_price": 432.33
     },
     {
-        "name": "(\u7f8e)\u611b\u5fb7\u83ef\u2027\u6c99\u4f0a\u7d0d\u66fc",
+        "author_name": "(\u7f8e)\u611b\u5fb7\u83ef\u2027\u6c99\u4f0a\u7d0d\u66fc",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u514b\u91cc\u65af\u2027\u7c73\u52d2",
+        "author_name": "\u514b\u91cc\u65af\u2027\u7c73\u52d2",
         "total_books": "1",
         "average_price": 799.0
     },
     {
-        "name": "\u7562\u67f3\u9daf",
+        "author_name": "\u7562\u67f3\u9daf",
         "total_books": "5",
         "average_price": 599.4
     },
     {
-        "name": "\u8b1d\u51b0\u7469",
+        "author_name": "\u8b1d\u51b0\u7469",
         "total_books": "60",
         "average_price": 279.02
     },
     {
-        "name": "\u677e\u672c\u7d00\u5b50",
+        "author_name": "\u677e\u672c\u7d00\u5b50",
         "total_books": "62",
         "average_price": 331.26
     },
     {
-        "name": "\u90ed\u632f\u606d",
+        "author_name": "\u90ed\u632f\u606d",
         "total_books": "24",
         "average_price": 574.0
     },
     {
-        "name": "\u6c88\u6c38\u6b63",
+        "author_name": "\u6c88\u6c38\u6b63",
         "total_books": "7",
         "average_price": 513.29
     },
     {
-        "name": "\u91d1\u6d69\u7136",
+        "author_name": "\u91d1\u6d69\u7136",
         "total_books": "6",
         "average_price": 565.67
     },
     {
-        "name": "\u6c5f\u672c\u52dd",
+        "author_name": "\u6c5f\u672c\u52dd",
         "total_books": "19",
         "average_price": 367.47
     },
     {
-        "name": "\u8303\u8018\u82ac",
+        "author_name": "\u8303\u8018\u82ac",
         "total_books": "4",
         "average_price": 399.0
     },
     {
-        "name": "\u6797\u76f8\u5982",
+        "author_name": "\u6797\u76f8\u5982",
         "total_books": "11",
         "average_price": 453.64
     },
     {
-        "name": "\u8a31\u5cf0\u6e90",
+        "author_name": "\u8a31\u5cf0\u6e90",
         "total_books": "17",
         "average_price": 469.59
     },
     {
-        "name": "\u4e0d\u554f\u4e09\u4e5d",
+        "author_name": "\u4e0d\u554f\u4e09\u4e5d",
         "total_books": "6",
         "average_price": 399.0
     },
     {
-        "name": "Mairi Mackinnon",
+        "author_name": "Mairi Mackinnon",
         "total_books": "101",
         "average_price": 454.54
     },
     {
-        "name": "\u6797\u660e\u6ce2",
+        "author_name": "\u6797\u660e\u6ce2",
         "total_books": "4",
         "average_price": 499.0
     },
     {
-        "name": "\u7ae0\u5ca9",
+        "author_name": "\u7ae0\u5ca9",
         "total_books": "68",
         "average_price": 331.37
     },
     {
-        "name": "\u6797\u627f\u9060",
+        "author_name": "\u6797\u627f\u9060",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "\u8449\u570b\u826f\u6821\u95b1",
+        "author_name": "\u8449\u570b\u826f\u6821\u95b1",
         "total_books": "41",
         "average_price": 491.73
     },
     {
-        "name": "\u91ce\u5fd7\u660e\u52a0(\u306e\u3057 \u3055\u3084\u304b)",
+        "author_name": "\u91ce\u5fd7\u660e\u52a0(\u306e\u3057 \u3055\u3084\u304b)",
         "total_books": "10",
         "average_price": 519.2
     },
     {
-        "name": "\u5b89\u5a1c\u5fb7\u2022\u6885\u6a02\u5e0c(Anete Melece)",
+        "author_name": "\u5b89\u5a1c\u5fb7\u2022\u6885\u6a02\u5e0c(Anete Melece)",
         "total_books": "2",
         "average_price": 599.5
     },
     {
-        "name": "Yoyo Books",
+        "author_name": "Yoyo Books",
         "total_books": "434",
         "average_price": 520.23
     },
     {
-        "name": "\u5bbf\u6587\u6df5",
+        "author_name": "\u5bbf\u6587\u6df5",
         "total_books": "150",
         "average_price": 295.0
     },
     {
-        "name": "\u9673\u7f8e\u5983",
+        "author_name": "\u9673\u7f8e\u5983",
         "total_books": "10",
         "average_price": 359.0
     },
     {
-        "name": "\u80a5\u5fd7",
+        "author_name": "\u80a5\u5fd7",
         "total_books": "33",
         "average_price": 587.09
     },
     {
-        "name": "\u5289\u6176\u96f2 \u6ce8\u8b6f",
+        "author_name": "\u5289\u6176\u96f2 \u6ce8\u8b6f",
         "total_books": "6",
         "average_price": 432.33
     },
     {
-        "name": "\u694a\u6db5\u8339",
+        "author_name": "\u694a\u6db5\u8339",
         "total_books": "6",
         "average_price": 232.33
     },
     {
-        "name": "\u6728\u679c\u5b50(\u30e2\u30ab\u5b50)\u5716",
+        "author_name": "\u6728\u679c\u5b50(\u30e2\u30ab\u5b50)\u5716",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "Matt Loveridge(ILT)",
+        "author_name": "Matt Loveridge(ILT)",
         "total_books": "5",
         "average_price": 439.2
     },
     {
-        "name": "\u6c60\u4e0a\u5f70",
+        "author_name": "\u6c60\u4e0a\u5f70",
         "total_books": "9",
         "average_price": 465.78
     },
     {
-        "name": "\u7c21\u5609\u5f64",
+        "author_name": "\u7c21\u5609\u5f64",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u5e73\u6cc9\u88d5",
+        "author_name": "\u5e73\u6cc9\u88d5",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u6797\u6176\u82d7",
+        "author_name": "\u6797\u6176\u82d7",
         "total_books": "11",
         "average_price": 471.73
     },
     {
-        "name": "\u5f35\u570b\u6d0b",
+        "author_name": "\u5f35\u570b\u6d0b",
         "total_books": "11",
         "average_price": 399.0
     },
     {
-        "name": "\u694a\u7dad\u4e2d",
+        "author_name": "\u694a\u7dad\u4e2d",
         "total_books": "22",
         "average_price": 462.68
     },
     {
-        "name": "\u7956\u53e4\u70cf\u91d1\u4ec1\u6ce2\u5207 \u7b49",
+        "author_name": "\u7956\u53e4\u70cf\u91d1\u4ec1\u6ce2\u5207 \u7b49",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "Stephanie Davies",
+        "author_name": "Stephanie Davies",
         "total_books": "11",
         "average_price": 708.64
     },
     {
-        "name": "\u9577\u5b89\u975c\u7f8e",
+        "author_name": "\u9577\u5b89\u975c\u7f8e",
         "total_books": "9",
         "average_price": 399.11
     },
     {
-        "name": "\u9ec3\u8c50\u958e",
+        "author_name": "\u9ec3\u8c50\u958e",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "Caroline Attia",
+        "author_name": "Caroline Attia",
         "total_books": "7",
         "average_price": 656.43
     },
     {
-        "name": "Anne",
+        "author_name": "Anne",
         "total_books": "19335",
         "average_price": 711.76
     },
     {
-        "name": "\u9673\u52c7\u8afa",
+        "author_name": "\u9673\u52c7\u8afa",
         "total_books": "5",
         "average_price": 639.0
     },
     {
-        "name": "\u6f54\u897f.\u54c8\u7279\u862d(Jessie Hartland)",
+        "author_name": "\u6f54\u897f.\u54c8\u7279\u862d(Jessie Hartland)",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u8d99\u7696\u541b",
+        "author_name": "\u8d99\u7696\u541b",
         "total_books": "7",
         "average_price": 370.43
     },
     {
-        "name": "Harriet Muncaster",
+        "author_name": "Harriet Muncaster",
         "total_books": "101",
         "average_price": 559.63
     },
     {
-        "name": "\u4f55\u6dd1\u8c9e",
+        "author_name": "\u4f55\u6dd1\u8c9e",
         "total_books": "25",
         "average_price": 487.04
     },
     {
-        "name": "Judit Tondora",
+        "author_name": "Judit Tondora",
         "total_books": "3",
         "average_price": 532.33
     },
     {
-        "name": "\u6c38\u677e\u8302\u4e45 \u8457",
+        "author_name": "\u6c38\u677e\u8302\u4e45 \u8457",
         "total_books": "8",
         "average_price": 399.0
     },
     {
-        "name": "\u91ce\u5fd7\u660e\u52a0(\u306e\u3057\u3055\u3084\u304b)",
+        "author_name": "\u91ce\u5fd7\u660e\u52a0(\u306e\u3057\u3055\u3084\u304b)",
         "total_books": "7",
         "average_price": 513.43
     },
     {
-        "name": "\u5433\u4ec1\u5091",
+        "author_name": "\u5433\u4ec1\u5091",
         "total_books": "8",
         "average_price": 474.12
     },
     {
-        "name": "\u5f35\u4f5c\u9326",
+        "author_name": "\u5f35\u4f5c\u9326",
         "total_books": "20",
         "average_price": 479.05
     },
     {
-        "name": "\u8b1d\u528d\u5e73",
+        "author_name": "\u8b1d\u528d\u5e73",
         "total_books": "52",
         "average_price": 626.04
     },
     {
-        "name": "\u6731\u7acb\u7199",
+        "author_name": "\u6731\u7acb\u7199",
         "total_books": "15",
         "average_price": 452.4
     },
     {
-        "name": "\u9673\u7d39\u9716",
+        "author_name": "\u9673\u7d39\u9716",
         "total_books": "52",
         "average_price": 437.62
     },
     {
-        "name": "\u7f85\u8cab\u4e2d",
+        "author_name": "\u7f85\u8cab\u4e2d",
         "total_books": "1133",
         "average_price": 395.96
     },
     {
-        "name": "\u5404\u6821\u540d\u5e2b",
+        "author_name": "\u5404\u6821\u540d\u5e2b",
         "total_books": "70",
         "average_price": 276.14
     },
     {
-        "name": "Katya Longhi",
+        "author_name": "Katya Longhi",
         "total_books": "20",
         "average_price": 499.05
     },
     {
-        "name": "\u7d04\u7ff0\u2027\u6d1b\u514b\u83f2\u52d2",
+        "author_name": "\u7d04\u7ff0\u2027\u6d1b\u514b\u83f2\u52d2",
         "total_books": "10",
         "average_price": 339.0
     },
     {
-        "name": "\u7da6\u7dad",
+        "author_name": "\u7da6\u7dad",
         "total_books": "4",
         "average_price": 449.0
     },
     {
-        "name": "\u5085\u58eb\u73b2Ema Fu",
+        "author_name": "\u5085\u58eb\u73b2Ema Fu",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u838a\u6625\u767c",
+        "author_name": "\u838a\u6625\u767c",
         "total_books": "8",
         "average_price": 574.0
     },
     {
-        "name": "\u58a8\u5bf6\u975e\u5bf6",
+        "author_name": "\u58a8\u5bf6\u975e\u5bf6",
         "total_books": "25",
         "average_price": 399.0
     },
     {
-        "name": "Chris Grabenstein",
+        "author_name": "Chris Grabenstein",
         "total_books": "179",
         "average_price": 614.87
     },
     {
-        "name": "\u8d99\u9d6c\u5718 \u6ce8\u8b6f",
+        "author_name": "\u8d99\u9d6c\u5718 \u6ce8\u8b6f",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "Maria Neradova",
+        "author_name": "Maria Neradova",
         "total_books": "18",
         "average_price": 476.83
     },
     {
-        "name": "\u5f35\u6f64\u66f8",
+        "author_name": "\u5f35\u6f64\u66f8",
         "total_books": "9",
         "average_price": 621.22
     },
     {
-        "name": "\u6c6a\u4e2d",
+        "author_name": "\u6c6a\u4e2d",
         "total_books": "71",
         "average_price": 396.25
     },
     {
-        "name": "\u912d\u4e01\u65fa",
+        "author_name": "\u912d\u4e01\u65fa",
         "total_books": "15",
         "average_price": 639.07
     },
     {
-        "name": "\u6797\u68a7\u885b",
+        "author_name": "\u6797\u68a7\u885b",
         "total_books": "9",
         "average_price": 354.56
     },
     {
-        "name": "\u59da\u8a69\u8c6a",
+        "author_name": "\u59da\u8a69\u8c6a",
         "total_books": "8",
         "average_price": 399.0
     },
     {
-        "name": "\u738b\u5b50\u4eca",
+        "author_name": "\u738b\u5b50\u4eca",
         "total_books": "93",
         "average_price": 562.59
     },
     {
-        "name": "\u58a8\u66f8\u767d",
+        "author_name": "\u58a8\u66f8\u767d",
         "total_books": "27",
         "average_price": 547.26
     },
     {
-        "name": "\u5f35\u78ca",
+        "author_name": "\u5f35\u78ca",
         "total_books": "525",
         "average_price": 434.87
     },
     {
-        "name": "\u9ec3\u69ae\u5805",
+        "author_name": "\u9ec3\u69ae\u5805",
         "total_books": "13",
         "average_price": 614.54
     },
     {
-        "name": "\u9ec3\u5fb7\u6e90",
+        "author_name": "\u9ec3\u5fb7\u6e90",
         "total_books": "4",
         "average_price": 649.25
     },
     {
-        "name": "\u746a\u5609\u8389\u30fb\u514b\u62c9\u5f17\u96f7(Magali Clavelet)",
+        "author_name": "\u746a\u5609\u8389\u30fb\u514b\u62c9\u5f17\u96f7(Magali Clavelet)",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u5f6d\u7b60\u84c1",
+        "author_name": "\u5f6d\u7b60\u84c1",
         "total_books": "16",
         "average_price": 324.06
     },
     {
-        "name": "\u8107\u7530\u548c",
+        "author_name": "\u8107\u7530\u548c",
         "total_books": "2",
         "average_price": 399.0
     },
     {
-        "name": "\u9673\u514b\u660e",
+        "author_name": "\u9673\u514b\u660e",
         "total_books": "7",
         "average_price": 370.43
     },
     {
-        "name": "Richard Luhrs",
+        "author_name": "Richard Luhrs",
         "total_books": "28",
         "average_price": 556.18
     },
     {
-        "name": "\u694a\u8ce2\u82f1",
+        "author_name": "\u694a\u8ce2\u82f1",
         "total_books": "16",
         "average_price": 324.0
     },
     {
-        "name": "Bob McMahon",
+        "author_name": "Bob McMahon",
         "total_books": "10",
         "average_price": 539.1
     },
     {
-        "name": "\u83f2\u6bd4\u65af",
+        "author_name": "\u83f2\u6bd4\u65af",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u674e\u5b50\u654f",
+        "author_name": "\u674e\u5b50\u654f",
         "total_books": "7",
         "average_price": 484.86
     },
     {
-        "name": "\u6eab\u8482.\u574e\u5fb7\u723e",
+        "author_name": "\u6eab\u8482.\u574e\u5fb7\u723e",
         "total_books": "1",
         "average_price": 800.0
     },
     {
-        "name": "\u90b1\u4e16\u537f",
+        "author_name": "\u90b1\u4e16\u537f",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u9ec3\u7389\u71d5\u8b6f",
+        "author_name": "\u9ec3\u7389\u71d5\u8b6f",
         "total_books": "13",
         "average_price": 306.77
     },
     {
-        "name": "\u5ed6\u5927\u7a4e",
+        "author_name": "\u5ed6\u5927\u7a4e",
         "total_books": "26",
         "average_price": 622.15
     },
     {
-        "name": "\u5289\u67cf\u5b8f",
+        "author_name": "\u5289\u67cf\u5b8f",
         "total_books": "13",
         "average_price": 537.62
     },
     {
-        "name": "\u908a\u9060\u5e73",
+        "author_name": "\u908a\u9060\u5e73",
         "total_books": "3",
         "average_price": 465.67
     },
     {
-        "name": "\u9673\u73a0\u4f55",
+        "author_name": "\u9673\u73a0\u4f55",
         "total_books": "4",
         "average_price": 399.0
     },
     {
-        "name": "\u8212\u5146\u6c11",
+        "author_name": "\u8212\u5146\u6c11",
         "total_books": "27",
         "average_price": 465.74
     },
     {
-        "name": "Malcolm Shealy",
+        "author_name": "Malcolm Shealy",
         "total_books": "2",
         "average_price": 599.5
     },
     {
-        "name": "\u5c71\u53e3\u6b63\u8cb4",
+        "author_name": "\u5c71\u53e3\u6b63\u8cb4",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "Owain Mckimm",
+        "author_name": "Owain Mckimm",
         "total_books": "52",
         "average_price": 533.62
     },
     {
-        "name": "Mary Man",
+        "author_name": "Mary Man",
         "total_books": "111",
         "average_price": 285.49
     },
     {
-        "name": "\u59dc\u6853\u570b",
+        "author_name": "\u59dc\u6853\u570b",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u912d\u6587\u5821",
+        "author_name": "\u912d\u6587\u5821",
         "total_books": "2",
         "average_price": 499.0
     },
     {
-        "name": "\u66fe\u5149\u83ef",
+        "author_name": "\u66fe\u5149\u83ef",
         "total_books": "23",
         "average_price": 625.09
     },
     {
-        "name": "Lucy Cousins",
+        "author_name": "Lucy Cousins",
         "total_books": "325",
         "average_price": 523.37
     },
     {
-        "name": "\u6e29\u8c50\u6587",
+        "author_name": "\u6e29\u8c50\u6587",
         "total_books": "11",
         "average_price": 562.73
     },
     {
-        "name": "\u51dd\u96b4",
+        "author_name": "\u51dd\u96b4",
         "total_books": "29",
         "average_price": 412.79
     },
     {
-        "name": "\u7e6a\u51fa\u82f1\u6587\u529bWendy",
+        "author_name": "\u7e6a\u51fa\u82f1\u6587\u529bWendy",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "Bob Mcmahon",
+        "author_name": "Bob Mcmahon",
         "total_books": "10",
         "average_price": 539.1
     },
     {
-        "name": "\u6734\u59cb\u9023",
+        "author_name": "\u6734\u59cb\u9023",
         "total_books": "23",
         "average_price": 399.0
     },
     {
-        "name": "\u4e01\u96cd\u5afb",
+        "author_name": "\u4e01\u96cd\u5afb",
         "total_books": "25",
         "average_price": 399.0
     },
     {
-        "name": "\u99ac\u4fee\u2027\u79d1\u6234\u723e(Matthew Cordell)",
+        "author_name": "\u99ac\u4fee\u2027\u79d1\u6234\u723e(Matthew Cordell)",
         "total_books": "3",
         "average_price": 532.33
     },
     {
-        "name": "\u674e\u79c9\u5112",
+        "author_name": "\u674e\u79c9\u5112",
         "total_books": "5",
         "average_price": 439.0
     },
     {
-        "name": "\u4e09\u6c11\u82f1\u8a9e\u7de8\u8f2f\u5c0f\u7d44",
+        "author_name": "\u4e09\u6c11\u82f1\u8a9e\u7de8\u8f2f\u5c0f\u7d44",
         "total_books": "71",
         "average_price": 339.85
     },
     {
-        "name": "\u53e4\u5ead\u7dad",
+        "author_name": "\u53e4\u5ead\u7dad",
         "total_books": "25",
         "average_price": 519.16
     },
     {
-        "name": "\u8102\u786f\u9f4b",
+        "author_name": "\u8102\u786f\u9f4b",
         "total_books": "19",
         "average_price": 694.21
     },
     {
-        "name": "\u674e\u5b97\u9ece",
+        "author_name": "\u674e\u5b97\u9ece",
         "total_books": "20",
         "average_price": 779.15
     },
     {
-        "name": "\u856d\u699b\u5ac8",
+        "author_name": "\u856d\u699b\u5ac8",
         "total_books": "6",
         "average_price": 399.0
     },
     {
-        "name": "\u8607\u61ff\u798e",
+        "author_name": "\u8607\u61ff\u798e",
         "total_books": "8",
         "average_price": 499.12
     },
     {
-        "name": "\u5f35\u677e\u8f1d\u6ce8\u8b6f",
+        "author_name": "\u5f35\u677e\u8f1d\u6ce8\u8b6f",
         "total_books": "40",
         "average_price": 364.05
     },
     {
-        "name": "\u912d\u53ef\u8431",
+        "author_name": "\u912d\u53ef\u8431",
         "total_books": "6",
         "average_price": 365.67
     },
     {
-        "name": "Joel",
+        "author_name": "Joel",
         "total_books": "5916",
         "average_price": 734.99
     },
     {
-        "name": "\u738b\u97fb\u82b3",
+        "author_name": "\u738b\u97fb\u82b3",
         "total_books": "12",
         "average_price": 349.0
     },
     {
-        "name": "\u8d99\u777f\u624d",
+        "author_name": "\u8d99\u777f\u624d",
         "total_books": "8",
         "average_price": 574.0
     },
     {
-        "name": "\u7f85\u4f2f\u2027\u72c4\u4fdd\u5fb7",
+        "author_name": "\u7f85\u4f2f\u2027\u72c4\u4fdd\u5fb7",
         "total_books": "4",
         "average_price": 499.0
     },
     {
-        "name": "\u5289\u570b\u6a11",
+        "author_name": "\u5289\u570b\u6a11",
         "total_books": "4",
         "average_price": 299.0
     },
     {
-        "name": "\u9ec3\u5fd7",
+        "author_name": "\u9ec3\u5fd7",
         "total_books": "921",
         "average_price": 427.72
     },
     {
-        "name": "\u9673\u4e1e\u7fca",
+        "author_name": "\u9673\u4e1e\u7fca",
         "total_books": "1",
         "average_price": 199.0
     },
     {
-        "name": "\u9ec3\u5b97\u6a02",
+        "author_name": "\u9ec3\u5b97\u6a02",
         "total_books": "36",
         "average_price": 582.36
     },
     {
-        "name": "\u4e09\u6c11\u66f8\u5c40\u6210\u8a9e\u5178\u7de8\u7e82\u59d4\u54e1\u6703",
+        "author_name": "\u4e09\u6c11\u66f8\u5c40\u6210\u8a9e\u5178\u7de8\u7e82\u59d4\u54e1\u6703",
         "total_books": "4",
         "average_price": 649.25
     },
     {
-        "name": "\u6ed5\u5fd7\u8ce2\u6ce8\u8b6f",
+        "author_name": "\u6ed5\u5fd7\u8ce2\u6ce8\u8b6f",
         "total_books": "7",
         "average_price": 570.71
     },
     {
-        "name": "Alistar",
+        "author_name": "Alistar",
         "total_books": "12",
         "average_price": 733.08
     },
     {
-        "name": "\u8cf4\u6c38\u6d77",
+        "author_name": "\u8cf4\u6c38\u6d77",
         "total_books": "94",
         "average_price": 535.35
     },
     {
-        "name": "\u6c89\u7b71\u4e4b",
+        "author_name": "\u6c89\u7b71\u4e4b",
         "total_books": "8",
         "average_price": 499.0
     },
     {
-        "name": "Ailie Busby",
+        "author_name": "Ailie Busby",
         "total_books": "68",
         "average_price": 496.1
     },
     {
-        "name": "\u9952\u5f6c",
+        "author_name": "\u9952\u5f6c",
         "total_books": "21",
         "average_price": 494.43
     },
     {
-        "name": "\u5927\u885b\u30fb\u5361\u5229(Davide Cali)",
+        "author_name": "\u5927\u885b\u30fb\u5361\u5229(Davide Cali)",
         "total_books": "5",
         "average_price": 479.2
     },
     {
-        "name": "\u66fe\u6e67\u5091",
+        "author_name": "\u66fe\u6e67\u5091",
         "total_books": "15",
         "average_price": 279.0
     },
     {
-        "name": "\u6c5f\u539f\u570b",
+        "author_name": "\u6c5f\u539f\u570b",
         "total_books": "2",
         "average_price": 499.0
     },
     {
-        "name": "\u7ae5\u632f\u7586",
+        "author_name": "\u7ae5\u632f\u7586",
         "total_books": "2",
         "average_price": 599.0
     },
     {
-        "name": "\u738b\u6ea2\u5609",
+        "author_name": "\u738b\u6ea2\u5609",
         "total_books": "85",
         "average_price": 321.35
     },
     {
-        "name": "\u77f3\u7267\u6c11",
+        "author_name": "\u77f3\u7267\u6c11",
         "total_books": "4",
         "average_price": 399.0
     },
     {
-        "name": "\u5f90\u7389\u73b2",
+        "author_name": "\u5f90\u7389\u73b2",
         "total_books": "18",
         "average_price": 421.28
     },
     {
-        "name": "\u8cbb\u52c7",
+        "author_name": "\u8cbb\u52c7",
         "total_books": "34",
         "average_price": 357.82
     },
     {
-        "name": "Thomas Flintham",
+        "author_name": "Thomas Flintham",
         "total_books": "76",
         "average_price": 528.16
     },
     {
-        "name": "\u8607\u8605",
+        "author_name": "\u8607\u8605",
         "total_books": "9",
         "average_price": 421.22
     },
     {
-        "name": "\u5f6d\u58eb\u6643",
+        "author_name": "\u5f6d\u58eb\u6643",
         "total_books": "10",
         "average_price": 539.1
     },
     {
-        "name": "\u8607\u5b50\u55ac",
+        "author_name": "\u8607\u5b50\u55ac",
         "total_books": "5",
         "average_price": 559.0
     },
     {
-        "name": "\u6d2a\u53ef\u6b23",
+        "author_name": "\u6d2a\u53ef\u6b23",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "(\u6cd5)E.M.\u9f4a\u5967\u6717",
+        "author_name": "(\u6cd5)E.M.\u9f4a\u5967\u6717",
         "total_books": "6",
         "average_price": 399.0
     },
     {
-        "name": "\u5289\u9435\u931a",
+        "author_name": "\u5289\u9435\u931a",
         "total_books": "14",
         "average_price": 570.5
     },
     {
-        "name": "\u65e5\u672c\u8a9e\u6559\u80b2\u6559\u6750\u958b\u767c\u59d4\u54e1\u6703",
+        "author_name": "\u65e5\u672c\u8a9e\u6559\u80b2\u6559\u6750\u958b\u767c\u59d4\u54e1\u6703",
         "total_books": "50",
         "average_price": 323.0
     },
     {
-        "name": "\u9673\u768e\u7709",
+        "author_name": "\u9673\u768e\u7709",
         "total_books": "10",
         "average_price": 499.0
     },
     {
-        "name": "\u9ec3\u667a\u5049",
+        "author_name": "\u9ec3\u667a\u5049",
         "total_books": "64",
         "average_price": 524.2
     },
     {
-        "name": "Rhiannon Findlay",
+        "author_name": "Rhiannon Findlay",
         "total_books": "4",
         "average_price": 499.0
     },
     {
-        "name": "\u9f90\u8d85",
+        "author_name": "\u9f90\u8d85",
         "total_books": "7",
         "average_price": 513.43
     },
     {
-        "name": "\u9ec3\u9326\u92d0",
+        "author_name": "\u9ec3\u9326\u92d0",
         "total_books": "19",
         "average_price": 451.74
     },
     {
-        "name": "Stefano Tognetti",
+        "author_name": "Stefano Tognetti",
         "total_books": "15",
         "average_price": 639.2
     },
     {
-        "name": "\u6734\u6c38\u7389",
+        "author_name": "\u6734\u6c38\u7389",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "\u6234\u570b\u826f",
+        "author_name": "\u6234\u570b\u826f",
         "total_books": "113",
         "average_price": 540.6
     },
     {
-        "name": "Lara Bryan",
+        "author_name": "Lara Bryan",
         "total_books": "44",
         "average_price": 594.52
     },
     {
-        "name": "Lan Cook",
+        "author_name": "Lan Cook",
         "total_books": "16",
         "average_price": 624.12
     },
     {
-        "name": "\u4e01\u654f\u6821\u95b1",
+        "author_name": "\u4e01\u654f\u6821\u95b1",
         "total_books": "26",
         "average_price": 429.81
     },
     {
-        "name": "\u4f50\u4f50\u6728\u4ec1\u5b50",
+        "author_name": "\u4f50\u4f50\u6728\u4ec1\u5b50",
         "total_books": "50",
         "average_price": 319.0
     },
     {
-        "name": "Matt Loveridge",
+        "author_name": "Matt Loveridge",
         "total_books": "7",
         "average_price": 456.29
     },
     {
-        "name": "\u90ed\u53f0\u9298",
+        "author_name": "\u90ed\u53f0\u9298",
         "total_books": "2",
         "average_price": 399.0
     },
     {
-        "name": "\u91ce\u5cf6\u525b",
+        "author_name": "\u91ce\u5cf6\u525b",
         "total_books": "18",
         "average_price": 465.72
     },
     {
-        "name": "\u5b6b\u4e2d\u8208",
+        "author_name": "\u5b6b\u4e2d\u8208",
         "total_books": "20",
         "average_price": 479.1
     },
     {
-        "name": "\u6797\u6dd1\u99a8",
+        "author_name": "\u6797\u6dd1\u99a8",
         "total_books": "23",
         "average_price": 607.7
     },
     {
-        "name": "\u8607\u610f\u96ef",
+        "author_name": "\u8607\u610f\u96ef",
         "total_books": "2",
         "average_price": 499.0
     },
     {
-        "name": "\u65bd\u6c38\u5bcc",
+        "author_name": "\u65bd\u6c38\u5bcc",
         "total_books": "4",
         "average_price": 599.0
     },
     {
-        "name": "\u88f4\u666e\u8ce2",
+        "author_name": "\u88f4\u666e\u8ce2",
         "total_books": "47",
         "average_price": 411.77
     },
     {
-        "name": "Tedd Arnold",
+        "author_name": "Tedd Arnold",
         "total_books": "102",
         "average_price": 457.87
     },
     {
-        "name": "Anastasia Thomas",
+        "author_name": "Anastasia Thomas",
         "total_books": "3",
         "average_price": 666.0
     },
     {
-        "name": "\u694a\u4f51\u5091",
+        "author_name": "\u694a\u4f51\u5091",
         "total_books": "4",
         "average_price": 599.0
     },
     {
-        "name": "\u674e\u6d77\u78a9",
+        "author_name": "\u674e\u6d77\u78a9",
         "total_books": "9",
         "average_price": 488.0
     },
     {
-        "name": "\u81e7\u4fca\u7dad",
+        "author_name": "\u81e7\u4fca\u7dad",
         "total_books": "14",
         "average_price": 256.14
     },
     {
-        "name": "\u694a\u5b8f\u6689",
+        "author_name": "\u694a\u5b8f\u6689",
         "total_books": "8",
         "average_price": 499.0
     },
     {
-        "name": "\u82c5\u7530\u6f84\u5b50",
+        "author_name": "\u82c5\u7530\u6f84\u5b50",
         "total_books": "19",
         "average_price": 388.47
     },
     {
-        "name": "\u95d5\u53c8\u4e0a",
+        "author_name": "\u95d5\u53c8\u4e0a",
         "total_books": "8",
         "average_price": 549.0
     },
     {
-        "name": "\u5433\u5e9a",
+        "author_name": "\u5433\u5e9a",
         "total_books": "18",
         "average_price": 588.17
     },
     {
-        "name": "\u5c0f\u8ecaX\u5b58\u80a1\u5be6\u9a57",
+        "author_name": "\u5c0f\u8ecaX\u5b58\u80a1\u5be6\u9a57",
         "total_books": "2",
         "average_price": 599.0
     },
     {
-        "name": "\u5b54\u4ee4\u7af9",
+        "author_name": "\u5b54\u4ee4\u7af9",
         "total_books": "8",
         "average_price": 399.0
     },
     {
-        "name": "\u4f55\u68ee",
+        "author_name": "\u4f55\u68ee",
         "total_books": "7",
         "average_price": 341.86
     },
     {
-        "name": "Benji Davies",
+        "author_name": "Benji Davies",
         "total_books": "162",
         "average_price": 552.19
     },
     {
-        "name": "\u9673\u69ae\u50b3",
+        "author_name": "\u9673\u69ae\u50b3",
         "total_books": "23",
         "average_price": 590.39
     },
     {
-        "name": "\u5f35\u6893\u8431",
+        "author_name": "\u5f35\u6893\u8431",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "\u9673\u91cd\u9298",
+        "author_name": "\u9673\u91cd\u9298",
         "total_books": "29",
         "average_price": 440.38
     },
     {
-        "name": "\u61c9\u60e0\u8559",
+        "author_name": "\u61c9\u60e0\u8559",
         "total_books": "30",
         "average_price": 445.67
     },
     {
-        "name": "Tracey West",
+        "author_name": "Tracey West",
         "total_books": "245",
         "average_price": 394.2
     },
     {
-        "name": "Martha Hamilton",
+        "author_name": "Martha Hamilton",
         "total_books": "33",
         "average_price": 514.24
     },
     {
-        "name": "\u6d1b\u6851\u52a0\u53c3",
+        "author_name": "\u6d1b\u6851\u52a0\u53c3",
         "total_books": "7",
         "average_price": 513.29
     },
     {
-        "name": "\u6b50\u5bb6\u69ae",
+        "author_name": "\u6b50\u5bb6\u69ae",
         "total_books": "4",
         "average_price": 399.0
     },
     {
-        "name": "Nikoli",
+        "author_name": "Nikoli",
         "total_books": "94",
         "average_price": 337.36
     },
     {
-        "name": "\u8463\u6a4b",
+        "author_name": "\u8463\u6a4b",
         "total_books": "105",
         "average_price": 513.3
     },
     {
-        "name": "\u937e\u9707\u4e9e",
+        "author_name": "\u937e\u9707\u4e9e",
         "total_books": "33",
         "average_price": 405.06
     },
     {
-        "name": "Amy Pixton",
+        "author_name": "Amy Pixton",
         "total_books": "33",
         "average_price": 423.3
     },
     {
-        "name": "Stella Baggott",
+        "author_name": "Stella Baggott",
         "total_books": "102",
         "average_price": 540.24
     },
     {
-        "name": "\u674e\u4e2d\u83ef\u6ce8\u8b6f",
+        "author_name": "\u674e\u4e2d\u83ef\u6ce8\u8b6f",
         "total_books": "72",
         "average_price": 360.12
     },
     {
-        "name": "\u5168\u570b\u540d\u5e2b",
+        "author_name": "\u5168\u570b\u540d\u5e2b",
         "total_books": "9",
         "average_price": 287.89
     },
     {
-        "name": "\u7530\u53e3\u4f73\u53f2",
+        "author_name": "\u7530\u53e3\u4f73\u53f2",
         "total_books": "10",
         "average_price": 439.0
     },
     {
-        "name": "\u4e09\u6c11\u82f1\u8a9e\u7de8\u8f2f\u5c0f\u7d44 \u5f59\u6574",
+        "author_name": "\u4e09\u6c11\u82f1\u8a9e\u7de8\u8f2f\u5c0f\u7d44 \u5f59\u6574",
         "total_books": "71",
         "average_price": 339.85
     },
     {
-        "name": "\u5433\u5178\u5b9c",
+        "author_name": "\u5433\u5178\u5b9c",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u738b\u5349\u6587",
+        "author_name": "\u738b\u5349\u6587",
         "total_books": "29",
         "average_price": 523.45
     },
     {
-        "name": "\u5409\u7530\u6230\u8eca",
+        "author_name": "\u5409\u7530\u6230\u8eca",
         "total_books": "49",
         "average_price": 362.29
     },
     {
-        "name": "Zhanna Ovocheva",
+        "author_name": "Zhanna Ovocheva",
         "total_books": "21",
         "average_price": 503.86
     },
     {
-        "name": "\u67f3\u60e0\u5bc5",
+        "author_name": "\u67f3\u60e0\u5bc5",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u8cf4\u660e\u5fb7",
+        "author_name": "\u8cf4\u660e\u5fb7",
         "total_books": "25",
         "average_price": 615.28
     },
     {
-        "name": "\u5f90\u8f14\u8ce2",
+        "author_name": "\u5f90\u8f14\u8ce2",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u67ef\u6176\u5fe0",
+        "author_name": "\u67ef\u6176\u5fe0",
         "total_books": "4",
         "average_price": 549.0
     },
     {
-        "name": "\u58a8\u523b\u7de8\u8f2f\u90e8",
+        "author_name": "\u58a8\u523b\u7de8\u8f2f\u90e8",
         "total_books": "589",
         "average_price": 388.15
     },
     {
-        "name": "\u838e\u62c9.\u5a01\u5ec9\u68ee(Sarah Williamson)",
+        "author_name": "\u838e\u62c9.\u5a01\u5ec9\u68ee(Sarah Williamson)",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u53f2\u666f\u9077",
+        "author_name": "\u53f2\u666f\u9077",
         "total_books": "44",
         "average_price": 499.07
     },
     {
-        "name": "\u8449\u884d\u4f5c",
+        "author_name": "\u8449\u884d\u4f5c",
         "total_books": "17",
         "average_price": 281.35
     },
     {
-        "name": "\u99ac\u5927\u5143",
+        "author_name": "\u99ac\u5927\u5143",
         "total_books": "6",
         "average_price": 499.17
     },
     {
-        "name": "\u61c9\u88d5\u5eb7",
+        "author_name": "\u61c9\u88d5\u5eb7",
         "total_books": "9",
         "average_price": 421.22
     },
     {
-        "name": "\u9673\u6df3\u6587",
+        "author_name": "\u9673\u6df3\u6587",
         "total_books": "12",
         "average_price": 532.42
     },
     {
-        "name": "\u6b0a\u8b49\u5c0f\u54e5",
+        "author_name": "\u6b0a\u8b49\u5c0f\u54e5",
         "total_books": "17",
         "average_price": 717.24
     },
     {
-        "name": "(\u7f8e)\u9081\u514b\u723e\u2027\u8d6b\u5fb7\u68ee",
+        "author_name": "(\u7f8e)\u9081\u514b\u723e\u2027\u8d6b\u5fb7\u68ee",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u5433\u6de1\u5982",
+        "author_name": "\u5433\u6de1\u5982",
         "total_books": "210",
         "average_price": 301.86
     },
     {
-        "name": "\u767d\u7469\u6f54",
+        "author_name": "\u767d\u7469\u6f54",
         "total_books": "6",
         "average_price": 232.33
     },
     {
-        "name": "\u6bdb\u5b97\u5d17",
+        "author_name": "\u6bdb\u5b97\u5d17",
         "total_books": "14",
         "average_price": 656.64
     },
     {
-        "name": "\u82f1\u5bb6\u9298",
+        "author_name": "\u82f1\u5bb6\u9298",
         "total_books": "4",
         "average_price": 399.0
     },
     {
-        "name": "\u7a1a\u695a",
+        "author_name": "\u7a1a\u695a",
         "total_books": "11",
         "average_price": 399.0
     },
     {
-        "name": "\u6e6f\u746a\u65af.\u7d22\u5a01\u723e(Thomas Sowell)",
+        "author_name": "\u6e6f\u746a\u65af.\u7d22\u5a01\u723e(Thomas Sowell)",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "Katrina Charman",
+        "author_name": "Katrina Charman",
         "total_books": "51",
         "average_price": 552.1
     },
     {
-        "name": "\u5f35\u9326\u6e90",
+        "author_name": "\u5f35\u9326\u6e90",
         "total_books": "56",
         "average_price": 631.32
     },
     {
-        "name": "\u9673\u79c0\u73cd",
+        "author_name": "\u9673\u79c0\u73cd",
         "total_books": "28",
         "average_price": 463.36
     },
     {
-        "name": "(\u897f)\u83ab\u59ae\u5361\u2027\u52a0\u897f\u4e9e",
+        "author_name": "(\u897f)\u83ab\u59ae\u5361\u2027\u52a0\u897f\u4e9e",
         "total_books": "2",
         "average_price": 399.0
     },
     {
-        "name": "Nicola Edwards",
+        "author_name": "Nicola Edwards",
         "total_books": "84",
         "average_price": 584.83
     },
     {
-        "name": "\u845b\u6377\u601d(\u9673\u662d\u6587)",
+        "author_name": "\u845b\u6377\u601d(\u9673\u662d\u6587)",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u674e\u60e0\u541b",
+        "author_name": "\u674e\u60e0\u541b",
         "total_books": "9",
         "average_price": 510.33
     },
     {
-        "name": "\u6d2a\u4e16\u7ae0",
+        "author_name": "\u6d2a\u4e16\u7ae0",
         "total_books": "2",
         "average_price": 499.0
     },
     {
-        "name": "\u6d77\u72d7\u623f\u6771",
+        "author_name": "\u6d77\u72d7\u623f\u6771",
         "total_books": "23",
         "average_price": 399.0
     },
     {
-        "name": "\u99ac\u514b\u2027\u5927\u57ce",
+        "author_name": "\u99ac\u514b\u2027\u5927\u57ce",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u90ed\u570b\u8208",
+        "author_name": "\u90ed\u570b\u8208",
         "total_books": "11",
         "average_price": 562.64
     },
     {
-        "name": "\u5289\u6e05\u5f65",
+        "author_name": "\u5289\u6e05\u5f65",
         "total_books": "98",
         "average_price": 456.21
     },
     {
-        "name": "\u9673\u7948\u5ef7",
+        "author_name": "\u9673\u7948\u5ef7",
         "total_books": "8",
         "average_price": 599.0
     },
     {
-        "name": "\u6e38\u73ee\u82b8",
+        "author_name": "\u6e38\u73ee\u82b8",
         "total_books": "24",
         "average_price": 499.08
     },
     {
-        "name": "\u7533\u93ae\u4f0d",
+        "author_name": "\u7533\u93ae\u4f0d",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u6797\u60e0\u73b2",
+        "author_name": "\u6797\u60e0\u73b2",
         "total_books": "24",
         "average_price": 624.0
     },
     {
-        "name": "\u5085\u6b66\u5149",
+        "author_name": "\u5085\u6b66\u5149",
         "total_books": "24",
         "average_price": 615.71
     },
     {
-        "name": "\u8afe\u8036\u871c\u2027\u6c83\u62c9",
+        "author_name": "\u8afe\u8036\u871c\u2027\u6c83\u62c9",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "\u6771\u5c3c.\u5e0c\u52d2\u91cc(Tony Hillery)",
+        "author_name": "\u6771\u5c3c.\u5e0c\u52d2\u91cc(Tony Hillery)",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u9673\u5fe0\u69ae",
+        "author_name": "\u9673\u5fe0\u69ae",
         "total_books": "2",
         "average_price": 599.0
     },
     {
-        "name": "\u6c5f\u8b28\u4f0a",
+        "author_name": "\u6c5f\u8b28\u4f0a",
         "total_books": "5",
         "average_price": 199.0
     },
     {
-        "name": "\u6797\u6021\u541b",
+        "author_name": "\u6797\u6021\u541b",
         "total_books": "55",
         "average_price": 413.62
     },
     {
-        "name": "\u4f55\u5c09\u8ce2",
+        "author_name": "\u4f55\u5c09\u8ce2",
         "total_books": "2",
         "average_price": 399.0
     },
     {
-        "name": "\u5f35\u677e\u8f1d",
+        "author_name": "\u5f35\u677e\u8f1d",
         "total_books": "40",
         "average_price": 364.05
     },
     {
-        "name": "\u7e41\u7530\u4f50\u4e5f\u52a0",
+        "author_name": "\u7e41\u7530\u4f50\u4e5f\u52a0",
         "total_books": "4",
         "average_price": 499.0
     },
     {
-        "name": "\u5b8b\u2027\u6731\u71b9",
+        "author_name": "\u5b8b\u2027\u6731\u71b9",
         "total_books": "102",
         "average_price": 520.82
     },
     {
-        "name": "\u8b5a\u528d",
+        "author_name": "\u8b5a\u528d",
         "total_books": "51",
         "average_price": 410.8
     },
     {
-        "name": "\u8cf4\u4e16\u96c4",
+        "author_name": "\u8cf4\u4e16\u96c4",
         "total_books": "628",
         "average_price": 382.47
     },
     {
-        "name": "\u7f85\u6bd4\u2027\u4f2f\u6069\u65af",
+        "author_name": "\u7f85\u6bd4\u2027\u4f2f\u6069\u65af",
         "total_books": "3",
         "average_price": 532.33
     },
     {
-        "name": "\u9b4f\u82af",
+        "author_name": "\u9b4f\u82af",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u9ad8\u5e73\u5c1a\u4f38",
+        "author_name": "\u9ad8\u5e73\u5c1a\u4f38",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "Lucy Cousins (ILT)",
+        "author_name": "Lucy Cousins (ILT)",
         "total_books": "25",
         "average_price": 479.12
     },
     {
-        "name": "\u4ea6\u8212",
+        "author_name": "\u4ea6\u8212",
         "total_books": "381",
         "average_price": 367.54
     },
     {
-        "name": "\u4e09\u6c11\u65e5\u8a9e\u7de8\u8f2f\u5c0f\u7d44",
+        "author_name": "\u4e09\u6c11\u65e5\u8a9e\u7de8\u8f2f\u5c0f\u7d44",
         "total_books": "18",
         "average_price": 443.5
     },
     {
-        "name": "\u7e46\u5929\u83ef",
+        "author_name": "\u7e46\u5929\u83ef",
         "total_books": "91",
         "average_price": 381.45
     },
     {
-        "name": "\u674e\u6dd1\u660e",
+        "author_name": "\u674e\u6dd1\u660e",
         "total_books": "36",
         "average_price": 632.36
     },
     {
-        "name": "\u9952\u6021\u96f2",
+        "author_name": "\u9952\u6021\u96f2",
         "total_books": "5",
         "average_price": 599.0
     },
     {
-        "name": "\u5180\u528d\u5236 \u8457",
+        "author_name": "\u5180\u528d\u5236 \u8457",
         "total_books": "29",
         "average_price": 405.9
     },
     {
-        "name": "\u694a\u5efa\u83ef",
+        "author_name": "\u694a\u5efa\u83ef",
         "total_books": "107",
         "average_price": 472.01
     },
     {
-        "name": "\u6797\u7a4e",
+        "author_name": "\u6797\u7a4e",
         "total_books": "59",
         "average_price": 436.39
     },
     {
-        "name": "David Cho",
+        "author_name": "David Cho",
         "total_books": "52",
         "average_price": 676.4
     },
     {
-        "name": "\u76db\u5b50\u9f8d",
+        "author_name": "\u76db\u5b50\u9f8d",
         "total_books": "5",
         "average_price": 679.6
     },
     {
-        "name": "\u4f50\u3005\u6728\u4ec1\u5b50",
+        "author_name": "\u4f50\u3005\u6728\u4ec1\u5b50",
         "total_books": "16",
         "average_price": 386.5
     },
     {
-        "name": "\u9ec3\u745e\u96f2",
+        "author_name": "\u9ec3\u745e\u96f2",
         "total_books": "17",
         "average_price": 446.29
     },
     {
-        "name": "Zachary Fillingham",
+        "author_name": "Zachary Fillingham",
         "total_books": "50",
         "average_price": 535.0
     },
     {
-        "name": "\u9673\u4ed5\u5fe0",
+        "author_name": "\u9673\u4ed5\u5fe0",
         "total_books": "2",
         "average_price": 299.0
     },
     {
-        "name": "Campbell Books",
+        "author_name": "Campbell Books",
         "total_books": "300",
         "average_price": 461.09
     },
     {
-        "name": "\u8449\u91cd\u65b0",
+        "author_name": "\u8449\u91cd\u65b0",
         "total_books": "12",
         "average_price": 615.67
     },
     {
-        "name": "Susie Yi",
+        "author_name": "Susie Yi",
         "total_books": "9",
         "average_price": 577.0
     },
     {
-        "name": "\u5409\u91ce\u6e90\u4e09\u90ce",
+        "author_name": "\u5409\u91ce\u6e90\u4e09\u90ce",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "\u9676\u767e\u5ddd",
+        "author_name": "\u9676\u767e\u5ddd",
         "total_books": "66",
         "average_price": 496.08
     },
     {
-        "name": "\u9673\u65b0\u6c11",
+        "author_name": "\u9673\u65b0\u6c11",
         "total_books": "65",
         "average_price": 482.22
     },
     {
-        "name": "\u4e8e\u6b46",
+        "author_name": "\u4e8e\u6b46",
         "total_books": "10",
         "average_price": 539.2
     },
     {
-        "name": "\u4e95\u4e0a\u4e00\u5b8f",
+        "author_name": "\u4e95\u4e0a\u4e00\u5b8f",
         "total_books": "3",
         "average_price": 532.33
     },
     {
-        "name": "\u9673\u8070\u5bcc",
+        "author_name": "\u9673\u8070\u5bcc",
         "total_books": "33",
         "average_price": 586.91
     },
     {
-        "name": "\u738b\u6fa4\u9451",
+        "author_name": "\u738b\u6fa4\u9451",
         "total_books": "42",
         "average_price": 642.07
     },
     {
-        "name": "\u6797\u69ae\u5f6c",
+        "author_name": "\u6797\u69ae\u5f6c",
         "total_books": "1",
         "average_price": 199.0
     },
     {
-        "name": "\u5fc3\u9748\u8aee\u5546\u5e2bakiko",
+        "author_name": "\u5fc3\u9748\u8aee\u5546\u5e2bakiko",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u8521\u9d3b\u660e",
+        "author_name": "\u8521\u9d3b\u660e",
         "total_books": "6",
         "average_price": 499.0
     },
     {
-        "name": "\u6797\u66c9\u5149\u6ce8\u8b6f",
+        "author_name": "\u6797\u66c9\u5149\u6ce8\u8b6f",
         "total_books": "5",
         "average_price": 519.0
     },
     {
-        "name": "\u7a3b\u76db\u8cc7\u6599\u9928",
+        "author_name": "\u7a3b\u76db\u8cc7\u6599\u9928",
         "total_books": "6",
         "average_price": 465.67
     },
     {
-        "name": "\u5b6b\u81f3\u5a1f",
+        "author_name": "\u5b6b\u81f3\u5a1f",
         "total_books": "13",
         "average_price": 383.62
     },
     {
-        "name": "\u694a\u5b9a\u4e00",
+        "author_name": "\u694a\u5b9a\u4e00",
         "total_books": "48",
         "average_price": 519.85
     },
     {
-        "name": "(\u6cd5)\u9b4f\u660e\u5fb7",
+        "author_name": "(\u6cd5)\u9b4f\u660e\u5fb7",
         "total_books": "4",
         "average_price": 449.0
     },
     {
-        "name": "\u7af9\u5df2",
+        "author_name": "\u7af9\u5df2",
         "total_books": "34",
         "average_price": 463.85
     },
     {
-        "name": "\u9ec3\u4fca\u90ce",
+        "author_name": "\u9ec3\u4fca\u90ce",
         "total_books": "47",
         "average_price": 492.66
     },
     {
-        "name": "\u84ee\u82b1\u751f\u5927\u58eb",
+        "author_name": "\u84ee\u82b1\u751f\u5927\u58eb",
         "total_books": "19",
         "average_price": 535.84
     },
     {
-        "name": "\u4e09\u6c11\u66f8\u5c40\u8fad\u5178\u7de8\u8f2f\u59d4\u54e1\u6703",
+        "author_name": "\u4e09\u6c11\u66f8\u5c40\u8fad\u5178\u7de8\u8f2f\u59d4\u54e1\u6703",
         "total_books": "7",
         "average_price": 627.86
     },
     {
-        "name": "\u9ed1\u58a8\u5de5\u4f5c\u5ba4",
+        "author_name": "\u9ed1\u58a8\u5de5\u4f5c\u5ba4",
         "total_books": "33",
         "average_price": 338.42
     },
     {
-        "name": "\u9673\u5f15\u99b3",
+        "author_name": "\u9673\u5f15\u99b3",
         "total_books": "71",
         "average_price": 497.62
     },
     {
-        "name": "\u5f35\u5fe0\u7db1",
+        "author_name": "\u5f35\u5fe0\u7db1",
         "total_books": "16",
         "average_price": 436.62
     },
     {
-        "name": "\u6797\u6607",
+        "author_name": "\u6797\u6607",
         "total_books": "22",
         "average_price": 380.82
     },
     {
-        "name": "\u6c88\u5bcc\u9032",
+        "author_name": "\u6c88\u5bcc\u9032",
         "total_books": "2",
         "average_price": 399.0
     },
     {
-        "name": "\u4e09\u679d\u5145\u60ea\u8457",
+        "author_name": "\u4e09\u679d\u5145\u60ea\u8457",
         "total_books": "1",
         "average_price": 199.0
     },
     {
-        "name": "\u65bd\u6607\u8f1d",
+        "author_name": "\u65bd\u6607\u8f1d",
         "total_books": "17",
         "average_price": 410.76
     },
     {
-        "name": "\u9678\u4ee5\u6b63",
+        "author_name": "\u9678\u4ee5\u6b63",
         "total_books": "13",
         "average_price": 383.69
     },
     {
-        "name": "\u8d99\u92d2",
+        "author_name": "\u8d99\u92d2",
         "total_books": "36",
         "average_price": 376.78
     },
     {
-        "name": "\u6797\u6587\u6708",
+        "author_name": "\u6797\u6587\u6708",
         "total_books": "80",
         "average_price": 381.52
     },
     {
-        "name": "\u591a\u76ca900\u5718\u968a",
+        "author_name": "\u591a\u76ca900\u5718\u968a",
         "total_books": "5",
         "average_price": 399.0
     },
     {
-        "name": "\u912d\u66fc\u9752",
+        "author_name": "\u912d\u66fc\u9752",
         "total_books": "11",
         "average_price": 326.27
     },
     {
-        "name": "Carly Madden",
+        "author_name": "Carly Madden",
         "total_books": "36",
         "average_price": 554.58
     },
     {
-        "name": "\u8521\u74a7\u540d",
+        "author_name": "\u8521\u74a7\u540d",
         "total_books": "20",
         "average_price": 659.2
     },
     {
-        "name": "\u6797\u8559\u771f",
+        "author_name": "\u6797\u8559\u771f",
         "total_books": "39",
         "average_price": 742.97
     },
     {
-        "name": "\u8607\u60e0\u7389",
+        "author_name": "\u8607\u60e0\u7389",
         "total_books": "7",
         "average_price": 370.43
     },
     {
-        "name": "\u7c73\u96ea\u5152\u2022\u5361\u65af\u862d",
+        "author_name": "\u7c73\u96ea\u5152\u2022\u5361\u65af\u862d",
         "total_books": "3",
         "average_price": 800.0
     },
     {
-        "name": "\u738b\u5b8f\u4e4b\u7b49",
+        "author_name": "\u738b\u5b8f\u4e4b\u7b49",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "Fiona Watt",
+        "author_name": "Fiona Watt",
         "total_books": "498",
         "average_price": 520.77
     },
     {
-        "name": "\u8a79\u5609\u82b8",
+        "author_name": "\u8a79\u5609\u82b8",
         "total_books": "9",
         "average_price": 287.89
     },
     {
-        "name": "IRVIN N.",
+        "author_name": "IRVIN N.",
         "total_books": "7",
         "average_price": 800.0
     },
     {
-        "name": "\u738b\u862d\u82ac",
+        "author_name": "\u738b\u862d\u82ac",
         "total_books": "8",
         "average_price": 374.0
     },
     {
-        "name": "\u85e4\u840d",
+        "author_name": "\u85e4\u840d",
         "total_books": "38",
         "average_price": 378.03
     },
     {
-        "name": "\u5f35\u9d3b\u4ec1",
+        "author_name": "\u5f35\u9d3b\u4ec1",
         "total_books": "7",
         "average_price": 456.14
     },
     {
-        "name": "\u6bd4\u723e\u2027\u67cf\u91d1\u65af",
+        "author_name": "\u6bd4\u723e\u2027\u67cf\u91d1\u65af",
         "total_books": "2",
         "average_price": 399.0
     },
     {
-        "name": "\u5869\u91ce\u4e03\u751f",
+        "author_name": "\u5869\u91ce\u4e03\u751f",
         "total_books": "78",
         "average_price": 524.77
     },
     {
-        "name": "\u5c3c\u514b.\u99ac\u6731\u5229",
+        "author_name": "\u5c3c\u514b.\u99ac\u6731\u5229",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u9ec3\u5029\u923a",
+        "author_name": "\u9ec3\u5029\u923a",
         "total_books": "4",
         "average_price": 399.0
     },
     {
-        "name": "\u5f90\u8208\u7121",
+        "author_name": "\u5f90\u8208\u7121",
         "total_books": "59",
         "average_price": 487.19
     },
     {
-        "name": "\u694a\u5b97\u7469",
+        "author_name": "\u694a\u5b97\u7469",
         "total_books": "21",
         "average_price": 408.52
     },
     {
-        "name": "\u8a79\u4f73\u946b",
+        "author_name": "\u8a79\u4f73\u946b",
         "total_books": "7",
         "average_price": 427.57
     },
     {
-        "name": "\u5f35\u5bb6\u9f4a",
+        "author_name": "\u5f35\u5bb6\u9f4a",
         "total_books": "9",
         "average_price": 487.89
     },
     {
-        "name": "Corey R. Tabor",
+        "author_name": "Corey R. Tabor",
         "total_books": "25",
         "average_price": 607.04
     },
     {
-        "name": "\u937e\u6167\u5143",
+        "author_name": "\u937e\u6167\u5143",
         "total_books": "12",
         "average_price": 532.67
     },
     {
-        "name": "\u7a3b\u76db\u548c\u592b",
+        "author_name": "\u7a3b\u76db\u548c\u592b",
         "total_books": "213",
         "average_price": 408.43
     },
     {
-        "name": "(\u82f1)\u8afe\u5a1c\u2027\u5f17\u862d\u683c\u6797",
+        "author_name": "(\u82f1)\u8afe\u5a1c\u2027\u5f17\u862d\u683c\u6797",
         "total_books": "7",
         "average_price": 484.71
     },
     {
-        "name": "\u9673\u5bb6\u8c6a",
+        "author_name": "\u9673\u5bb6\u8c6a",
         "total_books": "16",
         "average_price": 474.0
     },
     {
-        "name": "\u539f\u6176\u5b8f",
+        "author_name": "\u539f\u6176\u5b8f",
         "total_books": "1",
         "average_price": 399.0
     },
     {
-        "name": "\u6797\u664f\u5982",
+        "author_name": "\u6797\u664f\u5982",
         "total_books": "9",
         "average_price": 443.44
     },
     {
-        "name": "\u6797\u5091\u5bb8",
+        "author_name": "\u6797\u5091\u5bb8",
         "total_books": "6",
         "average_price": 499.0
     },
     {
-        "name": "\u738b\u555f\u5b89",
+        "author_name": "\u738b\u555f\u5b89",
         "total_books": "4",
         "average_price": 749.5
     },
     {
-        "name": "\u90ed\u6167\u654f",
+        "author_name": "\u90ed\u6167\u654f",
         "total_books": "47",
         "average_price": 381.98
     },
     {
-        "name": "\u5ed6\u654f\u6dd1",
+        "author_name": "\u5ed6\u654f\u6dd1",
         "total_books": "5",
         "average_price": 479.0
     },
     {
-        "name": "\u5433\u627f\u6069",
+        "author_name": "\u5433\u627f\u6069",
         "total_books": "1063",
         "average_price": 391.61
     },
     {
-        "name": "Sam Taplin",
+        "author_name": "Sam Taplin",
         "total_books": "285",
         "average_price": 668.57
     },
     {
-        "name": "Steve Antony",
+        "author_name": "Steve Antony",
         "total_books": "67",
         "average_price": 602.0
     },
     {
-        "name": "Ag Jatkowska",
+        "author_name": "Ag Jatkowska",
         "total_books": "56",
         "average_price": 538.36
     },
     {
-        "name": "\u99ac\u7f8e\u4fe1",
+        "author_name": "\u99ac\u7f8e\u4fe1",
         "total_books": "16",
         "average_price": 486.56
     },
     {
-        "name": "(\u7f8e)\u67e5\u7406\u2027\u8292\u683c",
+        "author_name": "(\u7f8e)\u67e5\u7406\u2027\u8292\u683c",
         "total_books": "3",
         "average_price": 599.33
     },
     {
-        "name": "\u694a\u74ca\u8339",
+        "author_name": "\u694a\u74ca\u8339",
         "total_books": "1",
         "average_price": 199.0
     },
     {
-        "name": "\u8521\u7a4e\u6167",
+        "author_name": "\u8521\u7a4e\u6167",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "Camilla Reid",
+        "author_name": "Camilla Reid",
         "total_books": "71",
         "average_price": 545.61
     },
     {
-        "name": "Hackers Academia",
+        "author_name": "Hackers Academia",
         "total_books": "21",
         "average_price": 704.0
     },
     {
-        "name": "\u97cb\u88d5\u9716",
+        "author_name": "\u97cb\u88d5\u9716",
         "total_books": "23",
         "average_price": 355.52
     },
     {
-        "name": "\u5085\u4f69\u69ae",
+        "author_name": "\u5085\u4f69\u69ae",
         "total_books": "345",
         "average_price": 416.45
     },
     {
-        "name": "\u9732\u897f\u96c5\u2027\u5609\u5409\u5967\u63d0(Lucia Gaggiotti)\u5716 \u9ec3\u807f\u541b",
+        "author_name": "\u9732\u897f\u96c5\u2027\u5609\u5409\u5967\u63d0(Lucia Gaggiotti)\u5716 \u9ec3\u807f\u541b",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "\u738b\u53e2\u6842",
+        "author_name": "\u738b\u53e2\u6842",
         "total_books": "4",
         "average_price": 549.0
     },
     {
-        "name": "\u5de6\u677e\u8d85",
+        "author_name": "\u5de6\u677e\u8d85",
         "total_books": "12",
         "average_price": 599.08
     },
     {
-        "name": "Nicola Slater",
+        "author_name": "Nicola Slater",
         "total_books": "48",
         "average_price": 565.77
     },
     {
-        "name": "\u937e\u4f2f\u656c",
+        "author_name": "\u937e\u4f2f\u656c",
         "total_books": "4",
         "average_price": 449.0
     },
     {
-        "name": "Yu",
+        "author_name": "Yu",
         "total_books": "2592",
         "average_price": 739.09
     },
     {
-        "name": "\u8b1d\u5049\u6770",
+        "author_name": "\u8b1d\u5049\u6770",
         "total_books": "1",
         "average_price": 599.0
     },
     {
-        "name": "\u90ed\u5efa\u52f3",
+        "author_name": "\u90ed\u5efa\u52f3",
         "total_books": "13",
         "average_price": 352.85
     },
     {
-        "name": "TFBOYS\u7d44\u5408",
+        "author_name": "TFBOYS\u7d44\u5408",
         "total_books": "2",
         "average_price": 699.0
     },
     {
-        "name": "\u694a\u932b\u5f6d",
+        "author_name": "\u694a\u932b\u5f6d",
         "total_books": "4",
         "average_price": 449.0
     },
     {
-        "name": "Peppa Pig",
+        "author_name": "Peppa Pig",
         "total_books": "388",
         "average_price": 452.64
     },
     {
-        "name": "\u5433\u6085",
+        "author_name": "\u5433\u6085",
         "total_books": "37",
         "average_price": 469.43
     },
     {
-        "name": "\u5289\u6dd1\u96ef",
+        "author_name": "\u5289\u6dd1\u96ef",
         "total_books": "7",
         "average_price": 484.71
     },
     {
-        "name": "Greg Pizzoli",
+        "author_name": "Greg Pizzoli",
         "total_books": "60",
         "average_price": 582.48
     },
     {
-        "name": "\u675f\u5ff1",
+        "author_name": "\u675f\u5ff1",
         "total_books": "4",
         "average_price": 449.0
     },
     {
-        "name": "\u5b6b\u84a8\u5982",
+        "author_name": "\u5b6b\u84a8\u5982",
         "total_books": "3",
         "average_price": 599.0
     },
     {
-        "name": "\u6797\u8046\u6148",
+        "author_name": "\u6797\u8046\u6148",
         "total_books": "8",
         "average_price": 349.0
     },
     {
-        "name": "\u9ec3\u5ead\u923a",
+        "author_name": "\u9ec3\u5ead\u923a",
         "total_books": "5",
         "average_price": 479.0
     },
     {
-        "name": "\u4e01\u654f",
+        "author_name": "\u4e01\u654f",
         "total_books": "26",
         "average_price": 429.81
     },
     {
-        "name": "\u9673\u514b\u5afb",
+        "author_name": "\u9673\u514b\u5afb",
         "total_books": "6",
         "average_price": 399.0
     },
     {
-        "name": "\u8521\u5b5f\u82b3",
+        "author_name": "\u8521\u5b5f\u82b3",
         "total_books": "3",
         "average_price": 399.0
     },
     {
-        "name": "\u738b\u5fb7\u83ef",
+        "author_name": "\u738b\u5fb7\u83ef",
         "total_books": "23",
         "average_price": 442.52
     },
     {
-        "name": "\u9673\u6021\u4f36",
+        "author_name": "\u9673\u6021\u4f36",
         "total_books": "21",
         "average_price": 370.43
     },
     {
-        "name": "GLEIM",
+        "author_name": "GLEIM",
         "total_books": "24",
         "average_price": 674.67
     },
     {
-        "name": "\u845b\u514b\u660c",
+        "author_name": "\u845b\u514b\u660c",
         "total_books": "48",
         "average_price": 670.1
     },
     {
-        "name": "\u4faf\u8ffa\u6167",
+        "author_name": "\u4faf\u8ffa\u6167",
         "total_books": "27",
         "average_price": 524.96
     },
     {
-        "name": "\u6797\u5b8f\u6587",
+        "author_name": "\u6797\u5b8f\u6587",
         "total_books": "6",
         "average_price": 532.33
     },
     {
-        "name": "\u674e\u7f8e\u9e97",
+        "author_name": "\u674e\u7f8e\u9e97",
         "total_books": "32",
         "average_price": 249.0
     },
     {
-        "name": "\u674e\u653f\u5bb6",
+        "author_name": "\u674e\u653f\u5bb6",
         "total_books": "5",
         "average_price": 479.0
     }

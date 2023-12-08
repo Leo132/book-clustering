@@ -55,16 +55,10 @@ export class ResultDisplay {
 
     async #load_result() {
         this.result = [];
-        for(var i = 1; i <= this.clusters_n; i++) {
-            var book_infos = await query("books", null, [`cluster_id > ${i}`]);
-            for(var j = 0; j < book_infos.length; j++) {
-                book_infos[j].author = await query("authors", ["name"], [`ISBN13 > '${book_infos[j].ISBN13}'`])
-                    .then((response) => { return response[0].name; });
-                book_infos[j].phouse = await query("phouses", ["name"], [`phouse_id > ${book_infos[j].phouse_id}`])
-                    .then((response) => { return response[0].name; });
-            }
-            this.result.push(book_infos);
-        }
+        for(var i = 1; i <= this.clusters_n; i++)
+            this.result.push(await query("books", null, [`cluster_id > ${i}`]));
+        // console.log("load result");
+        // console.log(this.result);
     }
 
     #create_cluster(title, idx) {
@@ -90,11 +84,10 @@ export class ResultDisplay {
     }
 
     #load_cluster_block() {
-        let cluster = location.hash.split('_')[1];      // cluster_id (result's index - 1)
-        let result = this.result[cluster - 1];
+        let cluster = location.hash.split('_')[1];      // cluster_id (result's index + 1)
         this.category_mode = false;                     // list mode
         this.#clear_result_block();
-        this.#load_result_block([result]);
+        this.#load_result_block(this.result[cluster - 1]);
         let previous_page = document.createElement("button");
         previous_page.textContent = "上一頁";
         previous_page.classList.add("button");
@@ -133,27 +126,27 @@ export class ResultDisplay {
         } else {                                                                    // list block
             this.list_block = document.createElement("ol");
             this.list_block.classList.add("result_list");
-            for(let book_info_list of result) {
-                console.log(book_info_list);
-                for(let book_info of book_info_list) {
-                    let li = document.createElement("li");
-                    let details = document.createElement("details");
-                    let summary = document.createElement("summary");
-                    let label = document.createElement("label");
-                    let book_details = `ISBN13: ${book_info["ISBN13"]}<br>` +
-                                       `出版社: ${book_info["phouse"]}<br>` +
-                                       `作者: ${book_info["author"]}<br>` +
-                                       `價錢: ${book_info["price"]}<br>` +
-                                       `頁數: ${book_info["pages"]}<br>` +
-                                       `類別: ${book_info["category"]}<br>`;
-                    summary.textContent = book_info["name"];
-                    label.innerHTML = book_details;
-                    details.classList.add("result")
-                    details.appendChild(summary);
-                    details.appendChild(label);
-                    li.appendChild(details);
-                    this.list_block.appendChild(li);
-                }
+            for(let book_info of result) {
+                // console.log("load book_info");
+                // console.log(book_info);
+                let li = document.createElement("li");
+                let details = document.createElement("details");
+                let summary = document.createElement("summary");
+                let label = document.createElement("label");
+                let book_details = `&emsp;ISBN13: ${book_info["ISBN13"]}<br>` +
+                                   `&emsp;出版社: ${book_info["phouse_name"]}<br>` +
+                                   `&emsp;出版時間: ${book_info["published_date"]}<br>` +
+                                   `&emsp;作者: ${book_info["author_name"].join(", ")}<br>` +
+                                   `&emsp;價錢: ${book_info["price"]}<br>` +
+                                   `&emsp;頁數: ${book_info["pages"]} 頁<br>` +
+                                   `&emsp;類別: ${book_info["category"]}<br>`;
+                summary.textContent = book_info["book_name"];
+                label.innerHTML = book_details;
+                details.classList.add("result")
+                details.appendChild(summary);
+                details.appendChild(label);
+                li.appendChild(details);
+                this.list_block.appendChild(li);
             }
 
             this.result_block.appendChild(this.list_block);

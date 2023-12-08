@@ -11,7 +11,7 @@ from typing import Optional, Annotated
 
 from lib.utils import WSModel, load_json
 from lib.datatype import Page, Table
-from lib.db_f import get_authors, get_attr
+from lib.db_f import get_books, get_authors, get_phouses
 
 _TITLE = "我的閱讀助手"
 _WS_MODEL = WSModel()
@@ -23,15 +23,16 @@ app.mount("/static", StaticFiles(directory="src/static"), name="static")
 
 
 @app.get("/query/{type_}", response_class=JSONResponse)
-async def query(type_: str, cols: str=None, conditions: str=None):
+async def query(type_: Table, cols: str=None, conditions: str=None):
+    # print(f"{type_=}")
+    # print(f"{cols=}")
+    # print(f"{conditions=}")
     prep = lambda s: s if s is None else s.replace('>', '=').split(';')
-    args = (() if type_ == Table.authors else (type_,)) + (prep(cols), prep(conditions))
-    # print(args)
     data = {
-        "books": get_attr,
+        "books": get_books,
         "authors": get_authors,
-        "phouses": get_attr,
-    }[type_](*args)
+        "phouses": get_phouses,
+    }[type_](prep(cols), prep(conditions))
 
     return data
 
