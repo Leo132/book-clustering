@@ -11,7 +11,7 @@ from typing import Optional, Annotated
 
 from lib.utils import WSModel, load_json
 from lib.datatype import Page, Table
-from lib.db_f import get_books, get_authors, get_phouses
+from lib.db_f import get_books, get_authors, get_phouses, get_clusters
 
 _TITLE = "我的閱讀助手"
 _WS_MODEL = WSModel()
@@ -32,6 +32,7 @@ async def query(type_: Table, cols: str=None, conditions: str=None):
         "books": get_books,
         "authors": get_authors,
         "phouses": get_phouses,
+        "clusters": get_clusters,
     }[type_](prep(cols), prep(conditions))
 
     return data

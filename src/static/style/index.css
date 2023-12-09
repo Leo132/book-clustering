@@ -17,20 +17,37 @@ ol.result_list {
     padding: 0;
 }
 
+li.book_info {
+    background-color:cadetblue;
+    border-radius: 5%;
+    padding: 2rem 4rem 2rem 4rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
 table.result_table {
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 div.cluster {
     font-size: large;
-    background-color:darkturquoise;
-    margin: 3rem 2rem 3rem 2rem;
-    padding: 6rem;
-    height: 100px;
+    background-color:aquamarine;
+    border: 2px solid aquamarine;
+    transition-duration: 0.4s;
+    margin: 1rem;
+    padding: 5rem;
+    cursor: pointer;
+    border-radius: 10%;
 }
 
-td.cluster {
+div.cluster:hover {
+    background-color: white;
+    border: 2px solid aquamarine;
+}
+
+label.cluster {
+    cursor: pointer;
 }
 
 

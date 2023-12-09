@@ -136,6 +136,11 @@ def get_phouses(cols: list[str], conditions: list[str]):
         result = _search_foreign_cols(conn, "phouses", "books", "phouse_id", "phouse_id", cols, conditions)
     return result
 
+def get_clusters(cols: list[str], conditions: list[str]):
+    with _connect_db(_DATABASE) as conn:
+        result = _search_cols(conn, "clusters", cols, conditions)
+    return result
+
 def _init(*, reset_db: bool=False, load_data: bool=False):
     with _connect_db(_DATABASE) as conn:
         if reset_db:

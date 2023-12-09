@@ -1,7 +1,7 @@
 
 html, body {
     height: 100%;
-    background-color: gray;
+    background-color:aliceblue;
 }
 
 .title {
@@ -12,8 +12,8 @@ html, body {
 }
 
 .button {
-    background-color: darkslategray;
-    border-color: darkslategray;
+    background-color:lightseagreen;
+    border-color: lightseagreen;
     color: white;
     padding: 15px 15px;
     text-align: center;
