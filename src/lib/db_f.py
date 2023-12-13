@@ -190,6 +190,10 @@ async def register_check(name: str, username: str, password: str, password_confi
         "is_username_exist": username_check,
     }
 
+async def collect_book(user_id: int, ISBN13: str):
+    with _connect_db(_DATABASE) as conn:
+        _insert_row(conn, "collections", ["user_id", "ISBN13"], [user_id, ISBN13])
+
 def _init(*, reset_db: bool=False, load_data: bool=False):
     with _connect_db(_DATABASE) as conn:
         if reset_db:

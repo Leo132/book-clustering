@@ -18,6 +18,10 @@ class RegisterInfo(BaseModel):
     password: str
     password_confirm: str
 
+class CollectInfo(BaseModel):
+    user_id: int
+    ISBN13: str
+
 # for database
 class Table(str, Enum):
     books = "books"

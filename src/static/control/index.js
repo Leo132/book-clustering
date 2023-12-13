@@ -15,8 +15,8 @@ window.addEventListener("load", () => {
 
 async function init() {
     let category_selector = await new CategorySelector();
-    let result_block = await new ResultDisplay();
     let user_info = JSON.parse(localStorage.getItem("user_info"));
+    let result_block = await new ResultDisplay(user_info["user_id"]);
 
     document.getElementById("profile").textContent = user_info["name"];
 

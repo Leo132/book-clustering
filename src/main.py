@@ -9,10 +9,10 @@ from fastapi.templating import Jinja2Templates
 
 # ./lib
 from lib.utils import WSModel, load_json
-from lib.datatype import Page, Table, LoginInfo, RegisterInfo
+from lib.datatype import Page, Table, LoginInfo, RegisterInfo, CollectInfo
 from lib.db_f import (
     get_books, get_authors, get_phouses, get_clusters, get_collections,
-    login_check, register_check
+    login_check, register_check, collect_book
 )
 
 _TITLE = "我的閱讀助手"
@@ -88,6 +88,12 @@ async def register(register_info: RegisterInfo):
     data = await register_check(
         register_info.name, register_info.username, register_info.password, register_info.password_confirm
     )
+
+    return data
+
+@app.post("/collect_book/")
+async def collect(collect_info: CollectInfo):
+    data = await collect_book(collect_info.user_id, collect_info.ISBN13)
 
     return data
 

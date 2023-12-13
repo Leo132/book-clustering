@@ -1,6 +1,7 @@
 import {
     load_data,
-    query
+    query,
+    post_data,
 } from "./utils.js";
 
 export class CategorySelector {
@@ -41,7 +42,8 @@ export class CategorySelector {
 export class ResultDisplay {
     static #ROW_MAX = 3;
 
-    constructor() {
+    constructor(user_id) {
+        this.user_id = user_id;
         this.result = null;
         this.clusters_n = 8;
         this.result_block = document.getElementById("result");
@@ -160,19 +162,27 @@ export class ResultDisplay {
                                        `&emsp;價錢: ${book_info["price"]}<br>` +
                                        `&emsp;頁數: ${book_info["pages"]} 頁<br>` +
                                        `&emsp;類別: ${book_info["category"]}<br>`;
+                    let collect_button = document.createElement("button");
+                    collect_button.textContent = "收藏";
+                    collect_button.classList.add("button");
+                    collect_button.onclick = async () => {
+                        await post_data("http://localhost:8000/collect_book/", {
+                            "user_id": this.user_id,
+                            "ISBN13": book_info["ISBN13"],
+                        });
+                    };
                     summary.textContent = book_info["book_name"];
                     label.innerHTML = book_details;
                     details.classList.add("result")
                     details.appendChild(summary);
                     details.appendChild(label);
+                    details.appendChild(collect_button);
                     li.appendChild(details);
                     li.classList.add("book_info");
                     li.addEventListener("click", () => {
-                        console.log("li click");
                         details.open = !details.open;
                     });
                     summary.addEventListener("click", () => {
-                        console.log("summary click");
                         details.open = !details.open;
                     });
                     this.list_block.appendChild(li);
