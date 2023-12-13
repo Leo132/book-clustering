@@ -3,45 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>{{title}}</title>
-    <link rel="stylesheet" href="{{url_for('static', path='style/base.css')}}">
-    <link rel="stylesheet" href="{{url_for('static', path='style/register.css')}}">
+    <script type="module" src="../static/control/utils.js"></script>
+    <script type="module" src="../static/control/register.js"></script>
 </head>
 <body>
 <center>
     <label class="title">{{title}} - 註冊</label>
-    <form action="?" method="post">
-        <table id="maintable">
-            <tr>
-                <td><label class="input-label">名稱</label></td>
-                <td><input class="input-text" type="text" name="name" autofocus required></td>
-                <!-- error message -->
-                <td class="red"></td>
-            </tr>
-            <tr>
-                <td><label class="input-label">帳號</label></td>
-                <td><input class="input-text" type="text" name="username" required></td>
-                <!-- error message -->
-                <td class="red"></td>
-            </tr>
-            <tr>
-                <td><label class="input-label">密碼</label></td>
-                <td><input class="input-text" type="password" name="password" autocomplete="off" required></td>
-            </tr>
-            <tr>
-                <td><label class="input-label">再次輸入</label></td>
-                <td><input class="input-text" type="password" name="passwordConfirm" autocomplete="off" required></td>
-                <!-- error message -->
-                <td class="red">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <button class="button" type="button" onclick='location.href="http://localhost:8000/login";'>取消</button>
-                    <input class="button" type="submit" value="註冊">
-                </td>
-            </tr>
-        </table>
-    </form>
+    <table>
+        <tr>
+            <td><label class="input-label">名稱</label></td>
+            <td><input class="input-text" type="text" id="name" autofocus required></td>
+            <td class="error_info" id="name_error"></td>
+        </tr>
+        <tr>
+            <td><label class="input-label">帳號</label></td>
+            <td><input class="input-text" type="text" id="username" required></td>
+            <td class="error_info" id="username_error"></td>
+        </tr>
+        <tr>
+            <td><label class="input-label">密碼</label></td>
+            <td><input class="input-text" type="password" id="password" autocomplete="off" required></td>
+        </tr>
+        <tr>
+            <td><label class="input-label">再次輸入</label></td>
+            <td><input class="input-text" type="password" id="password_confirm" autocomplete="off" required></td>
+            <td class="error_info" id="password_confirm_error"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button class="button" type="button" onclick='location.href="http://localhost:8000/login";'>取消</button>
+                <input class="button" type="button" id="register" value="註冊">
+            </td>
+        </tr>
+    </table>
 </center>
 </body>
 </html>

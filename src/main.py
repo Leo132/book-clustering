@@ -7,10 +7,12 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
+# ./lib
 from lib.utils import WSModel, load_json
-from lib.datatype import Page, Table, LoginInfo
+from lib.datatype import Page, Table, LoginInfo, RegisterInfo
 from lib.db_f import (
-    get_books, get_authors, get_phouses, get_clusters, login_check
+    get_books, get_authors, get_phouses, get_clusters,
+    login_check, register_check
 )
 
 _TITLE = "我的閱讀助手"
@@ -76,6 +78,14 @@ async def load_page(request: Request, page: Page, background_tasks: BackgroundTa
 @app.post("/logincheck/")
 async def login(login_info: LoginInfo):
     data = await login_check(login_info.username, login_info.password)
+
+    return data
+
+@app.post("/registercheck/")
+async def register(register_info: RegisterInfo):
+    data = await register_check(
+        register_info.name, register_info.username, register_info.password, register_info.password_confirm
+    )
 
     return data
 

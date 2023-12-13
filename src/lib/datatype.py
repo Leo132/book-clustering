@@ -11,6 +11,12 @@ class LoginInfo(BaseModel):
     username: str
     password: str
 
+class RegisterInfo(BaseModel):
+    name: str
+    username: str
+    password: str
+    password_confirm: str
+
 # for database
 class Table(str, Enum):
     books = "books"
