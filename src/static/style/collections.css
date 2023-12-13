@@ -1,0 +1,42 @@
+div.result_block {
+    text-align: center;
+}
+
+ol.result_list {
+    display: inline-block;
+    text-align: left;
+    font-size: large;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    padding: 0;
+}
+
+li.book_info {
+    background-color:cadetblue;
+    border-radius: 5%;
+    padding: 2rem 4rem 2rem 4rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+table.result_table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+details.result summary::marker {
+    display: none;
+    font-size: 0;
+}
+
+summary {
+    cursor: pointer;
+}
+
+details[open] summary::after {
+    transform: rotate(0);
+}
+
+div.main {
+    padding: 0;
+}

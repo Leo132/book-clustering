@@ -1,5 +1,10 @@
-import { load_css } from "./utils.js";
-import { ResultDisplay } from "./conponents.js";
+import {
+    load_css,
+} from "./utils.js"
+
+import {
+    ResultDisplayList,
+} from "./conponents.js"
 
 
 window.addEventListener("load", () => {
@@ -7,12 +12,13 @@ window.addEventListener("load", () => {
 });
 
 async function init() {
-    let result_block = await new ResultDisplay();
+    let user_info = JSON.parse(localStorage.getItem("user_info"));
+    let result_block = await new ResultDisplayList(user_info["user_id"]);
 }
 
 async function main() {
     await init();
 
     load_css("./static/style/base.css");
-    load_css("./static/style/index.css");
+    load_css("./static/style/collections.css");
 }

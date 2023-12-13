@@ -141,6 +141,23 @@ def get_clusters(cols: list[str], conditions: list[str]):
         result = _search_cols(conn, "clusters", cols, conditions)
     return result
 
+def get_collections(cols: list[str], conditions: list[str]):
+    with _connect_db(_DATABASE) as conn:
+        query = "SELECT collections.ISBN13, phouses.phouse_name, book_name, category, published_date, pages, price FROM collections " + \
+                "INNER JOIN books ON collections.ISBN13 = books.ISBN13 " +                                                              \
+                "INNER JOIN phouses ON books.phouse_id = phouses.phouse_id " +                                                          \
+                f"WHERE {' and '.join(conditions)}" if conditions else ''
+        descriptions, rows = _query(conn, query, True)
+        cols = [desc[0] for desc in descriptions] + ["author_name"]
+        result = [{col : r for col, r in zip(cols, row)} for row in rows]
+        for book_info in result:
+            query = "SELECT author_name FROM authors " +                                 \
+                    "INNER JOIN writing ON authors.author_id = writing.author_id " +     \
+                    f"WHERE ISBN13 = '{book_info['ISBN13']}'"
+            _, author_name = _query(conn, query, True)
+            book_info["author_name"] = [d[0] for d in author_name]
+    return result
+
 # return True if exists
 def _username_check(conn, username: str):
     user_info = _search_cols(conn, "users", ["user_id", "name"], [f"username = '{username}'"])

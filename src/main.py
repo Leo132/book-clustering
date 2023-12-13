@@ -11,7 +11,7 @@ from fastapi.templating import Jinja2Templates
 from lib.utils import WSModel, load_json
 from lib.datatype import Page, Table, LoginInfo, RegisterInfo
 from lib.db_f import (
-    get_books, get_authors, get_phouses, get_clusters,
+    get_books, get_authors, get_phouses, get_clusters, get_collections,
     login_check, register_check
 )
 
@@ -35,6 +35,7 @@ async def query(type_: Table, cols: str=None, conditions: str=None):
         "authors": get_authors,
         "phouses": get_phouses,
         "clusters": get_clusters,
+        "collections": get_collections,
     }[type_](prep(cols), prep(conditions))
 
     return data

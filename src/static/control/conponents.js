@@ -184,3 +184,80 @@ export class ResultDisplay {
         }
     }
 }
+
+export class ResultDisplayList {
+    constructor(user_id) {
+        this.user_id = user_id;
+        this.result = null;
+        this.result_block = document.getElementById("result");
+        this.list_block = null;
+
+        this.update_result_block();
+    }
+
+    async update_result_block() {
+        await this.#load_result();
+        await this.#load_result_block();
+    }
+
+    async #load_result() {
+        this.result = await query("collections", null, [`collections.user_id > ${this.user_id}`]);
+        console.log("load result");
+        console.log(this.result);
+    }
+
+    #add_previous_page_button() {
+        // if(document.getElementById("previous_page") != undefined)
+        //     return;
+        let previous_page = document.createElement("button");
+        previous_page.textContent = "上一頁";
+        previous_page.classList.add("button");
+        previous_page.addEventListener("click", () => {
+            location.href = "http://localhost:8000/index";
+        });
+        previous_page.id = "previous_page";
+        document.getElementById("function_bar").appendChild(previous_page);
+    }
+
+    async #load_result_block() {
+        this.list_block = document.createElement("ol");
+        this.list_block.classList.add("result_list");
+        for(let book_info of this.result) {
+            // console.log("load book_info");
+            // console.log(book_info);
+            let li = document.createElement("li");
+            let details = document.createElement("details");
+            let summary = document.createElement("summary");
+            let label = document.createElement("label");
+            let author_link = [];
+            for(let author of book_info["author_name"])
+                author_link.push(`<a href="https://www.sanmin.com.tw/search/index/?au=${author}" target="_blank">${author}</a>`);
+            let book_details = `&emsp;ISBN13: ${book_info["ISBN13"]}<br>` +
+                                `&emsp;出版社: <a href="https://www.sanmin.com.tw/search/index/?pu=${book_info["phouse_name"]}" target="_blank">${book_info["phouse_name"]}</a><br>` +
+                                `&emsp;作者: ${author_link.join(", ")}<br>` +
+                                `&emsp;出版時間: ${book_info["published_date"]}<br>` +
+                                `&emsp;價錢: ${book_info["price"]}<br>` +
+                                `&emsp;頁數: ${book_info["pages"]} 頁<br>` +
+                                `&emsp;類別: ${book_info["category"]}<br>`;
+            summary.textContent = book_info["book_name"];
+            label.innerHTML = book_details;
+            details.classList.add("result")
+            details.appendChild(summary);
+            details.appendChild(label);
+            li.appendChild(details);
+            li.classList.add("book_info");
+            li.addEventListener("click", () => {
+                console.log("li click");
+                details.open = !details.open;
+            });
+            summary.addEventListener("click", () => {
+                console.log("summary click");
+                details.open = !details.open;
+            });
+            this.list_block.appendChild(li);
+        }
+
+        this.result_block.appendChild(this.list_block);
+        this.#add_previous_page_button();
+    }
+}
