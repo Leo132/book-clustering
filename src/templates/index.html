@@ -8,28 +8,36 @@
     <script type="module" src="../static/control/index.js"></script>
 </head>
 <body>
-<center>
-    <label class="title">{{title}} - 主頁</label><br>
-    <form id="search_form" method="get">
-        <table>
-            <tr>
-                <td>
-                    <details>
-                        <summary class="book_category">書籍種類</summary>
-                        <ul id="category_list"></ul>
-                    </details>
-                </td>
-            </tr>
-            <tr id="function_bar">
-                <td><input class="input-text" type="text" id="search_str" autofocus></td>
-                <td><input class="button" type="submit" value="搜尋"></td>
-            </tr>
-        </table>
-    </form>
-    <p id="test">
-    </p>
-    <div class="result_block" id="result">
+    <div class="sidebar">
+        <div class="profile" id="profile"></div>
+        <div class="features">
+            <a class="collection_list" href="http://localhost:8000/collections">收藏書單</a>
+        </div>
     </div>
-</center>
+    <div class="main">
+        <center>
+        <label class="title">{{title}} - 主頁</label><br>
+        <form id="search_form" method="get">
+            <table>
+                <tr>
+                    <td>
+                        <details>
+                            <summary class="book_category">書籍種類</summary>
+                            <ul id="category_list"></ul>
+                        </details>
+                    </td>
+                </tr>
+                <tr id="function_bar">
+                    <td><input class="input-text" type="text" id="search_str" autofocus></td>
+                    <td><input class="button" type="submit" value="搜尋"></td>
+                </tr>
+            </table>
+        </form>
+        <p id="test">
+        </p>
+        <div class="result_block" id="result">
+        </div>
+    </center>
+    </div>
 </body>
 </html>

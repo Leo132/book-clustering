@@ -19,7 +19,7 @@ async function init() {
     let result_block = await new ResultDisplay();
     let user_info = JSON.parse(localStorage.getItem("user_info"));
 
-    // console.log(user_info);
+    document.getElementById("profile").textContent = user_info["name"];
 
     // keyword searching and category filtering
     document.getElementById("search_form").onsubmit = async (e) => {

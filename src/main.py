@@ -75,6 +75,7 @@ async def load_page(request: Request, page: Page, background_tasks: BackgroundTa
 
     return templates.TemplateResponse(f"{page}.html", kwargs)
 
+# post method
 @app.post("/logincheck/")
 async def login(login_info: LoginInfo):
     data = await login_check(login_info.username, login_info.password)

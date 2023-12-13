@@ -26,8 +26,8 @@ li.book_info {
 }
 
 table.result_table {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.cluster {
@@ -36,7 +36,7 @@ div.cluster {
     border: 2px solid aquamarine;
     transition-duration: 0.4s;
     margin: 1rem;
-    padding: 5rem;
+    padding: 4rem;
     cursor: pointer;
     border-radius: 10%;
 }
@@ -71,4 +71,31 @@ summary.book_category {
 
 details[open] summary::after {
     transform: rotate(0);
+}
+
+div.main {
+    padding: 0;
+    margin-left: 15%;
+}
+
+div.sidebar {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    position: fixed;
+    overflow: auto;
+    height: 100%;
+}
+
+div.profile {
+    font-size: 40px;
+    text-align: center;
+    padding: 1rem;
+}
+
+div.features {
+    font-size: 20px;
+    text-align: center;
+    padding: 1rem;
 }

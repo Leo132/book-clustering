@@ -6,6 +6,7 @@ class Page(str, Enum):
     login = "login"
     register = "register"
     index = "index"
+    collections = "collections"
 
 class LoginInfo(BaseModel):
     username: str
