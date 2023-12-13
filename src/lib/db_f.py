@@ -141,6 +141,23 @@ def get_clusters(cols: list[str], conditions: list[str]):
         result = _search_cols(conn, "clusters", cols, conditions)
     return result
 
+def _username_check(conn, username: str):
+    user_info = _search_cols(conn, "users", ["user_id", "name"], [f"username = '{username}'"])
+    return len(user_info) > 0, user_info
+
+def _password_check(conn, password: str):
+     user_info = _search_cols(conn, "users", ["user_id", "name"], [f"password = '{password}'"])
+     return len(user_info) > 0
+
+async def login_check(username: str, password: str):
+    with _connect_db(_DATABASE) as conn:
+        (username_check, user_info), password_check = _username_check(conn, username), _password_check(conn, password)
+    return  {
+        "is_username_exist": username_check,
+        "is_password_correct": password_check,
+        "user_info": user_info if not username_check else user_info[0],
+    }
+
 def _init(*, reset_db: bool=False, load_data: bool=False):
     with _connect_db(_DATABASE) as conn:
         if reset_db:

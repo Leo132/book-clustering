@@ -1,11 +1,15 @@
-from typing import Any
 from enum import Enum
+from pydantic import BaseModel
 
 # for web
 class Page(str, Enum):
     login = "login"
     register = "register"
     index = "index"
+
+class LoginInfo(BaseModel):
+    username: str
+    password: str
 
 # for database
 class Table(str, Enum):

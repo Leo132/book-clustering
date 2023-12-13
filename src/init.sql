@@ -3,8 +3,8 @@ CREATE DATABASE IF NOT EXISTS book_clustering;
 USE book_clustering;
 
 CREATE TABLE IF NOT EXISTS phouses (
-  phouse_id    bigint unsigned NOT NULL AUTO_INCREMENT,
-  phouse_name            VARCHAR(255) NOT NULL,
+  phouse_id       bigint unsigned NOT NULL AUTO_INCREMENT,
+  phouse_name     VARCHAR(255) NOT NULL,
   total_books     INT unsigned NOT NULL,
   average_price   DECIMAL(10,2) unsigned NOT NULL,
   PRIMARY KEY (phouse_id)
@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS phouses (
 
 CREATE TABLE IF NOT EXISTS authors (
   author_id       bigint unsigned NOT NULL AUTO_INCREMENT,
-  author_name            VARCHAR(255) NOT NULL,
+  author_name     VARCHAR(255) NOT NULL,
   total_books     INT unsigned NOT NULL,
   average_price   DECIMAL(10, 2) unsigned NOT NULL,
   PRIMARY KEY (author_id)
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS books (
   ISBN13          VARCHAR(13) NOT NULL,
   phouse_id       bigint unsigned NOT NULL,
   cluster_id      bigint unsigned NOT NULL,
-  book_name            VARCHAR(255) NOT NULL,
+  book_name       VARCHAR(255) NOT NULL,
   category        VARCHAR(255) NOT NULL,
   published_date  DATE NOT NULL,
   pages           INT unsigned NOT NULL,

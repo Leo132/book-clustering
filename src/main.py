@@ -2,16 +2,16 @@
 Web backend
 '''
 
-from fastapi import FastAPI, Request, Form, BackgroundTasks
+from fastapi import FastAPI, Request, BackgroundTasks
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
-from typing import Optional, Annotated
-
 from lib.utils import WSModel, load_json
-from lib.datatype import Page, Table
-from lib.db_f import get_books, get_authors, get_phouses, get_clusters
+from lib.datatype import Page, Table, LoginInfo
+from lib.db_f import (
+    get_books, get_authors, get_phouses, get_clusters, login_check
+)
 
 _TITLE = "我的閱讀助手"
 _WS_MODEL = WSModel()
@@ -21,8 +21,8 @@ app = FastAPI()
 templates = Jinja2Templates(directory="src/templates")
 app.mount("/static", StaticFiles(directory="src/static"), name="static")
 
-
-@app.get("/query/{type_}", response_class=JSONResponse)
+# get method
+@app.get("/query/{type_}")
 async def query(type_: Table, cols: str=None, conditions: str=None):
     print(f"{type_=}")
     print(f"{cols=}")
@@ -46,7 +46,7 @@ async def search(search_str: str=None):
         "seg_words": seg_words,
     }
 
-    return JSONResponse(data)
+    return JSONResponse(content=data)
 
 @app.get("/data/{file}", response_class=JSONResponse)
 async def response_data(file: str):
@@ -72,6 +72,12 @@ async def load_page(request: Request, page: Page, background_tasks: BackgroundTa
     }
 
     return templates.TemplateResponse(f"{page}.html", kwargs)
+
+@app.post("/logincheck/")
+async def login(login_info: LoginInfo):
+    data = await login_check(login_info.username, login_info.password)
+
+    return data
 
 if __name__ == "__main__":
     import uvicorn
