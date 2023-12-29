@@ -1,7 +1,7 @@
 # Book Clustering
 
 ## 系統架構圖
-<img src="data/img/workflow.jpg"  width="50%" height="50%">
+<img src="data/img/workflow2.jpg"  width="50%" height="50%">
 
 ## 資料庫 ERD
 <img src="data/img/ERD.jpg"  width="50%" height="50%">
