@@ -109,6 +109,11 @@ def _insert_row(conn, table: Table, cols: list[str], vals: list[str]):
 
     _query(conn, query)
 
+def _delete_row(conn, table: Table, conditions: list[str]):
+    query = f"delete from {table}{' where ' + ' and '.join(conditions) if conditions else ''};"
+
+    _query(conn, query)
+
 def get_books(cols: list[str]=None, conditions: list[str]=None):
     with _connect_db(_DATABASE) as conn:
         query = "SELECT books.ISBN13, phouse_name, phouses.phouse_id, book_name, category, published_date, pages, price FROM books " +  \
@@ -191,6 +196,10 @@ async def register_check(name: str, username: str, password: str, password_confi
     }
 
 async def collect_book(user_id: int, ISBN13: str):
+    with _connect_db(_DATABASE) as conn:
+        _insert_row(conn, "collections", ["user_id", "ISBN13"], [user_id, ISBN13])
+
+async def remove_book(user_id: int, ISBN13: str):
     with _connect_db(_DATABASE) as conn:
         _insert_row(conn, "collections", ["user_id", "ISBN13"], [user_id, ISBN13])
 

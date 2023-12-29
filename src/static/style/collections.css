@@ -13,7 +13,7 @@ ol.result_list {
 
 li.book_info {
     background-color:cadetblue;
-    border-radius: 5%;
+    border-radius: 30px;
     padding: 2rem 4rem 2rem 4rem;
     margin: 1rem;
     cursor: pointer;

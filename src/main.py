@@ -97,6 +97,12 @@ async def collect(collect_info: CollectInfo):
 
     return data
 
+@app.post("/remove_book/")
+async def collect(collect_info: CollectInfo):
+    data = await collect_book(collect_info.user_id, collect_info.ISBN13)
+
+    return data
+
 if __name__ == "__main__":
     import uvicorn
 

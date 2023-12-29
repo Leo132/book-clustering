@@ -1,5 +1,10 @@
 '''
 Clustering algorithm tools lib
+
+Features:
+    price           : int
+    pages           : int
+    published_date  : int
 '''
 
 from sklearn.cluster import KMeans
@@ -9,6 +14,7 @@ from sklearn.pipeline import Pipeline
 
 import numpy as np
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 
 def make_pipeline(k: int, init: str, n_init: int, max_iter: int):
@@ -36,14 +42,14 @@ def make_pipeline(k: int, init: str, n_init: int, max_iter: int):
         ]
     )
 
-def visualize(data: pd.DataFrame, cluster: list[int], is_2d: bool=True):
+def visualize(data: pd.DataFrame, clusters: list[int], is_2d: bool=True):
     dim = 2 if is_2d else 3
     points = [data.iloc[:, i] for i in range(dim)]
     labels = data.columns
 
     fig = plt.figure()
     ax = fig.add_subplot(projection=None if is_2d else '3d')
-    scatter = ax.scatter(*points, c=cluster)
+    scatter = ax.scatter(*points, c=clusters)
     set_labels = [
         ax.set_xlabel,
         ax.set_ylabel,
@@ -51,7 +57,7 @@ def visualize(data: pd.DataFrame, cluster: list[int], is_2d: bool=True):
     ]
     for set_label, label in zip(set_labels, labels):
         set_label(label)
-    plt.legend(*scatter.legend_elements(), title="Classes")
+    plt.legend(*scatter.legend_elements(), title="Clusters")
     
     plt.show()
 
@@ -67,11 +73,44 @@ def _test():
     #     cluster_std=2.75,
     #     random_state=42
     # )
-    col = ["price", "pages", "published_date"]
-    book_info = load_json("./data/book_info.json")
+
+    plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei'] 
+    plt.rcParams['axes.unicode_minus'] = False
+    matplotlib.rcParams.update({'font.size': 22})
+
+    clusters_n = [cluster["book_num"] for cluster in sorted(load_json("./data/cluster_info.json"), key=lambda cluster: cluster["cluster_id"])]
+    cluster_names = [f"群{idx + 1}" for idx in range(len(clusters_n))]
+    plt.bar(cluster_names, clusters_n)
+    plt.grid(True)
+    plt.show()
+
+    return
+
+    cols = ["price", "pages", "published_date"]
+    book_info_ = sorted(load_json("./data/book_info.json"), key=lambda info: info["cluster"])
+    cluster_table = {cluster + 1: [] for cluster in range(8)}
+    for info in book_info_:
+        cluster_table[info["cluster"]].append(info)
+    book_info = []
+    centers = []
+    # for cluster in range(1, 9):
+    for cluster in [2, 5, 8]:
+        book_info += cluster_table[cluster]
+        data, _ = extract_features(cluster_table[cluster], cols)
+        centers.append([sum(data[col])/len(data[col]) for col in cols])
+    clusters = [info["cluster"] for info in book_info] + [0]*len(centers)
     # data = unionize_jsons([f"./data/book_info/book_info_page{page + 1}.json" for page in range(25)], "name")
-    data, features = extract_features(book_info, col)
+    data, features = extract_features(book_info, cols)
     print(len(book_info), len(features))
+    for cluster, center in enumerate(centers, start=1):
+        print(cluster, center)
+
+    scaler = MinMaxScaler()
+    norm_features = scaler.fit_transform(features + centers)
+    # norm_features = scaler.fit_transform(features)
+    df = pd.DataFrame(norm_features, columns=["價錢", "頁數", "時間"])
+
+    visualize(df, clusters, len(cols) == 2)
 
     # clustering
     kmeans_kwargs = {
@@ -104,7 +143,7 @@ def _test():
         pipe = make_pipeline(k, **kmeans_kwargs)
         pipe.fit(features)
 
-        df = pd.DataFrame(pipe["preprocessor"].transform(features), columns=col)
+        df = pd.DataFrame(pipe["preprocessor"].transform(features), columns=cols)
         result = pipe["clusterer"]["kmeans"]
         labels = result.labels_
         cluster_centers = pipe["preprocessor"].inverse_transform(result.cluster_centers_)
@@ -112,7 +151,7 @@ def _test():
 
         # save clustering result
         if save_result:
-            from collections import Counter
+            from colslections import Counter
             counter = Counter(labels)
             print(counter)
             print(labels)
@@ -130,7 +169,7 @@ def _test():
                 print(info)
             save_to_json(cluster_info, "./data/cluster_info.json")
         if display:
-            visualize(df, labels, len(col) == 2)
+            visualize(df, labels, len(cols) == 2)
 
 if __name__ == "__main__":
     _test()

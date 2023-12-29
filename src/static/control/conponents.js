@@ -79,7 +79,7 @@ export class ResultDisplay {
         label.innerHTML = `數量: ${cluster_info["book_num"]}<br>` +
                           `平均價格: ${cluster_info["average_price"]}<br>` +
                           `平均頁數: ${cluster_info["average_pages"]}<br>` +
-                          `平均出版時間: ${cluster_info["average_time"]}天<br>`;
+                          `平均出版時間: ${Math.ceil(cluster_info["average_time"])}天<br>`;
         div.classList.add("cluster");
         label.classList.add("cluster");
         div.appendChild(h2);
@@ -172,7 +172,9 @@ export class ResultDisplay {
                         });
                     };
                     summary.textContent = book_info["book_name"];
+                    summary.classList.add("book_name");
                     label.innerHTML = book_details;
+                    label.classList.add("text");
                     details.classList.add("result")
                     details.appendChild(summary);
                     details.appendChild(label);
@@ -249,8 +251,18 @@ export class ResultDisplayList {
                                 `&emsp;價錢: ${book_info["price"]}<br>` +
                                 `&emsp;頁數: ${book_info["pages"]} 頁<br>` +
                                 `&emsp;類別: ${book_info["category"]}<br>`;
+            let remove_button = document.createElement("button");
+            remove_button.textContent = "移除";
+            remove_button.classList.add("button");
+            remove_button.onclick = async () => {
+                await post_data("http://localhost:8000/collect_book/", {
+                    "user_id": this.user_id,
+                    "ISBN13": book_info["ISBN13"],
+                });
+            };
             summary.textContent = book_info["book_name"];
             label.innerHTML = book_details;
+            label.classList.add("text");
             details.classList.add("result")
             details.appendChild(summary);
             details.appendChild(label);
