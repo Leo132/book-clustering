@@ -258,7 +258,7 @@ Publishing house info format (same as author info)
         "average_price"     : average book price    : float
     }
 '''
-# -- 黃政揚貢獻
+# --
 def get_phouse_info(url: str):
     html = get_html_from_url(url)
     result = Parser(html)
@@ -286,7 +286,7 @@ def get_phouse_info(url: str):
         "total_books": books_num,
         "average_price": average_price,
     }
-# 黃政揚貢獻 --
+# --
 
 def save_book_to_json():
     book_page_urls = [f"https://www.sanmin.com.tw/promote/top/?id=yy&item=11209&pi={page + 1}" for page in range(25)]
@@ -294,7 +294,7 @@ def save_book_to_json():
 
     save_info_to_json(book_page_urls, "book_info/book_info_page", get_book_urls, get_book_info)
 
-# -- 黃政揚貢獻
+# --
 def save_author_to_json():
     data = load_json("./data/book_info.json")
     authors = set(author for info in data for author in info["author"])
@@ -307,10 +307,10 @@ def save_phouse_to_json():
     phouse_page_urls = [f"https://www.sanmin.com.tw/search/index/?pu={phouse}" for phouse in split_data(get_all_attrs(data, ["phouse"])[0])]
 
     save_author_info_to_json(phouse_page_urls, "phouse_info/phouse_info_page", get_phouse_info)
-# 黃政揚貢獻 --
+# --
 
 def _book_test():
-    # book_page_urls = [f"https://www.sanmin.com.tw/promote/top/?id=yy&item=11209&pi={page + 1}" for page in range(25)]
+    save_book_to_json()
     books = load_json("./data/book_info.json")
     author_info = []
     phouse_info = []

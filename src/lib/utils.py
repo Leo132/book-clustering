@@ -44,7 +44,7 @@ def save_info_to_json(page_urls: list[str], folder_file: str, get_urls: Callable
         save_to_json(info_list, f"./data/{folder_file}{page}.json")
     print("Save success")
 
-# -- 黃政揚貢獻
+# --
 def save_author_info_to_json(data: list[str], folder_file: str,  get_info: Callable):
     info_list = []
     page = 1
@@ -78,7 +78,7 @@ def split_data(data: list):
             seen_elements.add(truncated_element)
     
     return result_array
-# 黃政揚貢獻 --
+# --
 
 def load_json(path_file: str):
     with open(path_file) as f:
