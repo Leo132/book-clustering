@@ -12,7 +12,7 @@ from lib.utils import WSModel, load_json
 from lib.datatype import Page, Table, LoginInfo, RegisterInfo, CollectInfo
 from lib.db_f import (
     get_books, get_authors, get_phouses, get_clusters, get_collections,
-    login_check, register_check, collect_book
+    login_check, register_check, collect_book, remove_book
 )
 
 _TITLE = "我的閱讀助手"
@@ -99,7 +99,7 @@ async def collect(collect_info: CollectInfo):
 
 @app.post("/remove_book/")
 async def collect(collect_info: CollectInfo):
-    data = await collect_book(collect_info.user_id, collect_info.ISBN13)
+    data = await remove_book(collect_info.user_id, collect_info.ISBN13)
 
     return data
 

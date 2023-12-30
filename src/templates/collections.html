@@ -8,13 +8,19 @@
     <script type="module" src="../static/control/collections.js"></script>
 </head>
 <body>
-<center>
+    <div class="sidebar">
+        <div class="profile" id="profile"></div>
+        <div class="features">
+            <a class="collection_list" href="http://localhost:8000/collections">收藏書單</a>
+        </div>
+    </div>
     <div class="main">
+        <center>
         <label class="title">{{title}} - 收藏書單</label><br>
         <div id="function_bar"></div>
         <div class="result_block" id="result">
         </div>
+        </center>
     </div>
-</center>
 </body>
 </html>

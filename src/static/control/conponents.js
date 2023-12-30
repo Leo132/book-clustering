@@ -155,13 +155,13 @@ export class ResultDisplay {
                     let author_link = [];
                     for(let author of book_info["author_name"])
                         author_link.push(`<a href="https://www.sanmin.com.tw/search/index/?au=${author}" target="_blank">${author}</a>`);
-                    let book_details = `&emsp;ISBN13: ${book_info["ISBN13"]}<br>` +
-                                       `&emsp;出版社: <a href="https://www.sanmin.com.tw/search/index/?pu=${book_info["phouse_name"]}" target="_blank">${book_info["phouse_name"]}</a><br>` +
-                                       `&emsp;作者: ${author_link.join(", ")}<br>` +
-                                       `&emsp;出版時間: ${book_info["published_date"]}<br>` +
-                                       `&emsp;價錢: ${book_info["price"]}<br>` +
-                                       `&emsp;頁數: ${book_info["pages"]} 頁<br>` +
-                                       `&emsp;類別: ${book_info["category"]}<br>`;
+                    let book_details = `ISBN13: ${book_info["ISBN13"]}<br>` +
+                                       `出版社: <a href="https://www.sanmin.com.tw/search/index/?pu=${book_info["phouse_name"]}" target="_blank">${book_info["phouse_name"]}</a><br>` +
+                                       `作者: ${author_link.join(", ")}<br>` +
+                                       `出版時間: ${book_info["published_date"]}<br>` +
+                                       `價錢: ${book_info["price"]}<br>` +
+                                       `頁數: ${book_info["pages"]} 頁<br>` +
+                                       `類別: ${book_info["category"]}<br>`;
                     let collect_button = document.createElement("button");
                     collect_button.textContent = "收藏";
                     collect_button.classList.add("button");
@@ -244,36 +244,37 @@ export class ResultDisplayList {
             let author_link = [];
             for(let author of book_info["author_name"])
                 author_link.push(`<a href="https://www.sanmin.com.tw/search/index/?au=${author}" target="_blank">${author}</a>`);
-            let book_details = `&emsp;ISBN13: ${book_info["ISBN13"]}<br>` +
-                                `&emsp;出版社: <a href="https://www.sanmin.com.tw/search/index/?pu=${book_info["phouse_name"]}" target="_blank">${book_info["phouse_name"]}</a><br>` +
-                                `&emsp;作者: ${author_link.join(", ")}<br>` +
-                                `&emsp;出版時間: ${book_info["published_date"]}<br>` +
-                                `&emsp;價錢: ${book_info["price"]}<br>` +
-                                `&emsp;頁數: ${book_info["pages"]} 頁<br>` +
-                                `&emsp;類別: ${book_info["category"]}<br>`;
+            let book_details = `ISBN13: ${book_info["ISBN13"]}<br>` +
+                               `出版社: <a href="https://www.sanmin.com.tw/search/index/?pu=${book_info["phouse_name"]}" target="_blank">${book_info["phouse_name"]}</a><br>` +
+                               `作者: ${author_link.join(", ")}<br>` +
+                               `出版時間: ${book_info["published_date"]}<br>` +
+                               `價錢: ${book_info["price"]}<br>` +
+                               `頁數: ${book_info["pages"]} 頁<br>` +
+                               `類別: ${book_info["category"]}<br>`;
             let remove_button = document.createElement("button");
             remove_button.textContent = "移除";
             remove_button.classList.add("button");
             remove_button.onclick = async () => {
-                await post_data("http://localhost:8000/collect_book/", {
+                await post_data("http://localhost:8000/remove_book/", {
                     "user_id": this.user_id,
                     "ISBN13": book_info["ISBN13"],
                 });
+                location.reload();
             };
             summary.textContent = book_info["book_name"];
+            summary.classList.add("book_name");
             label.innerHTML = book_details;
             label.classList.add("text");
             details.classList.add("result")
             details.appendChild(summary);
             details.appendChild(label);
+            details.appendChild(remove_button);
             li.appendChild(details);
             li.classList.add("book_info");
             li.addEventListener("click", () => {
-                console.log("li click");
                 details.open = !details.open;
             });
             summary.addEventListener("click", () => {
-                console.log("summary click");
                 details.open = !details.open;
             });
             this.list_block.appendChild(li);

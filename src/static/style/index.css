@@ -15,8 +15,6 @@ ol.result_list {
     font-size: large;
     margin-left: 24rem;
     margin-right: 24rem;
-    /* margin-left: 25rem;
-    margin-right: 25rem; */
     padding: 0;
 }
 
@@ -61,7 +59,6 @@ label.cluster {
     cursor: pointer;
 }
 
-
 ul li label {
     display: inline-block;
     width: 8rem;
@@ -73,17 +70,12 @@ details.result summary::marker {
 }
 
 summary {
-    /* font-size: 30px; */
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
 }
 
 summary.book_name {
-    font-size: 30px;
-}
-
-summary.book_category {
-    font-size: 25px;
+    font-weight: bold;
 }
 
 details[open] summary::after {
@@ -92,15 +84,15 @@ details[open] summary::after {
 
 div.main {
     padding: 0;
-    /* margin-left: 15%; */
+    margin-left: 15%;
 }
 
 div.sidebar {
     background-color: lightblue;
     margin: 0;
     padding: 0;
-    width: 0%;
-    /* width: 15%; */
+    /* width: 0%; */
+    width: 15%;
     position: fixed;
     overflow: auto;
     height: 100%;

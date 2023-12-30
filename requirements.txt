@@ -10,3 +10,4 @@ fastapi
 python-multipart
 pymysql
 python-dotenv
+Jinja2

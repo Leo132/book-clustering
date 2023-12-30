@@ -6,13 +6,13 @@ ol.result_list {
     display: inline-block;
     text-align: left;
     font-size: large;
-    margin-left: 25rem;
-    margin-right: 25rem;
+    margin-left: 24rem;
+    margin-right: 24rem;
     padding: 0;
 }
 
 li.book_info {
-    background-color:cadetblue;
+    background-color: aquamarine;
     border-radius: 30px;
     padding: 2rem 4rem 2rem 4rem;
     margin: 1rem;
@@ -30,6 +30,7 @@ details.result summary::marker {
 }
 
 summary {
+    font-size: 25px;
     cursor: pointer;
 }
 
@@ -39,4 +40,28 @@ details[open] summary::after {
 
 div.main {
     padding: 0;
+    margin-left: 15%;
+}
+
+div.sidebar {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    /* width: 0%; */
+    width: 15%;
+    position: fixed;
+    overflow: auto;
+    height: 100%;
+}
+
+div.profile {
+    font-size: 50px;
+    text-align: center;
+    padding: 1rem;
+}
+
+div.features {
+    font-size: 25px;
+    text-align: center;
+    padding: 1rem;
 }

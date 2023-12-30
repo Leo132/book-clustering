@@ -70,7 +70,7 @@ def _load_book_info(conn, book_infos: list[dict]):
         # print(f"{idx:3d}. inserted")
 
 def _query(conn, query_str: str, have_result: bool=False):
-    print(f"{query_str=}")        # for debugging
+    # print(f"{query_str=}")        # for debugging
 
     with conn.cursor() as cursor:
         cursor.execute(query_str)
@@ -201,7 +201,7 @@ async def collect_book(user_id: int, ISBN13: str):
 
 async def remove_book(user_id: int, ISBN13: str):
     with _connect_db(_DATABASE) as conn:
-        _insert_row(conn, "collections", ["user_id", "ISBN13"], [user_id, ISBN13])
+        _delete_row(conn, "collections", [f"user_id = {user_id}", f"ISBN13 = '{ISBN13}'"])
 
 def _init(*, reset_db: bool=False, load_data: bool=False):
     with _connect_db(_DATABASE) as conn:
