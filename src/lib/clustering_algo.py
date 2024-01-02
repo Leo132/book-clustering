@@ -17,6 +17,8 @@ import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
 
+from utils import load_json, save_to_json, extract_features
+
 def make_pipeline(k: int, init: str, n_init: int, max_iter: int):
     preprocessor = Pipeline(
         [("scaler", MinMaxScaler())]
@@ -61,32 +63,14 @@ def visualize(data: pd.DataFrame, clusters: list[int], is_2d: bool=True):
     
     plt.show()
 
-
-def _test():
-    from utils import load_json, save_to_json, extract_features
-
-    # load data
-    print("data loading...")
-    # features, _ = make_blobs(
-    #     n_samples=200,
-    #     centers=3,
-    #     cluster_std=2.75,
-    #     random_state=42
-    # )
-
-    plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei'] 
-    plt.rcParams['axes.unicode_minus'] = False
-    matplotlib.rcParams.update({'font.size': 22})
-
+def plot_cluster_num():
     clusters_n = [cluster["book_num"] for cluster in sorted(load_json("./data/cluster_info.json"), key=lambda cluster: cluster["cluster_id"])]
     cluster_names = [f"群{idx + 1}" for idx in range(len(clusters_n))]
     plt.bar(cluster_names, clusters_n)
     plt.grid(True)
     plt.show()
 
-    return
-
-    cols = ["price", "pages", "published_date"]
+def plot_clustering_analysis(cols: list[str], cols_ch: list[str]):
     book_info_ = sorted(load_json("./data/book_info.json"), key=lambda info: info["cluster"])
     cluster_table = {cluster + 1: [] for cluster in range(8)}
     for info in book_info_:
@@ -108,10 +92,11 @@ def _test():
     scaler = MinMaxScaler()
     norm_features = scaler.fit_transform(features + centers)
     # norm_features = scaler.fit_transform(features)
-    df = pd.DataFrame(norm_features, columns=["價錢", "頁數", "時間"])
+    df = pd.DataFrame(norm_features, columns=cols_ch)
 
     visualize(df, clusters, len(cols) == 2)
 
+def clustering(book_info: list[str], features: list[list], cols: list[str], /, is_dev: bool=False, save_result: bool=True, display: bool=False):
     # clustering
     kmeans_kwargs = {
         "init": "k-means++",
@@ -119,9 +104,6 @@ def _test():
         "max_iter": 300,
         # "random_state": 42,
     }
-    is_dev = False
-    save_result = True
-    display = False
 
     if is_dev:
         n = 15
@@ -151,7 +133,7 @@ def _test():
 
         # save clustering result
         if save_result:
-            from colslections import Counter
+            from collections import Counter
             counter = Counter(labels)
             print(counter)
             print(labels)
@@ -170,6 +152,44 @@ def _test():
             save_to_json(cluster_info, "./data/cluster_info.json")
         if display:
             visualize(df, labels, len(cols) == 2)
+
+
+def _test():
+
+    # load data
+    print("data loading...")
+    # features, _ = make_blobs(
+    #     n_samples=200,
+    #     centers=3,
+    #     cluster_std=2.75,
+    #     random_state=42
+    # )
+
+    # Chinese font setting
+    plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei'] 
+    plt.rcParams['axes.unicode_minus'] = False
+    # matplotlib.rcParams.update({'font.size': 22})
+
+    # -- plot "cluster_num.png"
+    # plot_cluster_num()
+
+    # -- plot "clustering_analysis.png"
+    cols = ["price", "pages", "published_date"]             # consider all features
+
+    # cols = ["price", "pages"]                               # consider only two features
+    # cols = ["price", "published_date"]                      # consider only two features
+    # cols = ["pages", "published_date"]                      # consider only two features
+
+    plot_clustering_analysis(cols, ["價錢", "頁數", "時間"])
+    # plot_clustering_analysis(cols, ["價錢", "頁數"])
+    # plot_clustering_analysis(cols, ["價錢", "時間"])
+    # plot_clustering_analysis(cols, ["頁數", "時間"])
+
+    # -- plot "result.png"
+    # cols = ["price", "pages", "published_date"]
+    # book_info = load_json("./data/book_info.json")
+    # data, features = extract_features(book_info, cols)
+    # clustering(book_info, features, cols, save_result=False, display=True)
 
 if __name__ == "__main__":
     _test()
