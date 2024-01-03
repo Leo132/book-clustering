@@ -44,7 +44,7 @@ def make_pipeline(k: int, init: str, n_init: int, max_iter: int):
         ]
     )
 
-def visualize(data: pd.DataFrame, clusters: list[int], is_2d: bool=True):
+def visualize(data: pd.DataFrame, clusters: list[int], is_2d: bool=True, file_name: str=None):
     dim = 2 if is_2d else 3
     points = [data.iloc[:, i] for i in range(dim)]
     labels = data.columns
@@ -61,7 +61,10 @@ def visualize(data: pd.DataFrame, clusters: list[int], is_2d: bool=True):
         set_label(label)
     plt.legend(*scatter.legend_elements(), title="Clusters")
     
-    plt.show()
+    if file_name is None:
+        plt.show()
+    else:
+        plt.savefig(file_name)
 
 def plot_cluster_num():
     clusters_n = [cluster["book_num"] for cluster in sorted(load_json("./data/cluster_info.json"), key=lambda cluster: cluster["cluster_id"])]
@@ -70,7 +73,7 @@ def plot_cluster_num():
     plt.grid(True)
     plt.show()
 
-def plot_clustering_analysis(cols: list[str], cols_ch: list[str]):
+def plot_clustering_analysis(cols: list[str], cols_ch: list[str], file_name: str=None):
     book_info_ = sorted(load_json("./data/book_info.json"), key=lambda info: info["cluster"])
     cluster_table = {cluster + 1: [] for cluster in range(8)}
     for info in book_info_:
@@ -94,7 +97,7 @@ def plot_clustering_analysis(cols: list[str], cols_ch: list[str]):
     # norm_features = scaler.fit_transform(features)
     df = pd.DataFrame(norm_features, columns=cols_ch)
 
-    visualize(df, clusters, len(cols) == 2)
+    visualize(df, clusters, len(cols) == 2, file_name)
 
 def clustering(book_info: list[str], features: list[list], cols: list[str], /, is_dev: bool=False, save_result: bool=True, display: bool=False):
     # clustering
@@ -175,15 +178,16 @@ def _test():
 
     # -- plot "clustering_analysis.png"
     cols = ["price", "pages", "published_date"]             # consider all features
+    plot_clustering_analysis(cols, ["價錢", "頁數", "時間"])
 
     # cols = ["price", "pages"]                               # consider only two features
-    # cols = ["price", "published_date"]                      # consider only two features
-    # cols = ["pages", "published_date"]                      # consider only two features
+    # plot_clustering_analysis(cols, ["價錢", "頁數"], f"./data/img/result_only_two_features ({', '.join(cols)})")
 
-    plot_clustering_analysis(cols, ["價錢", "頁數", "時間"])
-    # plot_clustering_analysis(cols, ["價錢", "頁數"])
-    # plot_clustering_analysis(cols, ["價錢", "時間"])
-    # plot_clustering_analysis(cols, ["頁數", "時間"])
+    # cols = ["price", "published_date"]                      # consider only two features
+    # plot_clustering_analysis(cols, ["頁數", "時間"], f"./data/img/result_only_two_features ({', '.join(cols)})")
+
+    # cols = ["pages", "published_date"]                      # consider only two features
+    # plot_clustering_analysis(cols, ["價錢", "時間"], f"./data/img/result_only_two_features ({', '.join(cols)})")
 
     # -- plot "result.png"
     # cols = ["price", "pages", "published_date"]
