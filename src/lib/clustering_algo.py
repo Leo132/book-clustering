@@ -156,6 +156,24 @@ def clustering(book_info: list[str], features: list[list], cols: list[str], /, i
         if display:
             visualize(df, labels, len(cols) == 2)
 
+def plot_category_analysis():
+    book_info = load_json("./data/book_info.json")
+    categories = load_json("./data/category.json")["category"]
+    category_counts = {
+        cluster_id: {category: 0 for category in categories}
+        for cluster_id in range(1, 9)
+    }
+
+    for info in book_info:
+        category_counts[info["cluster"]][info["category"]] += 1
+    
+    for cluster_id, categories_count in category_counts.items():
+        plt.figure(figsize=(14, 4))
+        plt.bar(categories_count.keys(), categories_count.values())
+        plt.title(f"Cluster {cluster_id} (total: {sum(categories_count.values())})")
+        plt.grid(True)
+        plt.savefig(f"./data/img/category_analysis_cluster{cluster_id}.png")
+        plt.clf()
 
 def _test():
 
@@ -177,8 +195,8 @@ def _test():
     # plot_cluster_num()
 
     # -- plot "clustering_analysis.png"
-    cols = ["price", "pages", "published_date"]             # consider all features
-    plot_clustering_analysis(cols, ["價錢", "頁數", "時間"])
+    # cols = ["price", "pages", "published_date"]             # consider all features
+    # plot_clustering_analysis(cols, ["價錢", "頁數", "時間"])
 
     # cols = ["price", "pages"]                               # consider only two features
     # plot_clustering_analysis(cols, ["價錢", "頁數"], f"./data/img/result_only_two_features ({', '.join(cols)})")
@@ -194,6 +212,9 @@ def _test():
     # book_info = load_json("./data/book_info.json")
     # data, features = extract_features(book_info, cols)
     # clustering(book_info, features, cols, save_result=False, display=True)
+
+    # -- plot "category_analysis.png"
+    plot_category_analysis()
 
 if __name__ == "__main__":
     _test()

@@ -9,10 +9,6 @@ import {
 } from "./conponents.js"
 
 
-window.addEventListener("load", () => {
-    main();
-});
-
 async function init() {
     let category_selector = await new CategorySelector();
     let user_info = JSON.parse(localStorage.getItem("user_info"));
@@ -68,3 +64,7 @@ async function main() {
     load_css("./static/style/base.css");
     load_css("./static/style/index.css");
 }
+
+window.addEventListener("load", () => {
+    main();
+});

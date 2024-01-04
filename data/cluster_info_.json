@@ -2,81 +2,152 @@
     {
         "cluster_id": 2,
         "book_num": 60,
-        "average_price": 462.92,
-        "average_pages": 293.98,
-        "average_time": 3681.29,
-        "mean_price": 397.0,
-        "mean_pages": 192.0,
-        "mean_time": 3501.5
+        "average_price": 709.97,
+        "average_pages": 662.28,
+        "average_time": 654.97,
+        "mean_price": 695.0,
+        "mean_pages": 630.0,
+        "mean_time": 535.0,
+        "categories": [
+            "簡體書",
+            "三民出版品",
+            "社會人文",
+            "教科考用",
+            "語言學習",
+            "財經企管",
+            "休閒生活",
+            "醫療保健",
+            "古典名著",
+            "文學作品"
+        ]
     },
     {
         "cluster_id": 8,
         "book_num": 220,
-        "average_price": 709.97,
-        "average_pages": 662.28,
-        "average_time": 653.97,
-        "mean_price": 695.0,
-        "mean_pages": 630.0,
-        "mean_time": 534.0
+        "average_price": 372.22,
+        "average_pages": 235.67,
+        "average_time": 330.44,
+        "mean_price": 380.0,
+        "mean_pages": 240.0,
+        "mean_time": 217.0,
+        "categories": [
+            "簡體書",
+            "三民出版品",
+            "宗教命理",
+            "社會人文",
+            "外文書",
+            "教科考用",
+            "語言學習",
+            "科學‧科普",
+            "財經企管",
+            "醫療保健",
+            "休閒生活",
+            "親子共讀",
+            "文學作品"
+        ]
     },
     {
         "cluster_id": 1,
         "book_num": 48,
-        "average_price": 363.53,
-        "average_pages": 405.4,
-        "average_time": 6195.83,
-        "mean_price": 350.0,
-        "mean_pages": 368.0,
-        "mean_time": 6150.5
+        "average_price": 462.92,
+        "average_pages": 293.98,
+        "average_time": 3682.29,
+        "mean_price": 397.0,
+        "mean_pages": 192.0,
+        "mean_time": 3502.5,
+        "categories": [
+            "簡體書",
+            "宗教命理",
+            "社會人文",
+            "外文書",
+            "語言學習",
+            "科學‧科普",
+            "古典名著",
+            "文學作品"
+        ]
     },
     {
         "cluster_id": 5,
         "book_num": 97,
-        "average_price": 675.0,
-        "average_pages": 2832.0,
-        "average_time": 1082.25,
-        "mean_price": 930.0,
-        "mean_pages": 3576.0,
-        "mean_time": 2046.5
+        "average_price": 422.76,
+        "average_pages": 115.24,
+        "average_time": 1569.8,
+        "mean_price": 384,
+        "mean_pages": 22,
+        "mean_time": 1555,
+        "categories": [
+            "簡體書",
+            "三民出版品",
+            "社會人文",
+            "外文書",
+            "語言學習",
+            "科學‧科普",
+            "財經企管",
+            "休閒生活",
+            "親子共讀",
+            "文學作品"
+        ]
     },
     {
         "cluster_id": 4,
         "book_num": 4,
-        "average_price": 422.76,
-        "average_pages": 115.24,
-        "average_time": 1568.8,
-        "mean_price": 384,
-        "mean_pages": 22,
-        "mean_time": 1554
+        "average_price": 675.0,
+        "average_pages": 2832.0,
+        "average_time": 1083.25,
+        "mean_price": 930.0,
+        "mean_pages": 3576.0,
+        "mean_time": 2047.5,
+        "categories": [
+            "語言學習",
+            "社會人文"
+        ]
     },
     {
         "cluster_id": 3,
         "book_num": 30,
-        "average_price": 1969.4,
-        "average_pages": 96.8,
-        "average_time": 1329.8,
-        "mean_price": 1922,
-        "mean_pages": 50,
-        "mean_time": 1189
+        "average_price": 363.53,
+        "average_pages": 405.4,
+        "average_time": 6196.83,
+        "mean_price": 350.0,
+        "mean_pages": 368.0,
+        "mean_time": 6151.5,
+        "categories": [
+            "宗教命理",
+            "社會人文",
+            "外文書",
+            "語言學習",
+            "科學‧科普",
+            "休閒生活",
+            "古典名著",
+            "文學作品"
+        ]
     },
     {
         "cluster_id": 7,
         "book_num": 4,
         "average_price": 2092.0,
         "average_pages": 1836.0,
-        "average_time": 431.0,
+        "average_time": 432.0,
         "mean_price": 2440.0,
         "mean_pages": 2074.0,
-        "mean_time": 657.5
+        "mean_time": 658.5,
+        "categories": [
+            "社會人文",
+            "外文書"
+        ]
     },
     {
         "cluster_id": 6,
         "book_num": 5,
-        "average_price": 372.22,
-        "average_pages": 235.67,
-        "average_time": 329.44,
-        "mean_price": 380.0,
-        "mean_pages": 240.0,
-        "mean_time": 216.0
+        "average_price": 1969.4,
+        "average_pages": 96.8,
+        "average_time": 1330.8,
+        "mean_price": 1922,
+        "mean_pages": 50,
+        "mean_time": 1190,
+        "categories": [
+            "財經企管",
+            "外文書"
+        ]
     }
 ]

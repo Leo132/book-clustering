@@ -25,7 +25,7 @@ app.mount("/static", StaticFiles(directory="src/static"), name="static")
 
 # get method
 @app.get("/query/{type_}")
-async def query(type_: Table, cols: str=None, conditions: str=None):
+def query(type_: Table, cols: str=None, conditions: str=None):
     print(f"{type_=}")
     print(f"{cols=}")
     print(f"{conditions=}")
@@ -41,7 +41,7 @@ async def query(type_: Table, cols: str=None, conditions: str=None):
     return data
 
 @app.get("/ws", response_class=JSONResponse)
-async def search(search_str: str=None):
+def search(search_str: str=None):
     print(f"{search_str=}")
     seg_words = None if search_str is None else _WS_MODEL.inference(search_str)
 
@@ -52,19 +52,19 @@ async def search(search_str: str=None):
     return JSONResponse(content=data)
 
 @app.get("/data/{file}", response_class=JSONResponse)
-async def response_data(file: str):
+def response_data(file: str):
     data = load_json(f"./data/{file}")
     print(f"sending {file}...")
     return JSONResponse(content=data)
 
 @app.get("/data/{folder}/{file}", response_class=JSONResponse)
-async def response_data(folder: str, file: str):
+def response_data(folder: str, file: str):
     data = load_json(f"./data/{folder}/{file}")
     print(f"sending {file}...")
     return JSONResponse(content=data)
 
 @app.get("/{page}", response_class=HTMLResponse)
-async def load_page(request: Request, page: Page, background_tasks: BackgroundTasks):
+def load_page(request: Request, page: Page, background_tasks: BackgroundTasks):
     print(f"load {page}.html...")
     if page == Page.index:
         print("background processing...")
@@ -78,28 +78,28 @@ async def load_page(request: Request, page: Page, background_tasks: BackgroundTa
 
 # post method
 @app.post("/logincheck/")
-async def login(login_info: LoginInfo):
-    data = await login_check(login_info.username, login_info.password)
+def login(login_info: LoginInfo):
+    data = login_check(login_info.username, login_info.password)
 
     return data
 
 @app.post("/registercheck/")
-async def register(register_info: RegisterInfo):
-    data = await register_check(
+def register(register_info: RegisterInfo):
+    data = register_check(
         register_info.name, register_info.username, register_info.password, register_info.password_confirm
     )
 
     return data
 
 @app.post("/collect_book/")
-async def collect(collect_info: CollectInfo):
-    data = await collect_book(collect_info.user_id, collect_info.ISBN13)
+def collect(collect_info: CollectInfo):
+    data = collect_book(collect_info.user_id, collect_info.ISBN13)
 
     return data
 
 @app.post("/remove_book/")
-async def collect(collect_info: CollectInfo):
-    data = await remove_book(collect_info.user_id, collect_info.ISBN13)
+def collect(collect_info: CollectInfo):
+    data = remove_book(collect_info.user_id, collect_info.ISBN13)
 
     return data
 

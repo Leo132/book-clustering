@@ -1,7 +1,7 @@
 
 
-export async function word_segment(search_str) {
-    return await load_data(`ws?search_str=${search_str}`);
+export function word_segment(search_str) {
+    return load_data(`ws?search_str=${search_str}`);
 }
 
 export async function query(type_, cols, conditions) {

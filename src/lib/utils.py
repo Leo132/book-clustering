@@ -27,8 +27,8 @@ class WSModel:
 # for json
 
 def save_to_json(data: list[dict], path_file: str):
-    with open(path_file, 'w') as f:
-        json.dump(data, f)
+    with open(path_file, 'w', encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False)
 
 def save_info_to_json(page_urls: list[str], folder_file: str, get_urls: Callable,  get_info: Callable):
     for page, page_url in enumerate(page_urls, start=1):
@@ -146,9 +146,9 @@ def _test():
 
     # print(len(books), len(authors), len(phouses))
 
-    for idx, cluster in enumerate(clusters):
-        data = [info for info in books if info["cluster"] == idx + 1]
-        data, _ = extract_features(data, ["price", "pages", "published_date"])
+    for cluster in clusters:
+        cluster_data = [info for info in books if info["cluster"] == cluster["cluster_id"]]
+        data, _ = extract_features(cluster_data, ["price", "pages", "published_date"])
         price, pages, published_date = data["price"], data["pages"], data["published_date"]
         avg = lambda x: round(sum(x)/len(x), 2)
         def mean(x):
@@ -162,7 +162,9 @@ def _test():
             "mean_price": mean(price),
             "mean_pages": mean(pages),
             "mean_time": mean(published_date),
+            "categories": list(set([info["category"] for info in cluster_data])),
         }
+        print(kv["categories"])
         for key, val in kv.items():
             cluster[key] = val
     save_to_json(clusters, "./data/cluster_info_.json")
