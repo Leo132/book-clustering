@@ -168,11 +168,11 @@ def plot_category_analysis():
         category_counts[info["cluster"]][info["category"]] += 1
     
     for cluster_id, categories_count in category_counts.items():
-        plt.figure(figsize=(14, 4))
+        plt.figure(figsize=(16, 4))
         plt.bar(categories_count.keys(), categories_count.values())
         plt.title(f"Cluster {cluster_id} (total: {sum(categories_count.values())})")
         plt.grid(True)
-        plt.savefig(f"./data/img/category_analysis_cluster{cluster_id}.png")
+        plt.savefig(f"./data/img/category_analysis_cluster{cluster_id}")
         plt.clf()
 
 def _test():
@@ -189,23 +189,25 @@ def _test():
     # Chinese font setting
     plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei'] 
     plt.rcParams['axes.unicode_minus'] = False
-    # matplotlib.rcParams.update({'font.size': 22})
 
     # -- plot "cluster_num.png"
+    matplotlib.rcParams.update({'font.size': 22})
     # plot_cluster_num()
 
     # -- plot "clustering_analysis.png"
+    # matplotlib.rcParams.update({'font.size': 14})
     # cols = ["price", "pages", "published_date"]             # consider all features
     # plot_clustering_analysis(cols, ["價錢", "頁數", "時間"])
 
-    # cols = ["price", "pages"]                               # consider only two features
-    # plot_clustering_analysis(cols, ["價錢", "頁數"], f"./data/img/result_only_two_features ({', '.join(cols)})")
+    matplotlib.rcParams.update({'font.size': 13})
+    cols = ["price", "pages"]                               # consider only two features
+    plot_clustering_analysis(cols, ["價錢", "頁數"], f"./data/img/result_only_two_features ({', '.join(cols)})")
 
-    # cols = ["price", "published_date"]                      # consider only two features
-    # plot_clustering_analysis(cols, ["頁數", "時間"], f"./data/img/result_only_two_features ({', '.join(cols)})")
+    cols = ["price", "published_date"]                      # consider only two features
+    plot_clustering_analysis(cols, ["頁數", "時間"], f"./data/img/result_only_two_features ({', '.join(cols)})")
 
-    # cols = ["pages", "published_date"]                      # consider only two features
-    # plot_clustering_analysis(cols, ["價錢", "時間"], f"./data/img/result_only_two_features ({', '.join(cols)})")
+    cols = ["pages", "published_date"]                      # consider only two features
+    plot_clustering_analysis(cols, ["價錢", "時間"], f"./data/img/result_only_two_features ({', '.join(cols)})")
 
     # -- plot "result.png"
     # cols = ["price", "pages", "published_date"]
@@ -214,7 +216,8 @@ def _test():
     # clustering(book_info, features, cols, save_result=False, display=True)
 
     # -- plot "category_analysis.png"
-    plot_category_analysis()
+    # matplotlib.rcParams.update({'font.size': 12})
+    # plot_category_analysis()
 
 if __name__ == "__main__":
     _test()
