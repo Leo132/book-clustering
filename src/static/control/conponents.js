@@ -14,7 +14,7 @@ export class CategorySelector {
 
     async #load_category() {
         this.categories = await load_data("data", "category.json")
-            .then((data) => { return data["category"]; });
+            .then((json_data) => { return json_data["category"]; });
     }
 
     async init_list() {
@@ -47,9 +47,9 @@ export class ResultDisplay {
         this.result = null;
         this.clusters_n = 8;
         this.result_block = document.getElementById("result");
-        // true: category, false: list
-        this.category_mode = true;
-        this.category_block = null;
+        // true: cluster, false: list
+        this.cluster_mode = true;
+        this.cluster_block = null;
         this.list_block = null;
 
         this.update_result_block([]);
@@ -57,7 +57,7 @@ export class ResultDisplay {
 
     async update_result_block(conditions) {
         await this.#load_result(conditions);
-        await this.#load_result_block(this.result);
+        this.#load_result_block(this.result);
     }
 
     async #load_result(conditions) {
@@ -110,21 +110,21 @@ export class ResultDisplay {
 
     #load_cluster_block() {
         let cluster = location.hash.split('_')[1];      // cluster_id (result's index + 1)
-        this.category_mode = false;                     // list mode
+        this.cluster_mode = false;                      // list mode
         this.#clear_result_block();
         this.#load_result_block([this.result[cluster - 1]]);
     }
 
     #clear_result_block() {
-        if(this.category_block != null)
-            this.category_block.remove();
+        if(this.cluster_block != null)
+            this.cluster_block.remove();
         if(this.list_block != null)
             this.list_block.remove();
     }
 
     async #load_result_block(result) {
         this.#clear_result_block();
-        if(this.category_mode) {                                                    // category block
+        if(this.cluster_mode) {                                                    // cluster block
             var idx = 1;
             let tr = document.createElement("tr");
             this.category_block = document.createElement("table");
@@ -140,7 +140,7 @@ export class ResultDisplay {
                 idx++;
             }
             
-            this.result_block.appendChild(this.category_block);
+            this.result_block.appendChild(this.cluster_block);
         } else {                                                                    // list block
             this.list_block = document.createElement("ol");
             this.list_block.classList.add("result_list");
@@ -205,15 +205,15 @@ export class ResultDisplayList {
         this.list_block = null;
     }
 
-    async update_result_block() {
+    async #update_result_block() {
         await this.#load_result();
-        await this.#load_result_block();
+        this.#load_result_block();
     }
 
     async #load_result() {
         this.result = await query("collections", null, [`collections.user_id > ${this.user_id}`]);
-        console.log("load result");
-        console.log(this.result);
+        // console.log("load result");
+        // console.log(this.result);
     }
 
     #add_previous_page_button() {
@@ -229,7 +229,7 @@ export class ResultDisplayList {
         document.getElementById("function_bar").appendChild(previous_page);
     }
 
-    async #load_result_block() {
+    #load_result_block() {
         this.list_block = document.createElement("ol");
         this.list_block.classList.add("result_list");
         for(let book_info of this.result) {

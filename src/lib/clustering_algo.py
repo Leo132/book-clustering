@@ -17,6 +17,8 @@ import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
 
+from utils import load_json, save_to_json, extract_features
+
 def make_pipeline(k: int, init: str, n_init: int, max_iter: int):
     preprocessor = Pipeline(
         [("scaler", MinMaxScaler())]
@@ -42,7 +44,7 @@ def make_pipeline(k: int, init: str, n_init: int, max_iter: int):
         ]
     )
 
-def visualize(data: pd.DataFrame, clusters: list[int], is_2d: bool=True):
+def visualize(data: pd.DataFrame, clusters: list[int], is_2d: bool=True, file_name: str=None):
     dim = 2 if is_2d else 3
     points = [data.iloc[:, i] for i in range(dim)]
     labels = data.columns
@@ -59,34 +61,19 @@ def visualize(data: pd.DataFrame, clusters: list[int], is_2d: bool=True):
         set_label(label)
     plt.legend(*scatter.legend_elements(), title="Clusters")
     
-    plt.show()
+    if file_name is None:
+        plt.show()
+    else:
+        plt.savefig(file_name)
 
-
-def _test():
-    from utils import load_json, save_to_json, extract_features
-
-    # load data
-    print("data loading...")
-    # features, _ = make_blobs(
-    #     n_samples=200,
-    #     centers=3,
-    #     cluster_std=2.75,
-    #     random_state=42
-    # )
-
-    plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei'] 
-    plt.rcParams['axes.unicode_minus'] = False
-    matplotlib.rcParams.update({'font.size': 22})
-
+def plot_cluster_num():
     clusters_n = [cluster["book_num"] for cluster in sorted(load_json("./data/cluster_info.json"), key=lambda cluster: cluster["cluster_id"])]
     cluster_names = [f"群{idx + 1}" for idx in range(len(clusters_n))]
     plt.bar(cluster_names, clusters_n)
     plt.grid(True)
     plt.show()
 
-    return
-
-    cols = ["price", "pages", "published_date"]
+def plot_clustering_analysis(cols: list[str], cols_ch: list[str], file_name: str=None):
     book_info_ = sorted(load_json("./data/book_info.json"), key=lambda info: info["cluster"])
     cluster_table = {cluster + 1: [] for cluster in range(8)}
     for info in book_info_:
@@ -108,10 +95,11 @@ def _test():
     scaler = MinMaxScaler()
     norm_features = scaler.fit_transform(features + centers)
     # norm_features = scaler.fit_transform(features)
-    df = pd.DataFrame(norm_features, columns=["價錢", "頁數", "時間"])
+    df = pd.DataFrame(norm_features, columns=cols_ch)
 
-    visualize(df, clusters, len(cols) == 2)
+    visualize(df, clusters, len(cols) == 2, file_name)
 
+def clustering(book_info: list[str], features: list[list], cols: list[str], /, is_dev: bool=False, save_result: bool=True, display: bool=False):
     # clustering
     kmeans_kwargs = {
         "init": "k-means++",
@@ -119,9 +107,6 @@ def _test():
         "max_iter": 300,
         # "random_state": 42,
     }
-    is_dev = False
-    save_result = True
-    display = False
 
     if is_dev:
         n = 15
@@ -151,7 +136,7 @@ def _test():
 
         # save clustering result
         if save_result:
-            from colslections import Counter
+            from collections import Counter
             counter = Counter(labels)
             print(counter)
             print(labels)
@@ -170,6 +155,69 @@ def _test():
             save_to_json(cluster_info, "./data/cluster_info.json")
         if display:
             visualize(df, labels, len(cols) == 2)
+
+def plot_category_analysis():
+    book_info = load_json("./data/book_info.json")
+    categories = load_json("./data/category.json")["category"]
+    category_counts = {
+        cluster_id: {category: 0 for category in categories}
+        for cluster_id in range(1, 9)
+    }
+
+    for info in book_info:
+        category_counts[info["cluster"]][info["category"]] += 1
+    
+    for cluster_id, categories_count in category_counts.items():
+        plt.figure(figsize=(16, 4))
+        plt.bar(categories_count.keys(), categories_count.values())
+        plt.title(f"Cluster {cluster_id} (total: {sum(categories_count.values())})")
+        plt.grid(True)
+        plt.savefig(f"./data/img/category_analysis_cluster{cluster_id}")
+        plt.clf()
+
+def _test():
+
+    # load data
+    print("data loading...")
+    # features, _ = make_blobs(
+    #     n_samples=200,
+    #     centers=3,
+    #     cluster_std=2.75,
+    #     random_state=42
+    # )
+
+    # Chinese font setting
+    plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei'] 
+    plt.rcParams['axes.unicode_minus'] = False
+
+    # -- plot "cluster_num.png"
+    matplotlib.rcParams.update({'font.size': 22})
+    # plot_cluster_num()
+
+    # -- plot "clustering_analysis.png"
+    # matplotlib.rcParams.update({'font.size': 14})
+    # cols = ["price", "pages", "published_date"]             # consider all features
+    # plot_clustering_analysis(cols, ["價錢", "頁數", "時間"])
+
+    matplotlib.rcParams.update({'font.size': 13})
+    cols = ["price", "pages"]                               # consider only two features
+    plot_clustering_analysis(cols, ["價錢", "頁數"], f"./data/img/result_only_two_features ({', '.join(cols)})")
+
+    cols = ["price", "published_date"]                      # consider only two features
+    plot_clustering_analysis(cols, ["頁數", "時間"], f"./data/img/result_only_two_features ({', '.join(cols)})")
+
+    cols = ["pages", "published_date"]                      # consider only two features
+    plot_clustering_analysis(cols, ["價錢", "時間"], f"./data/img/result_only_two_features ({', '.join(cols)})")
+
+    # -- plot "result.png"
+    # cols = ["price", "pages", "published_date"]
+    # book_info = load_json("./data/book_info.json")
+    # data, features = extract_features(book_info, cols)
+    # clustering(book_info, features, cols, save_result=False, display=True)
+
+    # -- plot "category_analysis.png"
+    # matplotlib.rcParams.update({'font.size': 12})
+    # plot_category_analysis()
 
 if __name__ == "__main__":
     _test()

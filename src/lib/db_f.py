@@ -176,7 +176,7 @@ def _name_check(conn, name: str):
     user_info = _search_cols(conn, "users", ["user_id", "name"], [f"name = '{name}'"])
     return len(user_info) > 0
 
-async def login_check(username: str, password: str):
+def login_check(username: str, password: str):
     with _connect_db(_DATABASE) as conn:
         (username_check, user_info), password_check = _username_check(conn, username), _password_check(conn, password)
     return  {
@@ -185,7 +185,7 @@ async def login_check(username: str, password: str):
         "user_info": user_info if not username_check else user_info[0],
     }
 
-async def register_check(name: str, username: str, password: str, password_confirm: str):
+def register_check(name: str, username: str, password: str, password_confirm: str):
     with _connect_db(_DATABASE) as conn:
         name_check, (username_check, _) = _name_check(conn, name), _username_check(conn, username)
         if not name_check and not username_check and password == password_confirm:
@@ -195,11 +195,11 @@ async def register_check(name: str, username: str, password: str, password_confi
         "is_username_exist": username_check,
     }
 
-async def collect_book(user_id: int, ISBN13: str):
+def collect_book(user_id: int, ISBN13: str):
     with _connect_db(_DATABASE) as conn:
         _insert_row(conn, "collections", ["user_id", "ISBN13"], [user_id, ISBN13])
 
-async def remove_book(user_id: int, ISBN13: str):
+def remove_book(user_id: int, ISBN13: str):
     with _connect_db(_DATABASE) as conn:
         _delete_row(conn, "collections", [f"user_id = {user_id}", f"ISBN13 = '{ISBN13}'"])
 

@@ -27,8 +27,8 @@ class WSModel:
 # for json
 
 def save_to_json(data: list[dict], path_file: str):
-    with open(path_file, 'w') as f:
-        json.dump(data, f)
+    with open(path_file, 'w', encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False)
 
 def save_info_to_json(page_urls: list[str], folder_file: str, get_urls: Callable,  get_info: Callable):
     for page, page_url in enumerate(page_urls, start=1):
@@ -108,7 +108,7 @@ def get_all_attrs(data: list[dict], attrs: list[str], is_split: bool = True):
 
 # for clustering
 
-def extract_features(data:  dict, col: list[str]):
+def extract_features(data: list[dict], col: list[str]):
     def is_valid(info: dict, col: list[str]):
         for c in col:
             if c == "published_date" and info[c] is not None:
@@ -136,33 +136,38 @@ def extract_features(data:  dict, col: list[str]):
 def _test():
     import os
 
-    path = "./data/phouse_info"
+    # path = "./data/phouse_info"
     # entries = os.scandir(path)
     # path_files = [f"{path}/{file.name}" for file in entries]
     books = load_json(f"./data/book_info.json")
-    phouses = load_json(f"./data/phouse_info.json")
-    authors = load_json("./data/author_info.json")
-    # data = load_json(f"./data/author_info.json")
-    # data = unionize_jsons(path_files, "name")
+    # phouses = load_json(f"./data/phouse_info.json")
+    # authors = load_json("./data/author_info.json")
+    clusters = load_json(f"./data/cluster_info.json")
 
-    print(len(books), len(authors), len(phouses))
+    # print(len(books), len(authors), len(phouses))
 
-    table = dict()
-    # data = [info for info in books if info["cluster"] == 7]
-    # print(get_all_attrs(data, ["price", "pages"]))
-    # for i in range(8):
-    #     data = [info for info in books if info["cluster"] == i + 1]
-    #     price, pages = get_all_attrs(data, ["price", "pages"])
-    #     avg = lambda x: round(sum(x)/len(x), 2)
-    #     print(i + 1, avg(price), avg(pages))
-    #     # authors = [author.split('-')[0].strip() for author in info["author"].split(';')]
-    #     # print(f"{idx:3d}. {authors}")
-    #     # info["author"] = authors
-    #     if info["pages"] is not None:
-    #         books_.append(info)
-    #         continue
-    #     print(info)
-    # save_to_json(books_, "./data/book_info.json")
+    for cluster in clusters:
+        cluster_data = [info for info in books if info["cluster"] == cluster["cluster_id"]]
+        data, _ = extract_features(cluster_data, ["price", "pages", "published_date"])
+        price, pages, published_date = data["price"], data["pages"], data["published_date"]
+        avg = lambda x: round(sum(x)/len(x), 2)
+        def mean(x):
+            x.sort()
+            size = len(x)
+            return x[size//2] if size % 2 != 0 else avg(x[size//2:size//2 + 2])
+        kv = {
+            "average_price": avg(price),
+            "average_pages": avg(pages),
+            "average_time": avg(published_date),
+            "mean_price": mean(price),
+            "mean_pages": mean(pages),
+            "mean_time": mean(published_date),
+            "categories": list(set([info["category"] for info in cluster_data])),
+        }
+        print(kv["categories"])
+        for key, val in kv.items():
+            cluster[key] = val
+    save_to_json(clusters, "./data/cluster_info_.json")
 
     # table = list(set(get_all_attrs(data, ["category"])[0]))
     # print(table)
