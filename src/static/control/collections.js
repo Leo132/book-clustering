@@ -13,9 +13,10 @@ window.addEventListener("load", () => {
 
 async function init() {
     let user_info = JSON.parse(localStorage.getItem("user_info"));
-    let result_block = await new ResultDisplayList(user_info["user_id"]);
+    let result_block = new ResultDisplayList(user_info["user_id"]);
     
     document.getElementById("profile").textContent = user_info["name"];
+    await result_block.update_result_block();
 }
 
 async function main() {

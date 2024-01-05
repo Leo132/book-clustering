@@ -9,16 +9,20 @@ import {
 } from "./conponents.js"
 
 
-window.addEventListener("load", () => {
+window.addEventListener("load", async () => {
     main();
 });
 
 async function init() {
-    let category_selector = await new CategorySelector();
+    let category_selector = new CategorySelector();
     let user_info = JSON.parse(localStorage.getItem("user_info"));
-    let result_block = await new ResultDisplay(user_info["user_id"]);
+    let result_block = new ResultDisplay(user_info["user_id"]);
 
     document.getElementById("profile").textContent = user_info["name"];
+
+    // init
+    // await category_selector.init_list();
+    // await result_block.update_result_block([]);
 
     // keyword searching and category filtering
     document.getElementById("search_form").onsubmit = async (e) => {

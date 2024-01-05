@@ -8,8 +8,8 @@ export class CategorySelector {
     constructor() {
         this.categories = null;
         this.selector = document.getElementById("category_list");
-        
-        this.#init_list();
+
+        this.init_list();
     }
 
     async #load_category() {
@@ -17,7 +17,7 @@ export class CategorySelector {
             .then((data) => { return data["category"]; });
     }
 
-    async #init_list() {
+    async init_list() {
         await this.#load_category();
 
         this.categories.forEach((element) => {
@@ -129,16 +129,16 @@ export class ResultDisplay {
             let tr = document.createElement("tr");
             this.category_block = document.createElement("table");
             this.category_block.classList.add("result_table");
-            result.forEach(async (_, key) => {
-                let cluster_block = await this.#create_cluster("Cluster", key + 1);
+            for(var id = 1; id <= result.length; id++) {
+                let cluster_block = await this.#create_cluster("Cluster", id);
                 tr.appendChild(cluster_block);
-                if(idx >= ResultDisplay.#ROW_MAX || key + 1 == result.length) {
+                if(idx >= ResultDisplay.#ROW_MAX || id == result.length) {
                     this.category_block.appendChild(tr);
                     tr = document.createElement("tr");
                     idx = 0;
                 }
                 idx++;
-            });
+            }
             
             this.result_block.appendChild(this.category_block);
         } else {                                                                    // list block
@@ -203,8 +203,6 @@ export class ResultDisplayList {
         this.result = null;
         this.result_block = document.getElementById("result");
         this.list_block = null;
-
-        this.update_result_block();
     }
 
     async update_result_block() {
