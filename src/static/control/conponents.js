@@ -57,7 +57,7 @@ export class ResultDisplay {
 
     async update_result_block(conditions) {
         await this.#load_result(conditions);
-        this.#load_result_block(this.result);
+        await this.#load_result_block(this.result);
     }
 
     async #load_result(conditions) {
@@ -127,13 +127,13 @@ export class ResultDisplay {
         if(this.cluster_mode) {                                                    // cluster block
             var idx = 1;
             let tr = document.createElement("tr");
-            this.category_block = document.createElement("table");
-            this.category_block.classList.add("result_table");
+            this.cluster_block = document.createElement("table");
+            this.cluster_block.classList.add("result_table");
             for(var id = 1; id <= result.length; id++) {
                 let cluster_block = await this.#create_cluster("Cluster", id);
                 tr.appendChild(cluster_block);
                 if(idx >= ResultDisplay.#ROW_MAX || id == result.length) {
-                    this.category_block.appendChild(tr);
+                    this.cluster_block.appendChild(tr);
                     tr = document.createElement("tr");
                     idx = 0;
                 }
@@ -203,6 +203,8 @@ export class ResultDisplayList {
         this.result = null;
         this.result_block = document.getElementById("result");
         this.list_block = null;
+
+        this.#update_result_block();
     }
 
     async #update_result_block() {

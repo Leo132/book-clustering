@@ -16,7 +16,6 @@ async function init() {
     let result_block = new ResultDisplayList(user_info["user_id"]);
     
     document.getElementById("profile").textContent = user_info["name"];
-    await result_block.update_result_block();
 }
 
 async function main() {

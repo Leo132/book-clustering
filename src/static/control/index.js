@@ -56,7 +56,7 @@ async function init() {
             cluster_condition.push(`cluster_id = ${cluster}`);
 
         // switch to list mode
-        result_block.category_mode = false;
+        result_block.cluster_mode = false;
         // update result block with conditions
         result_block.update_result_block([].concat(
             [keyword_condition],
